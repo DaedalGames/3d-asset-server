@@ -21,7 +21,7 @@
       "lego"
     ]
   },
-  "updatedAt": "2026-10-10T10:47:54.753Z",
+  "updatedAt": "2026-10-11T11:00:45.137Z",
   "assets": [
     {
       "id": "polyhaven:covered_car",
@@ -380,29 +380,6 @@
       "free": true
     },
     {
-      "id": "blenderkit:25728fd1-7c2a-4e57-ab31-6f719f48b48a",
-      "provider": "blenderkit",
-      "title": "Batmobile Car",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/25728fd1-7c2a-4e57-ab31-6f719f48b48a/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/55560880f5084de6b0d204d3c3da7098/files/thumbnail_a69f3984-e2be-47fb-8212-dd22ed491aa9.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "PKO Studio",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "4k",
-      "polyCount": 421868
-    },
-    {
       "id": "itchio:dejunes/lowpoly-3d-car-31",
       "provider": "itchio",
       "title": "Lowpoly 3D Car 3.1",
@@ -597,6 +574,29 @@
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/MusclePreview.png",
       "downloadable": true,
       "free": true
+    },
+    {
+      "id": "sketchfab:5e59f014795748e5b8354d6321eaf082",
+      "provider": "sketchfab",
+      "title": "Catalytic converter, 1982-1983",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-5e59f014795748e5b8354d6321eaf082",
+      "thumbnailUrl": "https://media.sketchfab.com/models/5e59f014795748e5b8354d6321eaf082/thumbnails/b75bad9c0e1546019cfc9f893ce38054/9f59d22d320e4bdcb278479d8ffd2712.jpeg",
+      "downloadable": false,
+      "author": "Science Museum Group",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 60000
     }
   ]
 }

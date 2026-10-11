@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-10T10:48:14.863Z",
+  "updatedAt": "2026-10-11T11:01:07.970Z",
   "assets": [
     {
       "id": "blenderkit:72fac4cb-901c-4a48-8fc8-84a0baa0bd21",
@@ -585,27 +585,6 @@
       "free": true
     },
     {
-      "id": "blenderkit:aef5208e-de98-48e4-a9e3-e7438f90ecbb",
-      "provider": "blenderkit",
-      "title": "Low poly tree 1",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/aef5208e-de98-48e4-a9e3-e7438f90ecbb/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/c6c75ad758fa45be8c4bd8685c2721b5/files/thumbnail_8e7814ff-74fe-4f64-9b26-614475498e08.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Pastean Narcis Dan",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "polyCount": 299
-    },
-    {
       "id": "itchio:shop-dream/low-poly-tree-pack-starter-kit",
       "provider": "itchio",
       "title": "Low Poly Tree pack Starter Kit",
@@ -644,6 +623,16 @@
       "type": "model",
       "url": "https://opengameart.org/content/low-poly-tree",
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/1_7.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:palm-tree-v2-low-poly-edition",
+      "provider": "opengameart",
+      "title": "Palm tree v2 low poly edition",
+      "type": "model",
+      "url": "https://opengameart.org/content/palm-tree-v2-low-poly-edition",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/preview_low.jpg",
       "downloadable": true,
       "free": true
     }
