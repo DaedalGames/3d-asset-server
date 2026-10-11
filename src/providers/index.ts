@@ -3,6 +3,7 @@ import { ambientcg } from "./ambientcg.js";
 import { blenderkit } from "./blenderkit.js";
 import { cgbookcase } from "./cgbookcase.js";
 import { cgtrader } from "./cgtrader.js";
+import { freestylized } from "./freestylized.js";
 import { hdrihub } from "./hdrihub.js";
 import { hdrmaps } from "./hdrmaps.js";
 import { itchio } from "./itchio.js";
@@ -35,6 +36,7 @@ export const allProviders: Provider[] = [
   threedassets,
   sketchfab,
   threedtextures,
+  freestylized,
   threedtexel,
   texturecan,
   opengameart,

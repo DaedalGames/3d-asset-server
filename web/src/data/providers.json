@@ -195,6 +195,22 @@
     "supportsDownload": false
   },
   {
+    "id": "freestylized",
+    "name": "FreeStylized",
+    "homepage": "https://freestylized.com",
+    "description": "Free stylized 3D models, PBR materials, skyboxes and asset packs (WordPress REST API; downloads via Google Drive).",
+    "assetTypes": [
+      "model",
+      "material",
+      "hdri",
+      "pack"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": "FreeStylized Royalty Free (custom CC0)",
+    "supportsDownload": false
+  },
+  {
     "id": "threedtexel",
     "name": "3DTexel",
     "homepage": "https://3dtexel.com",

@@ -175,9 +175,24 @@
       "access": "api",
       "addedAt": "2026-10-10",
       "addedBy": "agent"
+    },
+    {
+      "id": "freestylized",
+      "name": "FreeStylized",
+      "homepage": "https://freestylized.com",
+      "access": "api",
+      "addedAt": "2026-10-11",
+      "addedBy": "agent"
     }
   ],
   "rejected": [
+    {
+      "name": "Smithsonian 3D",
+      "homepage": "https://3d.si.edu",
+      "checkedAt": "2026-10-11",
+      "reason": "site returned a 'temporarily unavailable' page for its API, so access could not be verified",
+      "recheckAfter": "2027-01-09"
+    },
     {
       "name": "Poly Pizza",
       "homepage": "https://poly.pizza",
