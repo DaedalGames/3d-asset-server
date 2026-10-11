@@ -134,6 +134,8 @@ export class LocalStats implements Analytics, StatsSource {
     bump(this.tools, e.tool);
   }
 
+  mcpConnect(_e: Parameters<Analytics["mcpConnect"]>[0]): void {}
+
   httpRequest(_e: Parameters<Analytics["httpRequest"]>[0]): void {}
 
   pageView(_e: Parameters<Analytics["pageView"]>[0]): void {
@@ -369,6 +371,7 @@ export function teeAnalytics(...sinks: Analytics[]): Analytics {
     assetView: (e) => sinks.forEach((s) => s.assetView(e)),
     download: (e) => sinks.forEach((s) => s.download(e)),
     toolCall: (e) => sinks.forEach((s) => s.toolCall(e)),
+    mcpConnect: (e) => sinks.forEach((s) => s.mcpConnect(e)),
     httpRequest: (e) => sinks.forEach((s) => s.httpRequest(e)),
     pageView: (e) => sinks.forEach((s) => s.pageView(e)),
   };

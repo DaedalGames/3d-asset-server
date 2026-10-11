@@ -10,6 +10,14 @@
 #
 # Optional `asset-server-env` Secret (ASSET_SERVER_API_KEY to lock /v1/* and
 # /mcp behind a key, BLENDERKIT_API_KEY); the pod starts fine without it.
+# For the MCP client attribution metrics it can also hold:
+#   ASSET_SERVER_SESSION_SECRET  signs MCP session IDs (else random per pod,
+#                                and sessions lose their label on restart)
+#   MAXMIND_ACCOUNT_ID, MAXMIND_LICENSE_KEY
+#                                free GeoLite2-ASN download for the `network`
+#                                label (cached in /tmp, refreshed weekly);
+#                                without them ISP and cloud callers show as
+#                                `unknown`
 apiVersion: apps/v1
 kind: Deployment
 metadata:

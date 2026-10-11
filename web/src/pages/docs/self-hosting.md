@@ -42,6 +42,9 @@ npm start
 | `ASSET_SERVER_RATE_LIMIT_WINDOW` | `60` | Rate-limit window in seconds. |
 | `METRICS_PORT` | off | Serve Prometheus metrics on this port at `/metrics`, and log one JSON line per search, download and tool call. |
 | `PROMETHEUS_URL` | off | Prometheus that scrapes `METRICS_PORT`. `/v1/stats` and the `/stats` page then show the last 24 hours and 7 days; without it they count since the server started. |
+| `MAXMIND_ACCOUNT_ID`, `MAXMIND_LICENSE_KEY` | off | With `METRICS_PORT`: download MaxMind's free GeoLite2-ASN database (refreshed weekly) to label MCP callers by network (ISP, AWS, Google Cloud, Azure, other hosting). |
+| `ASSET_SERVER_ASN_DB` | none | Path to a GeoLite2-ASN `.mmdb` file to use instead of downloading one. |
+| `ASSET_SERVER_SESSION_SECRET` | random | Signs the MCP session IDs that carry each client's declared name. Set it so sessions keep their label across restarts. |
 
 ## Analytics
 
@@ -50,12 +53,15 @@ With `METRICS_PORT` set, the server exports Prometheus metrics with bounded labe
 - `asset_server_searches_total`, `asset_server_search_duration_seconds`, `asset_server_search_results`
 - `asset_server_provider_requests_total` and `asset_server_provider_duration_seconds` for each source's health and latency
 - `asset_server_downloads_total`, `asset_server_asset_views_total`
-- `asset_server_mcp_tool_calls_total` by tool and client family (Claude Code, Cursor, VS Code, …)
+- `asset_server_mcp_tool_calls_total` by tool, client family (Claude Code, Cursor, VS Code, …), network (`isp`, `aws`, `anthropic`, `openai`, …) and consistency (whether the declared client, User-Agent and network agree)
+- `asset_server_mcp_connects_total` by declared client, client version and network, and `asset_server_mcp_new_callers_total` (first tool call of the day per caller, counted from a hash with a daily salt)
 - `asset_server_http_requests_total`, `asset_server_page_views_total`
 
 The [/stats](/stats) page and `GET /v1/stats` read these counters back: from Prometheus when `PROMETHEUS_URL` is set, otherwise from this process since it started.
 
-Each search also logs a JSON line (`{"event":"search","query":…,"results":…}`) for top-query and zero-result analysis in Loki or any log store. Nothing personal is recorded: no IPs, keys or cookies.
+Each search also logs a JSON line (`{"event":"search","query":…,"results":…}`) for top-query and zero-result analysis in Loki or any log store. Nothing personal is recorded: no IPs, keys or cookies. The caller's address is only looked up to pick the network label.
+
+To tell MCP tool calls apart by client, the HTTP endpoint returns a signed `Mcp-Session-Id` from `initialize` that holds the name and version the client declared; clients send it back on every request. It is used for metrics only and never changes a response.
 
 ## Stdio MCP
 

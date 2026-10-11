@@ -17,10 +17,12 @@ import {
 } from "../core/service.js";
 import { LocalStats, PrometheusStats, cachedStats, teeAnalytics, type StatsSource } from "../core/stats.js";
 import { ASSET_TYPES, type AssetType } from "../core/types.js";
+import type { NetworkClassifier } from "../core/network.js";
+import { DailyCallers, SessionTokens, checkConsistency, pickClient, versionLabel } from "../mcp/attribution.js";
 import { createMcpServer } from "../mcp/server.js";
 import { prefersMarkdown } from "./negotiate.js";
 import { openApiSpec } from "./openapi.js";
-import { RATE_LIMIT_HEADERS, rateLimit, type RateLimitOptions } from "./ratelimit.js";
+import { RATE_LIMIT_HEADERS, clientIp, rateLimit, type RateLimitOptions } from "./ratelimit.js";
 import { OgImages } from "./og.js";
 import { assetMeta, searchMeta, searchShare, shareableAssetId, type HeadMeta } from "./search-meta.js";
 import { Site, rewriteHead, type ServeOptions, type UmamiOptions } from "./site.js";
@@ -46,6 +48,14 @@ export interface AppOptions {
   prometheus?: { url: string; fetch?: typeof fetch };
   /** Add the self-hosted Umami tracker to every page (cookieless visit counts). Off when unset. */
   umami?: UmamiOptions;
+  /** Labels MCP callers by network (src/core/network.ts). Without it, the label is `unknown`. */
+  networks?: NetworkClassifier;
+  /**
+   * Signs the MCP session IDs that carry the client's declared name
+   * (analytics only). Random per process when unset, so sessions from before
+   * a restart then count as `bad_session`.
+   */
+  mcpSessionSecret?: string;
 }
 
 /** Short, guessable URLs for developer resources. */
@@ -389,13 +399,28 @@ export function createApp(service: AssetService, opts: AppOptions = {}): Hono {
   });
 
   // MCP over Streamable HTTP, stateless: a fresh server+transport per request.
+  // Who is calling is worked out per request for analytics only
+  // (src/mcp/attribution.ts); it never changes the response.
+  const sessions = new SessionTokens(opts.mcpSessionSecret);
+  const callers = new DailyCallers();
   app.all("/mcp", async (c) => {
+    const ua = c.req.header("user-agent");
+    const uaFamily = clientFamily(ua);
+    const ip = clientIp(c);
+    const network = opts.networks?.classify(ip) ?? "unknown";
+    const sessionId = c.req.header("mcp-session-id");
+    const session = sessions.verify(sessionId);
     const server = createMcpServer(service, {
       allowLocalDownload: opts.allowServerDownloads ?? false,
       downloadDir: opts.downloadDir,
       publicBaseUrl: opts.publicBaseUrl ?? new URL(c.req.url).origin,
       analytics,
-      client: clientFamily(c.req.header("user-agent")),
+      client: pickClient(session ? clientFamily(session.name) : undefined, uaFamily),
+      attribution: {
+        network,
+        consistency: checkConsistency({ sessionSent: Boolean(sessionId), session, uaFamily, network }),
+        newCaller: (client) => callers.firstToday(ip, ua, client),
+      },
     });
     const transport = new WebStandardStreamableHTTPServerTransport({
       sessionIdGenerator: undefined,
@@ -403,9 +428,24 @@ export function createApp(service: AssetService, opts: AppOptions = {}): Hono {
     });
     await server.connect(transport);
     const res = await transport.handleRequest(c.req.raw);
+    // Set only when this request was `initialize`.
+    const info = server.server.getClientVersion();
     // Stateless: release the per-request server once the response is produced.
     void server.close().catch(() => undefined);
-    return res;
+    if (!info) return res;
+    const declared = clientFamily(info.name);
+    analytics.mcpConnect({
+      client: pickClient(declared, uaFamily),
+      clientVersion: versionLabel(declared, info.version),
+      clientName: info.name.slice(0, 64),
+      network,
+    });
+    if (!res.ok) return res;
+    // Clients echo the session ID on every later request, so tool calls can
+    // be labelled with the client they declared here.
+    const headers = new Headers(res.headers);
+    headers.set("mcp-session-id", sessions.issue(info));
+    return new Response(res.body, { status: res.status, statusText: res.statusText, headers });
   });
 
   // Share cards for search and asset links (static pages have pre-rendered /og/<page>.png files).

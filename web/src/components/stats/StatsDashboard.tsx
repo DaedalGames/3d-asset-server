@@ -39,7 +39,8 @@ interface Stats {
 
 const CLIENTS: Record<string, string> = {
   "claude-code": "Claude Code",
-  "claude-desktop": "Claude Desktop",
+  "claude-ai": "Claude apps (claude.ai, Desktop)",
+  "claude-desktop": "Claude apps (claude.ai, Desktop)",
   cursor: "Cursor",
   windsurf: "Windsurf",
   vscode: "VS Code / Copilot",
@@ -47,7 +48,10 @@ const CLIENTS: Record<string, string> = {
   gemini: "Gemini",
   zed: "Zed",
   cline: "Cline / Roo Code",
-  openai: "OpenAI",
+  openai: "OpenAI / ChatGPT",
+  continue: "Continue",
+  goose: "Goose",
+  inspector: "MCP Inspector",
   "mcp-sdk": "Other MCP clients",
   python: "Python",
   curl: "curl",

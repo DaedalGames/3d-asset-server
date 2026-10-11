@@ -3,7 +3,9 @@ import { serve } from "@hono/node-server";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { createApp } from "./api/app.js";
 import type { UmamiOptions } from "./api/site.js";
+import { Gauge } from "prom-client";
 import { PrometheusAnalytics, noopAnalytics, type Analytics } from "./core/analytics.js";
+import { NetworkClassifier, startNetworkData } from "./core/network.js";
 import { AssetService } from "./core/service.js";
 import { teeAnalytics } from "./core/stats.js";
 import { TELEMETRY_HOST, TELEMETRY_NOTICE, TELEMETRY_WEBSITE_ID, UmamiTelemetry, telemetryDisabled } from "./core/telemetry.js";
@@ -32,6 +34,12 @@ Environment:
                                one JSON line per search/download/tool call (off when unset)
   PROMETHEUS_URL               Prometheus that scrapes METRICS_PORT; /v1/stats then reports
                                the last 24 hours and 7 days (default: counts since start)
+  MAXMIND_ACCOUNT_ID, MAXMIND_LICENSE_KEY
+                               With METRICS_PORT: download MaxMind GeoLite2-ASN (free) to label
+                               MCP callers by network (isp, aws, gcp, ...). Refreshed weekly
+  ASSET_SERVER_ASN_DB          Use this GeoLite2-ASN .mmdb file instead of downloading one
+  ASSET_SERVER_SESSION_SECRET  Signs MCP session IDs used to label tool calls by client
+                               (random per process when unset)
   ASSET_SERVER_TELEMETRY       "0" to turn off anonymous usage telemetry (on by default:
                                event counts, never search text, paths or keys; see /privacy)
   DO_NOT_TRACK                 "1" also turns telemetry off
@@ -52,9 +60,12 @@ async function main(argv: string[]): Promise<void> {
       const port = Number(process.env.PORT ?? 8787);
       const hostname = process.env.HOST ?? "0.0.0.0";
       const telemetry = startTelemetry("http");
-      const analytics = telemetry ? teeAnalytics(startMetrics(hostname), telemetry) : startMetrics(hostname);
+      const metrics = startMetrics(hostname);
+      const analytics = telemetry ? teeAnalytics(metrics.analytics, telemetry) : metrics.analytics;
       const app = createApp(service, {
         analytics,
+        networks: metrics.networks,
+        mcpSessionSecret: process.env.ASSET_SERVER_SESSION_SECRET,
         rateLimit: {
           limit: Number(process.env.ASSET_SERVER_RATE_LIMIT ?? 120),
           windowSec: Number(process.env.ASSET_SERVER_RATE_LIMIT_WINDOW ?? 60),
@@ -135,12 +146,37 @@ main(process.argv.slice(2)).catch((e) => {
 /**
  * Analytics are opt-in: with METRICS_PORT set, metrics are served on that
  * separate port (kept off the public listener) and product events are
- * logged as JSON lines.
+ * logged as JSON lines. MCP callers are then also labelled by network
+ * (src/core/network.ts): OpenAI's published ranges are fetched, and the ASN
+ * database is used when one is configured.
  */
-function startMetrics(hostname: string): Analytics {
+function startMetrics(hostname: string): { analytics: Analytics; networks?: NetworkClassifier } {
   const port = Number(process.env.METRICS_PORT);
-  if (!port) return noopAnalytics;
+  if (!port) return { analytics: noopAnalytics };
   const analytics = new PrometheusAnalytics();
+  const networks = new NetworkClassifier();
+  startNetworkData({
+    classifier: networks,
+    asnDbPath: process.env.ASSET_SERVER_ASN_DB,
+    maxmindAccountId: process.env.MAXMIND_ACCOUNT_ID,
+    maxmindLicenseKey: process.env.MAXMIND_LICENSE_KEY,
+  });
+  new Gauge({
+    name: "asset_server_asn_db_build_timestamp_seconds",
+    help: "When the ASN database behind the MCP `network` label was built (0 = none loaded, ISP and cloud show as unknown).",
+    registers: [analytics.registry],
+    collect() {
+      this.set(networks.asnBuiltAt);
+    },
+  });
+  new Gauge({
+    name: "asset_server_openai_ranges",
+    help: "OpenAI egress ranges loaded for the MCP `network` label (0 = none).",
+    registers: [analytics.registry],
+    collect() {
+      this.set(networks.openaiRanges);
+    },
+  });
   serve(
     {
       port,
@@ -154,7 +190,7 @@ function startMetrics(hostname: string): Analytics {
     },
     (info) => console.error(`metrics on http://${hostname}:${info.port}/metrics`),
   );
-  return analytics;
+  return { analytics, networks };
 }
 
 /**

@@ -361,6 +361,9 @@ Safety:
 | `ASSET_SERVER_RATE_LIMIT_WINDOW` | `60` | Rate-limit window in seconds |
 | `METRICS_PORT` | – | Serve Prometheus metrics on this port at `/metrics` and log one JSON line per search, download and MCP tool call (see below) |
 | `PROMETHEUS_URL` | – | Prometheus that scrapes `METRICS_PORT`. `/v1/stats` (and the `/stats` page) then report the last 24 hours and 7 days across replicas; without it they count this process since it started |
+| `MAXMIND_ACCOUNT_ID`, `MAXMIND_LICENSE_KEY` | – | With `METRICS_PORT`: download MaxMind's free GeoLite2-ASN database (refreshed weekly) to label MCP callers by network; see [MCP client attribution](#mcp-client-attribution) |
+| `ASSET_SERVER_ASN_DB` | – | Path to a GeoLite2-ASN `.mmdb` file to use instead of downloading one |
+| `ASSET_SERVER_SESSION_SECRET` | random | Signs the MCP session IDs that carry the client's declared name. Set it so sessions keep their label across restarts |
 | `ASSET_SERVER_TELEMETRY` | on | `0` (or `false`/`off`) turns off anonymous usage telemetry; see [Telemetry](#telemetry) |
 | `DO_NOT_TRACK` | – | `1` also turns telemetry off |
 | `UMAMI_WEBSITE_ID` | – | With `UMAMI_HOST`: send web page views to your own [Umami](https://umami.is) instead (cookieless; honours Do Not Track; only `utm_*` query parameters are sent, never search text). The page CSP allows that one origin |
@@ -380,17 +383,46 @@ separate port (never on the public listener), with bounded labels only:
 | `asset_server_search_duration_seconds`, `asset_server_search_results` | surface |
 | `asset_server_provider_requests_total`, `asset_server_provider_duration_seconds` | provider, status |
 | `asset_server_downloads_total`, `asset_server_asset_views_total` | surface, client, provider |
-| `asset_server_mcp_tool_calls_total`, `asset_server_mcp_tool_duration_seconds` | tool, client (claude-code, cursor, vscode, …) |
+| `asset_server_mcp_tool_calls_total` | tool, client (claude-code, cursor, vscode, …), outcome, network, consistency |
+| `asset_server_mcp_tool_duration_seconds` | tool |
+| `asset_server_mcp_connects_total` | declared client, client_version (major, or `0.<minor>`), network |
+| `asset_server_mcp_new_callers_total` | client, network (first tool call of the day per caller; `increase(...[1d])` ≈ distinct callers) |
 | `asset_server_http_requests_total`, `asset_server_page_views_total` | route / page |
 
 Each search also logs `{"event":"search","query":…,"results":…,"surface":…}` to stdout for top-query and
-zero-result analysis in a log store. No IPs, keys or cookies are recorded. In the shep.bot cluster a
+zero-result analysis in a log store, and each MCP connect logs `{"event":"mcp_connect","client_name":…}`.
+No IPs, keys or cookies are recorded. In the shep.bot cluster a
 ServiceMonitor ([`deploy/servicemonitor.yaml`](deploy/servicemonitor.yaml)) feeds Prometheus, Loki
 collects the event lines, and the *3D Asset Server* Grafana dashboard shows both.
 
 The public [/stats](https://3d.shep.bot/stats) page reads the same counters back through `GET /v1/stats`
 ([`src/core/stats.ts`](src/core/stats.ts)): from Prometheus when `PROMETHEUS_URL` is set (cached for a
 minute), otherwise from in-process tallies since the last restart. It shows aggregate counts only.
+
+### MCP client attribution
+
+Which AI tool is calling `/mcp`, and from where ([`src/mcp/attribution.ts`](src/mcp/attribution.ts),
+[`src/core/network.ts`](src/core/network.ts)). Everything here is for metrics only and never changes a
+response.
+
+- **Client.** MCP clients declare their name and version in `initialize`. The endpoint is stateless, so
+  the reply hands them back in a signed `Mcp-Session-Id`, which clients send on every later request. Tool
+  calls are labelled with that declared client, or with the User-Agent family when no session is sent.
+  `claude-ai` covers claude.ai and Claude Desktop connectors, which both call from Anthropic's cloud.
+- **Network.** The caller's address is sorted into `anthropic` and `openai` (their published egress
+  ranges; OpenAI's are fetched daily), `aws` / `gcp` / `azure` / `cloud` (other hosting) / `isp` (home,
+  office or mobile) from MaxMind's GeoLite2-ASN database, `private`, or `unknown`. Without a MaxMind
+  account only the first two and `private` are labelled. The address is looked up, never stored.
+- **Consistency.** `consistent`; `mismatch` when the signals disagree (the User-Agent and the declared
+  client name different products, or a claude.ai / ChatGPT User-Agent calls from outside that vendor's
+  network); `no_session` (no session ID sent: curl, scripts, older clients); `bad_session` (a session ID
+  this server did not sign, for example from before a restart without `ASSET_SERVER_SESSION_SECRET`).
+  A mismatch is a hint, not proof: only signed requests can prove who a caller is.
+- **Distinct callers.** The first tool call of the day from each caller increments
+  `asset_server_mcp_new_callers_total`. A caller is a hash of address and User-Agent with a random salt
+  that changes every UTC day and is never stored. Callers behind one vendor egress address count once.
+
+This product includes GeoLite2 data created by MaxMind, available from https://www.maxmind.com.
 
 ### Telemetry
 
@@ -399,9 +431,10 @@ outside 3d.shep.bot. It goes to the project's self-hosted [Umami](https://umami.
 ([`src/core/telemetry.ts`](src/core/telemetry.ts)), and the server prints a one-line notice to stderr
 when it starts.
 
-- **Events:** one per search, asset lookup, download and MCP tool call, plus one at start. Each carries
-  only bounded labels: interface (`web`, `api`, `mcp`), client family (`claude-code`, `cursor`, …),
-  source, asset-type filter, whether anything was found, outcome, version, mode and OS.
+- **Events:** one per search, asset lookup, download and MCP tool call, one when an MCP client connects,
+  plus one at start. Each carries only bounded labels: interface (`web`, `api`, `mcp`), client family
+  (`claude-code`, `cursor`, …) and its major version, source, asset-type filter, whether anything was
+  found, outcome, version, mode and OS.
 - **Web UI page views,** when you open the bundled website: page path and title, screen size, browser
   and language. The host name is reported as `self-hosted`, and no referrer is sent.
 - **Never sent:** search text, asset IDs, file paths, URLs, API keys or your machine's name. Umami
@@ -532,10 +565,12 @@ src/
 │   ├── site.ts          serves the pre-rendered site: caching, 404, markdown twins for agents
 │   └── openapi.ts       OpenAPI 3.1 with full schemas (rendered at /docs/api/reference)
 ├── core/analytics.ts    Prometheus metrics + JSON event log
+├── core/network.ts      caller network label: vendor ranges + GeoLite2-ASN
 ├── core/collections.ts  collection snapshots: relevance, stable order, thumbnail checks
 ├── core/stats.ts        /v1/stats: Prometheus queries or in-process tallies
 └── mcp/
-    └── server.ts        MCP tool definitions (shared by stdio and HTTP)
+    ├── server.ts        MCP tool definitions (shared by stdio and HTTP)
+    └── attribution.ts   signed session IDs, consistency check, distinct callers
 web/                     the website (Astro + React + Tailwind + shadcn/ui)
 ├── src/pages/           index, search, stats, assets (collections), sources, docs (markdown), API reference, 404
 ├── src/components/      ui/ (shadcn + Magic UI), search/ (the search app), home/

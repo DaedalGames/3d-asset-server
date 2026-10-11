@@ -4,12 +4,13 @@
  * ASSET_SERVER_TELEMETRY=0 (or false/off/no) or the cross-tool DO_NOT_TRACK=1.
  *
  * What is sent, to the project's self-hosted Umami at stats.shep.bot: one
- * event per search, asset lookup, download and MCP tool call, plus one when
- * the server starts. Each carries only bounded labels (interface, client
- * family, source, asset-type filter, whether anything was found, version,
- * OS). Never search text, asset IDs, file paths, URLs, API keys or the
- * machine's name. Umami derives a country from the sender's IP address and
- * does not store the address. Described on the privacy page and in the README.
+ * event per search, asset lookup, download and MCP tool call, one when an
+ * MCP client connects, and one when the server starts. Each carries only
+ * bounded labels (interface, client family and version, source, asset-type
+ * filter, whether anything was found, version, OS). Never search text, asset
+ * IDs, file paths, URLs, API keys or the machine's name. Umami derives a
+ * country from the sender's IP address and does not store the address.
+ * Described on the privacy page and in the README.
  *
  * Sending never blocks or fails a request: events are fire-and-forget with a
  * short timeout, and after a few failures in a row (offline, air-gapped,
@@ -17,7 +18,7 @@
  */
 
 import { arch, platform } from "node:os";
-import { typeLabel, type Analytics, type SearchEvent, type Surface } from "./analytics.js";
+import { typeLabel, type Analytics, type ConnectEvent, type SearchEvent, type Surface, type ToolCallEvent } from "./analytics.js";
 
 /** The Umami website that collects telemetry from installs (not 3d.shep.bot's own visits). */
 export const TELEMETRY_WEBSITE_ID = "41538cf4-1af1-45a6-a5e1-1002e8191af1";
@@ -95,8 +96,13 @@ export class UmamiTelemetry implements Analytics {
     this.send(`/${e.surface}`, "download", { surface: e.surface, client: e.client, provider: e.provider, kind: e.kind });
   }
 
-  toolCall(e: { tool: string; client: string; outcome: "ok" | "error"; tookMs: number }): void {
+  toolCall(e: ToolCallEvent): void {
     this.send("/mcp", "tool_call", { tool: e.tool, client: e.client, outcome: e.outcome });
+  }
+
+  /** Which MCP client connected (its family and version, never anything about the machine). */
+  mcpConnect(e: ConnectEvent): void {
+    this.send("/mcp", "mcp_connect", { client: e.client, client_version: e.clientVersion });
   }
 
   // Page views come from the browser tracker on the local web UI; raw HTTP

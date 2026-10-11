@@ -8,10 +8,11 @@ import {
   selectFiles,
   totalBytes,
 } from "../core/download.js";
-import { noopAnalytics, type Analytics } from "../core/analytics.js";
+import { clientFamily, noopAnalytics, type Analytics } from "../core/analytics.js";
 import { AssetService, errorMessage } from "../core/service.js";
 import { ASSET_TYPES, type Asset, type AssetDetails, type AssetFile } from "../core/types.js";
 import { compact } from "../core/util.js";
+import { versionLabel } from "./attribution.js";
 
 export interface McpOptions {
   /** Allow `download_asset` to write to the local filesystem (stdio / trusted local use). */
@@ -22,8 +23,19 @@ export interface McpOptions {
   publicBaseUrl?: string;
   /** Where tool calls are recorded (defaults to no-op). */
   analytics?: Analytics;
-  /** Client family of the caller (from its User-Agent), for analytics only. */
+  /**
+   * Client family of the caller, for analytics only. The HTTP endpoint sets it
+   * per request (src/mcp/attribution.ts). Without it, the family of the name
+   * the client declared when it connected is used (stdio).
+   */
   client?: string;
+  /** More about the HTTP caller, for analytics only. */
+  attribution?: {
+    network: string;
+    consistency: string;
+    /** True on this caller's first tool call today (counts distinct callers). */
+    newCaller?: (client: string) => boolean;
+  };
 }
 
 export const VERSION = "0.1.0";
@@ -53,7 +65,17 @@ export function createMcpServer(service: AssetService, opts: McpOptions): McpSer
 
   const providerIds = service.listProviders().map((p) => p.id);
   const analytics = opts.analytics ?? noopAnalytics;
-  const client = opts.client ?? "unknown";
+  /** The caller's client family: given per request (HTTP), or from the client's declared name (stdio). */
+  const clientOf = () => opts.client ?? clientFamily(server.server.getClientVersion()?.name);
+
+  // Over a connection that stays open (stdio), the declared client is known
+  // once it has connected. The stateless HTTP endpoint reports connects itself.
+  server.server.oninitialized = () => {
+    const info = server.server.getClientVersion();
+    if (!info || opts.client) return;
+    const client = clientFamily(info.name);
+    analytics.mcpConnect({ client, clientVersion: versionLabel(client, info.version), clientName: info.name.slice(0, 64) });
+  };
 
   /** Wrap a tool handler so every call is counted and timed. */
   const timed =
@@ -66,7 +88,17 @@ export function createMcpServer(service: AssetService, opts: McpOptions): McpSer
         outcome = res.isError ? "error" : "ok";
         return res;
       } finally {
-        analytics.toolCall({ tool, client, outcome, tookMs: Date.now() - started });
+        const client = clientOf();
+        const a = opts.attribution;
+        analytics.toolCall({
+          tool,
+          client,
+          outcome,
+          tookMs: Date.now() - started,
+          network: a?.network,
+          consistency: a?.consistency,
+          newCaller: a?.newCaller?.(client),
+        });
       }
     };
 
@@ -107,7 +139,7 @@ export function createMcpServer(service: AssetService, opts: McpOptions): McpSer
         });
         analytics.search({
           surface: "mcp",
-          client,
+          client: clientOf(),
           query: args.query,
           types: args.types,
           freeOnly: args.free_only,
@@ -157,7 +189,7 @@ export function createMcpServer(service: AssetService, opts: McpOptions): McpSer
     timed("get_asset", async (args) => {
       try {
         const asset = await service.getAsset(args.id);
-        analytics.assetView({ surface: "mcp", client, provider: args.id.split(":")[0] ?? "", found: Boolean(asset) });
+        analytics.assetView({ surface: "mcp", client: clientOf(), provider: args.id.split(":")[0] ?? "", found: Boolean(asset) });
         if (!asset) return fail(`Asset not found: ${args.id}`);
         const selected = asset.files.length ? selectFiles(asset, { format: args.format, resolution: args.resolution }) : [];
         const size = totalBytes(selected);
@@ -229,7 +261,7 @@ export function createMcpServer(service: AssetService, opts: McpOptions): McpSer
           const baseDir = resolve(args.dest_dir ?? opts.downloadDir ?? "assets");
           const dir = resolve(baseDir, assetFolderName(asset));
           const result = await downloadFiles(service.http, files, dir, { extract: args.extract ?? true });
-          analytics.download({ surface: "mcp", client, provider: asset.provider, kind: "local" });
+          analytics.download({ surface: "mcp", client: clientOf(), provider: asset.provider, kind: "local" });
           return json({
             id: asset.id,
             title: asset.title,

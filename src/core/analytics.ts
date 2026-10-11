@@ -29,12 +29,36 @@ export interface SearchEvent {
   tookMs: number;
 }
 
+export interface ToolCallEvent {
+  tool: string;
+  client: string;
+  outcome: "ok" | "error";
+  tookMs: number;
+  /** Where the caller runs (src/core/network.ts); HTTP only. */
+  network?: string;
+  /** Whether the caller's signals agree (src/mcp/attribution.ts); HTTP only. */
+  consistency?: string;
+  /** First tool call from this caller today (counts distinct callers). */
+  newCaller?: boolean;
+}
+
+/** An MCP client connected (`initialize`), with the name and version it declared. */
+export interface ConnectEvent {
+  client: string;
+  /** Metric-safe version (major, or 0.minor). */
+  clientVersion: string;
+  /** The declared name as sent (truncated), for the event log only. */
+  clientName?: string;
+  network?: string;
+}
+
 export interface Analytics {
   readonly registry?: Registry;
   search(e: SearchEvent): void;
   assetView(e: { surface: Surface; client: string; provider: string; found: boolean }): void;
   download(e: { surface: Surface; client: string; provider: string; kind: "redirect" | "zip" | "local" }): void;
-  toolCall(e: { tool: string; client: string; outcome: "ok" | "error"; tookMs: number }): void;
+  toolCall(e: ToolCallEvent): void;
+  mcpConnect(e: ConnectEvent): void;
   httpRequest(e: { route: string; method: string; status: number; tookMs: number }): void;
   pageView(e: { page: string }): void;
 }
@@ -45,13 +69,19 @@ export const noopAnalytics: Analytics = {
   assetView() {},
   download() {},
   toolCall() {},
+  mcpConnect() {},
   httpRequest() {},
   pageView() {},
 };
 
+/**
+ * Client families, matched against a User-Agent or an MCP client's declared
+ * name (`clientInfo.name`). `claude-ai` covers claude.ai and Claude Desktop
+ * connectors, which both call from Anthropic's cloud.
+ */
 const CLIENT_PATTERNS: [string, RegExp][] = [
-  ["claude-code", /claude[- ]code/i],
-  ["claude-desktop", /claude/i],
+  ["claude-code", /claude[- ]?code/i],
+  ["claude-ai", /claude/i],
   ["cursor", /cursor/i],
   ["windsurf", /windsurf|codeium/i],
   ["vscode", /vscode|visual studio code|copilot/i],
@@ -59,7 +89,10 @@ const CLIENT_PATTERNS: [string, RegExp][] = [
   ["gemini", /gemini/i],
   ["zed", /\bzed\b/i],
   ["cline", /cline|roo-?code/i],
-  ["openai", /openai/i],
+  ["openai", /openai|chatgpt/i],
+  ["continue", /\bcontinue\b/i],
+  ["goose", /\bgoose\b/i],
+  ["inspector", /inspector/i],
   ["mcp-sdk", /mcp/i],
   ["python", /python|httpx|aiohttp|requests/i],
   ["curl", /^curl\//i],
@@ -68,7 +101,7 @@ const CLIENT_PATTERNS: [string, RegExp][] = [
   ["browser", /mozilla|safari|chrome|firefox/i],
 ];
 
-/** Collapse a User-Agent into a small, fixed set of client families (metric-safe). */
+/** Collapse a User-Agent or MCP client name into a small, fixed set of client families (metric-safe). */
 export function clientFamily(userAgent: string | undefined): string {
   if (!userAgent) return "unknown";
   for (const [name, re] of CLIENT_PATTERNS) if (re.test(userAgent)) return name;
@@ -93,6 +126,8 @@ export class PrometheusAnalytics implements Analytics {
   private readonly downloads: Counter;
   private readonly toolCalls: Counter;
   private readonly toolDuration: Histogram;
+  private readonly connects: Counter;
+  private readonly newCallers: Counter;
   private readonly httpRequests: Counter;
   private readonly httpDuration: Histogram;
   private readonly pageViews: Counter;
@@ -147,8 +182,20 @@ export class PrometheusAnalytics implements Analytics {
     });
     this.toolCalls = new Counter({
       name: "asset_server_mcp_tool_calls_total",
-      help: "MCP tool invocations by tool, client family and outcome.",
-      labelNames: ["tool", "client", "outcome"],
+      help: "MCP tool invocations by tool, client family, outcome, caller network and whether the caller's signals agree.",
+      labelNames: ["tool", "client", "outcome", "network", "consistency"],
+      registers: [r],
+    });
+    this.connects = new Counter({
+      name: "asset_server_mcp_connects_total",
+      help: "MCP initialize requests by declared client family, client version and caller network.",
+      labelNames: ["client", "client_version", "network"],
+      registers: [r],
+    });
+    this.newCallers = new Counter({
+      name: "asset_server_mcp_new_callers_total",
+      help: "First tool call of the day from a caller (hashed address + User-Agent, daily salt). increase() over 1d ~ distinct callers.",
+      labelNames: ["client", "network"],
       registers: [r],
     });
     this.toolDuration = new Histogram({
@@ -221,10 +268,19 @@ export class PrometheusAnalytics implements Analytics {
     this.event("download", e);
   }
 
-  toolCall(e: { tool: string; client: string; outcome: "ok" | "error"; tookMs: number }): void {
-    this.toolCalls.inc({ tool: e.tool, client: e.client, outcome: e.outcome });
+  toolCall(e: ToolCallEvent): void {
+    const network = e.network ?? "unknown";
+    const consistency = e.consistency ?? "unknown";
+    this.toolCalls.inc({ tool: e.tool, client: e.client, outcome: e.outcome, network, consistency });
     this.toolDuration.observe({ tool: e.tool }, e.tookMs / 1000);
-    this.event("mcp_tool", { tool: e.tool, client: e.client, outcome: e.outcome, ms: e.tookMs });
+    if (e.newCaller) this.newCallers.inc({ client: e.client, network });
+    this.event("mcp_tool", { tool: e.tool, client: e.client, outcome: e.outcome, network, consistency, ms: e.tookMs });
+  }
+
+  mcpConnect(e: ConnectEvent): void {
+    const network = e.network ?? "unknown";
+    this.connects.inc({ client: e.client, client_version: e.clientVersion, network });
+    this.event("mcp_connect", { client: e.client, client_name: e.clientName, client_version: e.clientVersion, network });
   }
 
   httpRequest(e: { route: string; method: string; status: number; tookMs: number }): void {

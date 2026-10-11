@@ -7,7 +7,8 @@ import { afterEach, describe, expect, it } from "vitest";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { InMemoryTransport } from "@modelcontextprotocol/sdk/inMemory.js";
 import { createApp } from "../src/api/app.js";
-import { PrometheusAnalytics } from "../src/core/analytics.js";
+import { PrometheusAnalytics, noopAnalytics, type ConnectEvent, type ToolCallEvent } from "../src/core/analytics.js";
+import { NetworkClassifier } from "../src/core/network.js";
 import { prefersMarkdown } from "../src/api/negotiate.js";
 import { openApiSpec } from "../src/api/openapi.js";
 import { searchMeta } from "../src/api/search-meta.js";
@@ -256,8 +257,60 @@ describe("HTTP API", () => {
       body: JSON.stringify({ jsonrpc: "2.0", id: 1, method: "tools/call", params: { name: "list_providers", arguments: {} } }),
     });
     expect(await analytics.registry.metrics()).toContain(
-      'asset_server_mcp_tool_calls_total{tool="list_providers",client="claude-code",outcome="ok"} 1',
+      'asset_server_mcp_tool_calls_total{tool="list_providers",client="claude-code",outcome="ok",network="unknown",consistency="no_session"} 1',
     );
+  });
+
+  it("labels MCP tool calls with the client declared at initialize, the caller's network and consistency", async () => {
+    const lines: string[] = [];
+    const analytics = new PrometheusAnalytics((l) => lines.push(l));
+    const networks = new NetworkClassifier();
+    const tracked = createApp(service(), { siteRoot: SITE, analytics, networks, mcpSessionSecret: "test-secret" });
+    const headers = {
+      "content-type": "application/json",
+      accept: "application/json, text/event-stream",
+      "user-agent": "node",
+      "x-forwarded-for": "160.79.105.20",
+    };
+    const init = await tracked.request("/mcp", {
+      method: "POST",
+      headers,
+      body: JSON.stringify({
+        jsonrpc: "2.0",
+        id: 1,
+        method: "initialize",
+        params: { protocolVersion: "2025-06-18", capabilities: {}, clientInfo: { name: "claude-ai", version: "0.1.0" } },
+      }),
+    });
+    expect(init.status).toBe(200);
+    const sessionId = init.headers.get("mcp-session-id");
+    expect(sessionId).toBeTruthy();
+    expect(((await init.json()) as { result: { serverInfo: { name: string } } }).result.serverInfo.name).toBe("3d-asset-server");
+
+    const call = (session: string | undefined, ip: string) =>
+      tracked.request("/mcp", {
+        method: "POST",
+        headers: { ...headers, "x-forwarded-for": ip, "mcp-protocol-version": "2025-06-18", ...(session ? { "mcp-session-id": session } : {}) },
+        body: JSON.stringify({ jsonrpc: "2.0", id: 2, method: "tools/call", params: { name: "list_providers", arguments: {} } }),
+      });
+    expect((await call(sessionId!, "160.79.105.20")).status).toBe(200);
+    expect((await call(sessionId!, "160.79.105.20")).status).toBe(200);
+    // A session ID this server did not issue is still served, just labelled.
+    expect((await call("someone-elses-session", "10.0.0.3")).status).toBe(200);
+
+    const metrics = await analytics.registry.metrics();
+    expect(metrics).toContain('asset_server_mcp_connects_total{client="claude-ai",client_version="0.1",network="anthropic"} 1');
+    expect(metrics).toContain(
+      'asset_server_mcp_tool_calls_total{tool="list_providers",client="claude-ai",outcome="ok",network="anthropic",consistency="consistent"} 2',
+    );
+    expect(metrics).toContain(
+      'asset_server_mcp_tool_calls_total{tool="list_providers",client="node",outcome="ok",network="private",consistency="bad_session"} 1',
+    );
+    expect(metrics).toContain('asset_server_mcp_new_callers_total{client="claude-ai",network="anthropic"} 1');
+    const connect = JSON.parse(lines.find((l) => l.includes('"event":"mcp_connect"'))!);
+    expect(connect).toMatchObject({ client: "claude-ai", client_name: "claude-ai", client_version: "0.1", network: "anthropic" });
+    // The address itself is never logged.
+    expect(lines.join("\n")).not.toContain("160.79.105.20");
   });
 
   it("requires the API key when configured", async () => {
@@ -311,6 +364,19 @@ describe("MCP tools", () => {
   }
 
   const text = (r: unknown) => JSON.parse((r as { content: { text: string }[] }).content[0]!.text);
+
+  it("labels stdio tool calls with the client's declared name", async () => {
+    const calls: ToolCallEvent[] = [];
+    const connects: ConnectEvent[] = [];
+    const analytics = { ...noopAnalytics, toolCall: (e: ToolCallEvent) => calls.push(e), mcpConnect: (e: ConnectEvent) => connects.push(e) };
+    const server = createMcpServer(service(), { allowLocalDownload: false, analytics });
+    const [a, b] = InMemoryTransport.createLinkedPair();
+    const client = new Client({ name: "claude-code", version: "2.1.0" });
+    await Promise.all([server.connect(a), client.connect(b)]);
+    await client.callTool({ name: "list_providers", arguments: {} });
+    expect(connects).toEqual([{ client: "claude-code", clientVersion: "2", clientName: "claude-code" }]);
+    expect(calls).toMatchObject([{ tool: "list_providers", client: "claude-code", outcome: "ok" }]);
+  });
 
   it("search_assets returns compact results and links", async () => {
     const client = await connect();

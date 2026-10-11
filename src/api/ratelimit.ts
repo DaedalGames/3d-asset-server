@@ -27,20 +27,25 @@ export interface RateLimitOptions {
 export const RATE_LIMIT_HEADERS = ["RateLimit", "RateLimit-Policy", "RateLimit-Limit", "RateLimit-Remaining", "RateLimit-Reset", "Retry-After"];
 
 /**
- * The client a request is counted against. Behind the shep.bot edge, Caddy
- * replaces any client-sent X-Forwarded-For with the real address and
- * ingress-nginx appends after it, so the leftmost entry is the client.
+ * The caller's address. Behind the shep.bot edge, Caddy replaces any
+ * client-sent X-Forwarded-For with the real address and ingress-nginx
+ * appends after it, so the leftmost entry is the client.
  */
-export function clientKey(c: Context): string {
+export function clientIp(c: Context): string | undefined {
   const xff = c.req.header("x-forwarded-for")?.split(",")[0]?.trim();
   if (xff) return xff;
   const real = c.req.header("x-real-ip")?.trim();
   if (real) return real;
   try {
-    return getConnInfo(c).remote.address ?? "unknown";
+    return getConnInfo(c).remote.address ?? undefined;
   } catch {
-    return "unknown";
+    return undefined;
   }
+}
+
+/** The client a request is counted against. */
+export function clientKey(c: Context): string {
+  return clientIp(c) ?? "unknown";
 }
 
 export function rateLimit(opts: RateLimitOptions): MiddlewareHandler {
