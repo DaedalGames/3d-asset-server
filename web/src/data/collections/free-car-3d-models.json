@@ -21,7 +21,7 @@
       "lego"
     ]
   },
-  "updatedAt": "2026-10-11T11:00:45.137Z",
+  "updatedAt": "2026-10-12T12:26:17.856Z",
   "assets": [
     {
       "id": "polyhaven:covered_car",
@@ -425,39 +425,6 @@
       "free": true
     },
     {
-      "id": "itchio:dejunes/lowpolycarv2",
-      "provider": "itchio",
-      "title": "Lowpoly 3D Car V2",
-      "type": "model",
-      "url": "https://dejunes.itch.io/lowpolycarv2",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzEyNjA2ODk3LnBuZw==/315x250%23c/goygyp.png",
-      "downloadable": false,
-      "author": "DeJunes",
-      "free": true
-    },
-    {
-      "id": "blenderkit:1dcca4af-6e33-4225-8103-aee2ddf21cb1",
-      "provider": "blenderkit",
-      "title": "Hyundai veloster sport car",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/1dcca4af-6e33-4225-8103-aee2ddf21cb1/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1191ea28f6594766aa800b454d8dc382/files/thumbnail_e77c501a-e5e1-429b-b508-10d31f21df81.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "AmJViZ",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "2k",
-      "polyCount": 18168
-    },
-    {
       "id": "blenderkit:019030bb-74cc-451e-ad66-55ae7dda47ca",
       "provider": "blenderkit",
       "title": "Police Sheriff car",
@@ -597,6 +564,38 @@
         "usdz"
       ],
       "polyCount": 60000
+    },
+    {
+      "id": "freestylized:3d_models:car_tire_01_m31",
+      "provider": "freestylized",
+      "title": "Car Tire 01 M31",
+      "type": "model",
+      "url": "https://freestylized.com/3d_models/car_tire_01_m31/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2025/03/car_tire_01_M31png_thumbnail.webp",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "freestylized:3d_models:car_tire_02_m32",
+      "provider": "freestylized",
+      "title": "Car Tire 02 M32",
+      "type": "model",
+      "url": "https://freestylized.com/3d_models/car_tire_02_m32/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2025/03/car_tire_02_M32_thumbnail.webp",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
     }
   ]
 }
