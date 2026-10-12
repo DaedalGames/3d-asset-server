@@ -187,6 +187,33 @@
   ],
   "rejected": [
     {
+      "name": "OpenHDRI",
+      "homepage": "https://openhdri.org",
+      "checkedAt": "2026-10-12",
+      "reason": "CC0 and downloadable, but only about 60 HDRIs so far; too small for now (same bar as GobKit)",
+      "recheckAfter": "2027-01-10"
+    },
+    {
+      "name": "CGEES",
+      "homepage": "https://www.cgees.com",
+      "checkedAt": "2026-10-12",
+      "reason": "every page is behind a Cloudflare JavaScript challenge and robots.txt blocks /api and AI bots, so no automated search",
+      "recheckAfter": "2027-01-10"
+    },
+    {
+      "name": "KayKit (Kay Lousberg)",
+      "homepage": "https://kaylousberg.com/game-assets",
+      "checkedAt": "2026-10-12",
+      "reason": "only a handful of packs on a static page and the downloads are hosted on itch.io, which we already search"
+    },
+    {
+      "name": "The Met 3D models",
+      "homepage": "https://www.metmuseum.org",
+      "checkedAt": "2026-10-12",
+      "reason": "only about 135 scans and the site answered automated requests with HTTP 429, so access could not be verified",
+      "recheckAfter": "2027-01-10"
+    },
+    {
       "name": "Smithsonian 3D",
       "homepage": "https://3d.si.edu",
       "checkedAt": "2026-10-11",
