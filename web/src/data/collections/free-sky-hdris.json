@@ -1,0 +1,751 @@
+{
+  "slug": "free-sky-hdris",
+  "search": {
+    "q": "sky",
+    "types": [
+      "hdri"
+    ],
+    "free": true,
+    "exclude": [
+      "Night",
+      "Sunset",
+      "Dusk",
+      "Evening",
+      "On Fire",
+      "Pink",
+      "Skybox cubemap",
+      "moon"
+    ]
+  },
+  "updatedAt": "2026-10-12T15:50:02.360Z",
+  "assets": [
+    {
+      "id": "polyhaven:kloofendal_48d_partly_cloudy_puresky",
+      "provider": "polyhaven",
+      "title": "Kloofendal 48d Partly Cloudy (Pure Sky)",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/kloofendal_48d_partly_cloudy_puresky.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:d1161a02-bcdc-4b1f-ac6f-ed65947ee90a",
+      "provider": "blenderkit",
+      "title": "Cloudy Sky",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/d1161a02-bcdc-4b1f-ac6f-ed65947ee90a/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/452cebd2eb584b06b3ef6356ec5f7210/files/thumbnail_fe75dd24-6546-47b7-84dc-6e03a94c545f.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Nathan S*****",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "hdrmaps:rogowa-kopa-clear-sky",
+      "provider": "hdrmaps",
+      "title": "Rogowa Kopa Clear Sky",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/rogowa-kopa-clear-sky/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2026/04/free_hdr_201_clear_sky_unclipped-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "threedtexel:lakeside-park-clear-sky-027-hdri",
+      "provider": "threedtexel",
+      "title": "Lakeside Park Clear Sky – HDRI",
+      "type": "hdri",
+      "url": "https://3dtexel.com/product/lakeside-park-clear-sky-027-hdri/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/06/Untitled-12-768x432.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "16k"
+    },
+    {
+      "id": "ambientcg:DaySkyHDRI071B",
+      "provider": "ambientcg",
+      "title": "Day Sky HDRI 071 B",
+      "type": "hdri",
+      "url": "https://ambientcg.com/a/DaySkyHDRI071B",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/DaySkyHDRI071B.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "hdrmaps:turnberg-sky-8",
+      "provider": "hdrmaps",
+      "title": "Turnberg Sky 8",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/turnberg-sky-8/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2025/05/free_hdr_185_pure_sky-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "threedtexel:concretepain-partlycloudy-hdri",
+      "provider": "threedtexel",
+      "title": "Daytime Sky With Clouds – HDRI",
+      "type": "hdri",
+      "url": "https://3dtexel.com/product/concretepain-partlycloudy-hdri/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/05/Untitled-27-768x432.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:kloppenheim_06_puresky",
+      "provider": "polyhaven",
+      "title": "Kloppenheim 06 (Pure Sky)",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/kloppenheim_06_puresky",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/kloppenheim_06_puresky.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "ambientcg:DaySkyHDRI069A",
+      "provider": "ambientcg",
+      "title": "Day Sky HDRI 069 A",
+      "type": "hdri",
+      "url": "https://ambientcg.com/a/DaySkyHDRI069A",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/DaySkyHDRI069A.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "hdrmaps:thunberg-clear-sky",
+      "provider": "hdrmaps",
+      "title": "Thunberg Clear Sky",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/thunberg-clear-sky/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2024/12/free_hdr_173_clear_sky_mountains-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "threedtexel:urbandeck_clearsky-hdri",
+      "provider": "threedtexel",
+      "title": "Urban Deck Clear Sky – HDRI",
+      "type": "hdri",
+      "url": "https://3dtexel.com/product/urbandeck_clearsky-hdri/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/05/Untitled-24-768x432.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "16k"
+    },
+    {
+      "id": "threedtexel:windmillpark_clearsky-hdri",
+      "provider": "threedtexel",
+      "title": "Windmill Park Clear Sky – HDRI",
+      "type": "hdri",
+      "url": "https://3dtexel.com/product/windmillpark_clearsky-hdri/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/05/Untitled-19-768x432.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:autumn_field_puresky",
+      "provider": "polyhaven",
+      "title": "Autumn Field (Pure Sky)",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/autumn_field_puresky",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/autumn_field_puresky.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Jarod Guest, Sergej Majboroda",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "threedtexel:open-lot-hdri",
+      "provider": "threedtexel",
+      "title": "Open Lot Sunny Sky – HDRI",
+      "type": "hdri",
+      "url": "https://3dtexel.com/product/open-lot-hdri/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/05/Untitled-16-768x432.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:overcast_soil_puresky",
+      "provider": "polyhaven",
+      "title": "Overcast Soil (Pure Sky)",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/overcast_soil_puresky",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/overcast_soil_puresky.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Jarod Guest, Sergej Majboroda",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "ambientcg:DaySkyHDRI071A",
+      "provider": "ambientcg",
+      "title": "Day Sky HDRI 071 A",
+      "type": "hdri",
+      "url": "https://ambientcg.com/a/DaySkyHDRI071A",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/DaySkyHDRI071A.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:fc236ec8-c733-44f4-a7c1-76936b5bb0e7",
+      "provider": "blenderkit",
+      "title": "Bright Cloud Sky",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/fc236ec8-c733-44f4-a7c1-76936b5bb0e7/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0f13b6520a764d09a16df0070b2e6bc7/files/thumbnail_3bcf34e8-78dd-4dca-b8b6-390baf85389b.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "5555dnl_3d",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:citrus_orchard_road_puresky",
+      "provider": "polyhaven",
+      "title": "Citrus Orchard Road (Pure Sky)",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/citrus_orchard_road_puresky",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/citrus_orchard_road_puresky.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "ambientcg:DaySkyHDRI070B",
+      "provider": "ambientcg",
+      "title": "Day Sky HDRI 070 B",
+      "type": "hdri",
+      "url": "https://ambientcg.com/a/DaySkyHDRI070B",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/DaySkyHDRI070B.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:703c9312-fccb-42f6-ab26-222ef03bf255",
+      "provider": "blenderkit",
+      "title": "Open afternoon sky",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/703c9312-fccb-42f6-ab26-222ef03bf255/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f5839e3f1ceb44739f15ffd42d259ad3/files/thumbnail_dd61e273-5c32-4956-8a19-71fc6167ef6d.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "antoine f",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:egg-hill-cloudy-sky",
+      "provider": "hdrmaps",
+      "title": "Egg Hill cloudy sky",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/egg-hill-cloudy-sky/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2024/09/free_hdr_165_meadow_egg_hill_cloudy_sky-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:sunflowers_puresky",
+      "provider": "polyhaven",
+      "title": "Sunflowers (Pure Sky)",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/sunflowers_puresky",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/sunflowers_puresky.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Jarod Guest, Sergej Majboroda",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "ambientcg:DaySkyHDRI069B",
+      "provider": "ambientcg",
+      "title": "Day Sky HDRI 069 B",
+      "type": "hdri",
+      "url": "https://ambientcg.com/a/DaySkyHDRI069B",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/DaySkyHDRI069B.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:e8864745-b807-4e2a-8c49-436a3b9b3ee4",
+      "provider": "blenderkit",
+      "title": "Bright cloudy sky",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/e8864745-b807-4e2a-8c49-436a3b9b3ee4/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/54bea3988ed643c3b819fa0c9b99e63b/files/thumbnail_c9dcb9ed-7f5b-409f-80f2-063ee136f0ec.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "antoine f",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:turnberg-sky-7",
+      "provider": "hdrmaps",
+      "title": "Turnberg Sky 7",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/turnberg-sky-7/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2023/09/free_hdr_146-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "hdrmaps:turnberg-sky-6",
+      "provider": "hdrmaps",
+      "title": "Turnberg Sky 6",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/turnberg-sky-6/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2023/09/free_hdr_145-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:mud_road_puresky",
+      "provider": "polyhaven",
+      "title": "Mud Road (Pure Sky)",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/mud_road_puresky",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/mud_road_puresky.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Sergey Rudavin, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:502bdcf2-8280-4e1b-a5de-0ff5c0864d94",
+      "provider": "blenderkit",
+      "title": "Blue sky and white clouds 16k",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/502bdcf2-8280-4e1b-a5de-0ff5c0864d94/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6d59c6a107fe441d9b04e19ad70c1514/files/thumbnail_2ff36008-b7a5-41fc-b296-4b5556abd625.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "PBR PLAN",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:turnberg-sky-5",
+      "provider": "hdrmaps",
+      "title": "Turnberg Sky 5",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/turnberg-sky-5/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2023/09/free_hdr_144-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "ambientcg:DaySkyHDRI063B",
+      "provider": "ambientcg",
+      "title": "Day Sky HDRI 063 B",
+      "type": "hdri",
+      "url": "https://ambientcg.com/a/DaySkyHDRI063B",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/DaySkyHDRI063B.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "hdrmaps:turnberg-sky-4",
+      "provider": "hdrmaps",
+      "title": "Turnberg Sky 4",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/turnberg-sky-4/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2023/09/free_hdr_143-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:kloofendal_43d_clear_puresky",
+      "provider": "polyhaven",
+      "title": "Kloofendal 43d Clear (Pure Sky)",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/kloofendal_43d_clear_puresky",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/kloofendal_43d_clear_puresky.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "ambientcg:DaySkyHDRI067B",
+      "provider": "ambientcg",
+      "title": "Day Sky HDRI 067 B",
+      "type": "hdri",
+      "url": "https://ambientcg.com/a/DaySkyHDRI067B",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/DaySkyHDRI067B.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:b7011c43-286c-4a59-b04a-121cd65915fa",
+      "provider": "blenderkit",
+      "title": "Aerial Cloudy Sky Landscape",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/b7011c43-286c-4a59-b04a-121cd65915fa/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/b03c618ba9a34427af79971b4db65df6/files/thumbnail_76fdda67-77c4-4a3e-954c-13c01226c2aa.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "EB Adventure Photoscans",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:turnberg-sky-3",
+      "provider": "hdrmaps",
+      "title": "Turnberg Sky 3",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/turnberg-sky-3/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2023/09/free_hdr_142-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "blenderkit:310cba8c-7d5c-4f44-b6fc-51fc624e37a9",
+      "provider": "blenderkit",
+      "title": "Warm yellow sky",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/310cba8c-7d5c-4f44-b6fc-51fc624e37a9/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/002449895d084a69938339003f6c6fe9/files/thumbnail_5f32f694-1dfa-447b-a4cc-585073534231.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Free poly",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "slug": "free-house-3d-models",
+  "search": {
+    "q": "house",
+    "types": [
+      "model"
+    ],
+    "free": true,
+    "exclude": [
+      "Mezuzah",
+      "chapter-house",
+      "Plaque",
+      "stove",
+      "Gecko",
+      "Beehive",
+      "Objects in a house",
+      "House Interior",
+      "Processing",
+      "Pump",
+      "Bohabui",
+      "Road Sign",
+      "Auction",
+      "House mark",
+      "kitchen",
+      "Accessories",
+      "Chicken House",
+      "Wood Plant"
+    ]
+  },
+  "updatedAt": "2026-10-12T15:49:57.689Z",
+  "assets": [
+    {
+      "id": "blenderkit:264b47f4-a1ee-4c31-9ee9-4c0e8dc1a98b",
+      "provider": "blenderkit",
+      "title": "Modern House",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/264b47f4-a1ee-4c31-9ee9-4c0e8dc1a98b/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/422db614cb3e4629b15512b12131b8ad/files/thumbnail_8713b36b-54c3-418b-b825-a76ca5266ef1.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Abbos Mirzaev",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k",
+      "polyCount": 87537
+    },
+    {
+      "id": "opengameart:medieval-house-pack",
+      "provider": "opengameart",
+      "title": "Medieval House Pack",
+      "type": "model",
+      "url": "https://opengameart.org/content/medieval-house-pack",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/LakeTown_preview.PNG",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "itchio:maschiat/house-3d-model",
+      "provider": "itchio",
+      "title": "House + Bakery 3D model",
+      "type": "model",
+      "url": "https://maschiat.itch.io/house-3d-model",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzE2MjUyNTgxLnBuZw==/315x250%23c/jRHNb7.png",
+      "downloadable": false,
+      "author": "maschiaT",
+      "free": true
+    },
+    {
+      "id": "blenderkit:d9e6e67f-9896-4eaa-a151-38e021845f73",
+      "provider": "blenderkit",
+      "title": "The House on the Hill",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/d9e6e67f-9896-4eaa-a151-38e021845f73/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/c52654b895b1415d8d3657aa4daff122/files/thumbnail_357057f5-3a05-4967-a2e4-ee1bc895b660.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Toby Noby",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "polyCount": 1
+    },
+    {
+      "id": "opengameart:modular-medieval-house-pack-04",
+      "provider": "opengameart",
+      "title": "Modular Medieval House Pack 04",
+      "type": "model",
+      "url": "https://opengameart.org/content/modular-medieval-house-pack-04",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/houses00_4.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "itchio:geminivillain/cute-simple-house-3d",
+      "provider": "itchio",
+      "title": "Cute & Simple House 3D",
+      "type": "model",
+      "url": "https://geminivillain.itch.io/cute-simple-house-3d",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI1NTMwNjkyLnBuZw==/315x250%23c/bfNV21.png",
+      "downloadable": false,
+      "author": "GeminiVillain",
+      "free": true
+    },
+    {
+      "id": "blenderkit:d2b700e2-4ee8-428f-ad09-90a241947555",
+      "provider": "blenderkit",
+      "title": "Modern One-Story House",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/d2b700e2-4ee8-428f-ad09-90a241947555/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/ecee8f3a0ae642399aa5fa2ef4d9027a/files/thumbnail_c8d05dce-5ebb-4432-969f-c1ecde647af5.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Abbos Mirzaev",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k",
+      "polyCount": 41991
+    },
+    {
+      "id": "threedassets:medieval-mmo-starter-realm-timber-house-small-25223f49",
+      "provider": "threedassets",
+      "title": "Timber House Small (Medieval MMO Starter Realm)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/medieval-mmo-starter-realm-timber-house-small-25223f49",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/28757/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 2564,
+      "animated": true
+    },
+    {
+      "id": "polyhaven:modular_urban_apartments_facade",
+      "provider": "polyhaven",
+      "title": "Modular Urban Apartments Facade",
+      "type": "model",
+      "url": "https://polyhaven.com/a/modular_urban_apartments_facade",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/modular_urban_apartments_facade.png?width=512&height=512",
+      "downloadable": true,
+      "author": "James Ray Cock",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "8k",
+      "polyCount": 118215
+    },
+    {
+      "id": "itchio:kedco-assets/stylized-house-3d-model",
+      "provider": "itchio",
+      "title": "Stylized House 3D Model",
+      "type": "model",
+      "url": "https://kedco-assets.itch.io/stylized-house-3d-model",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzg3NTA3MDUucG5n/315x250%23c/4w2Zxa.png",
+      "downloadable": false,
+      "author": "Kedco Assets",
+      "free": true
+    },
+    {
+      "id": "threedassets:medieval-mmo-starter-realm-timber-house-large-4ffa48c3",
+      "provider": "threedassets",
+      "title": "Timber House Large (Medieval MMO Starter Realm)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/medieval-mmo-starter-realm-timber-house-large-4ffa48c3",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/28760/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 5800,
+      "animated": true
+    },
+    {
+      "id": "opengameart:medieval-house",
+      "provider": "opengameart",
+      "title": "Medieval house",
+      "type": "model",
+      "url": "https://opengameart.org/content/medieval-house",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/House%208%20print_1.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "itchio:free-game-assets/free-elf-house-3d-low-poly-pack",
+      "provider": "itchio",
+      "title": "Free Elf House 3D Low Poly Pack",
+      "type": "model",
+      "url": "https://free-game-assets.itch.io/free-elf-house-3d-low-poly-pack",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzUwMDI1MjAuanBn/315x250%23c/50dwBz.jpg",
+      "downloadable": false,
+      "author": "Free Game Assets (GUI, Sprite, Tilesets)",
+      "free": true
+    },
+    {
+      "id": "blenderkit:4a3cb6ae-5949-4c23-a2be-b64d11791977",
+      "provider": "blenderkit",
+      "title": "House",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/4a3cb6ae-5949-4c23-a2be-b64d11791977/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/334164fa94104d238fea9464503b78c5/files/thumbnail_3697e851-5e61-4012-9997-c7623f65c85c.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Abbos Mirzaev",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "1k",
+      "polyCount": 1127642
+    },
+    {
+      "id": "threedassets:greek-island-village-and-harbour-cube-house-wide-6bc5d91a",
+      "provider": "threedassets",
+      "title": "Cube House Wide (Greek Island Village and Harbour)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/greek-island-village-and-harbour-cube-house-wide-6bc5d91a",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/37064/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 4712,
+      "animated": true
+    },
+    {
+      "id": "opengameart:modular-house-3d-models",
+      "provider": "opengameart",
+      "title": "Modular House - 3D Models",
+      "type": "model",
+      "url": "https://opengameart.org/content/modular-house-3d-models",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/house01.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "itchio:inferunt/the-little-things-tin-cab-house-3d-environment",
+      "provider": "itchio",
+      "title": "Scavenger Tin Can house 3D Environment",
+      "type": "model",
+      "url": "https://inferunt.itch.io/the-little-things-tin-cab-house-3d-environment",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzUwMzg0NTEucG5n/315x250%23c/YxOgp8.png",
+      "downloadable": false,
+      "author": "Inferunt",
+      "free": true
+    },
+    {
+      "id": "blenderkit:ffc5bced-d6c3-4475-a289-0da7ec342be7",
+      "provider": "blenderkit",
+      "title": "Brick house Glass wall",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/ffc5bced-d6c3-4475-a289-0da7ec342be7/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/9f2d3dd54ff24407b75ec6bdf680b632/files/thumbnail_2e5d040f-a63c-49d5-850e-7a9a71f4087f.jpeg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Luan Rodrigues",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "polyCount": 1
+    },
+    {
+      "id": "threedassets:greek-island-village-and-harbour-cube-house-medium-2499b4b8",
+      "provider": "threedassets",
+      "title": "Cube House Medium (Greek Island Village and Harbour)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/greek-island-village-and-harbour-cube-house-medium-2499b4b8",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/37063/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 4532,
+      "animated": true
+    },
+    {
+      "id": "opengameart:modular-medieval-house-pack-03",
+      "provider": "opengameart",
+      "title": "Modular Medieval House Pack 03",
+      "type": "model",
+      "url": "https://opengameart.org/content/modular-medieval-house-pack-03",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/houses00_3.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "itchio:modosa-kun/house",
+      "provider": "itchio",
+      "title": "House",
+      "type": "model",
+      "url": "https://modosa-kun.itch.io/house",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzExOTg3MjgyLnBuZw==/315x250%23c/yvBGaI.png",
+      "downloadable": false,
+      "author": "Modo",
+      "free": true
+    },
+    {
+      "id": "opengameart:modular-medieval-house-pack-05",
+      "provider": "opengameart",
+      "title": "Modular Medieval House Pack 05",
+      "type": "model",
+      "url": "https://opengameart.org/content/modular-medieval-house-pack-05",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/thouses00.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "threedassets:voxel-city-districts-garage-house-6fa7e8ae",
+      "provider": "threedassets",
+      "title": "Garage House (Voxel City Districts)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/voxel-city-districts-garage-house-6fa7e8ae",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/24770/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 924
+    },
+    {
+      "id": "itchio:majadroid/3d-house-construction-site",
+      "provider": "itchio",
+      "title": "3D House Construction Site (LowPoly, CC0)",
+      "type": "model",
+      "url": "https://majadroid.itch.io/3d-house-construction-site",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzUxNzEzNDUucG5n/315x250%23c/Hh15SI.png",
+      "downloadable": false,
+      "author": "Majadroid",
+      "free": true
+    },
+    {
+      "id": "opengameart:simple-house",
+      "provider": "opengameart",
+      "title": "Simple house",
+      "type": "model",
+      "url": "https://opengameart.org/content/simple-house",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/longhouse_preview.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "threedassets:korean-hanok-village-and-street-village-gate-house-94dd896b",
+      "provider": "threedassets",
+      "title": "Village Gate House (Korean Hanok Village and Street)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/korean-hanok-village-and-street-village-gate-house-94dd896b",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/38032/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 6400,
+      "animated": true
+    },
+    {
+      "id": "opengameart:ordinary-house",
+      "provider": "opengameart",
+      "title": "Ordinary House",
+      "type": "model",
+      "url": "https://opengameart.org/content/ordinary-house",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/9cb084584741f632608fe343c70e8efa.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "threedassets:viking-age-longhouse-and-longship-turf-pit-house-0d532fe1",
+      "provider": "threedassets",
+      "title": "Turf Pit House (Viking Age Longhouse and Longship)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/viking-age-longhouse-and-longship-turf-pit-house-0d532fe1",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/30175/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 15208
+    },
+    {
+      "id": "itchio:nnooaahh0883/3d-low-poly-3d-house-tileset",
+      "provider": "itchio",
+      "title": "Modular 3d Low Poly 3d house tileset",
+      "type": "model",
+      "url": "https://nnooaahh0883.itch.io/3d-low-poly-3d-house-tileset",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI0MTAyNTc1LnBuZw==/315x250%23c/UlqbQS.png",
+      "downloadable": false,
+      "author": "NNOOAAHH0883",
+      "free": true
+    },
+    {
+      "id": "opengameart:modular-medieval-house-pack-06",
+      "provider": "opengameart",
+      "title": "Modular Medieval House Pack 06",
+      "type": "model",
+      "url": "https://opengameart.org/content/modular-medieval-house-pack-06",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/thhouses00.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "blenderkit:141b8a53-a0f1-447c-9e9c-ea2ea3b77e29",
+      "provider": "blenderkit",
+      "title": "Small House",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/141b8a53-a0f1-447c-9e9c-ea2ea3b77e29/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f9c97f9ffa2f4cd490e2b1affb6e99c6/files/thumbnail_35a6b17a-d719-4f67-a3ce-8400da05fd9c.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Dal Roron",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "maxResolution": "2k",
+      "polyCount": 43184
+    },
+    {
+      "id": "sketchfab:6c4ec0df32f147dcb8e7ebcc6925d0c6",
+      "provider": "sketchfab",
+      "title": "Kilnagappagh - Booley House",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-6c4ec0df32f147dcb8e7ebcc6925d0c6",
+      "thumbnailUrl": "https://media.sketchfab.com/models/6c4ec0df32f147dcb8e7ebcc6925d0c6/thumbnails/fca6239b5d994b63b0cad14d61b1ffa7/cad25edc49d54af8a748b835cbb0b706.jpeg",
+      "downloadable": false,
+      "author": "Galway3D_DH_AGe",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 310364
+    },
+    {
+      "id": "itchio:daxson13/3d-house-png",
+      "provider": "itchio",
+      "title": "3D house png",
+      "type": "model",
+      "url": "https://daxson13.itch.io/3d-house-png",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzIzMDgxOTk1LnBuZw==/315x250%23c/gqkEXl.png",
+      "downloadable": false,
+      "author": "daxson13",
+      "free": true
+    },
+    {
+      "id": "opengameart:cartoony-house",
+      "provider": "opengameart",
+      "title": "Cartoony house",
+      "type": "model",
+      "url": "https://opengameart.org/content/cartoony-house",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/house_preview_0.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "threedassets:feudal-japan-castle-town-bath-house-f3524f03",
+      "provider": "threedassets",
+      "title": "Bath House (Feudal Japan Castle Town)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/feudal-japan-castle-town-bath-house-f3524f03",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/26209/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 2728
+    },
+    {
+      "id": "sketchfab:7009e016342d46e5b1f126180cb3b0b9",
+      "provider": "sketchfab",
+      "title": "Derryoober - Vernacular Earth Cut House Site.",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-7009e016342d46e5b1f126180cb3b0b9",
+      "thumbnailUrl": "https://media.sketchfab.com/models/7009e016342d46e5b1f126180cb3b0b9/thumbnails/d9027c2d72c645f08600c9d790dd3182/7d66b11bf5304737ba2832f36c966ac9.jpeg",
+      "downloadable": false,
+      "author": "Galway3D_DH_AGe",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 58560
+    }
+  ]
+}
