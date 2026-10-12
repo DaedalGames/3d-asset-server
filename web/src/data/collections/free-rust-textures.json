@@ -1,0 +1,683 @@
+{
+  "slug": "free-rust-textures",
+  "search": {
+    "q": "rust",
+    "types": [
+      "material",
+      "texture"
+    ],
+    "free": true,
+    "exclude": [
+      "Wooden Planks",
+      "concrete wall",
+      "Graffiti",
+      "Rustic",
+      "chicken wire",
+      "Metal Base",
+      "Metal Pattern",
+      "Metal Corrugated",
+      "Corrugated Iron"
+    ]
+  },
+  "updatedAt": "2026-10-12T15:50:00.868Z",
+  "assets": [
+    {
+      "id": "polyhaven:green_metal_rust",
+      "provider": "polyhaven",
+      "title": "Green Metal Rust",
+      "type": "material",
+      "url": "https://polyhaven.com/a/green_metal_rust",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/green_metal_rust.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:e0353592-36d2-4744-84b8-9ebf6df638f3",
+      "provider": "blenderkit",
+      "title": "Old Metal (Rust Metal)",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/e0353592-36d2-4744-84b8-9ebf6df638f3/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/5c656d73da8b48bc9e36d06d4cddd303/files/thumbnail_d502b0c7-f5a0-4da2-bb24-c25ae460f059.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "yossif kh",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "texturecan:635",
+      "provider": "texturecan",
+      "title": "Silver Metal Plate with Scratches, Rust and Dents",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/635/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/metal_0081/metal_0081_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "opengameart:45-high-res-metal-and-rust-texture-photos",
+      "provider": "opengameart",
+      "title": "45 high-res metal and rust texture photos",
+      "type": "texture",
+      "url": "https://opengameart.org/content/45-high-res-metal-and-rust-texture-photos",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/metal.zip.preview.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "itchio:stickyteethgames/rust-textures",
+      "provider": "itchio",
+      "title": "Rust Textures",
+      "type": "texture",
+      "url": "https://stickyteethgames.itch.io/rust-textures",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI1MjUzOTg4LnBuZw==/315x250%23c/nSvdJH.png",
+      "downloadable": false,
+      "author": "StickyTeethGames",
+      "free": true
+    },
+    {
+      "id": "sharetextures:rust-1",
+      "provider": "sharetextures",
+      "title": "Rust 1",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/metal/rust-1",
+      "thumbnailUrl": "https://images.sharetextures.com/u/Rust_1_mat-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:metal-tilling-brushed-rust-pbr-material-5",
+      "provider": "threedtexel",
+      "title": "Brushed Metal Tiling With Rust – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/metal-tilling-brushed-rust-pbr-material-5/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/11/Untitled_Sphere-Camera-9-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "polyhaven:rust_coarse_01",
+      "provider": "polyhaven",
+      "title": "Rust Coarse 01",
+      "type": "material",
+      "url": "https://polyhaven.com/a/rust_coarse_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/rust_coarse_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Rico Cilliers",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:be213564-e0f9-4b58-9a9e-f1e5253e433c",
+      "provider": "blenderkit",
+      "title": "Metal with rust and brush",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/be213564-e0f9-4b58-9a9e-f1e5253e433c/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/01e97458cf144467a224408a463a9506/files/thumbnail_cc0eb3f8-968c-4d3f-8fe3-c4fccd3f05df.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Jonas Apessos",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ]
+    },
+    {
+      "id": "opengameart:metal-rust-pattern",
+      "provider": "opengameart",
+      "title": "Metal rust pattern",
+      "type": "texture",
+      "url": "https://opengameart.org/content/metal-rust-pattern",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/metal_0.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "ambientcg:Rust009",
+      "provider": "ambientcg",
+      "title": "Rust 009",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Rust009",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Rust009.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "sharetextures:metal-rust",
+      "provider": "sharetextures",
+      "title": "Metal Rust",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/metal/metal-rust",
+      "thumbnailUrl": "https://images.sharetextures.com/u/metal_rust-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "blenderkit:fb174a99-e74c-4e3f-814a-96af6822c1a6",
+      "provider": "blenderkit",
+      "title": "Painted metal with rust",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/fb174a99-e74c-4e3f-814a-96af6822c1a6/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/d3f063424c974786b6cf7a5e21ac314b/files/thumbnail_91e846cd-92dc-43f1-ab46-de4091e17468.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Steffen",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "texturecan:444",
+      "provider": "texturecan",
+      "title": "Chipped Paint with Dripping Rust",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/444/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/metal_0053/metal_0053_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "opengameart:rusted-the-iron-grip",
+      "provider": "opengameart",
+      "title": "Rust(ed) (The) Iron Grip",
+      "type": "texture",
+      "url": "https://opengameart.org/content/rusted-the-iron-grip",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Rusttheiron.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "ambientcg:Rust010",
+      "provider": "ambientcg",
+      "title": "Rust 010",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Rust010",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Rust010.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "cgbookcase:rusty-painted-metal-02",
+      "provider": "cgbookcase",
+      "title": "Rusty Painted Metal 02",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/rusty-painted-metal-02",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Rusty_painted_metal_02_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Rust007",
+      "provider": "ambientcg",
+      "title": "Rust 007",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Rust007",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Rust007.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:ce1842b2-8b08-42bf-9f55-7666fd3e1f3b",
+      "provider": "blenderkit",
+      "title": "Metal Iron Light Rust and Damage Heavy",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/ce1842b2-8b08-42bf-9f55-7666fd3e1f3b/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/b23859e9ce0648ff955a1e3ea4a713f7/files/thumbnail_a672881f-ac9f-41b8-ac30-5c26f8c91b46.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "bla tadej",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "texturecan:107",
+      "provider": "texturecan",
+      "title": "Punched or Perforated Metal Sheet Texture with Rust",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/107/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/metal_0016/metal_0016_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:rusty-painted-metal-01",
+      "provider": "cgbookcase",
+      "title": "Rusty Painted Metal 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/rusty-painted-metal-01",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Rusty_painted_metal_01_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Rust008",
+      "provider": "ambientcg",
+      "title": "Rust 008",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Rust008",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Rust008.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:rust-semi-seamless",
+      "provider": "opengameart",
+      "title": "Rust (semi seamless)",
+      "type": "texture",
+      "url": "https://opengameart.org/content/rust-semi-seamless",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/rusts_0.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "polyhaven:rusty_metal_02",
+      "provider": "polyhaven",
+      "title": "Rusty Metal 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/rusty_metal_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/rusty_metal_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:b0da3ff4-6dad-4667-b8c4-c6a6a9cfafa2",
+      "provider": "blenderkit",
+      "title": "Rust",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/b0da3ff4-6dad-4667-b8c4-c6a6a9cfafa2/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6911dc45d1854c6c89fe41aa91ffab30/files/thumbnail_fbf0d014-35b2-4987-9032-d52a807f0b5b.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Linka Palm",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "cgbookcase:rusty-metal-panel-01",
+      "provider": "cgbookcase",
+      "title": "Rusty Metal Panel 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/rusty-metal-panel-01",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Rusty_metal_panel_01_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Rust006",
+      "provider": "ambientcg",
+      "title": "Rust 006",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Rust006",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Rust006.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:rusty_metal_04",
+      "provider": "polyhaven",
+      "title": "Rusty Metal 04",
+      "type": "material",
+      "url": "https://polyhaven.com/a/rusty_metal_04",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/rusty_metal_04.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Amal Kumar",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:128a962f-05cb-48af-bd73-c92d38846bd5",
+      "provider": "blenderkit",
+      "title": "Iron Rust",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/128a962f-05cb-48af-bd73-c92d38846bd5/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/635b5df4480d4e23b745c56c18940cfd/files/thumbnail_98d6fb7a-4da1-4c66-a774-129014321ab3.webp.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Free poly",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "ambientcg:Rust004",
+      "provider": "ambientcg",
+      "title": "Rust 004",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Rust004",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Rust004.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "cgbookcase:rusty-corrugated-metal-panel-02",
+      "provider": "cgbookcase",
+      "title": "Rusty Corrugated Metal Panel 02",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/rusty-corrugated-metal-panel-02",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Rusty_corrugated_metal_panel_02_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtexel:rust-decal-decals-17",
+      "provider": "threedtexel",
+      "title": "Orange Rust Scratches – Decal",
+      "type": "texture",
+      "url": "https://3dtexel.com/product/rust-decal-decals-17/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/05/Untitled_Face-178-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Metal063",
+      "provider": "ambientcg",
+      "title": "Metal 063",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Metal063",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Metal063.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "sharetextures:rusty-metal-2",
+      "provider": "sharetextures",
+      "title": "Rusty Metal 2",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/metal/rusty-metal-2",
+      "thumbnailUrl": "https://images.sharetextures.com/u/metal_rusty_2_mat-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:rusty-corrugated-metal-panel-01",
+      "provider": "cgbookcase",
+      "title": "Rusty Corrugated Metal Panel 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/rusty-corrugated-metal-panel-01",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Rusty_corrugated_metal_panel_01_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "blenderkit:1cd17658-e2ad-4948-8ba2-20350c43d608",
+      "provider": "blenderkit",
+      "title": "Steel with procedural rust spots",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/1cd17658-e2ad-4948-8ba2-20350c43d608/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/093dacbe63f046e2be74855c8dec2ea6/files/thumbnail_0ba0a84e-88de-42a7-8c87-8ac7aac50548.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Gabriel Dobrachinski",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ]
+    }
+  ]
+}
