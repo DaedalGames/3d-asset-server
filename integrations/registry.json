@@ -187,6 +187,25 @@
   ],
   "rejected": [
     {
+      "name": "Icosa Gallery",
+      "homepage": "https://icosa.gallery",
+      "checkedAt": "2026-10-13",
+      "reason": "public keyless API with about 130,000 CC0/CC-BY models, but uncached searches took 30-35 seconds, longer than the server's 15 second request timeout; mostly Tilt Brush sketches",
+      "recheckAfter": "2027-01-11"
+    },
+    {
+      "name": "Texture Labs",
+      "homepage": "https://texturelabs.org",
+      "checkedAt": "2026-10-13",
+      "reason": "photographic 2D textures for Photoshop with no catalogue in the WordPress REST API (posts endpoint reports 0), so no reliable search"
+    },
+    {
+      "name": "Public Domain Textures",
+      "homepage": "https://www.publicdomaintextures.com",
+      "checkedAt": "2026-10-13",
+      "reason": "domain now serves an unrelated gambling spam page and no longer hosts textures"
+    },
+    {
       "name": "OpenHDRI",
       "homepage": "https://openhdri.org",
       "checkedAt": "2026-10-12",
