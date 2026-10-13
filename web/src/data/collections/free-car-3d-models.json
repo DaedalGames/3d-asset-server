@@ -21,7 +21,7 @@
       "lego"
     ]
   },
-  "updatedAt": "2026-10-12T12:26:17.856Z",
+  "updatedAt": "2026-10-13T12:08:56.695Z",
   "assets": [
     {
       "id": "polyhaven:covered_car",
@@ -391,29 +391,6 @@
       "free": true
     },
     {
-      "id": "blenderkit:067b53b7-f96f-4270-ad7c-8731afa7435a",
-      "provider": "blenderkit",
-      "title": "Police Ford Car",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/067b53b7-f96f-4270-ad7c-8731afa7435a/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/2a6562812a7a4479b6554920abda5fe9/files/thumbnail_abf8d045-5c03-43a7-84d2-88b925edb88b.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Suzanne studio",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k",
-      "polyCount": 69335,
-      "rigged": true
-    },
-    {
       "id": "itchio:dejunes/lowpoly-3d-car-v3",
       "provider": "itchio",
       "title": "Lowpoly 3D Car V3",
@@ -595,6 +572,16 @@
         "commercialUse": true,
         "attributionRequired": false
       },
+      "free": true
+    },
+    {
+      "id": "opengameart:car-kit",
+      "provider": "opengameart",
+      "title": "Car Kit",
+      "type": "model",
+      "url": "https://opengameart.org/content/car-kit",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/preview_1375.png",
+      "downloadable": true,
       "free": true
     }
   ]

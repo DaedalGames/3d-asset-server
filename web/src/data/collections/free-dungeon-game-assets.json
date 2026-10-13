@@ -12,7 +12,7 @@
       "dungeon and dragons"
     ]
   },
-  "updatedAt": "2026-10-08T11:36:31.597Z",
+  "updatedAt": "2026-10-13T12:09:05.051Z",
   "assets": [
     {
       "id": "blenderkit:bb93c779-bf60-439b-96d2-99167435443d",
@@ -236,30 +236,6 @@
       "free": true
     },
     {
-      "id": "polyfork:wall-manacle-fitting-e80d3a",
-      "provider": "polyfork",
-      "title": "Wall Manacle Fitting",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/wall-manacle-fitting-e80d3a",
-      "thumbnailUrl": "https://polyfork.dev/files/wall-manacle-fitting-e80d3a/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 554,
-      "rigged": true
-    },
-    {
       "id": "itchio:farm-animal/dungeon-pack",
       "provider": "itchio",
       "title": "Super Retro World • Dungeon Pack",
@@ -432,29 +408,6 @@
       "polyCount": 180
     },
     {
-      "id": "polyfork:spear-e9824e",
-      "provider": "polyfork",
-      "title": "Spear",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/spear-e9824e",
-      "thumbnailUrl": "https://polyfork.dev/files/spear-e9824e/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 586
-    },
-    {
       "id": "itchio:prominent/8x8-dungeon",
       "provider": "itchio",
       "title": "Dungeon 8x8",
@@ -605,29 +558,6 @@
       "polyCount": 138
     },
     {
-      "id": "polyfork:fallen-ashlar-block-87824e",
-      "provider": "polyfork",
-      "title": "Fallen Ashlar Block",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/fallen-ashlar-block-87824e",
-      "thumbnailUrl": "https://polyfork.dev/files/fallen-ashlar-block-87824e/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 576
-    },
-    {
       "id": "threedassets:dungeon-room-builder-three-room-dungeon-f16c3a34-starter-scene",
       "provider": "threedassets",
       "title": "Three Room Dungeon (Dungeon Room Builder)",
@@ -689,6 +619,36 @@
         "glb"
       ],
       "polyCount": 288
+    },
+    {
+      "id": "opengameart:3d-castle-dungeon-tileset-extended",
+      "provider": "opengameart",
+      "title": "3D Castle / Dungeon Tileset Extended",
+      "type": "model",
+      "url": "https://opengameart.org/content/3d-castle-dungeon-tileset-extended",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/3d-tileset-extended.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:modular-dungeon-3d-models",
+      "provider": "opengameart",
+      "title": "Modular Dungeon - 3D Models",
+      "type": "model",
+      "url": "https://opengameart.org/content/modular-dungeon-3d-models",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/dungeon1.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:dungeon-assets",
+      "provider": "opengameart",
+      "title": "Dungeon Assets",
+      "type": "model",
+      "url": "https://opengameart.org/content/dungeon-assets",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/1_113.png",
+      "downloadable": true,
+      "free": true
     }
   ]
 }

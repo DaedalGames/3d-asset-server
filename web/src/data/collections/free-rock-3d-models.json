@@ -15,7 +15,7 @@
       "preview for"
     ]
   },
-  "updatedAt": "2026-10-10T10:48:29.504Z",
+  "updatedAt": "2026-10-13T12:09:38.909Z",
   "assets": [
     {
       "id": "polyhaven:rock_moss_set_02",
@@ -41,29 +41,6 @@
       ],
       "maxResolution": "8k",
       "polyCount": 57647
-    },
-    {
-      "id": "polyfork:rock-bommie-column-0f8a9b",
-      "provider": "polyfork",
-      "title": "Rock Bommie Column",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/rock-bommie-column-0f8a9b",
-      "thumbnailUrl": "https://polyfork.dev/files/rock-bommie-column-0f8a9b/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 334
     },
     {
       "id": "blenderkit:11e7b11c-87ac-4aa0-b2da-aa3b00ced7ad",
@@ -273,29 +250,6 @@
       ],
       "maxResolution": "8k",
       "polyCount": 2037497
-    },
-    {
-      "id": "polyfork:aquascape-rock-arch-48bf5e",
-      "provider": "polyfork",
-      "title": "Aquascape Rock Arch",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/aquascape-rock-arch-48bf5e",
-      "thumbnailUrl": "https://polyfork.dev/files/aquascape-rock-arch-48bf5e/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 536
     },
     {
       "id": "sharetextures:rock_6",
@@ -736,6 +690,50 @@
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/screenshot003.jpg",
       "downloadable": true,
       "free": true
+    },
+    {
+      "id": "sketchfab:8063692b097e48329a7f78069557f92c",
+      "provider": "sketchfab",
+      "title": "Inkwell from Bell Rock Lighthouse",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-8063692b097e48329a7f78069557f92c",
+      "thumbnailUrl": "https://media.sketchfab.com/models/8063692b097e48329a7f78069557f92c/thumbnails/2ba8b144e6d549e3a1116b6f55a98904/46a802ce521a4b93a8718223706f1c72.jpeg",
+      "downloadable": false,
+      "author": "Scottish Maritime Museum",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 37992
+    },
+    {
+      "id": "threedassets:wipe-day-survival-island-rock-8ac00412",
+      "provider": "threedassets",
+      "title": "Rock (Wipe Day Survival Island)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/wipe-day-survival-island-rock-8ac00412",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/27479/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 66
     }
   ]
 }
