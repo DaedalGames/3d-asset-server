@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-07T09:05:37.232Z",
+  "updatedAt": "2026-10-14T09:43:22.694Z",
   "assets": [
     {
       "id": "polyhaven:ornate_medieval_dagger",
@@ -228,29 +228,6 @@
       "downloadable": false,
       "author": "ALSTRA INFINITE",
       "free": true
-    },
-    {
-      "id": "blenderkit:d1a54956-ffc7-4891-9745-3a039ff51f69",
-      "provider": "blenderkit",
-      "title": "Medieval House",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/d1a54956-ffc7-4891-9745-3a039ff51f69/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/8f13c78d5e604faabcf6684e85c857d6/files/thumbnail_b4c6e866-5f79-46ff-8571-6f3c83aaf3a8.png.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Nana Nurzhau",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "2k",
-      "polyCount": 20916
     },
     {
       "id": "polyfork:wheat-plant-7f29a1",
@@ -644,6 +621,16 @@
         "commercialUse": true,
         "attributionRequired": false
       },
+      "free": true
+    },
+    {
+      "id": "opengameart:medieval-containers",
+      "provider": "opengameart",
+      "title": "Medieval Containers",
+      "type": "model",
+      "url": "https://opengameart.org/content/medieval-containers",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/medium_e0b4ebaf9099c300a8f75f44769274bd.jpg",
+      "downloadable": true,
       "free": true
     }
   ]
