@@ -187,6 +187,45 @@
   ],
   "rejected": [
     {
+      "name": "CC0 Textures",
+      "homepage": "https://cc0-textures.com",
+      "checkedAt": "2026-10-14",
+      "reason": "re-hosts textures from other vendors such as ShareTextures (vendor field on each page), which we already search; no public search API"
+    },
+    {
+      "name": "FurniMesh",
+      "homepage": "https://furnimesh.com",
+      "checkedAt": "2026-10-14",
+      "reason": "furniture-only GLB library with no stated licence for downloads, no API, terms silent on automated access, and an AI generator upsell",
+      "recheckAfter": "2027-01-12"
+    },
+    {
+      "name": "Cinevva game assets",
+      "homepage": "https://app.cinevva.com",
+      "checkedAt": "2026-10-14",
+      "reason": "aggregator of Kenney, Quaternius, Poly Haven, ambientCG and others we already search; robots.txt disallows /api/"
+    },
+    {
+      "name": "game-icons.net",
+      "homepage": "https://game-icons.net",
+      "checkedAt": "2026-10-14",
+      "reason": "about 4,000 CC-BY 2D SVG icons, but search is client-side Algolia and listings span six sitemaps, too many requests per search; not 3D",
+      "recheckAfter": "2027-01-12"
+    },
+    {
+      "name": "BlendSwap",
+      "homepage": "https://www.blendswap.com",
+      "checkedAt": "2026-10-14",
+      "reason": "automated requests get HTTP 403, so no search access could be verified",
+      "recheckAfter": "2027-01-12"
+    },
+    {
+      "name": "FreePBR",
+      "homepage": "https://freepbr.com",
+      "checkedAt": "2026-10-14",
+      "reason": "automated requests get HTTP 403 and textures are personal-use only with a paid commercial licence"
+    },
+    {
       "name": "Icosa Gallery",
       "homepage": "https://icosa.gallery",
       "checkedAt": "2026-10-13",
