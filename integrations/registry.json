@@ -187,6 +187,47 @@
   ],
   "rejected": [
     {
+      "name": "NASA 3D Resources",
+      "homepage": "https://science.nasa.gov/3d-resources/",
+      "checkedAt": "2026-10-15",
+      "reason": "about 375 free NASA models, but the listing and filters are JavaScript-driven, not in the WordPress REST API, and the content-list endpoint is undocumented, so no reliable search",
+      "recheckAfter": "2027-01-13"
+    },
+    {
+      "name": "Hackingtons free game art",
+      "homepage": "https://www.hackingtons.com/free-game-art",
+      "checkedAt": "2026-10-15",
+      "reason": "curated directory linking to Kenney, OpenGameArt, itch.io and other sites we already search; hosts no assets"
+    },
+    {
+      "name": "Thingiverse",
+      "homepage": "https://www.thingiverse.com",
+      "checkedAt": "2026-10-15",
+      "reason": "automated requests get HTTP 403 and it is a 3D-printing STL site that needs an API token",
+      "recheckAfter": "2027-01-13"
+    },
+    {
+      "name": "MyMiniFactory",
+      "homepage": "https://www.myminifactory.com",
+      "checkedAt": "2026-10-15",
+      "reason": "automated requests get HTTP 403; 3D-printing models with mixed paid licences",
+      "recheckAfter": "2027-01-13"
+    },
+    {
+      "name": "CraftPix",
+      "homepage": "https://craftpix.net",
+      "checkedAt": "2026-10-15",
+      "reason": "automated requests get HTTP 403 and most assets are paid under a custom licence",
+      "recheckAfter": "2027-01-13"
+    },
+    {
+      "name": "Printables",
+      "homepage": "https://www.printables.com",
+      "checkedAt": "2026-10-15",
+      "reason": "automated requests get HTTP 403 and it is a 3D-printing site with a login-gated GraphQL API",
+      "recheckAfter": "2027-01-13"
+    },
+    {
       "name": "CC0 Textures",
       "homepage": "https://cc0-textures.com",
       "checkedAt": "2026-10-14",
