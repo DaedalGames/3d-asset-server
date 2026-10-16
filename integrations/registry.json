@@ -183,9 +183,31 @@
       "access": "api",
       "addedAt": "2026-10-11",
       "addedBy": "agent"
+    },
+    {
+      "id": "wikimediacommons",
+      "name": "Wikimedia Commons",
+      "homepage": "https://commons.wikimedia.org",
+      "access": "api",
+      "addedAt": "2026-10-16",
+      "addedBy": "agent"
     }
   ],
   "rejected": [
+    {
+      "name": "AMD GPUOpen MaterialX Library",
+      "homepage": "https://matlib.gpuopen.com",
+      "checkedAt": "2026-10-16",
+      "reason": "keyless API lists about 454 free materials, but the licence and plain-GET package downloads were not verified this run; worth a closer look later",
+      "recheckAfter": "2027-01-14"
+    },
+    {
+      "name": "NIH 3D",
+      "homepage": "https://3d.nih.gov",
+      "checkedAt": "2026-10-16",
+      "reason": "Next.js app with no documented public search API (robots.txt and guessed API paths return 404 pages); mostly 3D-printing biomedical models",
+      "recheckAfter": "2027-01-14"
+    },
     {
       "name": "NASA 3D Resources",
       "homepage": "https://science.nasa.gov/3d-resources/",

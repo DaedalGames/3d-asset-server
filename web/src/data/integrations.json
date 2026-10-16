@@ -1,6 +1,13 @@
 {
   "integrations": [
     {
+      "id": "wikimediacommons",
+      "name": "Wikimedia Commons",
+      "homepage": "https://commons.wikimedia.org",
+      "addedAt": "2026-10-16",
+      "addedBy": "agent"
+    },
+    {
       "id": "freestylized",
       "name": "FreeStylized",
       "homepage": "https://freestylized.com",
@@ -162,5 +169,5 @@
       "addedBy": "launch"
     }
   ],
-  "rejected": 25
+  "rejected": 27
 }

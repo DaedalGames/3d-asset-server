@@ -2,7 +2,7 @@
   <img src="docs/images/banner.svg" width="100%" alt="3D Asset Server: one search box for 3D models, materials, textures, HDRIs and game assets. HTTP API, MCP server, web UI and CLI.">
 </p>
 
-**3d-asset-server** searches 23 asset sites at once and downloads what you pick, ready to drop
+**3d-asset-server** searches 24 asset sites at once and downloads what you pick, ready to drop
 into a game or a website. Use it from a browser, from `curl`, from the command line, or let your AI
 assistant drive it over MCP.
 
@@ -67,6 +67,7 @@ and a link to the same search on that site.
 | [Polyfork](https://polyfork.dev) | Low-poly models and themed kits for web and games | API | yes for free assets (GLB from Polyfork's CDN); FBX / USDZ / OBJ need an account | royalty free, no redistribution |
 | [3DAssets.dev](https://3dassets.dev) | Web-optimised GLB models: props, nature, buildings, vehicles | API | yes: GLB from its CDN | CC0 |
 | [Sketchfab](https://sketchfab.com) | Community 3D models: scans, props, characters (CC0 subset) | API | no: downloads need a Sketchfab login | CC0 |
+| [Wikimedia Commons](https://commons.wikimedia.org) | STL scans, anatomy, reconstructions and printable parts | API | yes: STL from Wikimedia's CDN | per file (CC0, public domain, CC-BY, CC-BY-SA) |
 | [3DTextures.me](https://3dtextures.me) | Realistic and stylized PBR | WordPress API | no: Google Drive folders | CC0 |
 | [FreeStylized](https://freestylized.com) | Stylized models, materials, skyboxes and asset packs | WordPress API | no: Google Drive links | royalty free (custom CC0) |
 | [3DTexel](https://3dtexel.com) | PBR materials, HDRIs, decals, 3D assets | API | no: downloads need a free account | CC0 |
@@ -79,7 +80,7 @@ and a link to the same search on that site.
 | [TurboSquid](https://www.turbosquid.com) | Free and paid models | link only (bot wall) | no | per listing |
 | [itch.io](https://itch.io/game-assets) | Indie art, 3D packs, UI, audio | scrape | no: itch's download flow | per listing |
 
-![Sources by what they give you: 9 with search and direct download, 11 with search and a link to the asset page, 3 linked to their own search.](docs/images/source-access.svg)
+![Sources by what they give you: 10 with search and direct download, 11 with search and a link to the asset page, 3 linked to their own search.](docs/images/source-access.svg)
 
 Notes:
 

@@ -20,6 +20,7 @@ import { texturescom } from "./texturescom.js";
 import { threedassets } from "./threedassets.js";
 import { threedtexel } from "./threedtexel.js";
 import { threedtextures } from "./threedtextures.js";
+import { wikimediacommons } from "./wikimediacommons.js";
 
 /** Every built-in provider, in the order results are reported. */
 export const allProviders: Provider[] = [
@@ -37,6 +38,7 @@ export const allProviders: Provider[] = [
   sketchfab,
   threedtextures,
   freestylized,
+  wikimediacommons,
   threedtexel,
   texturecan,
   opengameart,

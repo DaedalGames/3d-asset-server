@@ -211,6 +211,19 @@
     "supportsDownload": false
   },
   {
+    "id": "wikimediacommons",
+    "name": "Wikimedia Commons",
+    "homepage": "https://commons.wikimedia.org",
+    "description": "Free 3D files (STL scans, anatomy, reconstructions, printable parts) from Wikipedia's media archive; each file has its own CC0, public-domain or CC-BY(-SA) licence.",
+    "assetTypes": [
+      "model"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": null,
+    "supportsDownload": true
+  },
+  {
     "id": "threedtexel",
     "name": "3DTexel",
     "homepage": "https://3dtexel.com",
