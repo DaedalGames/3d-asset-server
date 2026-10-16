@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-07T09:05:28.378Z",
+  "updatedAt": "2026-10-16T09:16:49.622Z",
   "assets": [
     {
       "id": "polyhaven:red_brick",
@@ -285,17 +285,6 @@
         "commercialUse": true,
         "attributionRequired": false
       },
-      "free": true
-    },
-    {
-      "id": "itchio:juliovii/materials-bricks-walls",
-      "provider": "itchio",
-      "title": "Materials Bricks & Walls",
-      "type": "material",
-      "url": "https://juliovii.itch.io/materials-bricks-walls",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI5ODkyMjQ2LmpwZw==/315x250%23c/qO4qGh.jpg",
-      "downloadable": false,
-      "author": "JulioVII",
       "free": true
     },
     {
@@ -677,6 +666,16 @@
         "png"
       ],
       "maxResolution": "16k"
+    },
+    {
+      "id": "opengameart:free-urban-textures-walls-brick-stone-part-1",
+      "provider": "opengameart",
+      "title": "Free Urban Textures: Walls, Brick, Stone, Part 1",
+      "type": "texture",
+      "url": "https://opengameart.org/content/free-urban-textures-walls-brick-stone-part-1",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/walls-brick-stone-tiles-1.png",
+      "downloadable": true,
+      "free": true
     }
   ]
 }

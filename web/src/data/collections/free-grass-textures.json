@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-07T09:05:34.903Z",
+  "updatedAt": "2026-10-16T09:16:59.510Z",
   "assets": [
     {
       "id": "polyhaven:aerial_grass_rock",
@@ -159,17 +159,6 @@
       },
       "free": true,
       "maxResolution": "8K"
-    },
-    {
-      "id": "itchio:shadow-jems/jems-grass-16x16-tile-map",
-      "provider": "itchio",
-      "title": "16x16 Grass texture",
-      "type": "texture",
-      "url": "https://shadow-jems.itch.io/jems-grass-16x16-tile-map",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI1NDg3NTAwLnBuZw==/315x250%23c/Qjc3e%2F.png",
-      "downloadable": false,
-      "author": "Shadow_jems",
-      "free": true
     },
     {
       "id": "polyhaven:leafy_grass",
@@ -700,6 +689,16 @@
         "blend"
       ],
       "maxResolution": "2k"
+    },
+    {
+      "id": "opengameart:wall-grass-rock-stone-wood-and-dirt-480",
+      "provider": "opengameart",
+      "title": "Wall, grass, rock, stone, wood and dirt (480)",
+      "type": "texture",
+      "url": "https://opengameart.org/content/wall-grass-rock-stone-wood-and-dirt-480",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/all_3.jpg",
+      "downloadable": true,
+      "free": true
     }
   ]
 }

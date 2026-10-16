@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-07T09:05:33.950Z",
+  "updatedAt": "2026-10-16T09:16:58.642Z",
   "assets": [
     {
       "id": "kenney:ui-pack",
@@ -206,17 +206,6 @@
       "free": true
     },
     {
-      "id": "itchio:black-spot-tm/ui-pack-1-cars-ui",
-      "provider": "itchio",
-      "title": "UI PACK #1 (CARS UI)",
-      "type": "ui",
-      "url": "https://black-spot-tm.itch.io/ui-pack-1-cars-ui",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4MDcwMjM2LnBuZw==/315x250%23c/S13mQC.png",
-      "downloadable": false,
-      "author": "BLACK SPOT",
-      "free": true
-    },
-    {
       "id": "itchio:nedokontent/ui-wooden-controls",
       "provider": "itchio",
       "title": "UI: Wooden Controls for Gamepad/Keyboard",
@@ -280,6 +269,17 @@
       "thumbnailUrl": "https://img.itch.zone/aW1nLzEzMTEwNjA1LnBuZw==/315x250%23c/W76Kxg.png",
       "downloadable": false,
       "author": "rlolo88",
+      "free": true
+    },
+    {
+      "id": "itchio:dogobongocat/ui-assets-pack-2",
+      "provider": "itchio",
+      "title": "UI assets pack 2 :)",
+      "type": "ui",
+      "url": "https://dogobongocat.itch.io/ui-assets-pack-2",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzEwOTgyODMyLmdpZg==/315x250%23c/%2BvtzHX.gif",
+      "downloadable": false,
+      "author": "Dogobongocat",
       "free": true
     }
   ]

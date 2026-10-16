@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-10T10:47:49.159Z",
+  "updatedAt": "2026-10-16T09:16:48.058Z",
   "assets": [
     {
       "id": "kenney:animated-characters-protagonists",
@@ -258,18 +258,6 @@
       "polyCount": 10350,
       "animated": true,
       "rigged": true
-    },
-    {
-      "id": "itchio:woshi-gang-studio-gaming/lowpoly-dungeon-kit-animated-3d",
-      "provider": "itchio",
-      "title": "Free — Low-Poly Dungeon Kit — Animated 3D Characters & Modular Environment (Woshi)",
-      "type": "model",
-      "url": "https://woshi-gang-studio-gaming.itch.io/lowpoly-dungeon-kit-animated-3d",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4NzY0NjI1LnBuZw==/315x250%23c/WlOydP.png",
-      "downloadable": false,
-      "author": "Woshi Gang Studio Gaming",
-      "free": true,
-      "animated": true
     },
     {
       "id": "quaternius:animatedmen",
@@ -616,6 +604,16 @@
       "type": "model",
       "url": "https://opengameart.org/content/low-poly-animated-character",
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/screenshot_2_4.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:animated-character-0",
+      "provider": "opengameart",
+      "title": "Animated Character",
+      "type": "model",
+      "url": "https://opengameart.org/content/animated-character-0",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/rotation_360_lowres.gif",
       "downloadable": true,
       "free": true
     }
