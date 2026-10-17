@@ -195,6 +195,46 @@
   ],
   "rejected": [
     {
+      "name": "CGHEVEN",
+      "homepage": "https://cgheven.com",
+      "checkedAt": "2026-10-17",
+      "reason": "about 840 mostly VFX assets; the JSON API needs a paid API Access token and robots.txt disallows /api/, the licence forbids redistribution and AI use, and free files are limited to 1K/2K",
+      "recheckAfter": "2027-01-15"
+    },
+    {
+      "name": "Stylized Textures",
+      "homepage": "https://stylizedtextures.com",
+      "checkedAt": "2026-10-17",
+      "reason": "catalogue is loaded client-side from categories.json, which robots.txt disallows (*.json), so no allowed way to search it",
+      "recheckAfter": "2027-01-15"
+    },
+    {
+      "name": "The Base Mesh",
+      "homepage": "https://www.thebasemesh.com",
+      "checkedAt": "2026-10-17",
+      "reason": "Wix site rendered by JavaScript with no REST API, sitemap listing or server-side search pages to read",
+      "recheckAfter": "2027-01-15"
+    },
+    {
+      "name": "Sloyd free 3D models",
+      "homepage": "https://www.sloyd.ai/free-3d-models",
+      "checkedAt": "2026-10-17",
+      "reason": "free models are outputs of an AI generator (about 733 listed), robots.txt disallows /search and the list uses a Load more button with no search; AI-generated content"
+    },
+    {
+      "name": "Meshy free 3D models",
+      "homepage": "https://www.meshy.ai/free-3d-models",
+      "checkedAt": "2026-10-17",
+      "reason": "gallery of AI-generated models from a generator service, not a curated asset catalogue"
+    },
+    {
+      "name": "Open3dModel",
+      "homepage": "https://open3dmodel.com",
+      "checkedAt": "2026-10-17",
+      "reason": "automated requests get HTTP 403, and it reports no new models this week, so access and freshness could not be verified",
+      "recheckAfter": "2027-01-15"
+    },
+    {
       "name": "AMD GPUOpen MaterialX Library",
       "homepage": "https://matlib.gpuopen.com",
       "checkedAt": "2026-10-16",
