@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-08T11:36:41.134Z",
+  "updatedAt": "2026-10-17T08:48:14.947Z",
   "assets": [
     {
       "id": "blenderkit:0f1918d7-7350-43a8-a012-469ddc446b35",
@@ -91,7 +91,7 @@
         "blend",
         "glb"
       ],
-      "maxResolution": "1k",
+      "maxResolution": "2k",
       "polyCount": 50262
     },
     {

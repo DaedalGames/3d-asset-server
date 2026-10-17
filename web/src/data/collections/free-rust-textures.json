@@ -19,7 +19,7 @@
       "Corrugated Iron"
     ]
   },
-  "updatedAt": "2026-10-15T09:24:37.558Z",
+  "updatedAt": "2026-10-17T08:48:42.182Z",
   "assets": [
     {
       "id": "polyhaven:green_metal_rust",
@@ -446,27 +446,6 @@
       "maxResolution": "8k"
     },
     {
-      "id": "blenderkit:b0da3ff4-6dad-4667-b8c4-c6a6a9cfafa2",
-      "provider": "blenderkit",
-      "title": "Rust",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/b0da3ff4-6dad-4667-b8c4-c6a6a9cfafa2/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6911dc45d1854c6c89fe41aa91ffab30/files/thumbnail_fbf0d014-35b2-4987-9032-d52a807f0b5b.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Linka Palm",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "2k"
-    },
-    {
       "id": "cgbookcase:rusty-metal-panel-01",
       "provider": "cgbookcase",
       "title": "Rusty Metal Panel 01",
@@ -679,6 +658,27 @@
         "blend"
       ],
       "maxResolution": "4k"
+    },
+    {
+      "id": "blenderkit:b7f4ebde-25cb-4ec4-a2ee-2c4f8c6f4bc5",
+      "provider": "blenderkit",
+      "title": "Rust",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/b7f4ebde-25cb-4ec4-a2ee-2c4f8c6f4bc5/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/38bc52f18a224d1b8d87125e1ecf46f5/files/thumbnail_4bbb1c84-a16d-455b-9b2d-299667c415a6.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "James Middleton",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
     }
   ]
 }

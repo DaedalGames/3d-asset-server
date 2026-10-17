@@ -21,7 +21,7 @@
       "lego"
     ]
   },
-  "updatedAt": "2026-10-13T12:08:56.695Z",
+  "updatedAt": "2026-10-17T08:48:02.610Z",
   "assets": [
     {
       "id": "polyhaven:covered_car",
@@ -380,51 +380,6 @@
       "free": true
     },
     {
-      "id": "itchio:dejunes/lowpoly-3d-car-31",
-      "provider": "itchio",
-      "title": "Lowpoly 3D Car 3.1",
-      "type": "model",
-      "url": "https://dejunes.itch.io/lowpoly-3d-car-31",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzEyNjE4OTgxLnBuZw==/315x250%23c/5oGQLB.png",
-      "downloadable": false,
-      "author": "DeJunes",
-      "free": true
-    },
-    {
-      "id": "itchio:dejunes/lowpoly-3d-car-v3",
-      "provider": "itchio",
-      "title": "Lowpoly 3D Car V3",
-      "type": "model",
-      "url": "https://dejunes.itch.io/lowpoly-3d-car-v3",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzEyNjEyNzMyLnBuZw==/315x250%23c/m%2B3zIt.png",
-      "downloadable": false,
-      "author": "DeJunes",
-      "free": true
-    },
-    {
-      "id": "blenderkit:019030bb-74cc-451e-ad66-55ae7dda47ca",
-      "provider": "blenderkit",
-      "title": "Police Sheriff car",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/019030bb-74cc-451e-ad66-55ae7dda47ca/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1ac542409cb847e18e327645f4052730/files/thumbnail_8cdea5cd-ee10-4a56-b7f3-38eabaee4688.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Suzanne studio",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "2k",
-      "polyCount": 38630,
-      "rigged": true
-    },
-    {
       "id": "threedassets:stock-car-oval-speedway-stock-car-damaged-6a429ea6",
       "provider": "threedassets",
       "title": "Stock car with crumpled quarter (Stock Car Oval Speedway)",
@@ -583,6 +538,70 @@
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/preview_1375.png",
       "downloadable": true,
       "free": true
+    },
+    {
+      "id": "wikimediacommons:Car_țărănesc_-_ef6fd0565652489fb509e2b1c8c5e937.stl",
+      "provider": "wikimediacommons",
+      "title": "Car țărănesc - ef6fd0565652489fb509e2b1c8c5e937",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:Car_%C8%9B%C4%83r%C4%83nesc_-_ef6fd0565652489fb509e2b1c8c5e937.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Car_%C8%9B%C4%83r%C4%83nesc_-_ef6fd0565652489fb509e2b1c8c5e937.stl/960px-Car_%C8%9B%C4%83r%C4%83nesc_-_ef6fd0565652489fb509e2b1c8c5e937.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Institutul Național al Patrimoniului",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Aston_Martin_F1_AMR23_2023.stl",
+      "provider": "wikimediacommons",
+      "title": "Aston Martin F1 AMR23 2023",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:Aston_Martin_F1_AMR23_2023.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Aston_Martin_F1_AMR23_2023.stl/960px-Aston_Martin_F1_AMR23_2023.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Redgrund",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    },
+    {
+      "id": "sketchfab:91a1fad2ce8a454891a125c959428dbf",
+      "provider": "sketchfab",
+      "title": "1939.678 Streamline Automobile",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-91a1fad2ce8a454891a125c959428dbf",
+      "thumbnailUrl": "https://media.sketchfab.com/models/91a1fad2ce8a454891a125c959428dbf/thumbnails/7e3249c434b14d7fb631f684c8d4f6e1/5c1b25cb723445a5b13621040e15f051.jpeg",
+      "downloadable": false,
+      "author": "Cleveland Museum of Art",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 100000,
+      "animated": true
     }
   ]
 }
