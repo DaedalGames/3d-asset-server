@@ -21,7 +21,7 @@
       "lego"
     ]
   },
-  "updatedAt": "2026-10-17T08:48:02.610Z",
+  "updatedAt": "2026-10-18T09:03:49.828Z",
   "assets": [
     {
       "id": "polyhaven:covered_car",
@@ -136,17 +136,6 @@
       "thumbnailUrl": "https://img.itch.zone/aW1nLzI0NzQwMzk3LnBuZw==/315x250%23c/23On9Q.png",
       "downloadable": false,
       "author": "GaminglabplayZ",
-      "free": true
-    },
-    {
-      "id": "itchio:kobypierce123/car-3d",
-      "provider": "itchio",
-      "title": "Car 3D",
-      "type": "model",
-      "url": "https://kobypierce123.itch.io/car-3d",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzMxMjc3OTgucG5n/315x250%23c/4mmSG%2B.png",
-      "downloadable": false,
-      "author": "KobyPierec123",
       "free": true
     },
     {
@@ -366,17 +355,6 @@
       "thumbnailUrl": "https://img.itch.zone/aW1nLzI4NDA2NjEyLnBuZw==/315x250%23c/ZHxYvb.png",
       "downloadable": false,
       "author": "Drad0down",
-      "free": true
-    },
-    {
-      "id": "itchio:aslan-design/low-polly-3d-car",
-      "provider": "itchio",
-      "title": "Low Polly 3D car",
-      "type": "model",
-      "url": "https://aslan-design.itch.io/low-polly-3d-car",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzE5Njk2NzUzLnBuZw==/315x250%23c/gWc%2BrG.png",
-      "downloadable": false,
-      "author": "Aslan",
       "free": true
     },
     {
@@ -602,6 +580,27 @@
       ],
       "polyCount": 100000,
       "animated": true
+    },
+    {
+      "id": "itchio:pepeeldesarollador/car-3d",
+      "provider": "itchio",
+      "title": "car 3D",
+      "type": "model",
+      "url": "https://pepeeldesarollador.itch.io/car-3d",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzMxMDAwNDQ3LnBuZw==/315x250%23c/PGpiIU.png",
+      "downloadable": false,
+      "author": "pepeeldesarollador",
+      "free": true
+    },
+    {
+      "id": "opengameart:rc-car-model",
+      "provider": "opengameart",
+      "title": "RC Car Model",
+      "type": "model",
+      "url": "https://opengameart.org/content/rc-car-model",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/RCCarPreview.png",
+      "downloadable": true,
+      "free": true
     }
   ]
 }
