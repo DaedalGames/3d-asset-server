@@ -237,9 +237,42 @@
     {
       "name": "AMD GPUOpen MaterialX Library",
       "homepage": "https://matlib.gpuopen.com",
-      "checkedAt": "2026-10-16",
-      "reason": "keyless API lists about 454 free materials, but the licence and plain-GET package downloads were not verified this run; worth a closer look later",
-      "recheckAfter": "2027-01-14"
+      "checkedAt": "2026-10-18",
+      "reason": "keyless API and downloads work, but all 454 materials were published and last updated in 2022-2023 (nothing new in over two years) and many are Poly Haven textures we already search",
+      "recheckAfter": "2027-01-16"
+    },
+    {
+      "name": "3Dassets.one",
+      "homepage": "https://3dassets.one",
+      "checkedAt": "2026-10-18",
+      "reason": "search engine aggregating ambientCG, Twinbru and other sources; hosts no assets of its own and has no documented API"
+    },
+    {
+      "name": "Free3D",
+      "homepage": "https://free3d.com",
+      "checkedAt": "2026-10-18",
+      "reason": "automated requests get HTTP 403 with a DataDome JavaScript bot challenge, so no automated search",
+      "recheckAfter": "2027-01-16"
+    },
+    {
+      "name": "HDRI Skies",
+      "homepage": "https://hdri-skies.com",
+      "checkedAt": "2026-10-18",
+      "reason": "automated requests, including the WordPress REST API, get HTTP 403, so no search access could be verified",
+      "recheckAfter": "2027-01-16"
+    },
+    {
+      "name": "RenderHub",
+      "homepage": "https://www.renderhub.com",
+      "checkedAt": "2026-10-18",
+      "reason": "automated requests get HTTP 403 and most models are paid under a custom licence",
+      "recheckAfter": "2027-01-16"
+    },
+    {
+      "name": "Godot Asset Library",
+      "homepage": "https://godotengine.org/asset-library/asset",
+      "checkedAt": "2026-10-18",
+      "reason": "public API works, but listings are mostly scripts and addons that link to GitHub repositories, not 3D asset files"
     },
     {
       "name": "NIH 3D",
