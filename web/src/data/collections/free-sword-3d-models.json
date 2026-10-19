@@ -1,0 +1,636 @@
+{
+  "slug": "free-sword-3d-models",
+  "search": {
+    "q": "sword",
+    "types": [
+      "model"
+    ],
+    "free": true,
+    "exclude": [
+      "Sword Hilt",
+      "scabbard"
+    ]
+  },
+  "updatedAt": "2026-10-19T13:43:55.676Z",
+  "assets": [
+    {
+      "id": "blenderkit:0560133f-1e76-49d9-be20-1f98016baed4",
+      "provider": "blenderkit",
+      "title": "Sword",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/0560133f-1e76-49d9-be20-1f98016baed4/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/c75631ce806b4d9aad9d3b59c94ae5c7/files/thumbnail_d4d7019b-1499-4bca-8e4a-f3a160bef73b.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Vadim Gubey",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "maxResolution": "2k",
+      "polyCount": 3120
+    },
+    {
+      "id": "polyfork:arming-sword-401972",
+      "provider": "polyfork",
+      "title": "Arming Sword",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/arming-sword-401972",
+      "thumbnailUrl": "https://polyfork.dev/files/arming-sword-401972/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 574
+    },
+    {
+      "id": "opengameart:shield-sword",
+      "provider": "opengameart",
+      "title": "Shield & sword",
+      "type": "model",
+      "url": "https://opengameart.org/content/shield-sword",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/BucklerNSwordPreview01.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "sketchfab:f39dc69dbbfe49c68045bec2c16e03ba",
+      "provider": "sketchfab",
+      "title": "The Sword Of Victory",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-f39dc69dbbfe49c68045bec2c16e03ba",
+      "thumbnailUrl": "https://media.sketchfab.com/models/f39dc69dbbfe49c68045bec2c16e03ba/thumbnails/d18f07667f674e0abab33df9316e9435/640x360.jpeg",
+      "downloadable": false,
+      "author": "Arms Museum",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 36770
+    },
+    {
+      "id": "itchio:angry-ivan/sword-3d-model",
+      "provider": "itchio",
+      "title": "Sword 3d model",
+      "type": "model",
+      "url": "https://angry-ivan.itch.io/sword-3d-model",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI2NzcxNjUwLnBuZw==/315x250%23c/x7YSwK.png",
+      "downloadable": false,
+      "author": "Angry Ivan",
+      "free": true
+    },
+    {
+      "id": "blenderkit:e826989b-bd1f-43ae-86a9-e2a279e9d7ef",
+      "provider": "blenderkit",
+      "title": "Knight Sword",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/e826989b-bd1f-43ae-86a9-e2a279e9d7ef/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1cc1f6a7aa9240918315506b38970be4/files/thumbnail_0b01c6c2-8369-4a92-a21c-b3085e585b2f.png.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Muhammed Ismayil",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "maxResolution": "2k",
+      "polyCount": 986
+    },
+    {
+      "id": "polyfork:sword-11907e",
+      "provider": "polyfork",
+      "title": "Sword",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/sword-11907e",
+      "thumbnailUrl": "https://polyfork.dev/files/sword-11907e/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 82
+    },
+    {
+      "id": "opengameart:great-sword",
+      "provider": "opengameart",
+      "title": "Great Sword",
+      "type": "model",
+      "url": "https://opengameart.org/content/great-sword",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Great%20Sword%20unity%20render.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "itchio:fruviri/sword-3d",
+      "provider": "itchio",
+      "title": "Sword \"B'smell\" 3D Model (Low-Poly) /Free",
+      "type": "model",
+      "url": "https://fruviri.itch.io/sword-3d",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzEwMTY1MjU1LmpwZw==/315x250%23c/p%2BzqCP.jpg",
+      "downloadable": false,
+      "author": "Fruviri",
+      "free": true
+    },
+    {
+      "id": "sketchfab:5ac9bfc3ffda47f4b84ff3eda8c796ad",
+      "provider": "sketchfab",
+      "title": "Sword",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-5ac9bfc3ffda47f4b84ff3eda8c796ad",
+      "thumbnailUrl": "https://media.sketchfab.com/models/5ac9bfc3ffda47f4b84ff3eda8c796ad/thumbnails/2df129cdf383449db2578b95a01389c1/398482a05a28469f9797e9e05362ea06.jpeg",
+      "downloadable": false,
+      "author": "Virtual Museums of Małopolska",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 282820
+    },
+    {
+      "id": "blenderkit:76ff1294-efc7-40bd-8b6e-1c3e6f9142c3",
+      "provider": "blenderkit",
+      "title": "Sword Weapon - Low Poly",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/76ff1294-efc7-40bd-8b6e-1c3e6f9142c3/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/2c41ee5b78a841eba41402b5cb4a0a6b/files/thumbnail_94a3e318-3d4f-4778-b438-12575b1dc0d7.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Garshasp",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "maxResolution": "2k",
+      "polyCount": 436
+    },
+    {
+      "id": "polyhaven:antique_katana_01",
+      "provider": "polyhaven",
+      "title": "Antique Katana 01",
+      "type": "model",
+      "url": "https://polyhaven.com/a/antique_katana_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/antique_katana_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Tal Swicegood",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "8k",
+      "polyCount": 6670
+    },
+    {
+      "id": "opengameart:magic-sword",
+      "provider": "opengameart",
+      "title": "Magic Sword",
+      "type": "model",
+      "url": "https://opengameart.org/content/magic-sword",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/sword_preview_0.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "sketchfab:80f66f2dc02c4e38aa26833386ed87e9",
+      "provider": "sketchfab",
+      "title": "“Takuba”, a Tuareg sword",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-80f66f2dc02c4e38aa26833386ed87e9",
+      "thumbnailUrl": "https://media.sketchfab.com/models/80f66f2dc02c4e38aa26833386ed87e9/thumbnails/88579c6c1f684ad99116a256d4322b18/652cb8c31ee440b4970ecf896d4b3ac4.jpeg",
+      "downloadable": false,
+      "author": "Virtual Museums of Małopolska",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 21670
+    },
+    {
+      "id": "itchio:fruviri/sword-3d-model-low-poly",
+      "provider": "itchio",
+      "title": "Gold Sword 3D Model (Low-Poly) /Free",
+      "type": "model",
+      "url": "https://fruviri.itch.io/sword-3d-model-low-poly",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzEwMTM4NTE2LmpwZw==/315x250%23c/1HqhoX.jpg",
+      "downloadable": false,
+      "author": "Fruviri",
+      "free": true
+    },
+    {
+      "id": "opengameart:fantasy-sword",
+      "provider": "opengameart",
+      "title": "Fantasy Sword",
+      "type": "model",
+      "url": "https://opengameart.org/content/fantasy-sword",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/sword_render.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "polyhaven:wooden_handle_saber",
+      "provider": "polyhaven",
+      "title": "Wooden Handle Saber",
+      "type": "model",
+      "url": "https://polyhaven.com/a/wooden_handle_saber",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/wooden_handle_saber.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Ulan Cabanilla",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "4k",
+      "polyCount": 4031
+    },
+    {
+      "id": "sketchfab:2792acbad873460da5c3cc72718b9d3e",
+      "provider": "sketchfab",
+      "title": "071 Schwert / Sword",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-2792acbad873460da5c3cc72718b9d3e",
+      "thumbnailUrl": "https://media.sketchfab.com/models/2792acbad873460da5c3cc72718b9d3e/thumbnails/0dc8e2e6f00a493598af598ab1eedeb4/c6eaee0bc829441aaff30bdd2ce8c79f.jpeg",
+      "downloadable": false,
+      "author": "LWL-Archaeologie",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 999892
+    },
+    {
+      "id": "itchio:free-game-assets/free-sword-3d-low-poly-models",
+      "provider": "itchio",
+      "title": "Free Sword 3D Low Poly Pack",
+      "type": "model",
+      "url": "https://free-game-assets.itch.io/free-sword-3d-low-poly-models",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzY5MDI3MzEuanBn/315x250%23c/ZpvjWl.jpg",
+      "downloadable": false,
+      "author": "Free Game Assets (GUI, Sprite, Tilesets)",
+      "free": true
+    },
+    {
+      "id": "blenderkit:a94f0da9-e546-4c7e-b77f-d4f463615bc9",
+      "provider": "blenderkit",
+      "title": "Stylized Sword",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/a94f0da9-e546-4c7e-b77f-d4f463615bc9/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/64862bb800034800b309301e6c1528f6/files/thumbnail_1825084e-9408-4487-8301-2e18b5c3f5bd.png.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Zuhaib Khoso",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "maxResolution": "2k",
+      "polyCount": 561
+    },
+    {
+      "id": "opengameart:sword",
+      "provider": "opengameart",
+      "title": "sword",
+      "type": "model",
+      "url": "https://opengameart.org/content/sword",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/swordscreenshot.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "polyhaven:antique_estoc",
+      "provider": "polyhaven",
+      "title": "Antique Estoc",
+      "type": "model",
+      "url": "https://polyhaven.com/a/antique_estoc",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/antique_estoc.png?width=512&height=512",
+      "downloadable": true,
+      "author": "James Ray Cock, Ulan Cabanilla",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "8k",
+      "polyCount": 8246
+    },
+    {
+      "id": "itchio:takeytajwar/longsword",
+      "provider": "itchio",
+      "title": "Long Sword (3D Model and Texture Packs)",
+      "type": "model",
+      "url": "https://takeytajwar.itch.io/longsword",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzEwOTQ5NTg0LnBuZw==/315x250%23c/vYUVMu.png",
+      "downloadable": false,
+      "author": "Pronto",
+      "free": true
+    },
+    {
+      "id": "blenderkit:7684ee95-e579-468b-8d5f-81e63910560c",
+      "provider": "blenderkit",
+      "title": "Roman sword",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/7684ee95-e579-468b-8d5f-81e63910560c/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/946189511b3c4bd78b3fcfe61f9bc10f/files/thumbnail_5407a685-63ae-40de-944a-5c95dc4dc7b5.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Manueh3D 3D",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "1k",
+      "polyCount": 2065
+    },
+    {
+      "id": "opengameart:seraphim-sword",
+      "provider": "opengameart",
+      "title": "Seraphim Sword?",
+      "type": "model",
+      "url": "https://opengameart.org/content/seraphim-sword",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/seraphimsword.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "itchio:kanwadiavijay/free-fantasy-sword",
+      "provider": "itchio",
+      "title": "Free Fantasy Sword 3D",
+      "type": "model",
+      "url": "https://kanwadiavijay.itch.io/free-fantasy-sword",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzMwOTQwMDM5LnBuZw==/315x250%23c/IBMB4U.png",
+      "downloadable": false,
+      "author": "kanwadiavijay",
+      "free": true
+    },
+    {
+      "id": "opengameart:lowpoly-sword",
+      "provider": "opengameart",
+      "title": "Lowpoly Sword",
+      "type": "model",
+      "url": "https://opengameart.org/content/lowpoly-sword",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/RegularSwordRender.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "sketchfab:9b2820637d104db7a2bc0813714ee3cd",
+      "provider": "sketchfab",
+      "title": "Sword No. 2",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-9b2820637d104db7a2bc0813714ee3cd",
+      "thumbnailUrl": "https://media.sketchfab.com/models/9b2820637d104db7a2bc0813714ee3cd/thumbnails/da5a98e1015a4698a48162c975164580/35a274f01b0a48e7b7a13a1efafdeff1.jpeg",
+      "downloadable": false,
+      "author": "Virtual Museums of Małopolska",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 500000
+    },
+    {
+      "id": "itchio:pretty-planets/low-poly-shield-and-sword-3d-model-combo",
+      "provider": "itchio",
+      "title": "low poly shield and sword 3d model combo",
+      "type": "model",
+      "url": "https://pretty-planets.itch.io/low-poly-shield-and-sword-3d-model-combo",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI3MjU3ODcyLnBuZw==/315x250%23c/QW47nU.png",
+      "downloadable": false,
+      "author": "pretty_planets",
+      "free": true
+    },
+    {
+      "id": "blenderkit:acb25e1e-1746-4fea-b61e-9f3ad401caea",
+      "provider": "blenderkit",
+      "title": "Flat Great Sword",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/acb25e1e-1746-4fea-b61e-9f3ad401caea/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/3fb45fcb4f7d4c03a0e076138529b880/files/thumbnail_3c534674-9bb9-41cd-9563-2cf9fee42aaf.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Nano Casado",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k",
+      "polyCount": 2300
+    },
+    {
+      "id": "opengameart:short-sword-0",
+      "provider": "opengameart",
+      "title": "Short Sword",
+      "type": "model",
+      "url": "https://opengameart.org/content/short-sword-0",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Simple%20Sword%2001_PREW.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "sketchfab:9ee2226869394808b40fc4395c97d51f",
+      "provider": "sketchfab",
+      "title": "Sword No. 1",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-9ee2226869394808b40fc4395c97d51f",
+      "thumbnailUrl": "https://media.sketchfab.com/models/9ee2226869394808b40fc4395c97d51f/thumbnails/49a26e53b4d84cfb98e32d259ec49b09/e12b817e1af746cd900b21635bcb3eaa.jpeg",
+      "downloadable": false,
+      "author": "Virtual Museums of Małopolska",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 271692
+    },
+    {
+      "id": "blenderkit:51183a27-277a-44be-b6bc-677be6c4751a",
+      "provider": "blenderkit",
+      "title": "Berserker Sword",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/51183a27-277a-44be-b6bc-677be6c4751a/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/52e7481e31064081b804bb725bb32cf3/files/thumbnail_8a506b01-9902-4c64-ad14-d08abab861de.png.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Crazy0_0Cat",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k",
+      "polyCount": 1038
+    },
+    {
+      "id": "itchio:danfoxsa/low-poly-fantasy-sword",
+      "provider": "itchio",
+      "title": "Low Poly Fantasy Sword - 3d Model (FBX, OBJ)",
+      "type": "model",
+      "url": "https://danfoxsa.itch.io/low-poly-fantasy-sword",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzIwNjkwODcyLmpwZw==/315x250%23c/bg5ngx.jpg",
+      "downloadable": false,
+      "author": "DanFoxSa",
+      "free": true
+    },
+    {
+      "id": "opengameart:spartan-sword",
+      "provider": "opengameart",
+      "title": "Spartan Sword",
+      "type": "model",
+      "url": "https://opengameart.org/content/spartan-sword",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/spartansword.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "sketchfab:41a85260835341318aae275e6eb66899",
+      "provider": "sketchfab",
+      "title": "068 Schwertgurtbeschlag / Sword belt fitting",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-41a85260835341318aae275e6eb66899",
+      "thumbnailUrl": "https://media.sketchfab.com/models/41a85260835341318aae275e6eb66899/thumbnails/c4b21a65d1494a9390f80a664aa6f4e1/0f3d642184594e7db49a651392a9a88d.jpeg",
+      "downloadable": false,
+      "author": "LWL-Archaeologie",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "gltf-ar",
+        "usdz"
+      ],
+      "polyCount": 499742
+    }
+  ]
+}
