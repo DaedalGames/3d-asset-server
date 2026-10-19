@@ -391,10 +391,13 @@ jobs:
           set -euo pipefail
           gh pr comment "$PR" --body-file "$RUNNER_TEMP/summary.md"
           if [[ -z "$KEEP" ]]; then
-            gh pr close "$PR" --delete-branch --comment "Every page was withdrawn in review; nothing to merge."
+            gh pr close "$PR" --repo "$GITHUB_REPOSITORY" --delete-branch --comment "Every page was withdrawn in review; nothing to merge."
             exit 0
           fi
-          gh pr merge "$PR" --squash --delete-branch
+          # --repo keeps gh off the local checkout. Without it, --delete-branch also
+          # tries to switch the shallow PR-branch clone to main, which isn't fetched,
+          # so gh exits 1 after the merge and the deploy below never starts.
+          gh pr merge "$PR" --repo "$GITHUB_REPOSITORY" --squash --delete-branch
           # Merges made with GITHUB_TOKEN don't trigger workflows; start the deploy explicitly.
           gh workflow run ci.yml --ref main
           echo "Merged #$PR ($KEEP) and started CI on main to deploy." >> "$GITHUB_STEP_SUMMARY"
