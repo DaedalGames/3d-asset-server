@@ -1,0 +1,654 @@
+{
+  "slug": "free-sand-textures",
+  "search": {
+    "q": "sand",
+    "types": [
+      "material",
+      "texture"
+    ],
+    "free": true
+  },
+  "updatedAt": "2026-10-19T13:43:50.672Z",
+  "assets": [
+    {
+      "id": "polyhaven:coast_sand_rocks_02",
+      "provider": "polyhaven",
+      "title": "Coast Sand Rocks 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/coast_sand_rocks_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/coast_sand_rocks_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:47dca4b0-9914-4d56-9a12-49f3d999b171",
+      "provider": "blenderkit",
+      "title": "Sand",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/47dca4b0-9914-4d56-9a12-49f3d999b171/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/29f8db5cc87b4369815fa181594ddda1/files/thumbnail_efa4534c-e1d1-4196-98a8-f8d5a1402171.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Abdelrahman Mohamed",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "texturecan:615",
+      "provider": "texturecan",
+      "title": "Sand Dunes",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/615/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/ground_0043/ground_0043_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "opengameart:sand-texture-sand-and-grass-seamless-texture-with-normalmap",
+      "provider": "opengameart",
+      "title": "Sand Texture - Sand and Grass- Seamless Texture with normalmap",
+      "type": "texture",
+      "url": "https://opengameart.org/content/sand-texture-sand-and-grass-seamless-texture-with-normalmap",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/SandAndGrass3_T.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "threedtexel:sand-ground-leaf-pbr-material",
+      "provider": "threedtexel",
+      "title": "Sand Ground With Leaves – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/sand-ground-leaf-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-149-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "texturescom:132311",
+      "provider": "texturescom",
+      "title": "Muddy Sand 2",
+      "type": "material",
+      "url": "https://www.textures.com/download/3d-scanned-muddy-wet-sand-2x2-3x3-4x4-meters/132311",
+      "thumbnailUrl": "https://www.textures.com/system/gallery/photos/114651-Sand/114962-Beach/ps132311/132311_thumbnail_small.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "Textures.com License",
+        "url": "https://www.textures.com/about/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "16K+"
+    },
+    {
+      "id": "polyhaven:sand_01",
+      "provider": "polyhaven",
+      "title": "Sand 01",
+      "type": "material",
+      "url": "https://polyhaven.com/a/sand_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/sand_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:00b8befd-c3db-438c-abff-16928cbb30c6",
+      "provider": "blenderkit",
+      "title": "Stylized Sand",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/00b8befd-c3db-438c-abff-16928cbb30c6/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/89c6ab04f6c24a6287051dd46dc202e4/files/thumbnail_39bd6d0f-4f01-473e-a94c-a26b06fe365c.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Julio Sillet",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "freestylized:material:ground_tiles_with_sand_01",
+      "provider": "freestylized",
+      "title": "Ground Tiles with Sand 01",
+      "type": "material",
+      "url": "https://freestylized.com/material/ground_tiles_with_sand_01/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2023/09/ground_tiles_with_sand_01_preview_hex151515.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "opengameart:sand-texture-sand-seamless-texture-with-normalmap",
+      "provider": "opengameart",
+      "title": "Sand Texture - Sand - Seamless Texture with normalmap",
+      "type": "texture",
+      "url": "https://opengameart.org/content/sand-texture-sand-seamless-texture-with-normalmap",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Sand2_T.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "threedtextures:stylized-sand-002",
+      "provider": "threedtextures",
+      "title": "Stylized Sand 002",
+      "type": "material",
+      "url": "https://3dtextures.me/2024/08/02/stylized-sand-002/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2024/08/untitled.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:sand-ground-pbr-material",
+      "provider": "threedtexel",
+      "title": "Light Sand Ground – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/sand-ground-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-129-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "polyhaven:coast_sand_01",
+      "provider": "polyhaven",
+      "title": "Coast Sand 01",
+      "type": "material",
+      "url": "https://polyhaven.com/a/coast_sand_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/coast_sand_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "texturecan:215",
+      "provider": "texturecan",
+      "title": "Sand and Beach",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/215/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/ground_0024/ground_0024_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "ambientcg:Ground054",
+      "provider": "ambientcg",
+      "title": "Ground 054",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Ground054",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Ground054.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "freestylized:material:wood_planks_with_sand_01",
+      "provider": "freestylized",
+      "title": "Wooden Planks with Sand 01",
+      "type": "material",
+      "url": "https://freestylized.com/material/wood_planks_with_sand_01/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2023/08/wood_planks_with_sand_01_preview_hex151515_1024.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtextures:sand-008",
+      "provider": "threedtextures",
+      "title": "Sand 008",
+      "type": "material",
+      "url": "https://3dtextures.me/2024/06/06/sand-008/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2024/06/Sand.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:sandy-gravel-02",
+      "provider": "cgbookcase",
+      "title": "Sandy Gravel 02",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/sandy-gravel-02",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Sandy_gravel_02_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "2k"
+    },
+    {
+      "id": "sharetextures:ground-4",
+      "provider": "sharetextures",
+      "title": "Ground 4",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/ground/ground-4",
+      "thumbnailUrl": "https://images.sharetextures.com/u/ground_4-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "texturecan:188",
+      "provider": "texturecan",
+      "title": "Sand Ground with Wavy Pattern",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/188/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/ground_0016/ground_0016_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:gravelly_sand",
+      "provider": "polyhaven",
+      "title": "Gravelly Sand",
+      "type": "material",
+      "url": "https://polyhaven.com/a/gravelly_sand",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/gravelly_sand.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dario Barresi",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:79a619be-afa2-429a-b6f1-b9d86ed2e0b2",
+      "provider": "blenderkit",
+      "title": "Sand beach",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/79a619be-afa2-429a-b6f1-b9d86ed2e0b2/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1d9e842e1ad04e35ba6765841514d7d7/files/thumbnail_5dbd7003-4ab8-4149-94bc-5e9a92472fca.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "antoine f",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "freestylized:material:sand_04",
+      "provider": "freestylized",
+      "title": "Sand 04",
+      "type": "material",
+      "url": "https://freestylized.com/material/sand_04/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2023/08/sand_04_preview_hex151515_1024.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:ground-sand-mud-pbr-material",
+      "provider": "threedtexel",
+      "title": "Ground Sand Mud – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/ground-sand-mud-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-78-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "opengameart:sand-texture-sand-and-rocks-seamless-texture-with-normalmap",
+      "provider": "opengameart",
+      "title": "Sand Texture - Sand and Rocks- Seamless Texture with normalmap",
+      "type": "texture",
+      "url": "https://opengameart.org/content/sand-texture-sand-and-rocks-seamless-texture-with-normalmap",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/SandAndRocks5_T.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "ambientcg:Ground080",
+      "provider": "ambientcg",
+      "title": "Ground 080",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Ground080",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Ground080.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "threedtextures:stylized-sand-001",
+      "provider": "threedtextures",
+      "title": "Stylized Sand 001",
+      "type": "material",
+      "url": "https://3dtextures.me/2020/06/25/stylized-sand-001/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2020/06/Material_1573.jpg.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "polyhaven:coast_sand_05",
+      "provider": "polyhaven",
+      "title": "Coast Sand 05",
+      "type": "material",
+      "url": "https://polyhaven.com/a/coast_sand_05",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/coast_sand_05.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel, Dario Barresi",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:2bbabc62-c21d-4f99-a2e5-045f2718e5d0",
+      "provider": "blenderkit",
+      "title": "Sand and Stone",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/2bbabc62-c21d-4f99-a2e5-045f2718e5d0/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/83b1e17110874f788036c7b2067c98ac/files/thumbnail_ba21621f-bc75-421a-bb4a-96074953ca15.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "555nkt",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ]
+    },
+    {
+      "id": "cgbookcase:sandy-gravel-01",
+      "provider": "cgbookcase",
+      "title": "Sandy Gravel 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/sandy-gravel-01",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Sandy_gravel_01_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "2k"
+    },
+    {
+      "id": "sharetextures:concrete-22",
+      "provider": "sharetextures",
+      "title": "Concrete 22",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/concrete/concrete-22",
+      "thumbnailUrl": "https://images.sharetextures.com/u/concrete_22-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "freestylized:material:sand_03",
+      "provider": "freestylized",
+      "title": "Sand 03",
+      "type": "material",
+      "url": "https://freestylized.com/material/sand_03/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2023/08/sand_03_preview_hex151515_1024.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:ground-sand-mud-pebble-pbr-material",
+      "provider": "threedtexel",
+      "title": "Sand Mud Pebble Ground – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/ground-sand-mud-pebble-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-77-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "opengameart:simple-seamless-tiles-of-dirt-and-sand",
+      "provider": "opengameart",
+      "title": "Simple Seamless tiles of dirt and sand.",
+      "type": "texture",
+      "url": "https://opengameart.org/content/simple-seamless-tiles-of-dirt-and-sand",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Dirt%201%20.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "ambientcg:Ground093C",
+      "provider": "ambientcg",
+      "title": "Ground 093 C",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Ground093C",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Ground093C.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "threedtextures:sand-007",
+      "provider": "threedtextures",
+      "title": "Sand 007",
+      "type": "material",
+      "url": "https://3dtextures.me/2020/05/07/sand-007/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2020/05/Material_1532.jpg?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    }
+  ]
+}

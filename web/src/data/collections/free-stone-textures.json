@@ -1,0 +1,636 @@
+{
+  "slug": "free-stone-textures",
+  "search": {
+    "q": "stone",
+    "types": [
+      "material",
+      "texture"
+    ],
+    "free": true
+  },
+  "updatedAt": "2026-10-19T13:43:53.306Z",
+  "assets": [
+    {
+      "id": "polyhaven:stone_tiles_02",
+      "provider": "polyhaven",
+      "title": "Stone Tiles 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/stone_tiles_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/stone_tiles_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Charlotte Baglioni",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:a3e783da-ec24-4465-8a04-90396699d5eb",
+      "provider": "blenderkit",
+      "title": "Stone wall",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/a3e783da-ec24-4465-8a04-90396699d5eb/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6c1e1ff57ecd426bbf95b928967c211a/files/thumbnail_b7aaab3e-4ed9-489f-a486-d56987a8ab56.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "ydd 3D",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "opengameart:wall-grass-rock-stone-wood-and-dirt-480",
+      "provider": "opengameart",
+      "title": "Wall, grass, rock, stone, wood and dirt (480)",
+      "type": "texture",
+      "url": "https://opengameart.org/content/wall-grass-rock-stone-wood-and-dirt-480",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/all_3.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "ambientcg:PavingStones151",
+      "provider": "ambientcg",
+      "title": "Paving Stones 151",
+      "type": "material",
+      "url": "https://ambientcg.com/a/PavingStones151",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/PavingStones151.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "12k"
+    },
+    {
+      "id": "texturecan:641",
+      "provider": "texturecan",
+      "title": "Concrete Wall of Stacked Rectangular Stones",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/641/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/concrete_0031/concrete_0031_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:natural-stone-08",
+      "provider": "cgbookcase",
+      "title": "Natural Stone 08",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/natural-stone-08",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Natural_Stone_08_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "sharetextures:stone-wall-2",
+      "provider": "sharetextures",
+      "title": "Stone Wall Texture 2",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/wall/stone-wall-2",
+      "thumbnailUrl": "https://images.sharetextures.com/u/stone_wall_2-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:paving-stones-broken-pbr-material",
+      "provider": "threedtexel",
+      "title": "Red and Grey Paving Stones – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/paving-stones-broken-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/11/Untitled_Sphere-Camera-74-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "freestylized:material:stone_wall_10",
+      "provider": "freestylized",
+      "title": "Stone Wall 10",
+      "type": "material",
+      "url": "https://freestylized.com/material/stone_wall_10/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/10/stone_wall_10_preview_hex151515.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "texturescom:133264",
+      "provider": "texturescom",
+      "title": "Stone Wall 3",
+      "type": "material",
+      "url": "https://www.textures.com/download/free-3d-scanned-stone-wall-2x2-3x3-4x4-meters/133264",
+      "thumbnailUrl": "https://www.textures.com/system/gallery/photos/114981-Stone/114998-Regular/ps133264/133264_thumbnail_small.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "Textures.com License",
+        "url": "https://www.textures.com/about/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "16K+"
+    },
+    {
+      "id": "itchio:juliovii/stoneandbrickspk01",
+      "provider": "itchio",
+      "title": "Texture Pack: Stone and Bricks 01",
+      "type": "texture",
+      "url": "https://juliovii.itch.io/stoneandbrickspk01",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzM5Mzk0NjQuanBn/315x250%23c/03P6kv.jpg",
+      "downloadable": false,
+      "author": "JulioVII",
+      "free": true
+    },
+    {
+      "id": "polyhaven:rustic_stone_wall_02",
+      "provider": "polyhaven",
+      "title": "Rustic Stone Wall 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/rustic_stone_wall_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/rustic_stone_wall_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Amal Kumar",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:978429ad-aec9-4dfb-8261-1a8a3eee000e",
+      "provider": "blenderkit",
+      "title": "Stone",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/978429ad-aec9-4dfb-8261-1a8a3eee000e/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/d34047a5a52c4cc28dbcea06f630e939/files/thumbnail_0222266f-8cdb-46b0-bb2b-a702b365b7cb.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "ydd 3D",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "opengameart:free-urban-textures-walls-brick-stone-part-2",
+      "provider": "opengameart",
+      "title": "Free Urban Textures: Walls, Brick, Stone, Part 2",
+      "type": "texture",
+      "url": "https://opengameart.org/content/free-urban-textures-walls-brick-stone-part-2",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/walls-brick-stone-tiles-2_1.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "cgbookcase:natural-stone-07",
+      "provider": "cgbookcase",
+      "title": "Natural Stone 07",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/natural-stone-07",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Natural_Stone_07_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "sharetextures:stone-wall-5",
+      "provider": "sharetextures",
+      "title": "Stone Wall 5",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/wall/stone-wall-5",
+      "thumbnailUrl": "https://images.sharetextures.com/u/stone_wall_5-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:paving-stones-pbr-material-3",
+      "provider": "threedtexel",
+      "title": "Grey Paving Stones With Grass – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/paving-stones-pbr-material-3/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/11/Untitled_Sphere-Camera-73-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "texturecan:569",
+      "provider": "texturecan",
+      "title": "Medieval Stone Wall Texture",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/569/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/ground_0042/ground_0042_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:stone_brick_wall_001",
+      "provider": "polyhaven",
+      "title": "Stone Brick Wall 001",
+      "type": "material",
+      "url": "https://polyhaven.com/a/stone_brick_wall_001",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/stone_brick_wall_001.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Rico Cilliers",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:9cc6a5a8-7308-4caf-a89e-b362d7a1213d",
+      "provider": "blenderkit",
+      "title": "Stylized Stone And Plaster",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/9cc6a5a8-7308-4caf-a89e-b362d7a1213d/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/c51cc67ae356439aad61043bc357de15/files/thumbnail_7775b2dd-9bac-44b7-89aa-caab478e0c13.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Julio Sillet",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "opengameart:free-urban-textures-walls-brick-stone-part-1",
+      "provider": "opengameart",
+      "title": "Free Urban Textures: Walls, Brick, Stone, Part 1",
+      "type": "texture",
+      "url": "https://opengameart.org/content/free-urban-textures-walls-brick-stone-part-1",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/walls-brick-stone-tiles-1.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "ambientcg:PavingStones150",
+      "provider": "ambientcg",
+      "title": "Paving Stones 150",
+      "type": "material",
+      "url": "https://ambientcg.com/a/PavingStones150",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/PavingStones150.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "threedtextures:wall-stone-037-free-seamless-pbr-texture",
+      "provider": "threedtextures",
+      "title": "Wall Stone 037",
+      "type": "material",
+      "url": "https://3dtextures.me/2026/05/12/wall-stone-037-free-seamless-pbr-texture/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2026/05/Material_2004.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:natural-stone-06",
+      "provider": "cgbookcase",
+      "title": "Natural Stone 06",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/natural-stone-06",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Natural_Stone_06_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "sharetextures:stone-surface-4",
+      "provider": "sharetextures",
+      "title": "Stone 4",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/ground/stone-surface-4",
+      "thumbnailUrl": "https://images.sharetextures.com/u/93e8a940-efb5-492a-8d33-8dea2d5fe616.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:paving-stones-pbr-material-2",
+      "provider": "threedtexel",
+      "title": "Grey Rectangular Paving Stones – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/paving-stones-pbr-material-2/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/11/Untitled_Sphere-Camera-72-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "freestylized:material:stones_wall_09",
+      "provider": "freestylized",
+      "title": "Stones Wall 09",
+      "type": "material",
+      "url": "https://freestylized.com/material/stones_wall_09/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/01/stone_wall_09_preview_hex151515_thumbnail.webp",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:stone_wall",
+      "provider": "polyhaven",
+      "title": "Stone Wall",
+      "type": "material",
+      "url": "https://polyhaven.com/a/stone_wall",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/stone_wall.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dario Barresi, Charlotte Baglioni",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:117-stone-wall-tilable-textures-in-8-themes",
+      "provider": "opengameart",
+      "title": "117 Stone Wall Tilable Textures in 8 Themes",
+      "type": "texture",
+      "url": "https://opengameart.org/content/117-stone-wall-tilable-textures-in-8-themes",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/all_10.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "threedtextures:wall-stone-036-free-seamless-pbr-texture",
+      "provider": "threedtextures",
+      "title": "Wall Stone 036",
+      "type": "material",
+      "url": "https://3dtextures.me/2026/03/18/wall-stone-036-free-seamless-pbr-texture/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2026/03/Material_2002.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "ambientcg:PavingStones128",
+      "provider": "ambientcg",
+      "title": "Paving Stones 128",
+      "type": "material",
+      "url": "https://ambientcg.com/a/PavingStones128",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/PavingStones128.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "texturecan:246",
+      "provider": "texturecan",
+      "title": "Sandy Stone Floor Texture",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/246/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/ground_0029/ground_0029_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:natural-stone-05",
+      "provider": "cgbookcase",
+      "title": "Natural Stone 05",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/natural-stone-05",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Natural_Stone_05_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "sharetextures:stone_wall_11",
+      "provider": "sharetextures",
+      "title": "Stone Wall 11",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/wall/stone_wall_11",
+      "thumbnailUrl": "https://images.sharetextures.com/u/stone_wall_11-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:paving-stones-pbr-material",
+      "provider": "threedtexel",
+      "title": "Herringbone Paving Stones – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/paving-stones-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/11/Untitled_Sphere-Camera-71-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "freestylized:material:stones_wall_08",
+      "provider": "freestylized",
+      "title": "Stones Wall 08",
+      "type": "material",
+      "url": "https://freestylized.com/material/stones_wall_08/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/01/stone_wall_08_preview_hex151515_thumbnail.webp",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    }
+  ]
+}
