@@ -195,6 +195,27 @@
   ],
   "rejected": [
     {
+      "name": "Texture Box",
+      "homepage": "https://texturebox.com",
+      "checkedAt": "2026-10-19",
+      "reason": "mixed licences (some textures owned by original creators), 10 second crawl-delay in robots.txt and no confirmed searchable catalogue API",
+      "recheckAfter": "2027-01-17"
+    },
+    {
+      "name": "CGMood",
+      "homepage": "https://cgmood.com",
+      "checkedAt": "2026-10-19",
+      "reason": "automated requests get HTTP 403 and robots.txt disallows /search and paged listings",
+      "recheckAfter": "2027-01-17"
+    },
+    {
+      "name": "Architextures",
+      "homepage": "https://architextures.org",
+      "checkedAt": "2026-10-19",
+      "reason": "architectural texture tool with account-gated downloads and no documented public search API",
+      "recheckAfter": "2027-01-17"
+    },
+    {
       "name": "CGHEVEN",
       "homepage": "https://cgheven.com",
       "checkedAt": "2026-10-17",
