@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-07T09:05:45.624Z",
+  "updatedAt": "2026-10-19T10:17:59.943Z",
   "assets": [
     {
       "id": "polyhaven:wood_table_001",
@@ -109,22 +109,6 @@
       },
       "free": true,
       "maxResolution": "4k"
-    },
-    {
-      "id": "threedtextures:wood-base-beech-001",
-      "provider": "threedtextures",
-      "title": "Wood Base Beech 001",
-      "type": "material",
-      "url": "https://3dtextures.me/2026/10/06/wood-base-beech-001/",
-      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2026/10/Material_2002.png?fit=600%2C800&ssl=1",
-      "downloadable": false,
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true
     },
     {
       "id": "threedtexel:tile-roof-pbr-material-3",
@@ -673,6 +657,16 @@
         "png"
       ],
       "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:wall-grass-rock-stone-wood-and-dirt-480",
+      "provider": "opengameart",
+      "title": "Wall, grass, rock, stone, wood and dirt (480)",
+      "type": "texture",
+      "url": "https://opengameart.org/content/wall-grass-rock-stone-wood-and-dirt-480",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/all_3.jpg",
+      "downloadable": true,
+      "free": true
     }
   ]
 }
