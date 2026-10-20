@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-16T09:16:59.510Z",
+  "updatedAt": "2026-10-20T09:37:27.041Z",
   "assets": [
     {
       "id": "polyhaven:aerial_grass_rock",
@@ -537,27 +537,6 @@
       "maxResolution": "8k"
     },
     {
-      "id": "blenderkit:3785d472-e55d-401d-b301-e777e1409a6a",
-      "provider": "blenderkit",
-      "title": "Grass",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/3785d472-e55d-401d-b301-e777e1409a6a/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/c14b0ab921644285a585d51c0c182c2e/files/thumbnail_d7ee005f-7336-45ab-a2f1-23f11b5abdd0.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "James Middleton",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "2k"
-    },
-    {
       "id": "sharetextures:garden-walk-way",
       "provider": "sharetextures",
       "title": "Garden Walk Way",
@@ -698,6 +677,17 @@
       "url": "https://opengameart.org/content/wall-grass-rock-stone-wood-and-dirt-480",
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/all_3.jpg",
       "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "itchio:tempisq/grass-ai-vol1",
+      "provider": "itchio",
+      "title": "Grass Grounds Vol.1",
+      "type": "texture",
+      "url": "https://tempisq.itch.io/grass-ai-vol1",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4OTI3OTc2LnBuZw==/315x250%23c/WK88RK.png",
+      "downloadable": false,
+      "author": "tempisq",
       "free": true
     }
   ]
