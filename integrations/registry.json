@@ -195,6 +195,26 @@
   ],
   "rejected": [
     {
+      "name": "Dimensiva",
+      "homepage": "https://dimensiva.com",
+      "checkedAt": "2026-10-20",
+      "reason": "free downloads go through an Easy Digital Downloads email-capture modal, a custom licence, and the WordPress REST API exposes no catalogue (product endpoint returns 404)",
+      "recheckAfter": "2027-01-18"
+    },
+    {
+      "name": "AR Code 3D models",
+      "homepage": "https://ar-code.com",
+      "checkedAt": "2026-10-20",
+      "reason": "AR/QR code service with a small blog showcase of scanned models, not a searchable asset catalogue"
+    },
+    {
+      "name": "3DSky",
+      "homepage": "https://3dsky.org",
+      "checkedAt": "2026-10-20",
+      "reason": "free tier limited to a few downloads per day behind an account, mostly paid interior models, and no public search API",
+      "recheckAfter": "2027-01-18"
+    },
+    {
       "name": "Texture Box",
       "homepage": "https://texturebox.com",
       "checkedAt": "2026-10-19",
