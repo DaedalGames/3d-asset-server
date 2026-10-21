@@ -34,6 +34,8 @@ export interface AppOptions {
   publicBaseUrl?: string;
   /** Allow the MCP download tool to write to this server's disk. Off by default for HTTP. */
   allowServerDownloads?: boolean;
+  /** Turn off MCP over Streamable HTTP at /mcp (on when unset). The website and /v1 API are unaffected. */
+  httpMcpDisabled?: boolean;
   downloadDir?: string;
   /** Product analytics sink (metrics + event log). Defaults to no-op. */
   analytics?: Analytics;
@@ -159,6 +161,7 @@ export function createApp(service: AssetService, opts: AppOptions = {}): Hono {
   // Every event also feeds the in-process tallies behind /v1/stats.
   const localStats = new LocalStats();
   const analytics = teeAnalytics(opts.analytics ?? noopAnalytics, localStats);
+  const httpMcp = !opts.httpMcpDisabled;
   const stats: StatsSource = opts.prometheus
     ? cachedStats(new PrometheusStats({ ...opts.prometheus, fallback: localStats }), 60_000)
     : localStats;
@@ -271,7 +274,7 @@ export function createApp(service: AssetService, opts: AppOptions = {}): Hono {
       agents: {
         instructions: "/AGENTS.md",
         llms: "/llms.txt",
-        mcp: `claude mcp add --transport http 3d-assets ${(opts.publicBaseUrl ?? new URL(c.req.url).origin).replace(/\/$/, "")}/mcp`,
+        ...(httpMcp && { mcp: `claude mcp add --transport http 3d-assets ${(opts.publicBaseUrl ?? new URL(c.req.url).origin).replace(/\/$/, "")}/mcp` }),
       },
       endpoints: {
         providers: "/v1/providers",
@@ -281,7 +284,7 @@ export function createApp(service: AssetService, opts: AppOptions = {}): Hono {
         asset: "/v1/assets/{provider}:{id}",
         files: "/v1/assets/{provider}:{id}/files?format=gltf&resolution=2k",
         download: "/v1/assets/{provider}:{id}/download?format=gltf&resolution=2k",
-        mcp: "/mcp (Streamable HTTP)",
+        ...(httpMcp && { mcp: "/mcp (Streamable HTTP)" }),
         openapi: "/openapi.json",
         docs: "/docs",
         apiReference: "/docs/api/reference",
@@ -391,62 +394,66 @@ export function createApp(service: AssetService, opts: AppOptions = {}): Hono {
     });
   });
 
-  // Opening the MCP URL in a browser leads to the setup guide instead of a JSON-RPC error.
-  app.get("/mcp", async (c, next) => {
-    const accept = c.req.header("accept") ?? "";
-    if (accept.includes("text/html") && !accept.includes("text/event-stream")) return c.redirect("/docs/mcp", 302);
-    await next();
-  });
+  if (!httpMcp) {
+    app.all("/mcp", (c) => c.json({ error: "MCP over HTTP is turned off on this server." }, 404));
+  } else {
+    // Opening the MCP URL in a browser leads to the setup guide instead of a JSON-RPC error.
+    app.get("/mcp", async (c, next) => {
+      const accept = c.req.header("accept") ?? "";
+      if (accept.includes("text/html") && !accept.includes("text/event-stream")) return c.redirect("/docs/mcp", 302);
+      await next();
+    });
 
-  // MCP over Streamable HTTP, stateless: a fresh server+transport per request.
-  // Who is calling is worked out per request for analytics only
-  // (src/mcp/attribution.ts); it never changes the response.
-  const sessions = new SessionTokens(opts.mcpSessionSecret);
-  const callers = new DailyCallers();
-  app.all("/mcp", async (c) => {
-    const ua = c.req.header("user-agent");
-    const uaFamily = clientFamily(ua);
-    const ip = clientIp(c);
-    const network = opts.networks?.classify(ip) ?? "unknown";
-    const sessionId = c.req.header("mcp-session-id");
-    const session = sessions.verify(sessionId);
-    const server = createMcpServer(service, {
-      allowLocalDownload: opts.allowServerDownloads ?? false,
-      downloadDir: opts.downloadDir,
-      publicBaseUrl: opts.publicBaseUrl ?? new URL(c.req.url).origin,
-      analytics,
-      client: pickClient(session ? clientFamily(session.name) : undefined, uaFamily),
-      attribution: {
+    // MCP over Streamable HTTP, stateless: a fresh server+transport per request.
+    // Who is calling is worked out per request for analytics only
+    // (src/mcp/attribution.ts); it never changes the response.
+    const sessions = new SessionTokens(opts.mcpSessionSecret);
+    const callers = new DailyCallers();
+    app.all("/mcp", async (c) => {
+      const ua = c.req.header("user-agent");
+      const uaFamily = clientFamily(ua);
+      const ip = clientIp(c);
+      const network = opts.networks?.classify(ip) ?? "unknown";
+      const sessionId = c.req.header("mcp-session-id");
+      const session = sessions.verify(sessionId);
+      const server = createMcpServer(service, {
+        allowLocalDownload: opts.allowServerDownloads ?? false,
+        downloadDir: opts.downloadDir,
+        publicBaseUrl: opts.publicBaseUrl ?? new URL(c.req.url).origin,
+        analytics,
+        client: pickClient(session ? clientFamily(session.name) : undefined, uaFamily),
+        attribution: {
+          network,
+          consistency: checkConsistency({ sessionSent: Boolean(sessionId), session, uaFamily, network }),
+          newCaller: (client) => callers.firstToday(ip, ua, client),
+        },
+      });
+      const transport = new WebStandardStreamableHTTPServerTransport({
+        sessionIdGenerator: undefined,
+        enableJsonResponse: true,
+      });
+      await server.connect(transport);
+      const res = await transport.handleRequest(c.req.raw);
+      // Set only when this request was `initialize`.
+      const info = server.server.getClientVersion();
+      // Stateless: release the per-request server once the response is produced.
+      void server.close().catch(() => undefined);
+      if (!info) return res;
+      const declared = clientFamily(info.name);
+      analytics.mcpConnect({
+        client: pickClient(declared, uaFamily),
+        clientVersion: versionLabel(declared, info.version),
+        clientName: info.name.slice(0, 64),
         network,
-        consistency: checkConsistency({ sessionSent: Boolean(sessionId), session, uaFamily, network }),
-        newCaller: (client) => callers.firstToday(ip, ua, client),
-      },
+      });
+      if (!res.ok) return res;
+      // Clients echo the session ID on every later request, so tool calls can
+      // be labelled with the client they declared here.
+      const headers = new Headers(res.headers);
+      headers.set("mcp-session-id", sessions.issue(info));
+      return new Response(res.body, { status: res.status, statusText: res.statusText, headers });
     });
-    const transport = new WebStandardStreamableHTTPServerTransport({
-      sessionIdGenerator: undefined,
-      enableJsonResponse: true,
-    });
-    await server.connect(transport);
-    const res = await transport.handleRequest(c.req.raw);
-    // Set only when this request was `initialize`.
-    const info = server.server.getClientVersion();
-    // Stateless: release the per-request server once the response is produced.
-    void server.close().catch(() => undefined);
-    if (!info) return res;
-    const declared = clientFamily(info.name);
-    analytics.mcpConnect({
-      client: pickClient(declared, uaFamily),
-      clientVersion: versionLabel(declared, info.version),
-      clientName: info.name.slice(0, 64),
-      network,
-    });
-    if (!res.ok) return res;
-    // Clients echo the session ID on every later request, so tool calls can
-    // be labelled with the client they declared here.
-    const headers = new Headers(res.headers);
-    headers.set("mcp-session-id", sessions.issue(info));
-    return new Response(res.body, { status: res.status, statusText: res.statusText, headers });
-  });
+  }
 
   // Share cards for search and asset links (static pages have pre-rendered /og/<page>.png files).
   const providerIds = service.listProviders().map((p) => p.id);

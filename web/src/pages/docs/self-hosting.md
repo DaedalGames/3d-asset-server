@@ -35,6 +35,7 @@ npm start
 | `ASSET_SERVER_PUBLIC_URL` | request origin | Base URL used in links handed to MCP clients. Set it behind a TLS proxy. |
 | `ASSET_SERVER_PROVIDERS` | all | Comma list to enable only some sources. |
 | `ASSET_SERVER_HTTP_DOWNLOADS` | `false` | Expose `download_asset` on the HTTP MCP endpoint (writes to the server's disk). |
+| `ASSET_SERVER_HTTP_MCP` | `true` | Set to `false` to turn off MCP over HTTP at `/mcp`. The website and `/v1` API keep working, and the stdio MCP server is unaffected. |
 | `ASSET_DOWNLOAD_DIR` | `./assets` | Where MCP downloads go. |
 | `ASSET_SERVER_PROVIDER_TIMEOUT_MS` | `12000` | Per-source search timeout. |
 | `BLENDERKIT_API_KEY` | none | Unlocks plan and purchased BlenderKit assets. |

@@ -96,7 +96,7 @@ describe("downloadFiles", () => {
   it("writes main files and companions with relative paths", async () => {
     dir = await mkdtemp(join(tmpdir(), "assets-"));
     const res = await downloadFiles(bytesHttp(), selectFiles(CRATE), dir);
-    expect(res.files.map((f) => f.slice(dir!.length + 1)).sort()).toEqual(["crate_2k.gltf", "textures/crate_diff_2k.jpg"]);
+    expect(res.files.map((f) => f.slice(dir!.length + 1).replaceAll("\\", "/")).sort()).toEqual(["crate_2k.gltf", "textures/crate_diff_2k.jpg"]);
     expect(await readFile(join(dir, "textures/crate_diff_2k.jpg"), "utf8")).toBe("data:crate_diff_2k.jpg");
   });
 
@@ -154,7 +154,7 @@ describe("HTTP API", () => {
     expect(root.headers.get("content-type")).toContain("text/markdown");
     expect(await root.text()).toContain("agent guide");
     const mcp = await app.request("/docs/mcp", { headers: { accept: "text/markdown" } });
-    expect(await mcp.text()).toBe("# MCP setup\n");
+    expect((await mcp.text()).replace(/\r\n/g, "\n")).toBe("# MCP setup\n");
     expect((await app.request("/agents.md")).status).toBe(200);
     expect(await (await app.request("/llms.txt")).text()).toContain("3D Asset Server");
   });
@@ -346,6 +346,23 @@ describe("HTTP API", () => {
     const body = (await list.json()) as { result: { tools: { name: string }[] } };
     // download_asset writes to disk, so it is off for the HTTP transport by default.
     expect(body.result.tools.map((t) => t.name).sort()).toEqual(["get_asset", "list_providers", "search_assets"]);
+  });
+
+  it("can turn off HTTP MCP and keep the website and search API", async () => {
+    const webOnly = createApp(service(), { siteRoot: SITE, httpMcpDisabled: true });
+    const mcp = await webOnly.request("/mcp", {
+      method: "POST",
+      headers: { "content-type": "application/json", accept: "application/json, text/event-stream" },
+      body: JSON.stringify({ jsonrpc: "2.0", id: 1, method: "initialize", params: { protocolVersion: "2025-06-18", capabilities: {}, clientInfo: { name: "t", version: "1" } } }),
+    });
+    expect(mcp.status).toBe(404);
+    // No redirect to the setup guide either: there is nothing to set up.
+    expect((await webOnly.request("/mcp", { headers: { accept: "text/html" } })).status).toBe(404);
+    expect((await webOnly.request("/v1/search?q=crate&type=model&providers=fake")).status).toBe(200);
+    expect((await webOnly.request("/", { headers: { accept: "text/html" } })).status).toBe(200);
+    const index = (await (await webOnly.request("/", { headers: { accept: "application/json" } })).json()) as { agents: object; endpoints: object };
+    expect(index.agents).not.toHaveProperty("mcp");
+    expect(index.endpoints).not.toHaveProperty("mcp");
   });
 });
 

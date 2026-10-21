@@ -27,6 +27,7 @@ Environment:
   ASSET_SERVER_PROVIDERS       Comma list to enable a subset of providers
   ASSET_DOWNLOAD_DIR           Default folder for MCP downloads (default ./assets)
   ASSET_SERVER_HTTP_DOWNLOADS  "true" to expose download_asset on the HTTP MCP endpoint
+  ASSET_SERVER_HTTP_MCP        "false" to turn off MCP at /mcp (website and /v1 API stay up)
   BLENDERKIT_API_KEY           Optional, enables BlenderKit downloads
   ASSET_SERVER_RATE_LIMIT      Requests per client per window on /v1 and /mcp (default 120, 0 = off)
   ASSET_SERVER_RATE_LIMIT_WINDOW  Window in seconds (default 60)
@@ -62,6 +63,7 @@ async function main(argv: string[]): Promise<void> {
       const telemetry = startTelemetry("http");
       const metrics = startMetrics(hostname);
       const analytics = telemetry ? teeAnalytics(metrics.analytics, telemetry) : metrics.analytics;
+      const httpMcpDisabled = process.env.ASSET_SERVER_HTTP_MCP === "false";
       const app = createApp(service, {
         analytics,
         networks: metrics.networks,
@@ -73,12 +75,13 @@ async function main(argv: string[]): Promise<void> {
         apiKey: process.env.ASSET_SERVER_API_KEY,
         publicBaseUrl: process.env.ASSET_SERVER_PUBLIC_URL,
         allowServerDownloads: process.env.ASSET_SERVER_HTTP_DOWNLOADS === "true",
+        httpMcpDisabled,
         downloadDir: process.env.ASSET_DOWNLOAD_DIR,
         prometheus: process.env.PROMETHEUS_URL ? { url: process.env.PROMETHEUS_URL } : undefined,
         umami: umamiFromEnv() ?? (telemetry ? { websiteId: TELEMETRY_WEBSITE_ID, host: TELEMETRY_HOST, anonymous: true } : undefined),
       });
       serve({ fetch: app.fetch, port, hostname }, (info) => {
-        console.log(`3d-asset-server listening on http://${hostname}:${info.port} (MCP at /mcp)`);
+        console.log(`3d-asset-server listening on http://${hostname}:${info.port}${httpMcpDisabled ? "" : " (MCP at /mcp)"}`);
       });
       return;
     }

@@ -353,6 +353,7 @@ Safety:
 | `ASSET_SERVER_PROVIDERS` | all | Comma list to enable only some sources, e.g. `polyhaven,ambientcg,kenney` |
 | `ASSET_DOWNLOAD_DIR` | `./assets` | Default download folder for MCP |
 | `ASSET_SERVER_HTTP_DOWNLOADS` | `false` | Expose `download_asset` on the HTTP MCP endpoint (writes to the server's disk) |
+| `ASSET_SERVER_HTTP_MCP` | `true` | Set to `false` to turn off MCP over HTTP at `/mcp`. The website and `/v1` API keep working, and the stdio MCP server is unaffected |
 | `ASSET_SERVER_MAX_DOWNLOAD_BYTES` | 2 GiB | Per-download size guard |
 | `ASSET_SERVER_PROVIDER_TIMEOUT_MS` | `12000` | Per-site search timeout |
 | `ASSET_SERVER_HTTP_TIMEOUT_MS` | `15000` | Per-request HTTP timeout |
