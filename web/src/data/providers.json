@@ -169,6 +169,19 @@
     "supportsDownload": true
   },
   {
+    "id": "grab3d",
+    "name": "Grab3D",
+    "homepage": "https://grab3d.com",
+    "description": "Free CC0 3D models (GLB, FBX, Blender, USDZ, OBJ) with PBR textures: props, characters, vehicles, nature, buildings.",
+    "assetTypes": [
+      "model"
+    ],
+    "access": "scrape",
+    "pricing": "free",
+    "license": "CC0",
+    "supportsDownload": true
+  },
+  {
     "id": "sketchfab",
     "name": "Sketchfab",
     "homepage": "https://sketchfab.com",

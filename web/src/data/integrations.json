@@ -1,6 +1,13 @@
 {
   "integrations": [
     {
+      "id": "grab3d",
+      "name": "Grab3D",
+      "homepage": "https://grab3d.com",
+      "addedAt": "2026-10-21",
+      "addedBy": "agent"
+    },
+    {
       "id": "wikimediacommons",
       "name": "Wikimedia Commons",
       "homepage": "https://commons.wikimedia.org",

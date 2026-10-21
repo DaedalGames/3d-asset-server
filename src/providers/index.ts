@@ -4,6 +4,7 @@ import { blenderkit } from "./blenderkit.js";
 import { cgbookcase } from "./cgbookcase.js";
 import { cgtrader } from "./cgtrader.js";
 import { freestylized } from "./freestylized.js";
+import { grab3d } from "./grab3d.js";
 import { hdrihub } from "./hdrihub.js";
 import { hdrmaps } from "./hdrmaps.js";
 import { itchio } from "./itchio.js";
@@ -35,6 +36,7 @@ export const allProviders: Provider[] = [
   quaternius,
   polyfork,
   threedassets,
+  grab3d,
   sketchfab,
   threedtextures,
   freestylized,

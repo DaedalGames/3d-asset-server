@@ -191,6 +191,14 @@
       "access": "api",
       "addedAt": "2026-10-16",
       "addedBy": "agent"
+    },
+    {
+      "id": "grab3d",
+      "name": "Grab3D",
+      "homepage": "https://grab3d.com",
+      "access": "scrape",
+      "addedAt": "2026-10-21",
+      "addedBy": "agent"
     }
   ],
   "rejected": [
