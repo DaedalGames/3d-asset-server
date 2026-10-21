@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-18T09:04:08.590Z",
+  "updatedAt": "2026-10-21T09:37:13.696Z",
   "assets": [
     {
       "id": "polyhaven:potted_plant_02",
@@ -285,29 +285,6 @@
       ],
       "maxResolution": "8k",
       "polyCount": 46195
-    },
-    {
-      "id": "blenderkit:0c3c6a32-e42c-40a2-b100-cde9a55c4580",
-      "provider": "blenderkit",
-      "title": "Areca Palm Plant",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/0c3c6a32-e42c-40a2-b100-cde9a55c4580/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/de4f2973c8494855bcd3208174582411/files/thumbnail_285019c7-99b1-4a9d-95c5-d8a8976ae363.png.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Ken Xie",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "1k",
-      "polyCount": 24156
     },
     {
       "id": "itchio:free-game-assets/free-desert-plants-3d-low-poly-pack",
@@ -768,6 +745,16 @@
         "obj"
       ],
       "polyCount": 539
+    },
+    {
+      "id": "opengameart:tropical-plant-02-0",
+      "provider": "opengameart",
+      "title": "Tropical plant 02",
+      "type": "model",
+      "url": "https://opengameart.org/content/tropical-plant-02-0",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/preview_73.jpg",
+      "downloadable": true,
+      "free": true
     }
   ]
 }

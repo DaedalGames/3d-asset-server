@@ -11,7 +11,7 @@
       "delivery bag"
     ]
   },
-  "updatedAt": "2026-10-07T09:05:32.192Z",
+  "updatedAt": "2026-10-21T09:36:54.292Z",
   "assets": [
     {
       "id": "polyhaven:food_apple_01",
@@ -658,25 +658,28 @@
       "free": true
     },
     {
-      "id": "blenderkit:c81487cc-11c1-48af-94fb-4a4433804452",
-      "provider": "blenderkit",
-      "title": "Food Kiwi",
+      "id": "polyfork:bear-proof-food-locker-9144bb",
+      "provider": "polyfork",
+      "title": "Bear-Proof Food Locker",
       "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/c81487cc-11c1-48af-94fb-4a4433804452/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6e530d58567d450797858a3e4730b3f5/files/thumbnail_1b7825ae-d2f1-4850-b3ca-22b2d036dbbd.png.512x512_q85_crop-%2C.png",
+      "url": "https://polyfork.dev/asset/bear-proof-food-locker-9144bb",
+      "thumbnailUrl": "https://polyfork.dev/files/bear-proof-food-locker-9144bb/renders/hero.png",
       "downloadable": true,
-      "author": "Poly Haven",
       "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
         "commercialUse": true,
         "attributionRequired": false
       },
       "free": true,
       "formats": [
-        "blend"
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
       ],
-      "maxResolution": "4k"
+      "polyCount": 568,
+      "rigged": true
     }
   ]
 }

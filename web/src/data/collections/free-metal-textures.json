@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-07T09:05:38.035Z",
+  "updatedAt": "2026-10-21T09:37:09.245Z",
   "assets": [
     {
       "id": "polyhaven:metal_plate",
@@ -451,27 +451,6 @@
       "maxResolution": "16k"
     },
     {
-      "id": "blenderkit:e08b2593-fb7f-4da4-afe6-2a772619b565",
-      "provider": "blenderkit",
-      "title": "Stylized Metal Base",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/e08b2593-fb7f-4da4-afe6-2a772619b565/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f9b0e1bf57e04deeae6a1cd0759b5e1d/files/thumbnail_a9a5fb59-c163-4ee0-8734-2ae65d2a5a24.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Julio Sillet",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
-    },
-    {
       "id": "ambientcg:Metal046B",
       "provider": "ambientcg",
       "title": "Metal 046 B",
@@ -689,6 +668,16 @@
       },
       "free": true,
       "maxResolution": "4k"
+    },
+    {
+      "id": "opengameart:free-texture-resource-pack-metal-nature-wood-and-structures",
+      "provider": "opengameart",
+      "title": "Free texture resource pack: metal, nature, wood and structures",
+      "type": "texture",
+      "url": "https://opengameart.org/content/free-texture-resource-pack-metal-nature-wood-and-structures",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/tex-res-prev_2.JPG",
+      "downloadable": true,
+      "free": true
     }
   ]
 }

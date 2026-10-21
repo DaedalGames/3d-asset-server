@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-07T09:05:31.468Z",
+  "updatedAt": "2026-10-21T09:36:52.585Z",
   "assets": [
     {
       "id": "polyhaven:fabric_pattern_07",
@@ -516,27 +516,6 @@
       "maxResolution": "8k"
     },
     {
-      "id": "blenderkit:02f1b200-afe4-4550-9da0-89143531a8f4",
-      "provider": "blenderkit",
-      "title": "Pbr Brown Fabric (Cotton Fabric)",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/02f1b200-afe4-4550-9da0-89143531a8f4/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/aa785682c45d4a899c1e196533f2b7d7/files/thumbnail_07044aa1-f28d-4775-a654-dc7899efd11e.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "yossif kh",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
-    },
-    {
       "id": "ambientcg:Fabric083",
       "provider": "ambientcg",
       "title": "Fabric 083",
@@ -649,6 +628,27 @@
         "attributionRequired": false
       },
       "free": true
+    },
+    {
+      "id": "ambientcg:Fabric085",
+      "provider": "ambientcg",
+      "title": "Fabric 085",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Fabric085",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Fabric085.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
     }
   ]
 }
