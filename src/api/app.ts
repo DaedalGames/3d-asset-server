@@ -34,8 +34,8 @@ export interface AppOptions {
   publicBaseUrl?: string;
   /** Allow the MCP download tool to write to this server's disk. Off by default for HTTP. */
   allowServerDownloads?: boolean;
-  /** Serve MCP over Streamable HTTP at /mcp. On by default; the website and /v1 API are unaffected. */
-  httpMcpEnabled?: boolean;
+  /** Turn off MCP over Streamable HTTP at /mcp (on when unset). The website and /v1 API are unaffected. */
+  httpMcpDisabled?: boolean;
   downloadDir?: string;
   /** Product analytics sink (metrics + event log). Defaults to no-op. */
   analytics?: Analytics;
@@ -161,7 +161,7 @@ export function createApp(service: AssetService, opts: AppOptions = {}): Hono {
   // Every event also feeds the in-process tallies behind /v1/stats.
   const localStats = new LocalStats();
   const analytics = teeAnalytics(opts.analytics ?? noopAnalytics, localStats);
-  const httpMcp = opts.httpMcpEnabled !== false;
+  const httpMcp = !opts.httpMcpDisabled;
   const stats: StatsSource = opts.prometheus
     ? cachedStats(new PrometheusStats({ ...opts.prometheus, fallback: localStats }), 60_000)
     : localStats;

@@ -349,7 +349,7 @@ describe("HTTP API", () => {
   });
 
   it("can turn off HTTP MCP and keep the website and search API", async () => {
-    const webOnly = createApp(service(), { siteRoot: SITE, httpMcpEnabled: false });
+    const webOnly = createApp(service(), { siteRoot: SITE, httpMcpDisabled: true });
     const mcp = await webOnly.request("/mcp", {
       method: "POST",
       headers: { "content-type": "application/json", accept: "application/json, text/event-stream" },

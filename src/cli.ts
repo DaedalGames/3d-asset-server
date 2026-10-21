@@ -63,7 +63,7 @@ async function main(argv: string[]): Promise<void> {
       const telemetry = startTelemetry("http");
       const metrics = startMetrics(hostname);
       const analytics = telemetry ? teeAnalytics(metrics.analytics, telemetry) : metrics.analytics;
-      const httpMcpEnabled = process.env.ASSET_SERVER_HTTP_MCP !== "false";
+      const httpMcpDisabled = process.env.ASSET_SERVER_HTTP_MCP === "false";
       const app = createApp(service, {
         analytics,
         networks: metrics.networks,
@@ -75,13 +75,13 @@ async function main(argv: string[]): Promise<void> {
         apiKey: process.env.ASSET_SERVER_API_KEY,
         publicBaseUrl: process.env.ASSET_SERVER_PUBLIC_URL,
         allowServerDownloads: process.env.ASSET_SERVER_HTTP_DOWNLOADS === "true",
-        httpMcpEnabled,
+        httpMcpDisabled,
         downloadDir: process.env.ASSET_DOWNLOAD_DIR,
         prometheus: process.env.PROMETHEUS_URL ? { url: process.env.PROMETHEUS_URL } : undefined,
         umami: umamiFromEnv() ?? (telemetry ? { websiteId: TELEMETRY_WEBSITE_ID, host: TELEMETRY_HOST, anonymous: true } : undefined),
       });
       serve({ fetch: app.fetch, port, hostname }, (info) => {
-        console.log(`3d-asset-server listening on http://${hostname}:${info.port}${httpMcpEnabled ? " (MCP at /mcp)" : ""}`);
+        console.log(`3d-asset-server listening on http://${hostname}:${info.port}${httpMcpDisabled ? "" : " (MCP at /mcp)"}`);
       });
       return;
     }
