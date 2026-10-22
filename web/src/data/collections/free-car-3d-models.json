@@ -21,7 +21,7 @@
       "lego"
     ]
   },
-  "updatedAt": "2026-10-18T09:03:49.828Z",
+  "updatedAt": "2026-10-22T09:37:11.678Z",
   "assets": [
     {
       "id": "polyhaven:covered_car",
@@ -281,28 +281,6 @@
       "free": true
     },
     {
-      "id": "blenderkit:007bf900-e8c0-42ce-befb-1887bc03fdd6",
-      "provider": "blenderkit",
-      "title": "Apocalypse Police Car",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/007bf900-e8c0-42ce-befb-1887bc03fdd6/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/66d5476a922d47bd883736c72e446baa/files/thumbnail_95a5da25-dfd5-42fa-be88-4094c358308e.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Suzanne studio",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k",
-      "polyCount": 159244
-    },
-    {
       "id": "itchio:fball-dev/2025-mclaren-artura-spider-realistic-pbr-sports-car-3d-model",
       "provider": "itchio",
       "title": "McLaren Artura Spider Realistic PBR Sports Car 3D Model",
@@ -334,28 +312,6 @@
       ],
       "maxResolution": "4k",
       "polyCount": 368510
-    },
-    {
-      "id": "itchio:nyknck/3d-car",
-      "provider": "itchio",
-      "title": "3D Car",
-      "type": "model",
-      "url": "https://nyknck.itch.io/3d-car",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzE3ODcxNzIucG5n/315x250%23c/7Girna.png",
-      "downloadable": false,
-      "author": "NYKNCK",
-      "free": true
-    },
-    {
-      "id": "itchio:drad0down/3d-car-template",
-      "provider": "itchio",
-      "title": "3D Car Template",
-      "type": "model",
-      "url": "https://drad0down.itch.io/3d-car-template",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4NDA2NjEyLnBuZw==/315x250%23c/ZHxYvb.png",
-      "downloadable": false,
-      "author": "Drad0down",
-      "free": true
     },
     {
       "id": "threedassets:stock-car-oval-speedway-stock-car-damaged-6a429ea6",
@@ -601,6 +557,75 @@
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/RCCarPreview.png",
       "downloadable": true,
       "free": true
+    },
+    {
+      "id": "grab3d:car-lift",
+      "provider": "grab3d",
+      "title": "Two-Post Car Lift",
+      "type": "model",
+      "url": "https://grab3d.com/models/tools/car-lift/",
+      "thumbnailUrl": "https://grab3d.com/m/car-lift/car-lift-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "grab3d:1960s-compact-car",
+      "provider": "grab3d",
+      "title": "1960s Compact Car",
+      "type": "model",
+      "url": "https://grab3d.com/models/vehicles/1960s-compact-car/",
+      "thumbnailUrl": "https://grab3d.com/m/1960s-compact-car/1960s-compact-car-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "grab3d:1960s-sports-car",
+      "provider": "grab3d",
+      "title": "1960s Sports Car",
+      "type": "model",
+      "url": "https://grab3d.com/models/vehicles/1960s-sports-car/",
+      "thumbnailUrl": "https://grab3d.com/m/1960s-sports-car/1960s-sports-car-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
     }
   ]
 }

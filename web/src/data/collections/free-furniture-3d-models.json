@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-17T08:48:14.947Z",
+  "updatedAt": "2026-10-22T09:37:19.200Z",
   "assets": [
     {
       "id": "blenderkit:0f1918d7-7350-43a8-a012-469ddc446b35",
@@ -588,29 +588,6 @@
       "polyCount": 8640
     },
     {
-      "id": "blenderkit:2b167922-e1f7-4f05-b28b-4b4cc4862599",
-      "provider": "blenderkit",
-      "title": "Open shelves furniture",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/2b167922-e1f7-4f05-b28b-4b4cc4862599/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/c40ebd05cc5f4b99b24dbded017804c4/files/thumbnail_c28ce96e-cc81-4fd2-9880-ccd84cb2274e.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "/Unwrapped",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "2k",
-      "polyCount": 606
-    },
-    {
       "id": "itchio:eclair-assets/furniture-kit-glb-pack-140-free-cc0-3d-models",
       "provider": "itchio",
       "title": "Furniture Kit GLB Pack - 140 Free CC0 3D Models",
@@ -641,6 +618,16 @@
         "glb"
       ],
       "polyCount": 19980
+    },
+    {
+      "id": "opengameart:furniture-kit",
+      "provider": "opengameart",
+      "title": "Furniture Kit",
+      "type": "model",
+      "url": "https://opengameart.org/content/furniture-kit",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Sample_56.png",
+      "downloadable": true,
+      "free": true
     }
   ]
 }

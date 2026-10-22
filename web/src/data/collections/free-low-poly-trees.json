@@ -7,29 +7,8 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-11T11:01:07.970Z",
+  "updatedAt": "2026-10-22T09:37:24.688Z",
   "assets": [
-    {
-      "id": "blenderkit:72fac4cb-901c-4a48-8fc8-84a0baa0bd21",
-      "provider": "blenderkit",
-      "title": "Low poly tree",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/72fac4cb-901c-4a48-8fc8-84a0baa0bd21/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/4ab2223744f94959b51052c51458d791/files/thumbnail_223bbfab-f232-4a0c-8004-d96e17346fa0.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Dr Blender",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "polyCount": 82
-    },
     {
       "id": "itchio:brokenvector/low-poly-tree-pack",
       "provider": "itchio",
@@ -264,7 +243,7 @@
         "usdz",
         "obj"
       ],
-      "polyCount": 548
+      "polyCount": 422
     },
     {
       "id": "itchio:divby00/low-poly-tree",
@@ -339,7 +318,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "polyCount": 106
     },
@@ -394,7 +374,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "polyCount": 150
     },
@@ -449,7 +430,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "polyCount": 100
     },
@@ -470,7 +452,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "polyCount": 140
     },
@@ -514,7 +497,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "polyCount": 140
     },
@@ -535,7 +519,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "polyCount": 660
     },
@@ -561,39 +546,6 @@
         "obj"
       ],
       "polyCount": 70
-    },
-    {
-      "id": "itchio:qwerxia/low-poly-trees-nature-props",
-      "provider": "itchio",
-      "title": "Low Poly Trees / Nature Props",
-      "type": "model",
-      "url": "https://qwerxia.itch.io/low-poly-trees-nature-props",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI3Mjk0OTk5LnBuZw==/315x250%23c/3NSzQD.png",
-      "downloadable": false,
-      "author": "QWERXIA",
-      "free": true
-    },
-    {
-      "id": "itchio:fonsoul/low-poly-tree-pack",
-      "provider": "itchio",
-      "title": "Low-Poly Tree Pack",
-      "type": "model",
-      "url": "https://fonsoul.itch.io/low-poly-tree-pack",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI2NjE5NTM1LnBuZw==/315x250%23c/rpVGBr.png",
-      "downloadable": false,
-      "author": "FonSoul",
-      "free": true
-    },
-    {
-      "id": "itchio:shop-dream/low-poly-tree-pack-starter-kit",
-      "provider": "itchio",
-      "title": "Low Poly Tree pack Starter Kit",
-      "type": "model",
-      "url": "https://shop-dream.itch.io/low-poly-tree-pack-starter-kit",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI2NTgwOTk4LnBuZw==/315x250%23c/mY5ynN.png",
-      "downloadable": false,
-      "author": "shop dream",
-      "free": true
     },
     {
       "id": "threedassets:wipe-day-survival-island-pine-tree-dfc88d2b",
@@ -633,6 +585,71 @@
       "type": "model",
       "url": "https://opengameart.org/content/palm-tree-v2-low-poly-edition",
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/preview_low.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "blenderkit:b5ea49b8-ef91-4131-a665-ffce3351835a",
+      "provider": "blenderkit",
+      "title": "Low Poly Tree",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/b5ea49b8-ef91-4131-a665-ffce3351835a/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/87ffee54599f419a85af2dbf50a06777/files/thumbnail_e8bb8a76-6682-446d-9080-fe4a35eeb2f0.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Jamil Risqullah",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "polyCount": 597
+    },
+    {
+      "id": "grab3d:low-poly-snake",
+      "provider": "grab3d",
+      "title": "Low Poly Snake",
+      "type": "model",
+      "url": "https://grab3d.com/models/animals/low-poly-snake/",
+      "thumbnailUrl": "https://grab3d.com/m/low-poly-snake/low-poly-snake-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "opengameart:low-poly-3d-tree",
+      "provider": "opengameart",
+      "title": "Low Poly 3D Tree",
+      "type": "model",
+      "url": "https://opengameart.org/content/low-poly-3d-tree",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Tree.PNG",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:winter-tree-low-poly-3d-model",
+      "provider": "opengameart",
+      "title": "Winter Tree low poly 3D model",
+      "type": "model",
+      "url": "https://opengameart.org/content/winter-tree-low-poly-3d-model",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/treepreview.png",
       "downloadable": true,
       "free": true
     }

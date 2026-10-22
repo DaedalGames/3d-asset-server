@@ -19,7 +19,7 @@
       "Corrugated Iron"
     ]
   },
-  "updatedAt": "2026-10-17T08:48:42.182Z",
+  "updatedAt": "2026-10-22T09:37:33.798Z",
   "assets": [
     {
       "id": "polyhaven:green_metal_rust",
@@ -660,14 +660,14 @@
       "maxResolution": "4k"
     },
     {
-      "id": "blenderkit:b7f4ebde-25cb-4ec4-a2ee-2c4f8c6f4bc5",
+      "id": "blenderkit:b0da3ff4-6dad-4667-b8c4-c6a6a9cfafa2",
       "provider": "blenderkit",
       "title": "Rust",
       "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/b7f4ebde-25cb-4ec4-a2ee-2c4f8c6f4bc5/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/38bc52f18a224d1b8d87125e1ecf46f5/files/thumbnail_4bbb1c84-a16d-455b-9b2d-299667c415a6.png.512x512_q85_crop-%2C.png",
+      "url": "https://www.blendkit.com/asset-gallery-detail/b0da3ff4-6dad-4667-b8c4-c6a6a9cfafa2/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6911dc45d1854c6c89fe41aa91ffab30/files/thumbnail_fbf0d014-35b2-4987-9032-d52a807f0b5b.png.512x512_q85_crop-%2C.png",
       "downloadable": true,
-      "author": "James Middleton",
+      "author": "Linka Palm",
       "license": {
         "name": "Royalty Free",
         "url": "https://www.blendkit.com/docs/licenses/",
