@@ -203,6 +203,39 @@
   ],
   "rejected": [
     {
+      "name": "Texturelib",
+      "homepage": "https://texturelib.com",
+      "checkedAt": "2026-10-22",
+      "reason": "downloads need a sign-in with a daily quota, robots.txt disallows /download/ and /category/, and the front page shows no search or API"
+    },
+    {
+      "name": "CG Materials (V-Ray Materials)",
+      "homepage": "https://www.cg-materials.com",
+      "checkedAt": "2026-10-22",
+      "reason": "vray-materials.de now redirects to a 'being rebuilt' placeholder page with no catalogue, so there is nothing to search",
+      "recheckAfter": "2027-01-20"
+    },
+    {
+      "name": "NoEmotion HDRs",
+      "homepage": "https://noemotionhdrs.net",
+      "checkedAt": "2026-10-22",
+      "reason": "site answered with HTTP 503 so access and freshness could not be verified",
+      "recheckAfter": "2027-01-20"
+    },
+    {
+      "name": "Threedscans",
+      "homepage": "https://threedscans.com",
+      "checkedAt": "2026-10-22",
+      "reason": "TLS certificate has expired, so automated requests fail to connect securely",
+      "recheckAfter": "2027-01-20"
+    },
+    {
+      "name": "Khronos glTF Sample Assets",
+      "homepage": "https://github.com/KhronosGroup/glTF-Sample-Assets",
+      "checkedAt": "2026-10-22",
+      "reason": "about 150 glTF conformance and test models with mixed licences, a testing set rather than an asset catalogue; too small"
+    },
+    {
       "name": "Dimensiva",
       "homepage": "https://dimensiva.com",
       "checkedAt": "2026-10-20",
