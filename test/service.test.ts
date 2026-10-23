@@ -3,7 +3,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { unzipSync } from "fflate";
-import { afterEach, describe, expect, it } from "vitest";
+import { afterEach, beforeAll, describe, expect, it } from "vitest";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { InMemoryTransport } from "@modelcontextprotocol/sdk/inMemory.js";
 import { createApp } from "../src/api/app.js";
@@ -15,12 +15,15 @@ import { searchMeta } from "../src/api/search-meta.js";
 import { buildCsp, rewriteHead, umamiHead } from "../src/api/site.js";
 import { createHash } from "node:crypto";
 import { brotliDecompressSync } from "node:zlib";
-import { assertPublicUrl, downloadFiles, safeRelative, selectFiles } from "../src/core/download.js";
+import { assertPublicUrl, downloadFiles, safeRelative, selectFiles, setHostResolver } from "../src/core/download.js";
 import { AssetService } from "../src/core/service.js";
 import { createMcpServer } from "../src/mcp/server.js";
 import { allProviders } from "../src/providers/index.js";
 import { fab } from "../src/providers/linked.js";
 import { CRATE, brokenProvider, bytesHttp, fakeProvider, slowProvider } from "./fakes.js";
+
+// Test hosts don't resolve; pretend every name is public.
+beforeAll(() => setHostResolver(async () => ["93.184.216.34"]));
 
 function service(http = bytesHttp()) {
   return new AssetService({ providers: [fakeProvider, brokenProvider, slowProvider, fab], http, defaultTimeoutMs: 200 });
@@ -317,7 +320,14 @@ describe("HTTP API", () => {
     const secured = createApp(service(), { apiKey: "s3cret", siteRoot: SITE });
     expect((await secured.request("/v1/providers")).status).toBe(401);
     expect((await secured.request("/v1/providers", { headers: { authorization: "Bearer s3cret" } })).status).toBe(200);
-    expect((await secured.request("/v1/providers?api_key=s3cret")).status).toBe(200);
+    expect((await secured.request("/v1/providers", { headers: { "x-api-key": "s3cret" } })).status).toBe(200);
+    // Keys in URLs leak into logs, history and Referer headers, so they are refused.
+    expect((await secured.request("/v1/providers?api_key=s3cret")).status).toBe(401);
+    expect((await secured.request("/v1/assets/fake:crate/download?format=fbx&api_key=s3cret")).status).toBe(401);
+    // Wrong keys, same length or not, are refused (compared in constant time).
+    expect((await secured.request("/v1/providers", { headers: { "x-api-key": "s3creT" } })).status).toBe(401);
+    expect((await secured.request("/v1/providers", { headers: { authorization: "Bearer s3cret-longer" } })).status).toBe(401);
+    expect((await secured.request("/v1/providers", { headers: { authorization: "Bearer " } })).status).toBe(401);
     expect((await secured.request("/health")).status).toBe(200);
     expect((await secured.request("/", { headers: { accept: "text/html" } })).status).toBe(200);
   });

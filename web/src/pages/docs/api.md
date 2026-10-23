@@ -142,7 +142,7 @@ Errors are JSON: `{ "error": "message" }`.
 
 ## Authentication (self-hosted)
 
-The public server is open. If you run your own with `ASSET_SERVER_API_KEY`, send the key as `Authorization: Bearer <key>` or `x-api-key: <key>` (or `?api_key=` for plain download links).
+The public server is open. If you run your own with `ASSET_SERVER_API_KEY`, send the key as `Authorization: Bearer <key>` or `x-api-key: <key>`. Keys in the URL (`?api_key=`) are not accepted, because URLs end up in logs, browser history and `Referer` headers; fetch downloads with the header instead (for example `curl -L -H "x-api-key: $KEY" -o asset.zip …/download`).
 
 ## Rate limits and versioning
 

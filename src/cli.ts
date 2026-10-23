@@ -2,6 +2,7 @@
 import { serve } from "@hono/node-server";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { createApp } from "./api/app.js";
+import { parseTrustedProxies } from "./api/ratelimit.js";
 import type { UmamiOptions } from "./api/site.js";
 import { Gauge } from "prom-client";
 import { PrometheusAnalytics, noopAnalytics, type Analytics } from "./core/analytics.js";
@@ -31,6 +32,11 @@ Environment:
   BLENDERKIT_API_KEY           Optional, enables BlenderKit downloads
   ASSET_SERVER_RATE_LIMIT      Requests per client per window on /v1 and /mcp (default 120, 0 = off)
   ASSET_SERVER_RATE_LIMIT_WINDOW  Window in seconds (default 60)
+  ASSET_SERVER_TRUSTED_PROXIES Reverse proxies that append to X-Forwarded-For: the client
+                               is the Nth entry from the right; 0 = use the socket address
+                               (default: leftmost entry, for an edge that overwrites the header)
+  ASSET_SERVER_DOWNLOAD_IDLE_MS  Abort a download when no bytes arrive for this long (default 30000)
+  ASSET_SERVER_MAX_ZIP_ENTRIES Max files extracted from one zip (default 20000)
   METRICS_PORT                 Serve Prometheus metrics on this port at /metrics and log
                                one JSON line per search/download/tool call (off when unset)
   PROMETHEUS_URL               Prometheus that scrapes METRICS_PORT; /v1/stats then reports
@@ -73,6 +79,7 @@ async function main(argv: string[]): Promise<void> {
           windowSec: Number(process.env.ASSET_SERVER_RATE_LIMIT_WINDOW ?? 60),
         },
         apiKey: process.env.ASSET_SERVER_API_KEY,
+        trustedProxies: parseTrustedProxies(process.env.ASSET_SERVER_TRUSTED_PROXIES),
         publicBaseUrl: process.env.ASSET_SERVER_PUBLIC_URL,
         allowServerDownloads: process.env.ASSET_SERVER_HTTP_DOWNLOADS === "true",
         httpMcpDisabled,

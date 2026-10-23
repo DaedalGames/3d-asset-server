@@ -1,12 +1,12 @@
 import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
-import { randomBytes } from "node:crypto";
+import { randomBytes, timingSafeEqual } from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { Hono, type Context } from "hono";
 import { compress } from "hono/compress";
 import { cors } from "hono/cors";
 import { z } from "zod";
 import { clientFamily, noopAnalytics, type Analytics, type Surface } from "../core/analytics.js";
-import { assertPublicUrl, assetFolderName, selectFiles, totalBytes, zipStream } from "../core/download.js";
+import { assertPublicHost, assetFolderName, selectFiles, totalBytes, zipStream } from "../core/download.js";
 import { HttpError } from "../core/http.js";
 import {
   AssetService,
@@ -28,8 +28,14 @@ import { assetMeta, searchMeta, searchShare, shareableAssetId, type HeadMeta } f
 import { Site, rewriteHead, type ServeOptions, type UmamiOptions } from "./site.js";
 
 export interface AppOptions {
-  /** Require this key as `Authorization: Bearer <key>` or `x-api-key` on /v1 and /mcp. */
+  /** Require this key as `Authorization: Bearer <key>` or `x-api-key` on /v1 and /mcp (headers only, never the URL). */
   apiKey?: string;
+  /**
+   * How many reverse proxies in front of this server append to X-Forwarded-For
+   * (src/api/ratelimit.ts `clientIp`). Unset: trust the leftmost entry, right
+   * behind an edge that overwrites the header. 0: ignore forwarding headers.
+   */
+  trustedProxies?: number;
   /** Externally reachable base URL (for links handed to MCP clients). */
   publicBaseUrl?: string;
   /** Allow the MCP download tool to write to this server's disk. Off by default for HTTP. */
@@ -89,6 +95,14 @@ function routeLabel(path: string): string {
   if (path === "/og/query.png" || path === "/og/asset.png") return path;
   if (path.startsWith("/_astro/") || path.startsWith("/scalar/") || path.startsWith("/fonts/") || path.startsWith("/og/")) return "static-asset";
   return "site";
+}
+
+/** Constant-time comparison, so response timing doesn't leak how much of a guessed key matched. */
+function sameSecret(given: string | undefined, key: string): boolean {
+  if (!given) return false;
+  const a = Buffer.from(given);
+  const b = Buffer.from(key);
+  return a.length === b.length && timingSafeEqual(a, b);
 }
 
 function tally(values: string[]): Record<string, number> {
@@ -201,7 +215,7 @@ export function createApp(service: AssetService, opts: AppOptions = {}): Hono {
     return machine ? corsMw(c, next) : next();
   });
   if (opts.rateLimit && opts.rateLimit.limit > 0) {
-    const limiter = rateLimit(opts.rateLimit);
+    const limiter = rateLimit({ trustedProxies: opts.trustedProxies, ...opts.rateLimit });
     app.use("/v1/*", limiter);
     app.use("/mcp", limiter);
     app.use("/og/query.png", limiter);
@@ -212,9 +226,9 @@ export function createApp(service: AssetService, opts: AppOptions = {}): Hono {
     const key = opts.apiKey;
     const guard = async (c: Context, next: () => Promise<void>) => {
       const auth = c.req.header("authorization");
-      // `api_key` query param lets plain links (e.g. the UI's download button) authenticate.
-      const given = auth?.startsWith("Bearer ") ? auth.slice(7) : (c.req.header("x-api-key") ?? c.req.query("api_key"));
-      if (given !== key) return c.json({ error: "unauthorized" }, 401);
+      // Headers only: a key in the URL would end up in logs, history and Referer headers.
+      const given = auth?.startsWith("Bearer ") ? auth.slice(7) : c.req.header("x-api-key");
+      if (!sameSecret(given, key)) return c.json({ error: "unauthorized" }, 401);
       await next();
     };
     app.use("/v1/*", guard);
@@ -380,7 +394,7 @@ export function createApp(service: AssetService, opts: AppOptions = {}): Hono {
     if (!files.length) return c.json({ error: "No files match the requested format/resolution." }, 404);
     const only = files[0]!;
     if (files.length === 1 && !only.includes?.length) {
-      assertPublicUrl(only.url);
+      await assertPublicHost(only.url);
       analytics.download({ ...who(c), provider: asset.provider, kind: "redirect" });
       return c.redirect(only.url, 302);
     }
@@ -412,7 +426,7 @@ export function createApp(service: AssetService, opts: AppOptions = {}): Hono {
     app.all("/mcp", async (c) => {
       const ua = c.req.header("user-agent");
       const uaFamily = clientFamily(ua);
-      const ip = clientIp(c);
+      const ip = clientIp(c, opts.trustedProxies);
       const network = opts.networks?.classify(ip) ?? "unknown";
       const sessionId = c.req.header("mcp-session-id");
       const session = sessions.verify(sessionId);
