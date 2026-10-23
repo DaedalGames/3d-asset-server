@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-22T09:37:24.688Z",
+  "updatedAt": "2026-10-23T09:33:35.301Z",
   "assets": [
     {
       "id": "itchio:brokenvector/low-poly-tree-pack",
@@ -589,28 +589,6 @@
       "free": true
     },
     {
-      "id": "blenderkit:b5ea49b8-ef91-4131-a665-ffce3351835a",
-      "provider": "blenderkit",
-      "title": "Low Poly Tree",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/b5ea49b8-ef91-4131-a665-ffce3351835a/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/87ffee54599f419a85af2dbf50a06777/files/thumbnail_e8bb8a76-6682-446d-9080-fe4a35eeb2f0.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Jamil Risqullah",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "polyCount": 597
-    },
-    {
       "id": "grab3d:low-poly-snake",
       "provider": "grab3d",
       "title": "Low Poly Snake",
@@ -652,6 +630,28 @@
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/treepreview.png",
       "downloadable": true,
       "free": true
+    },
+    {
+      "id": "blenderkit:72fac4cb-901c-4a48-8fc8-84a0baa0bd21",
+      "provider": "blenderkit",
+      "title": "Low poly tree",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/72fac4cb-901c-4a48-8fc8-84a0baa0bd21/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/4ab2223744f94959b51052c51458d791/files/thumbnail_223bbfab-f232-4a0c-8004-d96e17346fa0.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Dr Blender",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "polyCount": 82
     }
   ]
 }
