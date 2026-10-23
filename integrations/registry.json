@@ -203,6 +203,26 @@
   ],
   "rejected": [
     {
+      "name": "RawCatalog",
+      "homepage": "https://www.rawcatalog.com",
+      "checkedAt": "2026-10-23",
+      "reason": "every page is behind a Cloudflare JavaScript challenge (HTTP 403 to automated requests), so no automated search",
+      "recheckAfter": "2027-01-21"
+    },
+    {
+      "name": "KitBash3D",
+      "homepage": "https://www.kitbash3d.com",
+      "checkedAt": "2026-10-23",
+      "reason": "Shopify storefront selling mostly paid kits under a custom licence; free downloads need an account and there is no catalogue API for assets"
+    },
+    {
+      "name": "MattePaint",
+      "homepage": "https://www.mattepaint.com",
+      "checkedAt": "2026-10-23",
+      "reason": "free backplate and HDRI collection is a few bundled downloads, not a searchable catalogue, and the licence could not be confirmed",
+      "recheckAfter": "2027-01-21"
+    },
+    {
       "name": "Texturelib",
       "homepage": "https://texturelib.com",
       "checkedAt": "2026-10-22",
