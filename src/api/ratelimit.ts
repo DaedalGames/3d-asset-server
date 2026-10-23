@@ -22,20 +22,48 @@ export interface RateLimitOptions {
   policy?: string;
   /** Clock override for tests (ms). */
   now?: () => number;
+  /** Reverse proxies to trust for the client address; see `clientIp`. */
+  trustedProxies?: number;
 }
 
 export const RATE_LIMIT_HEADERS = ["RateLimit", "RateLimit-Policy", "RateLimit-Limit", "RateLimit-Remaining", "RateLimit-Reset", "Retry-After"];
 
 /**
- * The caller's address. Behind the shep.bot edge, Caddy replaces any
- * client-sent X-Forwarded-For with the real address and ingress-nginx
- * appends after it, so the leftmost entry is the client.
+ * Parse ASSET_SERVER_TRUSTED_PROXIES: unset or empty keeps the default
+ * (leftmost X-Forwarded-For); otherwise a whole number of proxy hops.
  */
-export function clientIp(c: Context): string | undefined {
-  const xff = c.req.header("x-forwarded-for")?.split(",")[0]?.trim();
-  if (xff) return xff;
-  const real = c.req.header("x-real-ip")?.trim();
-  if (real) return real;
+export function parseTrustedProxies(v: string | undefined): number | undefined {
+  if (v === undefined || v.trim() === "") return undefined;
+  const n = Number(v);
+  if (!Number.isInteger(n) || n < 0) throw new Error(`ASSET_SERVER_TRUSTED_PROXIES must be a whole number of proxy hops, got "${v}"`);
+  return n;
+}
+
+/**
+ * The caller's address.
+ *
+ * - `trustedProxies` unset (default): the leftmost X-Forwarded-For entry, else
+ *   X-Real-IP, else the socket. Right behind the shep.bot edge, where Caddy
+ *   replaces any client-sent X-Forwarded-For with the real address and
+ *   ingress-nginx appends after it; spoofable when clients reach the server
+ *   directly or through a proxy that only appends.
+ * - `0`: forwarding headers are ignored; the socket address is the client.
+ * - `N`: N proxies in front of the server each append the address they saw,
+ *   so the client is the Nth entry from the right; anything further left was
+ *   sent by the client and is not trusted. X-Real-IP is used only when there
+ *   is no X-Forwarded-For.
+ */
+export function clientIp(c: Context, trustedProxies?: number): string | undefined {
+  if (trustedProxies !== 0) {
+    const hops = c.req
+      .header("x-forwarded-for")
+      ?.split(",")
+      .map((s) => s.trim())
+      .filter(Boolean);
+    if (hops?.length) return trustedProxies === undefined ? hops[0] : hops[Math.max(0, hops.length - trustedProxies)];
+    const real = c.req.header("x-real-ip")?.trim();
+    if (real) return real;
+  }
   try {
     return getConnInfo(c).remote.address ?? undefined;
   } catch {
@@ -44,8 +72,8 @@ export function clientIp(c: Context): string | undefined {
 }
 
 /** The client a request is counted against. */
-export function clientKey(c: Context): string {
-  return clientIp(c) ?? "unknown";
+export function clientKey(c: Context, trustedProxies?: number): string {
+  return clientIp(c, trustedProxies) ?? "unknown";
 }
 
 export function rateLimit(opts: RateLimitOptions): MiddlewareHandler {
@@ -62,7 +90,7 @@ export function rateLimit(opts: RateLimitOptions): MiddlewareHandler {
       for (const [k, v] of hits) if (v.resetAt <= t) hits.delete(k);
       nextSweep = t + windowMs;
     }
-    const key = clientKey(c);
+    const key = clientKey(c, opts.trustedProxies);
     let entry = hits.get(key);
     if (!entry || entry.resetAt <= t) {
       entry = { count: 0, resetAt: t + windowMs };

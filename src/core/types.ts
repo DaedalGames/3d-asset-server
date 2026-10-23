@@ -204,4 +204,12 @@ export interface HttpRequestInit {
   signal?: AbortSignal;
   /** Cache TTL in ms for GET responses (text/json only). 0 disables. */
   cacheTtlMs?: number;
+  /**
+   * For `raw` downloads: the request timeout covers the response headers only,
+   * then the body aborts when no bytes arrive for this long (ms). Large files
+   * on slow CDNs need this instead of a cap on the whole transfer.
+   */
+  idleTimeoutMs?: number;
+  /** "manual" returns 3xx responses instead of following them (downloads re-check every hop). */
+  redirect?: "follow" | "manual";
 }

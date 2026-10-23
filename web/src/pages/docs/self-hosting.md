@@ -31,7 +31,7 @@ npm start
 | Variable | Default | Purpose |
 | --- | --- | --- |
 | `PORT` / `HOST` | `8787` / `0.0.0.0` | HTTP bind address. |
-| `ASSET_SERVER_API_KEY` | none | Require `Authorization: Bearer <key>`, `x-api-key` or `?api_key=` on `/v1/*` and `/mcp`. |
+| `ASSET_SERVER_API_KEY` | none | Require `Authorization: Bearer <key>` or `x-api-key: <key>` on `/v1/*` and `/mcp`. Headers only: `?api_key=` in the URL is not accepted. |
 | `ASSET_SERVER_PUBLIC_URL` | request origin | Base URL used in links handed to MCP clients. Set it behind a TLS proxy. |
 | `ASSET_SERVER_PROVIDERS` | all | Comma list to enable only some sources. |
 | `ASSET_SERVER_HTTP_DOWNLOADS` | `false` | Expose `download_asset` on the HTTP MCP endpoint (writes to the server's disk). |
@@ -41,6 +41,10 @@ npm start
 | `BLENDERKIT_API_KEY` | none | Unlocks plan and purchased BlenderKit assets. |
 | `ASSET_SERVER_RATE_LIMIT` | `120` | Requests per client per window on `/v1/*` and `/mcp`, with RateLimit headers and `429` + `Retry-After` beyond it. `0` turns it off. |
 | `ASSET_SERVER_RATE_LIMIT_WINDOW` | `60` | Rate-limit window in seconds. |
+| `ASSET_SERVER_TRUSTED_PROXIES` | unset | How the client address is read for rate limits and network labels. Unset: the leftmost `X-Forwarded-For` entry, which is only safe behind an edge proxy that replaces that header. `0`: ignore forwarding headers and use the connection's address (no proxy in front). `N`: N proxies append to `X-Forwarded-For`, so the client is the Nth entry from the right. Set it, or clients can choose their own rate-limit bucket. |
+| `ASSET_SERVER_MAX_DOWNLOAD_BYTES` | 2 GiB | Size guard per download, per zip bundle and per extracted zip. |
+| `ASSET_SERVER_MAX_ZIP_ENTRIES` | `20000` | Most files extracted from one zip. |
+| `ASSET_SERVER_DOWNLOAD_IDLE_MS` | `30000` | Abort a download when no bytes arrive for this long (there is no cap on total time). |
 | `METRICS_PORT` | off | Serve Prometheus metrics on this port at `/metrics`, and log one JSON line per search, download and tool call. |
 | `PROMETHEUS_URL` | off | Prometheus that scrapes `METRICS_PORT`. `/v1/stats` and the `/stats` page then show the last 24 hours and 7 days; without it they count since the server started. |
 | `MAXMIND_ACCOUNT_ID`, `MAXMIND_LICENSE_KEY` | off | With `METRICS_PORT`: download MaxMind's free GeoLite2-ASN database (refreshed weekly) to label MCP callers by network (ISP, AWS, Google Cloud, Azure, other hosting). |

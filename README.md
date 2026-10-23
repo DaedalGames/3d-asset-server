@@ -336,9 +336,15 @@ Companion files keep their relative paths, so a glTF loads straight away:
 
 Safety:
 
-- Only `http(s)` URLs to public hosts are fetched. Private and loopback addresses are refused.
+- Only `http(s)` URLs to public hosts are fetched. Private and loopback addresses are refused, including
+  host names that resolve to one and IPv4-mapped IPv6 literals. Redirects are followed by hand and every
+  hop is checked again.
 - Paths that try to escape the target folder (zip-slip, `../`) are rejected or skipped.
-- Each download has a size guard (`ASSET_SERVER_MAX_DOWNLOAD_BYTES`, default 2 GiB).
+- Each download has a size guard (`ASSET_SERVER_MAX_DOWNLOAD_BYTES`, default 2 GiB), also applied to
+  zip bundles streamed by `/download` and to what an extracted zip expands to. Zips are extracted by
+  streaming, with at most `ASSET_SERVER_MAX_ZIP_ENTRIES` files.
+- Downloads are not cut off after a fixed time; they abort when no bytes arrive for
+  `ASSET_SERVER_DOWNLOAD_IDLE_MS` (default 30 s).
 - Login, checkout and hotlink protection are never bypassed.
 
 ---
@@ -348,13 +354,15 @@ Safety:
 | Variable | Default | |
 |---|---|---|
 | `PORT` / `HOST` | `8787` / `0.0.0.0` | HTTP bind address |
-| `ASSET_SERVER_API_KEY` | – | Require `Authorization: Bearer <key>`, `x-api-key` or `?api_key=` on `/v1/*` and `/mcp` |
+| `ASSET_SERVER_API_KEY` | – | Require `Authorization: Bearer <key>` or `x-api-key: <key>` on `/v1/*` and `/mcp` (headers only; see the note below) |
 | `ASSET_SERVER_PUBLIC_URL` | request origin | Base URL used in links handed to MCP clients |
 | `ASSET_SERVER_PROVIDERS` | all | Comma list to enable only some sources, e.g. `polyhaven,ambientcg,kenney` |
 | `ASSET_DOWNLOAD_DIR` | `./assets` | Default download folder for MCP |
 | `ASSET_SERVER_HTTP_DOWNLOADS` | `false` | Expose `download_asset` on the HTTP MCP endpoint (writes to the server's disk) |
 | `ASSET_SERVER_HTTP_MCP` | `true` | Set to `false` to turn off MCP over HTTP at `/mcp`. The website and `/v1` API keep working, and the stdio MCP server is unaffected |
-| `ASSET_SERVER_MAX_DOWNLOAD_BYTES` | 2 GiB | Per-download size guard |
+| `ASSET_SERVER_MAX_DOWNLOAD_BYTES` | 2 GiB | Per-download size guard (also caps zip bundles and zip extraction) |
+| `ASSET_SERVER_MAX_ZIP_ENTRIES` | `20000` | Most files extracted from one zip |
+| `ASSET_SERVER_DOWNLOAD_IDLE_MS` | `30000` | Abort a download when no bytes arrive for this long |
 | `ASSET_SERVER_PROVIDER_TIMEOUT_MS` | `12000` | Per-site search timeout |
 | `ASSET_SERVER_HTTP_TIMEOUT_MS` | `15000` | Per-request HTTP timeout |
 | `ASSET_SERVER_CACHE_TTL_MS` | 10 min | In-memory HTTP cache TTL |
@@ -363,6 +371,7 @@ Safety:
 | `NODE_USE_ENV_PROXY` | – | Set to `1` so Node's `fetch` uses `HTTPS_PROXY` |
 | `ASSET_SERVER_RATE_LIMIT` | `120` | Requests per client per window on `/v1/*` and `/mcp`; responses carry `RateLimit-Policy` / `RateLimit` (+ `RateLimit-Limit/Remaining/Reset`), and `429` adds `Retry-After`. `0` = off |
 | `ASSET_SERVER_RATE_LIMIT_WINDOW` | `60` | Rate-limit window in seconds |
+| `ASSET_SERVER_TRUSTED_PROXIES` | – | How the client address (rate limits, network labels) is read. Unset: the leftmost `X-Forwarded-For` entry, which is only right behind an edge proxy that replaces the header (as on 3d.shep.bot). `0`: ignore forwarding headers and use the socket address (server exposed directly). `N`: N proxies append to `X-Forwarded-For`, so the client is the Nth entry from the right. Set it when self-hosting, or clients can pick their own rate-limit bucket |
 | `METRICS_PORT` | – | Serve Prometheus metrics on this port at `/metrics` and log one JSON line per search, download and MCP tool call (see below) |
 | `PROMETHEUS_URL` | – | Prometheus that scrapes `METRICS_PORT`. `/v1/stats` (and the `/stats` page) then report the last 24 hours and 7 days across replicas; without it they count this process since it started |
 | `MAXMIND_ACCOUNT_ID`, `MAXMIND_LICENSE_KEY` | – | With `METRICS_PORT`: download MaxMind's free GeoLite2-ASN database (refreshed weekly) to label MCP callers by network; see [MCP client attribution](#mcp-client-attribution) |
@@ -373,8 +382,9 @@ Safety:
 | `UMAMI_WEBSITE_ID` | – | With `UMAMI_HOST`: send web page views to your own [Umami](https://umami.is) instead (cookieless; honours Do Not Track; only `utm_*` query parameters are sent, never search text). The page CSP allows that one origin |
 | `UMAMI_HOST` | – | Origin serving the Umami tracker (`/script.js`) and its collect endpoint (`/api/send`) |
 
-> If you set `ASSET_SERVER_API_KEY` on a public server, note that `?api_key=` (used by the web UI's
-> download button) can end up in browser history and server logs.
+> The API key is accepted in headers only. The `?api_key=` query parameter was removed because keys in
+> URLs end up in browser history, server logs and `Referer` headers; requests that use it now get `401`.
+> The web UI sends the key as a header for downloads too. The key is compared in constant time.
 
 ### Analytics
 

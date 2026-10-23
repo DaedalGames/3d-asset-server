@@ -37,6 +37,12 @@ Link: <https://3d.shep.bot/docs/api/versioning>; rel="deprecation"
 
 Nothing in `/v1` is deprecated today.
 
+## Security changes
+
+Security fixes can change behaviour without a deprecation period:
+
+- **`?api_key=` removed (October 2026).** Self-hosted servers with `ASSET_SERVER_API_KEY` accept the key only as `Authorization: Bearer <key>` or `x-api-key: <key>`; a key in the query string now gets `401`. URLs leak into logs, browser history and `Referer` headers. The public server at 3d.shep.bot has no API key, so nothing changes there.
+
 ## Rate limits
 
 The public server allows **120 requests per minute per client** across `/v1/*` and `/mcp`. Every response tells you where you stand, using the IETF RateLimit header fields plus their widely used single-value forms:

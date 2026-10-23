@@ -14,7 +14,7 @@ import { readFileSync } from "node:fs";
 import { Resvg } from "@resvg/resvg-js";
 import satori from "satori";
 import sharp from "sharp";
-import { assertPublicUrl } from "../core/download.js";
+import { assertPublicHost } from "../core/download.js";
 import { USER_AGENT } from "../core/http.js";
 
 export const OG_WIDTH = 1200;
@@ -234,7 +234,7 @@ export async function fetchImage(url: string, opts: { timeoutMs?: number; maxByt
   try {
     let current = url;
     for (let hop = 0; hop < 4; hop++) {
-      assertPublicUrl(current);
+      await assertPublicHost(current);
       const res = await doFetch(current, { redirect: "manual", signal, headers: { "user-agent": USER_AGENT, accept: "image/*" } });
       if (res.status >= 300 && res.status < 400 && res.headers.get("location")) {
         current = new URL(res.headers.get("location")!, current).toString();

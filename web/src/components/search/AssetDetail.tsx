@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { CopyButton } from "@/components/home/AgentSetup";
-import { api, formatBytes, getKey, safeUrl, type Asset, type AssetDetails, type FileSelection } from "./api";
+import { api, downloadWithKey, formatBytes, getKey, safeUrl, type Asset, type AssetDetails, type FileSelection } from "./api";
 
 export function AssetDetail({ asset, providerName }: { asset: Asset; providerName: string }) {
   const [full, setFull] = useState<AssetDetails | null>(null);
@@ -13,6 +13,8 @@ export function AssetDetail({ asset, providerName }: { asset: Asset; providerNam
   const [resolution, setResolution] = useState("");
   const [selection, setSelection] = useState<FileSelection | null>(null);
   const [selError, setSelError] = useState<string>();
+  const [dlError, setDlError] = useState<string>();
+  const [downloading, setDownloading] = useState(false);
 
   useEffect(() => {
     setFull(null);
@@ -53,8 +55,18 @@ export function AssetDetail({ asset, providerName }: { asset: Asset; providerNam
   const a = full ?? asset;
   const hero = safeUrl(a.thumbnailUrl);
   const source = safeUrl(a.url);
-  const key = getKey();
-  const downloadHref = `${base}/download${qs}${key ? `${qs ? "&" : "?"}api_key=${encodeURIComponent(key)}` : ""}`;
+  const downloadHref = `${base}/download${qs}`;
+  // Without a key the link downloads as before; with one, the key travels in a header.
+  const onDownload = (e: React.MouseEvent) => {
+    if (!getKey()) return;
+    e.preventDefault();
+    const only = selection?.files.length === 1 && !selection.files[0]!.includes?.length ? selection.files[0]! : undefined;
+    setDlError(undefined);
+    setDownloading(true);
+    downloadWithKey(downloadHref, only?.filename ?? `${asset.id.replace(/[^a-z0-9]+/gi, "-")}.zip`, only?.url)
+      .catch((err: Error) => setDlError(err.message))
+      .finally(() => setDownloading(false));
+  };
   const origin = typeof window !== "undefined" ? window.location.origin : "";
   const curl = `curl -L -o "${asset.id.replace(/[^a-z0-9]+/gi, "-")}.zip" "${origin}${base}/download${qs}"`;
   const agentPrompt = `Use the 3d-assets MCP server: get_asset("${asset.id}")${format ? ` with format ${format}` : ""}${resolution ? ` at ${resolution}` : ""}, download it into ./assets and tell me the licence.`;
@@ -134,12 +146,15 @@ export function AssetDetail({ asset, providerName }: { asset: Asset; providerNam
                 </select>
               )}
               <Button asChild disabled={!selection?.files.length}>
-                <a href={downloadHref}><Download className="size-4" /> Download</a>
+                <a href={downloadHref} onClick={onDownload} aria-busy={downloading}>
+                  {downloading ? <Loader2 className="size-4 animate-spin" /> : <Download className="size-4" />} Download
+                </a>
               </Button>
               {selection?.totalBytes != null && <span className="text-xs text-muted-foreground">{formatBytes(selection.totalBytes)}</span>}
             </div>
             <ul className="space-y-1 text-xs text-muted-foreground">
               {selError && <li className="text-destructive">{selError}</li>}
+              {dlError && <li className="text-destructive">{dlError}</li>}
               {!selection && !selError && <li>…</li>}
               {selection?.files.length === 0 && <li>Nothing matches this combination.</li>}
               {selection?.files.map((f) => (
