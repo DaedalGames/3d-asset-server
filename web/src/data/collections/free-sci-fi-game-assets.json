@@ -14,7 +14,7 @@
       "visualization"
     ]
   },
-  "updatedAt": "2026-10-23T09:33:58.081Z",
+  "updatedAt": "2026-10-24T09:06:39.943Z",
   "assets": [
     {
       "id": "blenderkit:f856dc91-1475-40de-8aa0-d29cfa48a583",
@@ -78,7 +78,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "maxResolution": "1k",
       "polyCount": 2033
@@ -348,7 +349,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "polyCount": 5295
     },
@@ -481,9 +483,10 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
-      "maxResolution": "1k",
+      "maxResolution": "2k",
       "polyCount": 3956
     },
     {
