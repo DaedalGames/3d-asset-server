@@ -203,6 +203,26 @@
   ],
   "rejected": [
     {
+      "name": "MorphoSource",
+      "homepage": "https://www.morphosource.org",
+      "checkedAt": "2026-10-24",
+      "reason": "robots.txt allows only /api/, and the catalogue is mostly CT scans of biological specimens with per-item licences and request-gated downloads, not general 3D assets",
+      "recheckAfter": "2027-01-22"
+    },
+    {
+      "name": "The Models Resource",
+      "homepage": "https://www.models-resource.com",
+      "checkedAt": "2026-10-24",
+      "reason": "rips of copyrighted video game models with no open licence, and robots.txt disallows /browse/"
+    },
+    {
+      "name": "Blender Studio",
+      "homepage": "https://studio.blender.org",
+      "checkedAt": "2026-10-24",
+      "reason": "API answers 'Authentication credentials were not provided' and assets are mostly film production files behind a subscription, so no keyless search",
+      "recheckAfter": "2027-01-22"
+    },
+    {
       "name": "RawCatalog",
       "homepage": "https://www.rawcatalog.com",
       "checkedAt": "2026-10-23",
