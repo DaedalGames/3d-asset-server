@@ -203,6 +203,13 @@
   ],
   "rejected": [
     {
+      "name": "Texture Ninja",
+      "homepage": "https://texture.ninja",
+      "checkedAt": "2026-10-25",
+      "reason": "React app whose /api/textures is undocumented, serves untitled CC0 reference photos (not PBR maps) with no robots.txt or terms page, and the library has not grown since 2018",
+      "recheckAfter": "2027-01-23"
+    },
+    {
       "name": "MorphoSource",
       "homepage": "https://www.morphosource.org",
       "checkedAt": "2026-10-24",
