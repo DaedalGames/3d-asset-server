@@ -11,7 +11,7 @@
       "delivery bag"
     ]
   },
-  "updatedAt": "2026-10-23T09:33:25.104Z",
+  "updatedAt": "2026-10-25T09:23:28.358Z",
   "assets": [
     {
       "id": "polyhaven:food_apple_01",
@@ -623,27 +623,6 @@
       "polyCount": 4712
     },
     {
-      "id": "blenderkit:e67cf02a-2770-469d-87d6-8dd31a087c36",
-      "provider": "blenderkit",
-      "title": "Food Lime",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/e67cf02a-2770-469d-87d6-8dd31a087c36/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1a324b4c2d164718a461221b8e658a19/files/thumbnail_6a71b514-4e99-4db4-88fd-e460cda15524.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Poly Haven",
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
-    },
-    {
       "id": "sharetextures:carrot-1",
       "provider": "sharetextures",
       "title": "Carrot 1",
@@ -682,6 +661,27 @@
       ],
       "polyCount": 568,
       "rigged": true
+    },
+    {
+      "id": "threedassets:pets-and-companions-hd-feeding-bowls-f3651043",
+      "provider": "threedassets",
+      "title": "Food And Water Bowls (Pets and Companions HD)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/pets-and-companions-hd-feeding-bowls-f3651043",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/28175/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 2768
     }
   ]
 }

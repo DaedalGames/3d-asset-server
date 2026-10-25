@@ -14,7 +14,7 @@
       "visualization"
     ]
   },
-  "updatedAt": "2026-10-24T09:06:39.943Z",
+  "updatedAt": "2026-10-25T09:24:00.762Z",
   "assets": [
     {
       "id": "blenderkit:f856dc91-1475-40de-8aa0-d29cfa48a583",
@@ -467,29 +467,6 @@
       "polyCount": 71175
     },
     {
-      "id": "blenderkit:eb8d11d2-5ee1-43c6-8a75-5579fecb8f4e",
-      "provider": "blenderkit",
-      "title": "Sci-Fi-Crates",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/eb8d11d2-5ee1-43c6-8a75-5579fecb8f4e/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/c215b23655a24025b4a46adca79225f7/files/thumbnail_6724b26d-99c8-4552-9fbc-588368e21f32.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Raymond Gabriel",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "2k",
-      "polyCount": 3956
-    },
-    {
       "id": "threedassets:arcology-towers-and-skyways-connector-cases-a476800b",
       "provider": "threedassets",
       "title": "Connector Cases (Sci-Fi City Towers and Skyways)",
@@ -656,6 +633,29 @@
         "glb"
       ],
       "polyCount": 1272
+    },
+    {
+      "id": "grab3d:airlock",
+      "provider": "grab3d",
+      "title": "Sci-Fi Airlock",
+      "type": "model",
+      "url": "https://grab3d.com/models/sci-fi/airlock/",
+      "thumbnailUrl": "https://grab3d.com/m/airlock/airlock-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
     }
   ]
 }

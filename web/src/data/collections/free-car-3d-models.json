@@ -21,7 +21,7 @@
       "lego"
     ]
   },
-  "updatedAt": "2026-10-22T09:37:11.678Z",
+  "updatedAt": "2026-10-25T09:23:21.926Z",
   "assets": [
     {
       "id": "polyhaven:covered_car",
@@ -278,17 +278,6 @@
       "thumbnailUrl": "https://img.itch.zone/aW1nLzg4MTM4OTkuanBn/315x250%23c/E5qtel.jpg",
       "downloadable": false,
       "author": "VOiD1 Gaming",
-      "free": true
-    },
-    {
-      "id": "itchio:fball-dev/2025-mclaren-artura-spider-realistic-pbr-sports-car-3d-model",
-      "provider": "itchio",
-      "title": "McLaren Artura Spider Realistic PBR Sports Car 3D Model",
-      "type": "model",
-      "url": "https://fball-dev.itch.io/2025-mclaren-artura-spider-realistic-pbr-sports-car-3d-model",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzIzOTYzNTc1LnBuZw==/315x250%23c/IUz3pW.png",
-      "downloadable": false,
-      "author": "Fball Dev",
       "free": true
     },
     {
@@ -611,6 +600,29 @@
       "type": "model",
       "url": "https://grab3d.com/models/vehicles/1960s-sports-car/",
       "thumbnailUrl": "https://grab3d.com/m/1960s-sports-car/1960s-sports-car-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "grab3d:1980s-sports-car",
+      "provider": "grab3d",
+      "title": "1980s Sports Car",
+      "type": "model",
+      "url": "https://grab3d.com/models/vehicles/1980s-sports-car/",
+      "thumbnailUrl": "https://grab3d.com/m/1980s-sports-car/1980s-sports-car-3d-model.webp",
       "downloadable": true,
       "license": {
         "name": "CC0",
