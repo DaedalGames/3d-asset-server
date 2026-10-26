@@ -203,6 +203,20 @@
   ],
   "rejected": [
     {
+      "name": "RigModels",
+      "homepage": "https://rigmodels.com",
+      "checkedAt": "2026-10-26",
+      "reason": "robots.txt sets a 60 second crawl-delay and disallows /3d.php (the model page) and /download/, so no allowed way to search or fetch files",
+      "recheckAfter": "2027-01-24"
+    },
+    {
+      "name": "ArchiveCG",
+      "homepage": "https://archivecg.com",
+      "checkedAt": "2026-10-26",
+      "reason": "domain does not resolve (DNS lookup fails), so the site appears to be down",
+      "recheckAfter": "2027-01-24"
+    },
+    {
       "name": "Texture Ninja",
       "homepage": "https://texture.ninja",
       "checkedAt": "2026-10-25",
