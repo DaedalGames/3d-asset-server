@@ -1,0 +1,636 @@
+{
+  "slug": "free-leather-textures",
+  "search": {
+    "q": "leather",
+    "types": [
+      "material",
+      "texture"
+    ],
+    "free": true
+  },
+  "updatedAt": "2026-10-26T13:24:01.003Z",
+  "assets": [
+    {
+      "id": "polyhaven:leather_red_02",
+      "provider": "polyhaven",
+      "title": "Leather Red 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/leather_red_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/leather_red_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:697cb296-b7c5-4357-b8e9-7e927aad96d3",
+      "provider": "blenderkit",
+      "title": "Black leather",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/697cb296-b7c5-4357-b8e9-7e927aad96d3/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/7c16bef46b2f401f99ae85769f094602/files/thumbnail_8802c8d2-4351-44ff-988c-e84c119d8538.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "ydd 3D",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Leather037",
+      "provider": "ambientcg",
+      "title": "Leather 037",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Leather037",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Leather037.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "texturecan:520",
+      "provider": "texturecan",
+      "title": "Diamond Shaped Leather Cushion Texture",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/520/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/fabrics_0074/fabrics_0074_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "opengameart:tileable-leather-texture",
+      "provider": "opengameart",
+      "title": "Tileable Leather Texture",
+      "type": "texture",
+      "url": "https://opengameart.org/content/tileable-leather-texture",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/leather.png.preview_0.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "cgbookcase:black-leather-02",
+      "provider": "cgbookcase",
+      "title": "Black Leather 02",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/black-leather-02",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Black_leather_02_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "freestylized:material:leather_01",
+      "provider": "freestylized",
+      "title": "leather 01",
+      "type": "material",
+      "url": "https://freestylized.com/material/leather_01/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/10/leather_01_preview_hex151515.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "texturescom:133458",
+      "provider": "texturescom",
+      "title": "Plain Leather 9",
+      "type": "material",
+      "url": "https://www.textures.com/download/free-3d-scanned-leather-material-008x008-meters/133458",
+      "thumbnailUrl": "https://www.textures.com/system/gallery/photos/Fabric/114700-Leather/ps133458/133458_thumbnail_small.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "Textures.com License",
+        "url": "https://www.textures.com/about/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4K"
+    },
+    {
+      "id": "threedtexel:cerulean-blue-leather",
+      "provider": "threedtexel",
+      "title": "Cerulean Blue Leather – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/cerulean-blue-leather/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/02/T_Cerulean_Blue_Leather_S-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:leather-stitched-triblade-padded-002",
+      "provider": "threedtextures",
+      "title": "Leather Stitched Triblade Padded 002",
+      "type": "material",
+      "url": "https://3dtextures.me/2026/02/11/leather-stitched-triblade-padded-002/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2026/02/Material_2003-1.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "itchio:juliovii/leatherpk01",
+      "provider": "itchio",
+      "title": "Texture Pack: Leather 01",
+      "type": "texture",
+      "url": "https://juliovii.itch.io/leatherpk01",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzM4ODU4MzguanBn/315x250%23c/V8PvZm.jpg",
+      "downloadable": false,
+      "author": "JulioVII",
+      "free": true
+    },
+    {
+      "id": "polyhaven:brown_leather",
+      "provider": "polyhaven",
+      "title": "Brown Leather",
+      "type": "material",
+      "url": "https://polyhaven.com/a/brown_leather",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/brown_leather.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:c4831b57-6fc1-4ee0-bcef-0c39dec1a300",
+      "provider": "blenderkit",
+      "title": "Black Fine-Grain Leather",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/c4831b57-6fc1-4ee0-bcef-0c39dec1a300/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/9d769c6e61564f819aa813b70e6683e4/files/thumbnail_c59aaad2-2b34-4bd2-9e4e-993ab052b253.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "RADHUNANDAN",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Leather038",
+      "provider": "ambientcg",
+      "title": "Leather 038",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Leather038",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Leather038.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "texturecan:503",
+      "provider": "texturecan",
+      "title": "Brown Alligator Leather Fabric",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/503/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/fabrics_0073/fabrics_0073_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "opengameart:fabric-leather-seamless-texture-with-normalmap",
+      "provider": "opengameart",
+      "title": "Fabric - Leather - Seamless Texture With Normalmap",
+      "type": "texture",
+      "url": "https://opengameart.org/content/fabric-leather-seamless-texture-with-normalmap",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Leather_T.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "cgbookcase:black-leather-01",
+      "provider": "cgbookcase",
+      "title": "Black Leather 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/black-leather-01",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Black_leather_01_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtexel:mint-green-leather",
+      "provider": "threedtexel",
+      "title": "Mint Green Textured Leather – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/mint-green-leather/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/02/T_Mint_Green_Leather_S-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:leather-stitched-triblade-padded-001",
+      "provider": "threedtextures",
+      "title": "Leather Stitched Triblade Padded 001",
+      "type": "material",
+      "url": "https://3dtextures.me/2025/12/11/leather-stitched-triblade-padded-001/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2025/12/Material_2000.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "itchio:tempisq/leather-vol1",
+      "provider": "itchio",
+      "title": "Leather Vol.1",
+      "type": "texture",
+      "url": "https://tempisq.itch.io/leather-vol1",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4OTI4MDUwLnBuZw==/315x250%23c/YH2SF5.png",
+      "downloadable": false,
+      "author": "tempisq",
+      "free": true
+    },
+    {
+      "id": "polyhaven:leather_white",
+      "provider": "polyhaven",
+      "title": "Leather White",
+      "type": "material",
+      "url": "https://polyhaven.com/a/leather_white",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/leather_white.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "ambientcg:Leather030",
+      "provider": "ambientcg",
+      "title": "Leather 030",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Leather030",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Leather030.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "texturecan:501",
+      "provider": "texturecan",
+      "title": "Black Woven Leather",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/501/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/fabrics_0072/fabrics_0072_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "opengameart:fabric-old-leather-seamless-texture-with-normalmap",
+      "provider": "opengameart",
+      "title": "Fabric - Old Leather - Seamless Texture With Normalmap",
+      "type": "texture",
+      "url": "https://opengameart.org/content/fabric-old-leather-seamless-texture-with-normalmap",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/OldLeather2_T.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "cgbookcase:brown-leather-02",
+      "provider": "cgbookcase",
+      "title": "Brown Leather 02",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/brown-leather-02",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Brown_leather_02_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtexel:brown-leather-mat",
+      "provider": "threedtexel",
+      "title": "Mat Brown Leather – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/brown-leather-mat/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/02/T_Mat_Brown_Leather_C-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:leather-padded-004",
+      "provider": "threedtextures",
+      "title": "Leather Padded 004",
+      "type": "material",
+      "url": "https://3dtextures.me/2025/07/30/leather-padded-004/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2025/07/Material_1933.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "itchio:juliovii/materials-leather-03",
+      "provider": "itchio",
+      "title": "Materials Leather 03",
+      "type": "material",
+      "url": "https://juliovii.itch.io/materials-leather-03",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI5ODI4NjY2LmpwZw==/315x250%23c/sq2uuV.jpg",
+      "downloadable": false,
+      "author": "JulioVII",
+      "free": true
+    },
+    {
+      "id": "polyhaven:leather_red_03",
+      "provider": "polyhaven",
+      "title": "Leather Red 03",
+      "type": "material",
+      "url": "https://polyhaven.com/a/leather_red_03",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/leather_red_03.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "ambientcg:Leather026",
+      "provider": "ambientcg",
+      "title": "Leather 026",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Leather026",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Leather026.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "texturecan:455",
+      "provider": "texturecan",
+      "title": "Calf Leather",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/455/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/fabrics_0067/fabrics_0067_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:brown-leather-01",
+      "provider": "cgbookcase",
+      "title": "Brown Leather 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/brown-leather-01",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Brown_leather_01_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtexel:jet-black-leather",
+      "provider": "threedtexel",
+      "title": "Jet Black Leather – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/jet-black-leather/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/02/T_Jet_Black_Leather_S-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:leather-armor-004",
+      "provider": "threedtextures",
+      "title": "Leather Armor 004",
+      "type": "material",
+      "url": "https://3dtextures.me/2024/11/28/leather-armor-004/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2024/11/Material_1905.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "itchio:juliovii/materials-leather-02",
+      "provider": "itchio",
+      "title": "Materials Leather 02",
+      "type": "material",
+      "url": "https://juliovii.itch.io/materials-leather-02",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI5NjQwNTg0LmpwZw==/315x250%23c/ldkp5S.jpg",
+      "downloadable": false,
+      "author": "JulioVII",
+      "free": true
+    },
+    {
+      "id": "polyhaven:fabric_leather_02",
+      "provider": "polyhaven",
+      "title": "Fabric Leather 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/fabric_leather_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/fabric_leather_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    }
+  ]
+}

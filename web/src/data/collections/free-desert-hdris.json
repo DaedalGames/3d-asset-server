@@ -1,0 +1,542 @@
+{
+  "slug": "free-desert-hdris",
+  "search": {
+    "q": "desert",
+    "types": [
+      "hdri"
+    ],
+    "free": true,
+    "exclude": [
+      "Supercar",
+      "Moonlit",
+      "Clear Night"
+    ]
+  },
+  "updatedAt": "2026-10-26T13:23:35.438Z",
+  "assets": [
+    {
+      "id": "blenderkit:ad0f2d01-2ac1-4da7-890f-f2098b1079dc",
+      "provider": "blenderkit",
+      "title": "Desert clear sky",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/ad0f2d01-2ac1-4da7-890f-f2098b1079dc/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/d6e3961436e74d88ab652f5ce1eef46e/files/thumbnail_f3331e22-2dbd-4e18-b789-b0c301987d09.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "antoine f",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:c07bd5ce-3f16-4fca-ae08-ac8e4645c69d",
+      "provider": "blenderkit",
+      "title": "Desert HDR optimised 12K",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/c07bd5ce-3f16-4fca-ae08-ac8e4645c69d/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/7fad14fbb89440f7b66265b04517818c/files/thumbnail_1f6dd828-ce81-4ee4-beea-a2595bc8e227.png.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Blender Akademie",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:2c4de899-152b-4fb6-9bee-08ad2a2d5db1",
+      "provider": "blenderkit",
+      "title": "Orange Sunset Desert Dunes",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/2c4de899-152b-4fb6-9bee-08ad2a2d5db1/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f281542535374b548c095831f175fe3b/files/thumbnail_df2e7865-dc6f-4931-bf3e-dc888c41997c.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "EB Adventure Photoscans",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:69f5a34e-ffb2-4921-9b08-963f33ab5339",
+      "provider": "blenderkit",
+      "title": "Desert Ridge Sunset",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/69f5a34e-ffb2-4921-9b08-963f33ab5339/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/bb9db74966a9403ca347a5c9e00fb49d/files/thumbnail_63046170-75ac-4c4b-93fb-a5b36152c823.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "5555dnl_3d",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:goegap",
+      "provider": "polyhaven",
+      "title": "Goegap",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/goegap",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/goegap.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:2a1f8d6f-a71d-4c67-9966-703f10dad5ce",
+      "provider": "blenderkit",
+      "title": "Foggy desert",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/2a1f8d6f-a71d-4c67-9966-703f10dad5ce/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f9bc929c3bd440b1a1a1ab982ac88aa0/files/thumbnail_937cf27e-956a-4bd8-b8a5-d3f03682df42.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "antoine f",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:goegap_road",
+      "provider": "polyhaven",
+      "title": "Goegap Road",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/goegap_road",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/goegap_road.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal, James Ray Cock",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:b9fdfeb9-96b2-4fb0-809e-347d622abe8c",
+      "provider": "blenderkit",
+      "title": "Desert Rock Sun",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/b9fdfeb9-96b2-4fb0-809e-347d622abe8c/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0968cf5a337547cb95c3009c9b078fc2/files/thumbnail_f8f1dda7-5314-43f0-91e1-52631a2dfa43.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "5555dnl_3d",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:klippad_sunrise_2",
+      "provider": "polyhaven",
+      "title": "Klippad Sunrise 2",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/klippad_sunrise_2",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/klippad_sunrise_2.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:dfb0c7e9-3d29-4786-b2b2-29a4b6ddbb1b",
+      "provider": "blenderkit",
+      "title": "Realistic Afternoon Desert HDRI",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/dfb0c7e9-3d29-4786-b2b2-29a4b6ddbb1b/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/80a61bc02ff64682942704be87282a7e/files/thumbnail_f98f26e5-c3ff-4d55-8b4e-ad145c2baa4d.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "GenPolygon",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "blenderkit:0bd3aa05-8fe3-4cc2-8068-1d3307a209ea",
+      "provider": "blenderkit",
+      "title": "Natural Desert HDRI Day",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/0bd3aa05-8fe3-4cc2-8068-1d3307a209ea/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f750d2a4abfa48aba770897dc5419911/files/thumbnail_efaae650-0032-40c9-8ce9-c47c270b6712.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "GenPolygon",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "polyhaven:klippad_dawn_2",
+      "provider": "polyhaven",
+      "title": "Klippad Dawn 2",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/klippad_dawn_2",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/klippad_dawn_2.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:b482ef48-6afb-467c-a5eb-9b3f0ddd2194",
+      "provider": "blenderkit",
+      "title": "Desert Sunset Horizon",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/b482ef48-6afb-467c-a5eb-9b3f0ddd2194/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/86342f0897ed4d5ab99e7c71caa05b2f/files/thumbnail_b66870af-bf2e-4298-a381-c4c25174c7fb.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "5555dnl_3d",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:rogland_sunset",
+      "provider": "polyhaven",
+      "title": "Rogland Sunset",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/rogland_sunset",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/rogland_sunset.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:bc94d012-64be-4731-93f6-c61c3a7b29e8",
+      "provider": "blenderkit",
+      "title": "Desert Sunset Plain",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/bc94d012-64be-4731-93f6-c61c3a7b29e8/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/8bab920dccfa421abc5100eb87529074/files/thumbnail_58640adb-5cc8-4ba2-9d25-7ca01e917588.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "5555dnl_3d",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:klippad_dawn_1",
+      "provider": "polyhaven",
+      "title": "Klippad Dawn 1",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/klippad_dawn_1",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/klippad_dawn_1.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:4cc6b1ff-f8ce-45c4-8e89-5e8adce089d1",
+      "provider": "blenderkit",
+      "title": "Dunes Desert Golden Hour HDRI",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/4cc6b1ff-f8ce-45c4-8e89-5e8adce089d1/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/39c802c9413742218c35f1089a60db3e/files/thumbnail_eee8b61d-91f9-4866-9079-d5336e3d4fb9.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "GenPolygon",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "polyhaven:valley_of_desolation",
+      "provider": "polyhaven",
+      "title": "Valley Of Desolation",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/valley_of_desolation",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/valley_of_desolation.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dario Barresi",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:c7190582-7211-4edc-aa5c-9aa16eca655d",
+      "provider": "blenderkit",
+      "title": "Cloudy Sky in a Desert",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/c7190582-7211-4edc-aa5c-9aa16eca655d/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/143fd2b8bc164af99d54b07fccb6c53d/files/thumbnail_0b0d9dd2-8ad8-4082-97ac-c7688d354496.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Polara 3D",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:klippad_sunrise_1",
+      "provider": "polyhaven",
+      "title": "Klippad Sunrise 1",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/klippad_sunrise_1",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/klippad_sunrise_1.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:0e6e67cf-22db-400e-b76d-c67e8d71397b",
+      "provider": "blenderkit",
+      "title": "Desert HDRI Morning",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/0e6e67cf-22db-400e-b76d-c67e8d71397b/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0ececea545d94a6c95cbbbfb5cc898bb/files/thumbnail_f5206f73-b2ad-44c4-b54a-89864a77ca8c.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "GenPolygon",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "polyhaven:rogland_overcast",
+      "provider": "polyhaven",
+      "title": "Rogland Overcast",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/rogland_overcast",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/rogland_overcast.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:nowhere_road",
+      "provider": "polyhaven",
+      "title": "Nowhere Road",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/nowhere_road",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/nowhere_road.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dario Barresi, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:554bdf5a-78b8-4cb0-a32b-328d626ce911",
+      "provider": "blenderkit",
+      "title": "Lake Desert Cloudy Sky",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/554bdf5a-78b8-4cb0-a32b-328d626ce911/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/84b3681601d5403dacef5761782f0711/files/thumbnail_2d7bb62d-7dce-4d17-8202-27d7559de8f6.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "EB Adventure Photoscans",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    }
+  ]
+}

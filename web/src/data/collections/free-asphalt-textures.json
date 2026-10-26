@@ -1,0 +1,673 @@
+{
+  "slug": "free-asphalt-textures",
+  "search": {
+    "q": "asphalt",
+    "types": [
+      "material",
+      "texture"
+    ],
+    "free": true,
+    "exclude": [
+      "Shingles",
+      "Rooftop",
+      "Decal"
+    ]
+  },
+  "updatedAt": "2026-10-26T13:23:34.155Z",
+  "assets": [
+    {
+      "id": "polyhaven:asphalt_02",
+      "provider": "polyhaven",
+      "title": "Asphalt 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/asphalt_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/asphalt_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:c6874d16-a358-4961-b4ca-43bf078f0c01",
+      "provider": "blenderkit",
+      "title": "Cracked asphalt road",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/c6874d16-a358-4961-b4ca-43bf078f0c01/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1f5703d352c94d799cc378770342e9aa/files/thumbnail_2182c8ca-34b8-4077-a0f5-1d8bcb354b58.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Steffen",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "ambientcg:Asphalt033",
+      "provider": "ambientcg",
+      "title": "Asphalt 033",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Asphalt033",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Asphalt033.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:asphalt",
+      "provider": "opengameart",
+      "title": "Asphalt",
+      "type": "texture",
+      "url": "https://opengameart.org/content/asphalt",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/asphalt_1.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "cgbookcase:asphalt-02",
+      "provider": "cgbookcase",
+      "title": "Asphalt 02",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/asphalt-02",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Asphalt_02_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "2k"
+    },
+    {
+      "id": "freestylized:material:asphalt_01",
+      "provider": "freestylized",
+      "title": "Asphalt 01",
+      "type": "material",
+      "url": "https://freestylized.com/material/asphalt_01/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/10/asphalt_01_preview_hex151515.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:stylized-asphalt-road-pbr-material-2",
+      "provider": "threedtexel",
+      "title": "Stylized Asphalt Road with White and Yellow Lines – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/stylized-asphalt-road-pbr-material-2/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/09/Untitled_Sphere-Camera-119-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "itchio:tempisq/asphalt-vol1",
+      "provider": "itchio",
+      "title": "Asphalt Vol.1",
+      "type": "texture",
+      "url": "https://tempisq.itch.io/asphalt-vol1",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4OTI3NjU0LnBuZw==/315x250%23c/NWFLMv.png",
+      "downloadable": false,
+      "author": "tempisq",
+      "free": true
+    },
+    {
+      "id": "threedtextures:asphalt-006",
+      "provider": "threedtextures",
+      "title": "Asphalt 006",
+      "type": "material",
+      "url": "https://3dtextures.me/2018/11/12/asphalt-006/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2018/11/material_589.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "polyhaven:aerial_asphalt_01",
+      "provider": "polyhaven",
+      "title": "Aerial Asphalt 01",
+      "type": "material",
+      "url": "https://polyhaven.com/a/aerial_asphalt_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/aerial_asphalt_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:e512c8e4-d202-44dc-a947-d5ccfe166751",
+      "provider": "blenderkit",
+      "title": "Realistic Asphalt",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/e512c8e4-d202-44dc-a947-d5ccfe166751/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6a47fbb7a5454387a6292daf17fd8d7b/files/thumbnail_ece5fb47-6094-4fa0-b27c-6404ae6635cb.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "RADHUNANDAN",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "opengameart:real-asphalt-texture-pack",
+      "provider": "opengameart",
+      "title": "real asphalt texture pack",
+      "type": "texture",
+      "url": "https://opengameart.org/content/real-asphalt-texture-pack",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/real_asphalt_texture_pack.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "ambientcg:Asphalt031",
+      "provider": "ambientcg",
+      "title": "Asphalt 031",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Asphalt031",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Asphalt031.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "cgbookcase:asphalt-01",
+      "provider": "cgbookcase",
+      "title": "Asphalt 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/asphalt-01",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Asphalt_01_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtexel:stylized-asphalt-road-pbr-material",
+      "provider": "threedtexel",
+      "title": "Stylized Asphalt Road With White Line – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/stylized-asphalt-road-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/09/Untitled_Sphere-Camera-118-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "itchio:juliovii/ftp-asphalt-01",
+      "provider": "itchio",
+      "title": "Texture Pack: Asphalt 01",
+      "type": "texture",
+      "url": "https://juliovii.itch.io/ftp-asphalt-01",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI1NjQzNTY2LmpwZw==/315x250%23c/ggqzVC.jpg",
+      "downloadable": false,
+      "author": "JulioVII",
+      "free": true
+    },
+    {
+      "id": "polyhaven:asphalt_01",
+      "provider": "polyhaven",
+      "title": "Asphalt 01",
+      "type": "material",
+      "url": "https://polyhaven.com/a/asphalt_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/asphalt_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dario Barresi, Charlotte Baglioni",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:d96835f2-faeb-4feb-b227-a9101dfddf28",
+      "provider": "blenderkit",
+      "title": "New asphalt",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/d96835f2-faeb-4feb-b227-a9101dfddf28/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1cf1d98a884a4efcbb605dcb2927b8f9/files/thumbnail_72e9b582-06b7-43d8-a5e0-4c9baf747aca.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "ydd 3D",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "opengameart:faux-asphalt-texture-pack",
+      "provider": "opengameart",
+      "title": "faux asphalt texture pack",
+      "type": "texture",
+      "url": "https://opengameart.org/content/faux-asphalt-texture-pack",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/faux_asphalt_texture_pack_preview.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "threedtexel:old-stony-asphalt-pbr-maerial",
+      "provider": "threedtexel",
+      "title": "Stony Asphalt Surface – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/old-stony-asphalt-pbr-maerial/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/03/T_Old_Stony_Asphalt_S-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Asphalt025C",
+      "provider": "ambientcg",
+      "title": "Asphalt 025 C",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Asphalt025C",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Asphalt025C.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:asphalt_pit_lane",
+      "provider": "polyhaven",
+      "title": "Asphalt Pit Lane",
+      "type": "material",
+      "url": "https://polyhaven.com/a/asphalt_pit_lane",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/asphalt_pit_lane.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:ed421fb2-d83d-4ba4-9c03-5e37f1b1a13c",
+      "provider": "blenderkit",
+      "title": "Asphalt Road",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/ed421fb2-d83d-4ba4-9c03-5e37f1b1a13c/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/604296017e794f41929e4efe4b4bc99f/files/thumbnail_179aed7b-0bbc-4d67-91b8-229e4607ee5f.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "PBRPX",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:black-asphalt-tilling-256px",
+      "provider": "opengameart",
+      "title": "Black asphalt tilling 256px",
+      "type": "texture",
+      "url": "https://opengameart.org/content/black-asphalt-tilling-256px",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/01tizeta_asphalts2.png.preview.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "threedtexel:dark-gray-asphalt-pbr-material",
+      "provider": "threedtexel",
+      "title": "Dark Gray Asphalt Surface – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/dark-gray-asphalt-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/03/T_Dark_Gray_Asphalt_S-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:asphalt-005",
+      "provider": "threedtextures",
+      "title": "Asphalt 005",
+      "type": "material",
+      "url": "https://3dtextures.me/2018/05/07/asphalt-005/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2018/05/material_434.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "ambientcg:Asphalt023S",
+      "provider": "ambientcg",
+      "title": "Asphalt 023 S",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Asphalt023S",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Asphalt023S.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:asphalt_04",
+      "provider": "polyhaven",
+      "title": "Asphalt 04",
+      "type": "material",
+      "url": "https://polyhaven.com/a/asphalt_04",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/asphalt_04.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Jenelle van Heerden, Sergej Majboroda",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:0f2ec127-987c-49ab-9478-7f777bdde2d3",
+      "provider": "blenderkit",
+      "title": "Asphalt Road Procedural",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/0f2ec127-987c-49ab-9478-7f777bdde2d3/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/3fc22a6219274e86b6d19ddf0e476f5f/files/thumbnail_fd6c341b-d4b8-41ff-9295-829b4967c3a3.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "NK Productions",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ]
+    },
+    {
+      "id": "texturecan:289",
+      "provider": "texturecan",
+      "title": "Asphalt Road Texture with Yellow Line Road Markings",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/289/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/asphalt_0004/asphalt_0004_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "opengameart:white-asphalt-tilling-256px",
+      "provider": "opengameart",
+      "title": "White asphalt tilling 256px",
+      "type": "texture",
+      "url": "https://opengameart.org/content/white-asphalt-tilling-256px",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/01asf-256.png.preview.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "threedtexel:clean-road-asphalt",
+      "provider": "threedtexel",
+      "title": "Clean Road Asphalt – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/clean-road-asphalt/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/02/freepik-202502181305341Wl7-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:asphalt-004",
+      "provider": "threedtextures",
+      "title": "Asphalt 004",
+      "type": "material",
+      "url": "https://3dtextures.me/2018/03/30/asphalt-004/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2018/03/material_410.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "ambientcg:Asphalt026C",
+      "provider": "ambientcg",
+      "title": "Asphalt 026 C",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Asphalt026C",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Asphalt026C.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:asphalt_track",
+      "provider": "polyhaven",
+      "title": "Asphalt Track",
+      "type": "material",
+      "url": "https://polyhaven.com/a/asphalt_track",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/asphalt_track.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:11deb3b9-afc1-4354-bed8-24687ffcd65d",
+      "provider": "blenderkit",
+      "title": "Dark street or road asphalt concrete",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/11deb3b9-afc1-4354-bed8-24687ffcd65d/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1429ba486bb644139f189533a5df974f/files/thumbnail_f7eadfbf-61a5-4b72-b4f7-5360cab80dce.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Steffen",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    }
+  ]
+}
