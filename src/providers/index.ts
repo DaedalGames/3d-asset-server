@@ -14,6 +14,7 @@ import { opengameart } from "./opengameart.js";
 import { polyfork } from "./polyfork.js";
 import { polyhaven } from "./polyhaven.js";
 import { quaternius } from "./quaternius.js";
+import { scenario } from "./scenario.js";
 import { sharetextures } from "./sharetextures.js";
 import { sketchfab } from "./sketchfab.js";
 import { texturecan } from "./texturecan.js";
@@ -37,6 +38,7 @@ export const allProviders: Provider[] = [
   polyfork,
   threedassets,
   grab3d,
+  scenario,
   sketchfab,
   threedtextures,
   freestylized,

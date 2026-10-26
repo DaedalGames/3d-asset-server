@@ -1,6 +1,13 @@
 {
   "integrations": [
     {
+      "id": "scenario",
+      "name": "Scenario 3D Collection",
+      "homepage": "https://huggingface.co/datasets/scenario-labs/3d-collection",
+      "addedAt": "2026-10-26",
+      "addedBy": "agent"
+    },
+    {
       "id": "grab3d",
       "name": "Grab3D",
       "homepage": "https://grab3d.com",
