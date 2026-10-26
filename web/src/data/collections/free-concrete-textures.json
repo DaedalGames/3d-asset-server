@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-07T09:05:30.106Z",
+  "updatedAt": "2026-10-26T10:29:59.663Z",
   "assets": [
     {
       "id": "polyhaven:concrete_floor_worn_001",
@@ -34,27 +34,6 @@
         "gltf"
       ],
       "maxResolution": "16k"
-    },
-    {
-      "id": "blenderkit:3f5918cb-297d-45fa-a3aa-7d048725d894",
-      "provider": "blenderkit",
-      "title": "Concrete wall",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/3f5918cb-297d-45fa-a3aa-7d048725d894/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f68ea3c0e40d455bbbda01ce3fae56d4/files/thumbnail_fa8a134b-0b14-40e1-89f2-5dbe28ad9147.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Mat Karmon",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
     },
     {
       "id": "ambientcg:Concrete034",
@@ -657,6 +636,16 @@
         "png"
       ],
       "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:seamless-concrete-tiles",
+      "provider": "opengameart",
+      "title": "Seamless Concrete Tiles",
+      "type": "texture",
+      "url": "https://opengameart.org/content/seamless-concrete-tiles",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/concrete_tiles.zip.preview.jpg",
+      "downloadable": true,
+      "free": true
     }
   ]
 }

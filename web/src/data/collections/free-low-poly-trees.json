@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-23T09:33:35.301Z",
+  "updatedAt": "2026-10-26T10:30:19.195Z",
   "assets": [
     {
       "id": "itchio:brokenvector/low-poly-tree-pack",
@@ -150,7 +150,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "maxResolution": "2k",
       "polyCount": 480
@@ -165,29 +166,6 @@
       "downloadable": false,
       "author": "Gros coquin",
       "free": true
-    },
-    {
-      "id": "polyfork:potted-olive-tree-7eee05",
-      "provider": "polyfork",
-      "title": "Potted Olive Tree",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/potted-olive-tree-7eee05",
-      "thumbnailUrl": "https://polyfork.dev/files/potted-olive-tree-7eee05/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 547
     },
     {
       "id": "itchio:godgoldfear/low-poly-trees",
@@ -223,29 +201,6 @@
       "polyCount": 3847
     },
     {
-      "id": "polyfork:maple-tree-65fa12",
-      "provider": "polyfork",
-      "title": "Maple Tree",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/maple-tree-65fa12",
-      "thumbnailUrl": "https://polyfork.dev/files/maple-tree-65fa12/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 422
-    },
-    {
       "id": "itchio:divby00/low-poly-tree",
       "provider": "itchio",
       "title": "Low Poly Forest - Trees / Stones",
@@ -279,29 +234,6 @@
       "polyCount": 36000
     },
     {
-      "id": "polyfork:tree-stump-ec3f48",
-      "provider": "polyfork",
-      "title": "Tree Stump",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/tree-stump-ec3f48",
-      "thumbnailUrl": "https://polyfork.dev/files/tree-stump-ec3f48/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 505
-    },
-    {
       "id": "blenderkit:addb6dad-d860-4a29-8f5b-8dee4539268e",
       "provider": "blenderkit",
       "title": "Low Poly Pine Tree",
@@ -322,29 +254,6 @@
         "glb"
       ],
       "polyCount": 106
-    },
-    {
-      "id": "polyfork:tall-pine-tree-ab4108",
-      "provider": "polyfork",
-      "title": "Tall Pine Tree",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/tall-pine-tree-ab4108",
-      "thumbnailUrl": "https://polyfork.dev/files/tall-pine-tree-ab4108/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 350
     },
     {
       "id": "itchio:direeclat/low-poly-tree-3-pack",
@@ -378,29 +287,6 @@
         "glb"
       ],
       "polyCount": 150
-    },
-    {
-      "id": "polyfork:dead-tree-6795fa",
-      "provider": "polyfork",
-      "title": "Dead Tree",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/dead-tree-6795fa",
-      "thumbnailUrl": "https://polyfork.dev/files/dead-tree-6795fa/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 536
     },
     {
       "id": "itchio:josephriches/low-poly-tree",
@@ -458,29 +344,6 @@
       "polyCount": 140
     },
     {
-      "id": "polyfork:street-tree-0d33f3",
-      "provider": "polyfork",
-      "title": "Street Tree",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/street-tree-0d33f3",
-      "thumbnailUrl": "https://polyfork.dev/files/street-tree-0d33f3/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 272
-    },
-    {
       "id": "blenderkit:e1757b38-4bb3-4e92-a0ec-d2d45f9653fd",
       "provider": "blenderkit",
       "title": "Low Poly Mango Tree",
@@ -523,29 +386,6 @@
         "glb"
       ],
       "polyCount": 660
-    },
-    {
-      "id": "polyfork:pine-tree-3ea075",
-      "provider": "polyfork",
-      "title": "Pine Tree",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/pine-tree-3ea075",
-      "thumbnailUrl": "https://polyfork.dev/files/pine-tree-3ea075/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 70
     },
     {
       "id": "threedassets:wipe-day-survival-island-pine-tree-dfc88d2b",
@@ -652,6 +492,161 @@
         "glb"
       ],
       "polyCount": 82
+    },
+    {
+      "id": "polyfork:orchard-apple-tree-b21f85",
+      "provider": "polyfork",
+      "title": "Orchard Apple Tree",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/orchard-apple-tree-b21f85",
+      "thumbnailUrl": "https://polyfork.dev/files/orchard-apple-tree-b21f85/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 736
+    },
+    {
+      "id": "threedassets:wipe-day-survival-island-dead-tree-c66812b4",
+      "provider": "threedassets",
+      "title": "Dead Tree (Wipe Day Survival Island)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/wipe-day-survival-island-dead-tree-c66812b4",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/27431/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 300
+    },
+    {
+      "id": "polyfork:plum-tree-565179",
+      "provider": "polyfork",
+      "title": "Plum Tree",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/plum-tree-565179",
+      "thumbnailUrl": "https://polyfork.dev/files/plum-tree-565179/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 608
+    },
+    {
+      "id": "threedassets:medieval-mmo-starter-realm-dead-tree-e07b06a3",
+      "provider": "threedassets",
+      "title": "Dead Tree (Medieval MMO Starter Realm)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/medieval-mmo-starter-realm-dead-tree-e07b06a3",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/28783/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 120
+    },
+    {
+      "id": "polyfork:apple-tree-ef0ba0",
+      "provider": "polyfork",
+      "title": "Apple Tree",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/apple-tree-ef0ba0",
+      "thumbnailUrl": "https://polyfork.dev/files/apple-tree-ef0ba0/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 679
+    },
+    {
+      "id": "threedassets:medieval-mmo-starter-realm-willow-tree-e1efef2c",
+      "provider": "threedassets",
+      "title": "Willow Tree (Medieval MMO Starter Realm)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/medieval-mmo-starter-realm-willow-tree-e1efef2c",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/28780/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 564
+    },
+    {
+      "id": "polyfork:fruit-tree-4bb1af",
+      "provider": "polyfork",
+      "title": "Fruit tree",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/fruit-tree-4bb1af",
+      "thumbnailUrl": "https://polyfork.dev/files/fruit-tree-4bb1af/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 742
     }
   ]
 }

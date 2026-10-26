@@ -15,7 +15,7 @@
       "preview for"
     ]
   },
-  "updatedAt": "2026-10-25T09:23:54.600Z",
+  "updatedAt": "2026-10-26T10:30:38.872Z",
   "assets": [
     {
       "id": "polyhaven:rock_moss_set_02",
@@ -574,29 +574,6 @@
       "polyCount": 23280
     },
     {
-      "id": "polyfork:rock-spire-13819c",
-      "provider": "polyfork",
-      "title": "Rock Spire",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/rock-spire-13819c",
-      "thumbnailUrl": "https://polyfork.dev/files/rock-spire-13819c/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 378
-    },
-    {
       "id": "sharetextures:rock_9",
       "provider": "sharetextures",
       "title": "Rock 9",
@@ -734,6 +711,26 @@
         "glb"
       ],
       "polyCount": 66
+    },
+    {
+      "id": "wikimediacommons:Tripod_Rock_3D_Model.stl",
+      "provider": "wikimediacommons",
+      "title": "Tripod Rock 3D Model",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:Tripod_Rock_3D_Model.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Tripod_Rock_3D_Model.stl/960px-Tripod_Rock_3D_Model.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Zofrea1",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
     }
   ]
 }

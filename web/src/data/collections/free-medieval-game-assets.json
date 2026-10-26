@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-23T09:33:42.068Z",
+  "updatedAt": "2026-10-26T10:30:23.453Z",
   "assets": [
     {
       "id": "polyhaven:ornate_medieval_dagger",
@@ -169,29 +169,6 @@
       "polyCount": 19362
     },
     {
-      "id": "polyfork:wall-torch-sconce-6ddb52",
-      "provider": "polyfork",
-      "title": "Wall Torch Sconce",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/wall-torch-sconce-6ddb52",
-      "thumbnailUrl": "https://polyfork.dev/files/wall-torch-sconce-6ddb52/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 457
-    },
-    {
       "id": "sharetextures:pot-6",
       "provider": "sharetextures",
       "title": "Pot 6",
@@ -228,29 +205,6 @@
       "downloadable": false,
       "author": "ALSTRA INFINITE",
       "free": true
-    },
-    {
-      "id": "polyfork:wheat-plant-7f29a1",
-      "provider": "polyfork",
-      "title": "Wheat Plant",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/wheat-plant-7f29a1",
-      "thumbnailUrl": "https://polyfork.dev/files/wheat-plant-7f29a1/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 407
     },
     {
       "id": "itchio:oco/medieval-fantasy-character-pack",
@@ -305,30 +259,6 @@
       "polyCount": 23836
     },
     {
-      "id": "polyfork:tate-standing-shield-e5513e",
-      "provider": "polyfork",
-      "title": "Tate Standing Shield",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/tate-standing-shield-e5513e",
-      "thumbnailUrl": "https://polyfork.dev/files/tate-standing-shield-e5513e/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 444,
-      "rigged": true
-    },
-    {
       "id": "itchio:joszs/medieval-item-pack",
       "provider": "itchio",
       "title": "Joszs' Medieval Item Pack",
@@ -379,29 +309,6 @@
       ],
       "maxResolution": "8k",
       "polyCount": 27739
-    },
-    {
-      "id": "polyfork:sculpted-pine-e45d4f",
-      "provider": "polyfork",
-      "title": "Sculpted Pine",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/sculpted-pine-e45d4f",
-      "thumbnailUrl": "https://polyfork.dev/files/sculpted-pine-e45d4f/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 510
     },
     {
       "id": "itchio:mtpixls/medieval-army-pack",
@@ -479,29 +386,6 @@
       "polyCount": 5192
     },
     {
-      "id": "polyfork:nobori-banner-ae4d88",
-      "provider": "polyfork",
-      "title": "Nobori Banner",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/nobori-banner-ae4d88",
-      "thumbnailUrl": "https://polyfork.dev/files/nobori-banner-ae4d88/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 582
-    },
-    {
       "id": "quaternius:ultimatefantasyrts",
       "provider": "quaternius",
       "title": "Ultimate Fantasy RTS",
@@ -538,29 +422,6 @@
         "attributionRequired": false
       },
       "free": true
-    },
-    {
-      "id": "polyfork:wooden-teoke-bucket-e65f35",
-      "provider": "polyfork",
-      "title": "Wooden Teoke Bucket",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/wooden-teoke-bucket-e65f35",
-      "thumbnailUrl": "https://polyfork.dev/files/wooden-teoke-bucket-e65f35/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 526
     },
     {
       "id": "quaternius:ultimatemodularruins",
@@ -632,6 +493,132 @@
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/medium_e0b4ebaf9099c300a8f75f44769274bd.jpg",
       "downloadable": true,
       "free": true
+    },
+    {
+      "id": "threedassets:medieval-monastery-and-scriptorium-compost-bay-c2835e90",
+      "provider": "threedassets",
+      "title": "Compost Bay (Medieval Monastery and Scriptorium)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/medieval-monastery-and-scriptorium-compost-bay-c2835e90",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/37429/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 2348
+    },
+    {
+      "id": "polyfork:medieval-japan-terrain-1e0bee",
+      "provider": "polyfork",
+      "title": "Medieval Japan Terrain",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/medieval-japan-terrain-1e0bee",
+      "thumbnailUrl": "https://polyfork.dev/files/medieval-japan-terrain-1e0bee/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 29192
+    },
+    {
+      "id": "wikimediacommons:Castron_medieval_-_6ae510668f00466fa3772412c75fca12.stl",
+      "provider": "wikimediacommons",
+      "title": "Castron medieval - 6ae510668f00466fa3772412c75fca12",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:Castron_medieval_-_6ae510668f00466fa3772412c75fca12.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Castron_medieval_-_6ae510668f00466fa3772412c75fca12.stl/960px-Castron_medieval_-_6ae510668f00466fa3772412c75fca12.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Institutul Național al Patrimoniului",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    },
+    {
+      "id": "grab3d:medieval-tent",
+      "provider": "grab3d",
+      "title": "Medieval Tent",
+      "type": "model",
+      "url": "https://grab3d.com/models/props/medieval-tent/",
+      "thumbnailUrl": "https://grab3d.com/m/medieval-tent/medieval-tent-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "freestylized:asset_pack:medieval-weapons-01",
+      "provider": "freestylized",
+      "title": "Free Medieval Weapons 1",
+      "type": "pack",
+      "url": "https://freestylized.com/asset_pack/medieval-weapons-01/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2025/02/AP10-Intro.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "sketchfab:07e42857036046a6b7f61477cb270c02",
+      "provider": "sketchfab",
+      "title": "Loughrea - Medieval Window",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-07e42857036046a6b7f61477cb270c02",
+      "thumbnailUrl": "https://media.sketchfab.com/models/07e42857036046a6b7f61477cb270c02/thumbnails/3912bd4e67e2430fbff30673b3479a37/a29f460a5c8b49cab0129cfc40aacc28.jpeg",
+      "downloadable": false,
+      "author": "Galway3D_DH_AGe",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 1139574
     }
   ]
 }

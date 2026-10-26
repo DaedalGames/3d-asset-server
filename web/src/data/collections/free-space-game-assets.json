@@ -13,7 +13,7 @@
       "space black"
     ]
   },
-  "updatedAt": "2026-10-23T09:34:01.271Z",
+  "updatedAt": "2026-10-26T10:30:50.493Z",
   "assets": [
     {
       "id": "polyfork:space-mine-3a1654",
@@ -93,7 +93,7 @@
       "title": "KayKit : Space Base Bits",
       "type": "model",
       "url": "https://kaylousberg.itch.io/space-base-bits",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4MzY3MzgzLmpwZw==/315x250%23c/zF8GIp.jpg",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzMxMzUyMjY1LnBuZw==/315x250%23c/B1PflE.png",
       "downloadable": false,
       "author": "Kay Lousberg",
       "free": true
@@ -286,29 +286,6 @@
       "polyCount": 12974
     },
     {
-      "id": "polyfork:access-ladder-dcc590",
-      "provider": "polyfork",
-      "title": "Access Ladder",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/access-ladder-dcc590",
-      "thumbnailUrl": "https://polyfork.dev/files/access-ladder-dcc590/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 424
-    },
-    {
       "id": "itchio:modernmodron/space-madness",
       "provider": "itchio",
       "title": "Space Madness",
@@ -366,30 +343,6 @@
       "polyCount": 14316
     },
     {
-      "id": "polyfork:weather-mast-7d088f",
-      "provider": "polyfork",
-      "title": "Weather Mast",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/weather-mast-7d088f",
-      "thumbnailUrl": "https://polyfork.dev/files/weather-mast-7d088f/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 502,
-      "rigged": true
-    },
-    {
       "id": "itchio:sushmoygamedev/space-moonstar-assets",
       "provider": "itchio",
       "title": "Space MoonStar Assets",
@@ -424,29 +377,6 @@
       ],
       "maxResolution": "8k",
       "polyCount": 6194
-    },
-    {
-      "id": "polyfork:surface-pipe-run-62c4b3",
-      "provider": "polyfork",
-      "title": "Surface Pipe Run",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/surface-pipe-run-62c4b3",
-      "thumbnailUrl": "https://polyfork.dev/files/surface-pipe-run-62c4b3/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 504
     },
     {
       "id": "itchio:ranjeetsingh/space-combat",
@@ -506,29 +436,6 @@
       "polyCount": 18466
     },
     {
-      "id": "polyfork:rover-tracks-decal-865580",
-      "provider": "polyfork",
-      "title": "Rover Tracks Decal",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/rover-tracks-decal-865580",
-      "thumbnailUrl": "https://polyfork.dev/files/rover-tracks-decal-865580/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 544
-    },
-    {
       "id": "blenderkit:dae5eb46-e7ee-43c5-8607-11db2a804f5c",
       "provider": "blenderkit",
       "title": "Red and Green Nebula Deep Space",
@@ -584,30 +491,6 @@
       ],
       "maxResolution": "16k",
       "polyCount": 12786
-    },
-    {
-      "id": "polyfork:survey-flag-fa500f",
-      "provider": "polyfork",
-      "title": "Survey Flag",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/survey-flag-fa500f",
-      "thumbnailUrl": "https://polyfork.dev/files/survey-flag-fa500f/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 308,
-      "rigged": true
     },
     {
       "id": "blenderkit:20eb8a2b-d6ba-4555-9a2a-1d8e2eacec28",
@@ -668,29 +551,6 @@
       "polyCount": 13279
     },
     {
-      "id": "polyfork:solar-array-rack-789c93",
-      "provider": "polyfork",
-      "title": "Solar Array Rack",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/solar-array-rack-789c93",
-      "thumbnailUrl": "https://polyfork.dev/files/solar-array-rack-789c93/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 510
-    },
-    {
       "id": "blenderkit:d0dcde95-bb25-4a0a-b0fe-850f988e44ce",
       "provider": "blenderkit",
       "title": "Realistic Volumetric Deep Space Nebula",
@@ -710,6 +570,123 @@
         "blend"
       ],
       "polyCount": 19
+    },
+    {
+      "id": "threedassets:interstellar-fleet-modular-starships-space-mine-4cafd369",
+      "provider": "threedassets",
+      "title": "Space mine (Modular Spaceships and Space Fleet)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/interstellar-fleet-modular-starships-space-mine-4cafd369",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/19217/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 1136
+    },
+    {
+      "id": "wikimediacommons:Deep_Space_1_11_3D_Model.stl",
+      "provider": "wikimediacommons",
+      "title": "Deep Space 1 11 3D Model",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:Deep_Space_1_11_3D_Model.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Deep_Space_1_11_3D_Model.stl/960px-Deep_Space_1_11_3D_Model.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Brian Kumanchik, Christian Lopez. NASA/JPL-Caltech",
+      "license": {
+        "name": "Public domain",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    },
+    {
+      "id": "grab3d:space-suit-rack",
+      "provider": "grab3d",
+      "title": "Space Suit Rack",
+      "type": "model",
+      "url": "https://grab3d.com/models/sci-fi/space-suit-rack/",
+      "thumbnailUrl": "https://grab3d.com/m/space-suit-rack/space-suit-rack-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "opengameart:space-kit",
+      "provider": "opengameart",
+      "title": "Space Kit",
+      "type": "model",
+      "url": "https://opengameart.org/content/space-kit",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Preview_184.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "sketchfab:5f7176a2ae284d6b99fc970c9d265c04",
+      "provider": "sketchfab",
+      "title": "Orbiter Space Shuttle OV-103 Discovery",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-5f7176a2ae284d6b99fc970c9d265c04",
+      "thumbnailUrl": "https://media.sketchfab.com/models/5f7176a2ae284d6b99fc970c9d265c04/thumbnails/df091ab7da794d23bb5340ca74db8a50/67eae1f5830749cbbe4062bdbf7cdd25.jpeg",
+      "downloadable": false,
+      "author": "The Smithsonian Institution",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 150000
+    },
+    {
+      "id": "threedassets:tabletop-game-components-score-track-2cba7038",
+      "provider": "threedassets",
+      "title": "Twenty space score track (Board Game Pieces, Dice and Tokens)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/tabletop-game-components-score-track-2cba7038",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/20890/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 252
     }
   ]
 }
