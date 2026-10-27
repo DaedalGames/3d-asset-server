@@ -14,7 +14,7 @@
       "visualization"
     ]
   },
-  "updatedAt": "2026-10-25T09:24:00.762Z",
+  "updatedAt": "2026-10-27T10:02:55.412Z",
   "assets": [
     {
       "id": "blenderkit:f856dc91-1475-40de-8aa0-d29cfa48a583",
@@ -401,28 +401,6 @@
       "free": true
     },
     {
-      "id": "blenderkit:ee6a9a80-16fe-4f1e-a1c8-de1c788d49fa",
-      "provider": "blenderkit",
-      "title": "Sci-fi Device PBR White",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/ee6a9a80-16fe-4f1e-a1c8-de1c788d49fa/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/293e1347884b4f61835fc29a579e8ac9/files/thumbnail_4b7d7c2a-e35c-45c1-86e0-9ea7b255e019.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Nicolai Prodromov",
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k",
-      "polyCount": 7062
-    },
-    {
       "id": "blenderkit:2b7ab5b9-771c-47e4-b5e5-61859ac5303f",
       "provider": "blenderkit",
       "title": "Street Lamp Sci-Fi",
@@ -656,6 +634,16 @@
         "usdz",
         "obj"
       ]
+    },
+    {
+      "id": "opengameart:3rd-person-blender-sci-fi-pack",
+      "provider": "opengameart",
+      "title": "3rd person blender sci-fi pack",
+      "type": "model",
+      "url": "https://opengameart.org/content/3rd-person-blender-sci-fi-pack",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/20130607083744-newsc_0.png",
+      "downloadable": true,
+      "free": true
     }
   ]
 }

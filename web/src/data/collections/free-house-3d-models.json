@@ -27,7 +27,7 @@
       "Wood Plant"
     ]
   },
-  "updatedAt": "2026-10-25T09:23:35.785Z",
+  "updatedAt": "2026-10-27T10:02:24.447Z",
   "assets": [
     {
       "id": "blenderkit:264b47f4-a1ee-4c31-9ee9-4c0e8dc1a98b",
@@ -451,38 +451,6 @@
       "free": true
     },
     {
-      "id": "threedassets:viking-age-longhouse-and-longship-turf-pit-house-0d532fe1",
-      "provider": "threedassets",
-      "title": "Turf Pit House (Viking Age Longhouse and Longship)",
-      "type": "model",
-      "url": "https://3dassets.dev/assets/viking-age-longhouse-and-longship-turf-pit-house-0d532fe1",
-      "thumbnailUrl": "https://cdn.3dassets.dev/assets/30175/v1/thumb.webp",
-      "downloadable": true,
-      "author": "3D Assets",
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb"
-      ],
-      "polyCount": 15208
-    },
-    {
-      "id": "itchio:nnooaahh0883/3d-low-poly-3d-house-tileset",
-      "provider": "itchio",
-      "title": "Modular 3d Low Poly 3d house tileset",
-      "type": "model",
-      "url": "https://nnooaahh0883.itch.io/3d-low-poly-3d-house-tileset",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI0MTAyNTc1LnBuZw==/315x250%23c/UlqbQS.png",
-      "downloadable": false,
-      "author": "NNOOAAHH0883",
-      "free": true
-    },
-    {
       "id": "opengameart:modular-medieval-house-pack-06",
       "provider": "opengameart",
       "title": "Modular Medieval House Pack 06",
@@ -491,29 +459,6 @@
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/thhouses00.png",
       "downloadable": true,
       "free": true
-    },
-    {
-      "id": "blenderkit:141b8a53-a0f1-447c-9e9c-ea2ea3b77e29",
-      "provider": "blenderkit",
-      "title": "Small House",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/141b8a53-a0f1-447c-9e9c-ea2ea3b77e29/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f9c97f9ffa2f4cd490e2b1affb6e99c6/files/thumbnail_35a6b17a-d719-4f67-a3ce-8400da05fd9c.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Dal Roron",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "4k",
-      "polyCount": 43184
     },
     {
       "id": "sketchfab:6c4ec0df32f147dcb8e7ebcc6925d0c6",
@@ -549,50 +494,6 @@
       "free": true
     },
     {
-      "id": "threedassets:feudal-japan-castle-town-bath-house-f3524f03",
-      "provider": "threedassets",
-      "title": "Bath House (Feudal Japan Castle Town)",
-      "type": "model",
-      "url": "https://3dassets.dev/assets/feudal-japan-castle-town-bath-house-f3524f03",
-      "thumbnailUrl": "https://cdn.3dassets.dev/assets/26209/v1/thumb.webp",
-      "downloadable": true,
-      "author": "3D Assets",
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb"
-      ],
-      "polyCount": 2728
-    },
-    {
-      "id": "sketchfab:7009e016342d46e5b1f126180cb3b0b9",
-      "provider": "sketchfab",
-      "title": "Derryoober - Vernacular Earth Cut House Site.",
-      "type": "model",
-      "url": "https://sketchfab.com/3d-models/none-7009e016342d46e5b1f126180cb3b0b9",
-      "thumbnailUrl": "https://media.sketchfab.com/models/7009e016342d46e5b1f126180cb3b0b9/thumbnails/d9027c2d72c645f08600c9d790dd3182/7d66b11bf5304737ba2832f36c966ac9.jpeg",
-      "downloadable": false,
-      "author": "Galway3D_DH_AGe",
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "gltf",
-        "usdz"
-      ],
-      "polyCount": 58560
-    },
-    {
       "id": "grab3d:gingerbread-house",
       "provider": "grab3d",
       "title": "Gingerbread House",
@@ -613,6 +514,110 @@
         "blend",
         "usdz",
         "obj"
+      ]
+    },
+    {
+      "id": "wikimediacommons:0_A.D._pers_ice_house_02.stl",
+      "provider": "wikimediacommons",
+      "title": "0 A.D. pers ice house 02",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:0_A.D._pers_ice_house_02.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/0_A.D._pers_ice_house_02.stl/960px-0_A.D._pers_ice_house_02.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Wildfire Games ( https://wildfiregames.com/ )",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    },
+    {
+      "id": "cgtrader:modern-house-5-38935020-2410-474e-9f8c-047ceb667f9e",
+      "provider": "cgtrader",
+      "title": "Modern House 5",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/exterior/house/modern-house-5-38935020-2410-474e-9f8c-047ceb667f9e",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/ThfyNm9XKgfMYFATCkGQjDj1/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/modern-house-5-3d-model-low-poly-max-obj-3ds-fbx-c4d-ma-mb.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "max",
+        "3ds",
+        "blend",
+        "c4d",
+        "fbx",
+        "obj"
+      ]
+    },
+    {
+      "id": "polyfork:hare-paenga-boat-house-8cd4c9",
+      "provider": "polyfork",
+      "title": "Hare Paenga Boat House",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/hare-paenga-boat-house-8cd4c9",
+      "thumbnailUrl": "https://polyfork.dev/files/hare-paenga-boat-house-8cd4c9/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 1713
+    },
+    {
+      "id": "grab3d:christmas-village-house",
+      "provider": "grab3d",
+      "title": "Christmas Village House",
+      "type": "model",
+      "url": "https://grab3d.com/models/props/christmas-village-house/",
+      "thumbnailUrl": "https://grab3d.com/m/christmas-village-house/christmas-village-house-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "wikimediacommons:White_House.stl",
+      "provider": "wikimediacommons",
+      "title": "White House",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:White_House.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/White_House.stl/960px-White_House.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Microsoft, https://sketchfab.com/microsoft",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
       ]
     }
   ]

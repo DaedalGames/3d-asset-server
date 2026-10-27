@@ -12,7 +12,7 @@
       "dungeon and dragons"
     ]
   },
-  "updatedAt": "2026-10-26T10:30:01.961Z",
+  "updatedAt": "2026-10-27T10:02:09.200Z",
   "assets": [
     {
       "id": "blenderkit:bb93c779-bf60-439b-96d2-99167435443d",
@@ -155,29 +155,6 @@
         "blend"
       ],
       "polyCount": 1
-    },
-    {
-      "id": "polyfork:loose-faceted-gem-d88a5b",
-      "provider": "polyfork",
-      "title": "Loose Faceted Gem",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/loose-faceted-gem-d88a5b",
-      "thumbnailUrl": "https://polyfork.dev/files/loose-faceted-gem-d88a5b/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 254
     },
     {
       "id": "quaternius:medievaldungeon",
@@ -618,6 +595,29 @@
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/dungeon_hallway_render_0.png",
       "downloadable": true,
       "free": true
+    },
+    {
+      "id": "sketchfab:f68491091d6e494a852458e433a2c8d4",
+      "provider": "sketchfab",
+      "title": "Dungeon Skull - Low Poly Medieval, CC0",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-f68491091d6e494a852458e433a2c8d4",
+      "thumbnailUrl": "https://media.sketchfab.com/models/f68491091d6e494a852458e433a2c8d4/thumbnails/21c37889b76148f59b46b318d2dbd47e/fc3983da84a34ed298d6029f7eef6c03.jpeg",
+      "downloadable": false,
+      "author": "Avramania",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 339
     }
   ]
 }

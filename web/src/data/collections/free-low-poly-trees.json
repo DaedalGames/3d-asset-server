@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-26T10:30:19.195Z",
+  "updatedAt": "2026-10-27T10:02:31.752Z",
   "assets": [
     {
       "id": "itchio:brokenvector/low-poly-tree-pack",
@@ -77,29 +77,6 @@
       "free": true
     },
     {
-      "id": "polyfork:broad-canopy-shade-tree-e7c4a2",
-      "provider": "polyfork",
-      "title": "Broad Canopy Shade Tree",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/broad-canopy-shade-tree-e7c4a2",
-      "thumbnailUrl": "https://polyfork.dev/files/broad-canopy-shade-tree-e7c4a2/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 394
-    },
-    {
       "id": "itchio:indieriffic/low-poly-tree-pack-flat",
       "provider": "itchio",
       "title": "Low Poly Tree Pack Flat",
@@ -109,29 +86,6 @@
       "downloadable": false,
       "author": "CBsix",
       "free": true
-    },
-    {
-      "id": "polyfork:sculptural-canopy-tree-681c3d",
-      "provider": "polyfork",
-      "title": "Sculptural Canopy Tree",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/sculptural-canopy-tree-681c3d",
-      "thumbnailUrl": "https://polyfork.dev/files/sculptural-canopy-tree-681c3d/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 492
     },
     {
       "id": "blenderkit:85557228-237c-4dff-9aeb-091bd96ba60d",
@@ -364,28 +318,6 @@
         "glb"
       ],
       "polyCount": 140
-    },
-    {
-      "id": "blenderkit:2a8d431f-b7e0-4926-86fa-6f331b5793eb",
-      "provider": "blenderkit",
-      "title": "Low poly tree 4",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/2a8d431f-b7e0-4926-86fa-6f331b5793eb/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/5d701b20c1c947fbba50769c95b438c1/files/thumbnail_2826496b-07c4-4e8c-af9b-d6adb5df5964.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Pastean Narcis Dan",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "polyCount": 660
     },
     {
       "id": "threedassets:wipe-day-survival-island-pine-tree-dfc88d2b",
@@ -647,6 +579,57 @@
         "obj"
       ],
       "polyCount": 742
+    },
+    {
+      "id": "cgtrader:lowpoly-tree-collection-01-200-trees-lowpoly-collection",
+      "provider": "cgtrader",
+      "title": "Low Poly Trees Mega Pack - 200 Trees",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/exterior/landscape/lowpoly-tree-collection-01-200-trees-lowpoly-collection",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/87GT5RtT2chRp8bvBrbQTgoA/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/00preview01b.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "fbx",
+        "blend",
+        "obj"
+      ]
+    },
+    {
+      "id": "cgtrader:low-poly-stylized-broadleaf-tree-series-6-with-2k-pbr-textures",
+      "provider": "cgtrader",
+      "title": "Low Poly Stylized Broadleaf Tree Series 6 with 2K PBR Textures",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/plant/other/low-poly-stylized-broadleaf-tree-series-6-with-2k-pbr-textures",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/ma3pg45zy5tq5lb9qegxabr42trc/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/TL6_Front0001.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "fbx",
+        "ply",
+        "usd",
+        "obj",
+        "stl",
+        "abc"
+      ]
+    },
+    {
+      "id": "cgtrader:low-poly-stylized-broadleaf-tree-series-7-with-2k-pbr-textures",
+      "provider": "cgtrader",
+      "title": "Low Poly Stylized Broadleaf Tree Series 7 with 2K PBR Textures",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/plant/other/low-poly-stylized-broadleaf-tree-series-7-with-2k-pbr-textures",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/sx16mnqijd5ff8i0t8e77bc0qeod/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/TL7_Front0001.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "abc",
+        "fbx",
+        "obj",
+        "stl",
+        "ply",
+        "usd"
+      ]
     }
   ]
 }

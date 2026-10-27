@@ -13,7 +13,7 @@
       "space black"
     ]
   },
-  "updatedAt": "2026-10-26T10:30:50.493Z",
+  "updatedAt": "2026-10-27T10:02:59.647Z",
   "assets": [
     {
       "id": "polyfork:space-mine-3a1654",
@@ -551,27 +551,6 @@
       "polyCount": 13279
     },
     {
-      "id": "blenderkit:d0dcde95-bb25-4a0a-b0fe-850f988e44ce",
-      "provider": "blenderkit",
-      "title": "Realistic Volumetric Deep Space Nebula",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/d0dcde95-bb25-4a0a-b0fe-850f988e44ce/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/bec377a263d1479c8a4274605a2fde76/files/thumbnail_94bcd7ed-7f5d-41af-9b26-fc01fd7a7eba.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "sivix gamer",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "polyCount": 19
-    },
-    {
       "id": "threedassets:interstellar-fleet-modular-starships-space-mine-4cafd369",
       "provider": "threedassets",
       "title": "Space mine (Modular Spaceships and Space Fleet)",
@@ -687,6 +666,29 @@
         "glb"
       ],
       "polyCount": 252
+    },
+    {
+      "id": "polyfork:space-base-terrain-9fab7d",
+      "provider": "polyfork",
+      "title": "Space Base Terrain",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/space-base-terrain-9fab7d",
+      "thumbnailUrl": "https://polyfork.dev/files/space-base-terrain-9fab7d/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 25328
     }
   ]
 }
