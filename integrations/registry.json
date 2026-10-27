@@ -203,6 +203,13 @@
   ],
   "rejected": [
     {
+      "name": "Game Art 2D",
+      "homepage": "https://www.gameart2d.com",
+      "checkedAt": "2026-10-27",
+      "reason": "static Weebly site of a few dozen hand-listed 2D sprite packs, with no search API, WordPress API or catalogue JSON, and no 3D assets",
+      "recheckAfter": "2027-01-25"
+    },
+    {
       "name": "RigModels",
       "homepage": "https://rigmodels.com",
       "checkedAt": "2026-10-26",
