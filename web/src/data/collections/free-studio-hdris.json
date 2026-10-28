@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-08T11:37:09.707Z",
+  "updatedAt": "2026-10-28T10:54:22.659Z",
   "assets": [
     {
       "id": "polyhaven:studio_small_09",
@@ -592,27 +592,6 @@
       "maxResolution": "8k"
     },
     {
-      "id": "blenderkit:d9e44f4d-92c0-46f6-badb-6d726ffa4e6d",
-      "provider": "blenderkit",
-      "title": "360 Studio Window",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/d9e44f4d-92c0-46f6-badb-6d726ffa4e6d/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6b8a0cb3b5ff48958350a4bb68d6d298/files/thumbnail_43eb9321-ca82-485d-8960-cc4b90b67249.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Elin FL",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "exr"
-      ],
-      "maxResolution": "8k"
-    },
-    {
       "id": "hdrmaps:fly-studio-2-0",
       "provider": "hdrmaps",
       "title": "Fly Studio 2.0",
@@ -671,6 +650,27 @@
         "exr"
       ],
       "maxResolution": "10k"
+    },
+    {
+      "id": "blenderkit:765f9ff8-fbbd-4815-8cf7-645048f2df73",
+      "provider": "blenderkit",
+      "title": "White Light Tunnel Studio",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/765f9ff8-fbbd-4815-8cf7-645048f2df73/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/369969c8830c43d7859a905573c1c2cd/files/thumbnail_29b38d2f-a677-489c-9340-b90600d56806.png.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Paco Salas",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "4k"
     }
   ]
 }

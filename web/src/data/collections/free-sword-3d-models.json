@@ -11,7 +11,7 @@
       "scabbard"
     ]
   },
-  "updatedAt": "2026-10-27T10:03:05.541Z",
+  "updatedAt": "2026-10-28T10:54:40.649Z",
   "assets": [
     {
       "id": "blenderkit:0560133f-1e76-49d9-be20-1f98016baed4",
@@ -511,28 +511,6 @@
       "free": true
     },
     {
-      "id": "blenderkit:acb25e1e-1746-4fea-b61e-9f3ad401caea",
-      "provider": "blenderkit",
-      "title": "Flat Great Sword",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/acb25e1e-1746-4fea-b61e-9f3ad401caea/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/3fb45fcb4f7d4c03a0e076138529b880/files/thumbnail_3c534674-9bb9-41cd-9563-2cf9fee42aaf.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Nano Casado",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "2k",
-      "polyCount": 2300
-    },
-    {
       "id": "opengameart:short-sword-0",
       "provider": "opengameart",
       "title": "Short Sword",
@@ -632,6 +610,27 @@
         "usdz"
       ],
       "polyCount": 499742
+    },
+    {
+      "id": "threedassets:swords-shields-and-melee-arms-ring-pommel-sword-7ea4fa7d",
+      "provider": "threedassets",
+      "title": "Ring Pommel Sword (Swords, Shields and Melee Arms)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/swords-shields-and-melee-arms-ring-pommel-sword-7ea4fa7d",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/38883/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 3100
     }
   ]
 }
