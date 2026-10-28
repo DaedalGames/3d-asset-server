@@ -199,6 +199,14 @@
       "access": "scrape",
       "addedAt": "2026-10-21",
       "addedBy": "agent"
+    },
+    {
+      "id": "scenario",
+      "name": "Scenario 3D Collection",
+      "homepage": "https://huggingface.co/datasets/scenario-labs/3d-collection",
+      "access": "api",
+      "addedAt": "2026-10-26",
+      "addedBy": "agent"
     }
   ],
   "rejected": [

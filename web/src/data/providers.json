@@ -182,6 +182,19 @@
     "supportsDownload": true
   },
   {
+    "id": "scenario",
+    "name": "Scenario 3D Collection",
+    "homepage": "https://huggingface.co/datasets/scenario-labs/3d-collection",
+    "description": "About 1,300 AI-generated 3D models (GLB, Blend, FBX, voxels, Gaussian splats) from Scenario, published on Hugging Face under CC BY 4.0.",
+    "assetTypes": [
+      "model"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": "CC-BY-4.0",
+    "supportsDownload": true
+  },
+  {
     "id": "sketchfab",
     "name": "Sketchfab",
     "homepage": "https://sketchfab.com",
