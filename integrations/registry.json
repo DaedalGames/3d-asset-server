@@ -203,6 +203,26 @@
   ],
   "rejected": [
     {
+      "name": "Open Heritage 3D",
+      "homepage": "https://openheritage3d.org",
+      "checkedAt": "2026-10-28",
+      "reason": "map-driven archive of a few hundred heritage-site scans (mostly point clouds) with per-dataset licences and no public search API or listing pages",
+      "recheckAfter": "2027-01-26"
+    },
+    {
+      "name": "CADNav",
+      "homepage": "https://www.cadnav.com",
+      "checkedAt": "2026-10-28",
+      "reason": "architectural model downloads with no stated open licence and mostly re-hosted commercial-style models; no API and the newest listings seen date from 2024"
+    },
+    {
+      "name": "SketchUp 3D Warehouse",
+      "homepage": "https://3dwarehouse.sketchup.com",
+      "checkedAt": "2026-10-28",
+      "reason": "JavaScript app with no public keyless search API; robots.txt disallows action and edit paths and models need a Trimble account to download",
+      "recheckAfter": "2027-01-26"
+    },
+    {
       "name": "Game Art 2D",
       "homepage": "https://www.gameart2d.com",
       "checkedAt": "2026-10-27",
