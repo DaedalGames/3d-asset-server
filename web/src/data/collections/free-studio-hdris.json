@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-28T10:54:22.659Z",
+  "updatedAt": "2026-10-29T11:11:36.469Z",
   "assets": [
     {
       "id": "polyhaven:studio_small_09",
@@ -571,27 +571,6 @@
       "maxResolution": "16k"
     },
     {
-      "id": "blenderkit:724d0505-18d3-445d-b47c-49514c03975c",
-      "provider": "blenderkit",
-      "title": "Arc Panel Studio",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/724d0505-18d3-445d-b47c-49514c03975c/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/8e5f93bd0d1143969a58381c530d2914/files/thumbnail_7ba606c8-bbb0-4530-89ff-8bd5d4b99edc.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Elin FL",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "exr"
-      ],
-      "maxResolution": "8k"
-    },
-    {
       "id": "hdrmaps:fly-studio-2-0",
       "provider": "hdrmaps",
       "title": "Fly Studio 2.0",
@@ -658,6 +637,27 @@
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/765f9ff8-fbbd-4815-8cf7-645048f2df73/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/369969c8830c43d7859a905573c1c2cd/files/thumbnail_29b38d2f-a677-489c-9340-b90600d56806.png.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Paco Salas",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "blenderkit:70525dd6-1819-441c-820b-e7748a4287bd",
+      "provider": "blenderkit",
+      "title": "Neutral Interior Glow Studio",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/70525dd6-1819-441c-820b-e7748a4287bd/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/43b87319cf4a434393b5a04728d62c29/files/thumbnail_c1ba6f34-66b6-406a-99c7-dbc6486b9fdc.png.512x512_q85_crop-%2C.jpg",
       "downloadable": true,
       "author": "Paco Salas",
       "license": {

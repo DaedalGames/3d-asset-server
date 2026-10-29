@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-27T10:02:31.752Z",
+  "updatedAt": "2026-10-29T11:08:48.599Z",
   "assets": [
     {
       "id": "itchio:brokenvector/low-poly-tree-pack",
@@ -252,28 +252,6 @@
       "downloadable": false,
       "author": "Joseph Riches",
       "free": true
-    },
-    {
-      "id": "blenderkit:6ed9d45f-ba80-4bfe-8598-eb3a8dae86c2",
-      "provider": "blenderkit",
-      "title": "Low Poly Lemon Tree",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/6ed9d45f-ba80-4bfe-8598-eb3a8dae86c2/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/5a38b314bb4b4df597bddfe5729f98f6/files/thumbnail_0992e459-a045-45ac-bd07-cb4ed3812ed7.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Liam Xee",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "polyCount": 100
     },
     {
       "id": "blenderkit:84edbfbc-5cd8-4fd8-bbbe-a4a597142908",
@@ -629,6 +607,27 @@
         "stl",
         "ply",
         "usd"
+      ]
+    },
+    {
+      "id": "scenario:scenario_asset_ekQ2PvPCexGHYGEP6pQU4N47",
+      "provider": "scenario",
+      "title": "Low poly tree",
+      "type": "model",
+      "url": "https://huggingface.co/datasets/scenario-labs/3d-collection/tree/main/assets/scenario_asset_ekQ2PvPCexGHYGEP6pQU4N47",
+      "thumbnailUrl": "https://huggingface.co/datasets/scenario-labs/3d-collection/resolve/main/assets/scenario_asset_ekQ2PvPCexGHYGEP6pQU4N47/preview.jpg",
+      "downloadable": true,
+      "author": "Scenario",
+      "license": {
+        "name": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "blend"
       ]
     }
   ]

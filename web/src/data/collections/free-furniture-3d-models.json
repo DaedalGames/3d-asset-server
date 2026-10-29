@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-26T10:30:11.154Z",
+  "updatedAt": "2026-10-29T11:07:43.215Z",
   "assets": [
     {
       "id": "blenderkit:0f1918d7-7350-43a8-a012-469ddc446b35",
@@ -536,17 +536,6 @@
       "polyCount": 4101
     },
     {
-      "id": "itchio:mariaisme/3d-voxel-furniture",
-      "provider": "itchio",
-      "title": "3D Voxel Interior Furniture",
-      "type": "model",
-      "url": "https://mariaisme.itch.io/3d-voxel-furniture",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzczNTcxNjgucG5n/315x250%23c/GE9Gq1.png",
-      "downloadable": false,
-      "author": "MariaIsMe",
-      "free": true
-    },
-    {
       "id": "sharetextures:chaiselongue_1",
       "provider": "sharetextures",
       "title": "Chaise Longue 1",
@@ -640,6 +629,29 @@
         "usdz"
       ],
       "polyCount": 1044
+    },
+    {
+      "id": "grab3d:broken-furniture",
+      "provider": "grab3d",
+      "title": "Broken Furniture",
+      "type": "model",
+      "url": "https://grab3d.com/models/furniture/broken-furniture/",
+      "thumbnailUrl": "https://grab3d.com/m/broken-furniture/broken-furniture-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
     }
   ]
 }

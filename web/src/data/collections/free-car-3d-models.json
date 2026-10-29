@@ -21,7 +21,7 @@
       "lego"
     ]
   },
-  "updatedAt": "2026-10-25T09:23:21.926Z",
+  "updatedAt": "2026-10-29T11:06:20.169Z",
   "assets": [
     {
       "id": "polyhaven:covered_car",
@@ -188,7 +188,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "polyCount": 177940
     },
@@ -268,17 +269,6 @@
       ],
       "maxResolution": "4k",
       "polyCount": 114521
-    },
-    {
-      "id": "itchio:void1gaming/free-covered-car-3d-model-collection",
-      "provider": "itchio",
-      "title": "Free Covered Car 3D Model Collection",
-      "type": "model",
-      "url": "https://void1gaming.itch.io/free-covered-car-3d-model-collection",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzg4MTM4OTkuanBn/315x250%23c/E5qtel.jpg",
-      "downloadable": false,
-      "author": "VOiD1 Gaming",
-      "free": true
     },
     {
       "id": "blenderkit:7701f4be-16c6-4278-a8d2-66998f5c8d8f",
@@ -637,6 +627,27 @@
         "blend",
         "usdz",
         "obj"
+      ]
+    },
+    {
+      "id": "scenario:scenario_asset_SmhPytPefbqyfgsqqXD1i8Xn",
+      "provider": "scenario",
+      "title": "Sports car \"Slammed\"",
+      "type": "model",
+      "url": "https://huggingface.co/datasets/scenario-labs/3d-collection/tree/main/assets/scenario_asset_SmhPytPefbqyfgsqqXD1i8Xn",
+      "thumbnailUrl": "https://huggingface.co/datasets/scenario-labs/3d-collection/resolve/main/assets/scenario_asset_SmhPytPefbqyfgsqqXD1i8Xn/preview.jpg",
+      "downloadable": true,
+      "author": "Scenario",
+      "license": {
+        "name": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "blend"
       ]
     }
   ]
