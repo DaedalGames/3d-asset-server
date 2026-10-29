@@ -211,6 +211,26 @@
   ],
   "rejected": [
     {
+      "name": "Artec 3D free 3D models",
+      "homepage": "https://www.artec3d.com/3d-models",
+      "checkedAt": "2026-10-29",
+      "reason": "automated requests get an empty HTTP 202 response (no page or robots.txt served), so no search access could be verified",
+      "recheckAfter": "2027-01-27"
+    },
+    {
+      "name": "Vecteezy free 3D models",
+      "homepage": "https://www.vecteezy.com/free-3d-models",
+      "checkedAt": "2026-10-29",
+      "reason": "requests timed out with no response from automated clients, so access and robots.txt could not be verified",
+      "recheckAfter": "2027-01-27"
+    },
+    {
+      "name": "Simon-HDRI",
+      "homepage": "https://www.simonhdri.com",
+      "checkedAt": "2026-10-29",
+      "reason": "only about 21 free HDRIs, free 8K versions are limited to non-commercial use, and it is a personal showcase with no catalogue API"
+    },
+    {
       "name": "Open Heritage 3D",
       "homepage": "https://openheritage3d.org",
       "checkedAt": "2026-10-28",
