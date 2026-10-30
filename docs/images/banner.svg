@@ -39,7 +39,7 @@
   <g class="sans">
     <text x="252" y="104" font-size="52" font-weight="800" fill="url(#brandText)" letter-spacing="-1">3D Asset Server</text>
     <text x="254" y="140" font-size="19" fill="#b3afc6">One search box for 3D models, materials, textures,</text>
-    <text x="254" y="166" font-size="19" fill="#b3afc6">HDRIs &amp; game assets across 19 sites.</text>
+    <text x="254" y="166" font-size="19" fill="#b3afc6">HDRIs &amp; game assets across 26 sites.</text>
 
     <g transform="translate(254 190)">
       <rect class="chip" width="96" height="34" rx="17"/>
