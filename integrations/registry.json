@@ -211,6 +211,26 @@
   ],
   "rejected": [
     {
+      "name": "Chequered Ink",
+      "homepage": "https://chequered.ink",
+      "checkedAt": "2026-10-30",
+      "reason": "WooCommerce store of 2D pixel art; its Store API returns 0 products for a 3D search, so it has no 3D models, textures or HDRIs"
+    },
+    {
+      "name": "Mixamo",
+      "homepage": "https://www.mixamo.com",
+      "checkedAt": "2026-10-30",
+      "reason": "rigged characters and animations need an Adobe account to download and there is no public keyless search API; a small character set",
+      "recheckAfter": "2027-01-28"
+    },
+    {
+      "name": "Humus",
+      "homepage": "https://www.humus.name",
+      "checkedAt": "2026-10-30",
+      "reason": "personal page of a few dozen CC-BY cubemaps and textures with no search or API, and robots.txt is missing; too small and old",
+      "recheckAfter": "2027-01-28"
+    },
+    {
       "name": "Artec 3D free 3D models",
       "homepage": "https://www.artec3d.com/3d-models",
       "checkedAt": "2026-10-29",
