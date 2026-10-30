@@ -21,7 +21,7 @@
       "lego"
     ]
   },
-  "updatedAt": "2026-10-29T11:06:20.169Z",
+  "updatedAt": "2026-10-30T11:00:55.425Z",
   "assets": [
     {
       "id": "polyhaven:covered_car",
@@ -247,28 +247,6 @@
       "downloadable": false,
       "author": "Coynese",
       "free": true
-    },
-    {
-      "id": "blenderkit:0c92f93d-f77a-482c-95cc-5bb9277a8920",
-      "provider": "blenderkit",
-      "title": "Car 004 - Porsche 911 3d model",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/0c92f93d-f77a-482c-95cc-5bb9277a8920/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/2cd70a81ec1e48df90210c09ba2dec92/files/thumbnail_113365e6-e12e-46c9-ab5f-003e7453cebe.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "AmJViZ",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k",
-      "polyCount": 114521
     },
     {
       "id": "blenderkit:7701f4be-16c6-4278-a8d2-66998f5c8d8f",
@@ -649,6 +627,30 @@
         "glb",
         "blend"
       ]
+    },
+    {
+      "id": "polyfork:model-of-a-gt3-32b70d",
+      "provider": "polyfork",
+      "title": "GT3 Gymkhana Car",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/model-of-a-gt3-32b70d",
+      "thumbnailUrl": "https://polyfork.dev/files/model-of-a-gt3-32b70d/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 2802,
+      "rigged": true
     }
   ]
 }

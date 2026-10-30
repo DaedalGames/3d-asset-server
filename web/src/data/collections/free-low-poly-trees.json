@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-29T11:08:48.599Z",
+  "updatedAt": "2026-10-30T11:01:17.759Z",
   "assets": [
     {
       "id": "itchio:brokenvector/low-poly-tree-pack",
@@ -252,28 +252,6 @@
       "downloadable": false,
       "author": "Joseph Riches",
       "free": true
-    },
-    {
-      "id": "blenderkit:84edbfbc-5cd8-4fd8-bbbe-a4a597142908",
-      "provider": "blenderkit",
-      "title": "Low Poly Kalamansi Tree",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/84edbfbc-5cd8-4fd8-bbbe-a4a597142908/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/67515a089de24c41a3c8453fd6460aba/files/thumbnail_648fad0f-ec73-4eeb-86d6-b8a055624a13.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Liam Xee",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "polyCount": 140
     },
     {
       "id": "blenderkit:e1757b38-4bb3-4e92-a0ec-d2d45f9653fd",
@@ -629,6 +607,29 @@
         "glb",
         "blend"
       ]
+    },
+    {
+      "id": "sketchfab:0fa93c551d8449808cc1f85c4238bf93",
+      "provider": "sketchfab",
+      "title": "Apple Tree - Low Poly Medieval, CC0",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-0fa93c551d8449808cc1f85c4238bf93",
+      "thumbnailUrl": "https://media.sketchfab.com/models/0fa93c551d8449808cc1f85c4238bf93/thumbnails/81e2bfb83f0d4e28827346982d48c73c/e029abda5f24421bb188ad70a49a9416.jpeg",
+      "downloadable": false,
+      "author": "Avramania",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 1044
     }
   ]
 }

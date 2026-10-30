@@ -11,7 +11,7 @@
       "scabbard"
     ]
   },
-  "updatedAt": "2026-10-28T10:54:40.649Z",
+  "updatedAt": "2026-10-30T11:01:51.110Z",
   "assets": [
     {
       "id": "blenderkit:0560133f-1e76-49d9-be20-1f98016baed4",
@@ -424,28 +424,6 @@
       "free": true
     },
     {
-      "id": "blenderkit:7684ee95-e579-468b-8d5f-81e63910560c",
-      "provider": "blenderkit",
-      "title": "Roman sword",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/7684ee95-e579-468b-8d5f-81e63910560c/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/946189511b3c4bd78b3fcfe61f9bc10f/files/thumbnail_5407a685-63ae-40de-944a-5c95dc4dc7b5.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Manueh3D 3D",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "1k",
-      "polyCount": 2065
-    },
-    {
       "id": "opengameart:seraphim-sword",
       "provider": "opengameart",
       "title": "Seraphim Sword?",
@@ -631,6 +609,26 @@
         "glb"
       ],
       "polyCount": 3100
+    },
+    {
+      "id": "scenario:scenario_asset_QrjCL2vxnS7Ah9tyoCYcz4JW",
+      "provider": "scenario",
+      "title": "A silver sword with a shiny, double-edged blade features a gold…",
+      "type": "model",
+      "url": "https://huggingface.co/datasets/scenario-labs/3d-collection/tree/main/assets/scenario_asset_QrjCL2vxnS7Ah9tyoCYcz4JW",
+      "thumbnailUrl": "https://huggingface.co/datasets/scenario-labs/3d-collection/resolve/main/assets/scenario_asset_QrjCL2vxnS7Ah9tyoCYcz4JW/preview.jpg",
+      "downloadable": true,
+      "author": "Scenario",
+      "license": {
+        "name": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ]
     }
   ]
 }

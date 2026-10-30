@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-29T11:07:43.215Z",
+  "updatedAt": "2026-10-30T11:01:08.121Z",
   "assets": [
     {
       "id": "blenderkit:0f1918d7-7350-43a8-a012-469ddc446b35",
@@ -484,17 +484,6 @@
       "polyCount": 10192
     },
     {
-      "id": "itchio:ladoncha/furniture-asset-pack",
-      "provider": "itchio",
-      "title": "Furniture Asset Pack 3D - Free",
-      "type": "model",
-      "url": "https://ladoncha.itch.io/furniture-asset-pack",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzEzMDM5NDc5LnBuZw==/315x250%23c/70JW5q.png",
-      "downloadable": false,
-      "author": "Aline",
-      "free": true
-    },
-    {
       "id": "sharetextures:armchair_1",
       "provider": "sharetextures",
       "title": "Armchair 1",
@@ -652,6 +641,27 @@
         "usdz",
         "obj"
       ]
+    },
+    {
+      "id": "threedassets:garden-centre-and-florist-garden-furniture-display-dec-9e5b08fa",
+      "provider": "threedassets",
+      "title": "Garden furniture display deck (Garden Centre and Florist)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/garden-centre-and-florist-garden-furniture-display-dec-9e5b08fa",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/17780/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 1984
     }
   ]
 }
