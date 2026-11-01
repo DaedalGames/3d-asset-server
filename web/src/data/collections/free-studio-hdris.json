@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-29T11:11:36.469Z",
+  "updatedAt": "2026-11-01T11:29:49.096Z",
   "assets": [
     {
       "id": "polyhaven:studio_small_09",
@@ -398,27 +398,6 @@
       "maxResolution": "16k"
     },
     {
-      "id": "blenderkit:7a564701-df6d-407b-9059-dd416a02b8a0",
-      "provider": "blenderkit",
-      "title": "Studio Product Silver",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/7a564701-df6d-407b-9059-dd416a02b8a0/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0b28b025acdd481bbd0d696ecae2a03e/files/thumbnail_4e30cd32-e69e-4ec3-b2b7-111fcd1d717d.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Jon 13",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "exr"
-      ],
-      "maxResolution": "8k"
-    },
-    {
       "id": "polyhaven:studio_small_01",
       "provider": "polyhaven",
       "title": "Studio Small 01",
@@ -671,6 +650,27 @@
         "exr"
       ],
       "maxResolution": "4k"
+    },
+    {
+      "id": "blenderkit:53998425-a658-4054-abaa-7d83d184c263",
+      "provider": "blenderkit",
+      "title": "Studio - White Photo Studio HDRI",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/53998425-a658-4054-abaa-7d83d184c263/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0bb435b3e8474f51a75e3477b0b306d5/files/thumbnail_1ffd380a-bcc4-4af4-86dd-bbf5ea055a86.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Nandu M",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
     }
   ]
 }

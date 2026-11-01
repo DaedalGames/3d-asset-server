@@ -11,7 +11,7 @@
       "delivery bag"
     ]
   },
-  "updatedAt": "2026-10-30T11:01:04.569Z",
+  "updatedAt": "2026-11-01T11:29:12.187Z",
   "assets": [
     {
       "id": "polyhaven:food_apple_01",
@@ -85,17 +85,6 @@
       "thumbnailUrl": "https://quaternius.com/assets/images/thumbnails/ultimatefood.jpg",
       "downloadable": false,
       "author": "Quaternius",
-      "free": true
-    },
-    {
-      "id": "itchio:styloo/3dfood",
-      "provider": "itchio",
-      "title": "3D Food Asset Pack",
-      "type": "model",
-      "url": "https://styloo.itch.io/3dfood",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4NTgxMjczLmpwZw==/315x250%23c/rTGZUB.jpg",
-      "downloadable": false,
-      "author": "styloo",
       "free": true
     },
     {
@@ -684,6 +673,27 @@
         "glb"
       ],
       "polyCount": 2768
+    },
+    {
+      "id": "scenario:scenario_asset_QJU6sVzUqcAmReiisKB2nh18",
+      "provider": "scenario",
+      "title": "A cartoon-style toy food truck with a friendly face",
+      "type": "model",
+      "url": "https://huggingface.co/datasets/scenario-labs/3d-collection/tree/main/assets/scenario_asset_QJU6sVzUqcAmReiisKB2nh18",
+      "thumbnailUrl": "https://huggingface.co/datasets/scenario-labs/3d-collection/resolve/main/assets/scenario_asset_QJU6sVzUqcAmReiisKB2nh18/preview.jpg",
+      "downloadable": true,
+      "author": "Scenario",
+      "license": {
+        "name": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "blend"
+      ]
     }
   ]
 }

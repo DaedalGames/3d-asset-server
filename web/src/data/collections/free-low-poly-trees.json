@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-30T11:01:17.759Z",
+  "updatedAt": "2026-11-01T11:29:24.061Z",
   "assets": [
     {
       "id": "itchio:brokenvector/low-poly-tree-pack",
@@ -208,17 +208,6 @@
         "glb"
       ],
       "polyCount": 106
-    },
-    {
-      "id": "itchio:direeclat/low-poly-tree-3-pack",
-      "provider": "itchio",
-      "title": "Low Poly Tree 3 Pack",
-      "type": "model",
-      "url": "https://direeclat.itch.io/low-poly-tree-3-pack",
-      "thumbnailUrl": "https://img.itch.zone/aW1hZ2UvMTU2MTc1LzcxNjU1Mi5wbmc=/315x250%23c/Zh4g%2Fs.png",
-      "downloadable": false,
-      "author": "direeclat",
-      "free": true
     },
     {
       "id": "blenderkit:5269bc39-fa1e-4be3-9a84-b1596caa5bc4",
@@ -630,6 +619,30 @@
         "usdz"
       ],
       "polyCount": 1044
+    },
+    {
+      "id": "polyfork:lineside-tree-97e02a",
+      "provider": "polyfork",
+      "title": "Lineside Tree",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/lineside-tree-97e02a",
+      "thumbnailUrl": "https://polyfork.dev/files/lineside-tree-97e02a/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 469,
+      "rigged": true
     }
   ]
 }
