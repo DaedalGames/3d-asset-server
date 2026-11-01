@@ -211,6 +211,39 @@
   ],
   "rejected": [
     {
+      "name": "StylizedWorld",
+      "homepage": "https://stylizedworld.com",
+      "checkedAt": "2026-11-01",
+      "reason": "client-rendered Vite app with no catalogue API or listing in the sitemap, a 10 second crawl-delay, and a free/premium pricing tier with logins",
+      "recheckAfter": "2027-01-30"
+    },
+    {
+      "name": "CC0 3D",
+      "homepage": "https://www.cc03d.com",
+      "checkedAt": "2026-11-01",
+      "reason": "WooCommerce product sitemap last modified in 2022 and the REST API exposes no catalogue (posts total 0), so stale and not searchable"
+    },
+    {
+      "name": "3DModelsCC0",
+      "homepage": "https://www.3dmodelscc0.com",
+      "checkedAt": "2026-11-01",
+      "reason": "domain now serves an unrelated Indonesian gambling spam page and no longer hosts 3D models"
+    },
+    {
+      "name": "Cleveland Museum of Art Open Access",
+      "homepage": "https://www.clevelandart.org/open-access",
+      "checkedAt": "2026-11-01",
+      "reason": "keyless CC0 API works but only a handful of 3D scans exist in it; too small to be a catalogue",
+      "recheckAfter": "2027-01-30"
+    },
+    {
+      "name": "PBR Materials",
+      "homepage": "https://pbrmaterials.com",
+      "checkedAt": "2026-11-01",
+      "reason": "requests, including robots.txt, timed out with no response, so access could not be verified",
+      "recheckAfter": "2027-01-30"
+    },
+    {
       "name": "Innerscene",
       "homepage": "https://www.innerscene.com",
       "checkedAt": "2026-10-31",
