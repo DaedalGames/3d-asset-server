@@ -717,6 +717,18 @@
       "checkedAt": "2026-10-06",
       "reason": "no documented public search API and mostly avatars; robots.txt served is for a sister site",
       "recheckAfter": "2027-01-04"
+    },
+    {
+      "name": "MODL game model finder",
+      "homepage": "https://game-model-finder.lovable.app",
+      "checkedAt": "2026-11-02",
+      "reason": "aggregator of other sites already searched or rejected, not its own catalogue"
+    },
+    {
+      "name": "3d-resources link list",
+      "homepage": "https://devanshutak25.github.io/3d-resources/",
+      "checkedAt": "2026-11-02",
+      "reason": "curated list of links to other sites, hosts no assets of its own"
     }
   ]
 }
