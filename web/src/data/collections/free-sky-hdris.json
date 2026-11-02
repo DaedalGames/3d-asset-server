@@ -17,7 +17,7 @@
       "moon"
     ]
   },
-  "updatedAt": "2026-10-12T15:50:02.360Z",
+  "updatedAt": "2026-11-02T12:51:57.954Z",
   "assets": [
     {
       "id": "polyhaven:kloofendal_48d_partly_cloudy_puresky",
@@ -332,27 +332,6 @@
         "exr"
       ],
       "maxResolution": "16k"
-    },
-    {
-      "id": "blenderkit:fc236ec8-c733-44f4-a7c1-76936b5bb0e7",
-      "provider": "blenderkit",
-      "title": "Bright Cloud Sky",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/fc236ec8-c733-44f4-a7c1-76936b5bb0e7/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0f13b6520a764d09a16df0070b2e6bc7/files/thumbnail_3bcf34e8-78dd-4dca-b8b6-390baf85389b.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "5555dnl_3d",
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "exr"
-      ],
-      "maxResolution": "8k"
     },
     {
       "id": "polyhaven:citrus_orchard_road_puresky",
@@ -735,6 +714,27 @@
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/002449895d084a69938339003f6c6fe9/files/thumbnail_5f32f694-1dfa-447b-a4cc-585073534231.png.512x512_q85_crop-%2C.png",
       "downloadable": true,
       "author": "Free poly",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:1a5217ba-b6bf-43a5-811d-731541ecd84d",
+      "provider": "blenderkit",
+      "title": "Bright Sky Clouds Sunny",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/1a5217ba-b6bf-43a5-811d-731541ecd84d/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/d5c74a48facd419fb73359c9512c3b63/files/thumbnail_6d5b7f11-e27b-49a9-9b7e-2f99a9dd18d3.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Nandu M",
       "license": {
         "name": "CC0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/",

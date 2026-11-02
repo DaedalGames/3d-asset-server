@@ -19,7 +19,7 @@
       "Corrugated Iron"
     ]
   },
-  "updatedAt": "2026-10-22T09:37:33.798Z",
+  "updatedAt": "2026-11-02T12:51:52.989Z",
   "assets": [
     {
       "id": "polyhaven:green_metal_rust",
@@ -91,17 +91,6 @@
       "url": "https://opengameart.org/content/45-high-res-metal-and-rust-texture-photos",
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/metal.zip.preview.jpg",
       "downloadable": true,
-      "free": true
-    },
-    {
-      "id": "itchio:stickyteethgames/rust-textures",
-      "provider": "itchio",
-      "title": "Rust Textures",
-      "type": "texture",
-      "url": "https://stickyteethgames.itch.io/rust-textures",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI1MjUzOTg4LnBuZw==/315x250%23c/nSvdJH.png",
-      "downloadable": false,
-      "author": "StickyTeethGames",
       "free": true
     },
     {
@@ -671,6 +660,27 @@
       "license": {
         "name": "Royalty Free",
         "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "blenderkit:c7214091-8fba-49ca-bf03-dbda11a9b33d",
+      "provider": "blenderkit",
+      "title": "Painted Rust Metal",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/c7214091-8fba-49ca-bf03-dbda11a9b33d/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/82b43fb352d048b4857846a7bf1b6445/files/thumbnail_baed19e1-67f3-49bc-aef8-603f959ddc63.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Jonathan Ramos",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
         "commercialUse": true,
         "attributionRequired": false
       },

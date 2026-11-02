@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-01T11:29:24.061Z",
+  "updatedAt": "2026-11-02T12:51:41.426Z",
   "assets": [
     {
       "id": "itchio:brokenvector/low-poly-tree-pack",
@@ -541,24 +541,6 @@
       ]
     },
     {
-      "id": "cgtrader:low-poly-stylized-broadleaf-tree-series-6-with-2k-pbr-textures",
-      "provider": "cgtrader",
-      "title": "Low Poly Stylized Broadleaf Tree Series 6 with 2K PBR Textures",
-      "type": "model",
-      "url": "https://www.cgtrader.com/free-3d-models/plant/other/low-poly-stylized-broadleaf-tree-series-6-with-2k-pbr-textures",
-      "thumbnailUrl": "https://media.cgtrader.com/variants/ma3pg45zy5tq5lb9qegxabr42trc/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/TL6_Front0001.jpg",
-      "downloadable": false,
-      "free": true,
-      "formats": [
-        "fbx",
-        "ply",
-        "usd",
-        "obj",
-        "stl",
-        "abc"
-      ]
-    },
-    {
       "id": "cgtrader:low-poly-stylized-broadleaf-tree-series-7-with-2k-pbr-textures",
       "provider": "cgtrader",
       "title": "Low Poly Stylized Broadleaf Tree Series 7 with 2K PBR Textures",
@@ -643,6 +625,21 @@
       ],
       "polyCount": 469,
       "rigged": true
+    },
+    {
+      "id": "cgtrader:shapespark-low-poly-plants-kit-free-low-poly-3d-model",
+      "provider": "cgtrader",
+      "title": "Shapespark low poly exterior plants kit -",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/plant/bush/shapespark-low-poly-plants-kit-free-low-poly-3d-model",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/UpDL2acED8ciEji3Hi1oBBo8/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/shapespark-plants-kit-01.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "blend",
+        "gltf",
+        "fbx"
+      ]
     }
   ]
 }
