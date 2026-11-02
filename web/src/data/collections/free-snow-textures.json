@@ -1,0 +1,685 @@
+{
+  "slug": "free-snow-textures",
+  "search": {
+    "q": "snow",
+    "types": [
+      "material",
+      "texture"
+    ],
+    "free": true,
+    "exclude": [
+      "Free Urban Textures",
+      "Snow On Trees",
+      "Snow Field Aerial",
+      "Procedural Snow",
+      "Roof Tiles with Snow",
+      "Snow White Tiles",
+      "Ground Tiles With Snow"
+    ]
+  },
+  "updatedAt": "2026-11-02T16:23:11.320Z",
+  "assets": [
+    {
+      "id": "polyhaven:snow_02",
+      "provider": "polyhaven",
+      "title": "Snow 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/snow_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/snow_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:64a5b354-af04-45a1-9aeb-ce2c9bf92b97",
+      "provider": "blenderkit",
+      "title": "Snow 01",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/64a5b354-af04-45a1-9aeb-ce2c9bf92b97/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/fcf53527ee6a47a7ae82f96b23d130f7/files/thumbnail_b2d63a9f-52d7-4aef-b5e3-37c502fb04f1.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Poly Haven",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "ambientcg:Snow015",
+      "provider": "ambientcg",
+      "title": "Snow 015",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Snow015",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Snow015.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "cgbookcase:snow-covered-path-01",
+      "provider": "cgbookcase",
+      "title": "Snow Covered Path 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/snow-covered-path-01",
+      "thumbnailUrl": "https://cgbookcase.b-cdn.net/textures/renders/2024_b/SnowCoveredPath01_render_default.jpg?width=480",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "8k"
+    },
+    {
+      "id": "sharetextures:snow_covered_ground",
+      "provider": "sharetextures",
+      "title": "Snow Covered Ground",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/ground/snow_covered_ground",
+      "thumbnailUrl": "https://images.sharetextures.com/u/snow_covered_ground-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:stylized-tile-ground-snow-pbr-material",
+      "provider": "threedtexel",
+      "title": "Stylized Stone Ground Snow – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/stylized-tile-ground-snow-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-49-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:snow-005-free-seamless-pbr-texture",
+      "provider": "threedtextures",
+      "title": "Snow 005",
+      "type": "material",
+      "url": "https://3dtextures.me/2026/05/21/snow-005-free-seamless-pbr-texture/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2026/05/Material_2005.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:snow_01",
+      "provider": "polyhaven",
+      "title": "Snow 01",
+      "type": "material",
+      "url": "https://polyhaven.com/a/snow_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/snow_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "ambientcg:Snow014",
+      "provider": "ambientcg",
+      "title": "Snow 014",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Snow014",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Snow014.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "texturecan:18",
+      "provider": "texturecan",
+      "title": "Mixture of Snow and Ice Texture",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/18/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/ice_0001/ice_0001_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "freestylized:material:snow_01",
+      "provider": "freestylized",
+      "title": "Snow 01",
+      "type": "material",
+      "url": "https://freestylized.com/material/snow_01/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2023/08/snow_01_preview_hex151515_1024.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "opengameart:snow-texture",
+      "provider": "opengameart",
+      "title": "Snow Texture",
+      "type": "texture",
+      "url": "https://opengameart.org/content/snow-texture",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/snow_2.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "sharetextures:snow_ground_3",
+      "provider": "sharetextures",
+      "title": "Snow Ground 3",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/ground/snow_ground_3",
+      "thumbnailUrl": "https://images.sharetextures.com/u/snow_ground-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtextures:snow-004",
+      "provider": "threedtextures",
+      "title": "Snow 004",
+      "type": "material",
+      "url": "https://3dtextures.me/2018/11/30/snow-004/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2018/11/material_598.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "threedtexel:stylized-snow-pbr-material",
+      "provider": "threedtexel",
+      "title": "Stylized Snow Surface – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/stylized-snow-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/09/Untitled_Sphere-Camera-225-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "blenderkit:554592a5-6716-46e9-bc63-c33339385bb9",
+      "provider": "blenderkit",
+      "title": "Snow",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/554592a5-6716-46e9-bc63-c33339385bb9/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/a5351b8045044a27a0dac34dacb76ec2/files/thumbnail_136243c6-e441-4f69-9138-1f251709c14c.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Infeeq",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "ambientcg:Snow010A",
+      "provider": "ambientcg",
+      "title": "Snow 010 A",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Snow010A",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Snow010A.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "threedtextures:snow-003",
+      "provider": "threedtextures",
+      "title": "Snow 003",
+      "type": "material",
+      "url": "https://3dtextures.me/2018/03/01/snow-003/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2018/02/material_395.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "threedtexel:grainy-snow-pbr-material-2",
+      "provider": "threedtexel",
+      "title": "Grainy Snow Surface – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/grainy-snow-pbr-material-2/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/06/Untitled_Sphere-Camera-107-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "polyhaven:snow_03",
+      "provider": "polyhaven",
+      "title": "Snow 03",
+      "type": "material",
+      "url": "https://polyhaven.com/a/snow_03",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/snow_03.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:1b097d65-46db-418c-80d1-cafb9a070463",
+      "provider": "blenderkit",
+      "title": "Pbr snow mud moss ground",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/1b097d65-46db-418c-80d1-cafb9a070463/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/4c83abeab246448b8735950c62164de0/files/thumbnail_8c08872a-4145-4c74-b195-9da4c4b49659.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Soran Mohammadi",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "ambientcg:Snow013",
+      "provider": "ambientcg",
+      "title": "Snow 013",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Snow013",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Snow013.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:tomeks-seamless-snow-textures",
+      "provider": "opengameart",
+      "title": "tomek's seamless snow textures",
+      "type": "texture",
+      "url": "https://opengameart.org/content/tomeks-seamless-snow-textures",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/snow10_d.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "sharetextures:snow_ground_2",
+      "provider": "sharetextures",
+      "title": "Snow Ground 2",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/ground/snow_ground_2",
+      "thumbnailUrl": "https://images.sharetextures.com/u/snow_ground_2-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtextures:snow-002",
+      "provider": "threedtextures",
+      "title": "Snow 002",
+      "type": "material",
+      "url": "https://3dtextures.me/2018/02/27/snow-002/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2018/02/material_394.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "polyhaven:snow_05",
+      "provider": "polyhaven",
+      "title": "Snow 05",
+      "type": "material",
+      "url": "https://polyhaven.com/a/snow_05",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/snow_05.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "ambientcg:Snow012",
+      "provider": "ambientcg",
+      "title": "Snow 012",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Snow012",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Snow012.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:seamless-snow-texture-0",
+      "provider": "opengameart",
+      "title": "Seamless Snow Texture",
+      "type": "texture",
+      "url": "https://opengameart.org/content/seamless-snow-texture-0",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/snow01_preview.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "sharetextures:snow-metal-roof",
+      "provider": "sharetextures",
+      "title": "Snow Metal Roof",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/roof/snow-metal-roof",
+      "thumbnailUrl": "https://images.sharetextures.com/u/metal_roof_snow-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtextures:snow-001",
+      "provider": "threedtextures",
+      "title": "Snow 001",
+      "type": "material",
+      "url": "https://3dtextures.me/2018/02/26/snow-001/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2018/02/material_393.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "threedtexel:grainy-snow-footstep-pbr-material-2",
+      "provider": "threedtexel",
+      "title": "Grainy Snow Footstep – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/grainy-snow-footstep-pbr-material-2/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/06/Untitled_Sphere-Camera-105-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "polyhaven:snow_04",
+      "provider": "polyhaven",
+      "title": "Snow 04",
+      "type": "material",
+      "url": "https://polyhaven.com/a/snow_04",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/snow_04.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:6e0baebf-090e-479f-8aad-07a48f259627",
+      "provider": "blenderkit",
+      "title": "Rock with Snow and Moss",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/6e0baebf-090e-479f-8aad-07a48f259627/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0b541dc01d354a6d9c07c74d8b3517f9/files/thumbnail_c52a94d4-b0b2-4be6-b2ea-a40a0e798686.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Vaishakh Vinod",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "ambientcg:Snow011",
+      "provider": "ambientcg",
+      "title": "Snow 011",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Snow011",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Snow011.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "freestylized:material:wood_planks_25",
+      "provider": "freestylized",
+      "title": "Wood Planks 25",
+      "type": "material",
+      "url": "https://freestylized.com/material/wood_planks_25/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/10/wood_planks_25_preview_hex151515.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "sharetextures:snow_ground_",
+      "provider": "sharetextures",
+      "title": "Snow Ground",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/ground/snow_ground_",
+      "thumbnailUrl": "https://images.sharetextures.com/u/snow_ground_-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    }
+  ]
+}

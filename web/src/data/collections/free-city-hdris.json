@@ -1,0 +1,498 @@
+{
+  "slug": "free-city-hdris",
+  "search": {
+    "q": "city street",
+    "types": [
+      "hdri"
+    ],
+    "free": true,
+    "exclude": [
+      "Pultusk Castle",
+      "Day Environment HDRI",
+      "Evening Environment HDRI",
+      "Night Environment HDRI"
+    ]
+  },
+  "updatedAt": "2026-11-02T16:23:00.410Z",
+  "assets": [
+    {
+      "id": "blenderkit:38679689-c68b-4328-b118-5dd29ee25f37",
+      "provider": "blenderkit",
+      "title": "Neighbornood Street in City",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/38679689-c68b-4328-b118-5dd29ee25f37/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/8d7a8b12ab184c02b9e435126b014079/files/thumbnail_b9f0d594-7ea9-4c4a-bd12-d186bc80eb77.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "EB Adventure Photoscans",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:narrow-historic-city-street",
+      "provider": "hdrmaps",
+      "title": "Narrow historic city street",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/narrow-historic-city-street/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2020/06/hdrmaps_com_free_020_tonemapped-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:wide_street_01",
+      "provider": "polyhaven",
+      "title": "Wide Street 01",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/wide_street_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/wide_street_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Sergej Majboroda",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:wide_street_02",
+      "provider": "polyhaven",
+      "title": "Wide Street 02",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/wide_street_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/wide_street_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Sergej Majboroda",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:5246e74e-1697-49d7-b0c5-bb19258cd710",
+      "provider": "blenderkit",
+      "title": "Old Town Street, 17k, cloudy",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/5246e74e-1697-49d7-b0c5-bb19258cd710/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/b04337a7b7cc4fe898f9d70cb831e3d0/files/thumbnail_15c3de24-ad4f-4d0a-ae86-c6635680479b_vUuDxdP.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Paweł Wałasiewicz",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:urban_street_01",
+      "provider": "polyhaven",
+      "title": "Urban Street 01",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/urban_street_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/urban_street_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Andreas Mischok",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:cobblestone_street_night",
+      "provider": "polyhaven",
+      "title": "Cobblestone Street Night",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/cobblestone_street_night",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_street_night.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal, Jenelle van Heerden",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:german_town_street",
+      "provider": "polyhaven",
+      "title": "German Town Street",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/german_town_street",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/german_town_street.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Alexander Scholten",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:1c1c2c7b-cadd-42d1-b332-f301cdeb08f3",
+      "provider": "blenderkit",
+      "title": "Business Park Street",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/1c1c2c7b-cadd-42d1-b332-f301cdeb08f3/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/2cf28d3d6010483197c369d3930bee02/files/thumbnail_e0c03f7c-62ff-4a54-8dfa-ffdf3af39afc.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "JBRO SP",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:modern_evening_street",
+      "provider": "polyhaven",
+      "title": "Modern Evening Street",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/modern_evening_street",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/modern_evening_street.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Grzegorz Wronkowski",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:22a18845-b4d1-49fe-af8c-cf20de2ccd22",
+      "provider": "blenderkit",
+      "title": "City Road Streetback",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/22a18845-b4d1-49fe-af8c-cf20de2ccd22/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/b08b17ceae704ce19fe5303e4bdfd629/files/thumbnail_d47f28ee-1007-46a1-bf8f-cfcc09d43540.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Free poly",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "polyhaven:urban_street_02",
+      "provider": "polyhaven",
+      "title": "Urban Street 02",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/urban_street_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/urban_street_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Andreas Mischok",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:canary_wharf",
+      "provider": "polyhaven",
+      "title": "Canary Wharf",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/canary_wharf",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/canary_wharf.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Andreas Mischok",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:1d50c9f5-bf06-44ae-95b5-c0d28078ad44",
+      "provider": "blenderkit",
+      "title": "Mariensztat Square, 17k, in shade, soft shadows",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/1d50c9f5-bf06-44ae-95b5-c0d28078ad44/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f5f57db853a64343a45c970a31ca5225/files/thumbnail_a9869cec-a024-4061-b08f-14b72bea9edf_3cwIK9a.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Paweł Wałasiewicz",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:shanghai_bund",
+      "provider": "polyhaven",
+      "title": "Shanghai Bund",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/shanghai_bund",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/shanghai_bund.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:neuer_zollhof",
+      "provider": "polyhaven",
+      "title": "Neuer Zollhof",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/neuer_zollhof",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/neuer_zollhof.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:08f701a0-eabc-4681-a06b-44ffec026075",
+      "provider": "blenderkit",
+      "title": "Zoliborz yard, 17k, cloudy, bg photos",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/08f701a0-eabc-4681-a06b-44ffec026075/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/302fc793f8fb4fb191fa2a08ef264112/files/thumbnail_fab7312e-5bd1-402f-a50b-560abf91b632.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Paweł Wałasiewicz",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:vignaioli_night",
+      "provider": "polyhaven",
+      "title": "Vignaioli Night",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/vignaioli_night",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/vignaioli_night.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal, Rico Cilliers",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:cc2d8883-8f7e-4404-89cf-6365028e9e2c",
+      "provider": "blenderkit",
+      "title": "Rostock Arches",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/cc2d8883-8f7e-4404-89cf-6365028e9e2c/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/be055eae753f4f1790d163dcc13c87be/files/thumbnail_43870205-733e-43be-a8a6-014173a809b5.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Poly Haven",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:potsdamer_platz",
+      "provider": "polyhaven",
+      "title": "Potsdamer Platz",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/potsdamer_platz",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/potsdamer_platz.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:docklands_02",
+      "provider": "polyhaven",
+      "title": "Docklands 02",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/docklands_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/docklands_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Savva Zakharov",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:urban_courtyard_02",
+      "provider": "polyhaven",
+      "title": "Urban Courtyard 02",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/urban_courtyard_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/urban_courtyard_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Sergej Majboroda",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    }
+  ]
+}

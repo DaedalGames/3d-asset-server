@@ -1,0 +1,736 @@
+{
+  "slug": "free-gravel-textures",
+  "search": {
+    "q": "gravel",
+    "types": [
+      "material",
+      "texture"
+    ],
+    "free": true,
+    "exclude": [
+      "Plastic Gravel Container",
+      "Ground Dirt 009",
+      "Gravel Tiles",
+      "Gravel Paths Vol.1"
+    ]
+  },
+  "updatedAt": "2026-11-02T16:23:09.078Z",
+  "assets": [
+    {
+      "id": "polyhaven:gravel_embedded_concrete",
+      "provider": "polyhaven",
+      "title": "Gravel Embedded Concrete",
+      "type": "material",
+      "url": "https://polyhaven.com/a/gravel_embedded_concrete",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/gravel_embedded_concrete.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Charlotte Baglioni",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:3f48dfc4-1b2a-4438-970e-ad062aa78b2d",
+      "provider": "blenderkit",
+      "title": "Gravel Floor",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/3f48dfc4-1b2a-4438-970e-ad062aa78b2d/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f8ba443f4bb34b93b55df90e42bd4678/files/thumbnail_fbc1d361-c608-4263-8c66-b624890e9dc1.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Poly Haven",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "opengameart:gravel-and-small-rocks-batch-of-13-seamless-textures-with-normalmaps",
+      "provider": "opengameart",
+      "title": "Gravel and Small Rocks Batch of 13 - Seamless Textures with normalmaps",
+      "type": "texture",
+      "url": "https://opengameart.org/content/gravel-and-small-rocks-batch-of-13-seamless-textures-with-normalmaps",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Sample_1.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "cgbookcase:gravel-wall-02",
+      "provider": "cgbookcase",
+      "title": "Gravel Wall 02",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/gravel-wall-02",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Gravel_wall_02_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "2k"
+    },
+    {
+      "id": "threedtexel:gravel-ground-pbr-material",
+      "provider": "threedtexel",
+      "title": "Gravel Ground – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/gravel-ground-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/11/Untitled_Sphere-Camera-69-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:gravel-001",
+      "provider": "threedtextures",
+      "title": "Gravel 001",
+      "type": "material",
+      "url": "https://3dtextures.me/2022/04/27/gravel-001/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2022/04/Material_2076.jpg?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "ambientcg:Gravel043",
+      "provider": "ambientcg",
+      "title": "Gravel 043",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Gravel043",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Gravel043.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:gravel_concrete_03",
+      "provider": "polyhaven",
+      "title": "Gravel Concrete 03",
+      "type": "material",
+      "url": "https://polyhaven.com/a/gravel_concrete_03",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/gravel_concrete_03.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Charlotte Baglioni",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:f5721d7a-c851-4151-8550-023b87388cbd",
+      "provider": "blenderkit",
+      "title": "Small Gravel Road",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/f5721d7a-c851-4151-8550-023b87388cbd/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/829b9b97485f4c86ae49e42867de6691/files/thumbnail_de34d120-a6f1-4a42-977d-f30655b3cf4d.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Free poly",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "cgbookcase:gravel-wall-01",
+      "provider": "cgbookcase",
+      "title": "Gravel Wall 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/gravel-wall-01",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Gravel_wall_01_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtexel:gravel-concrete-pbr-material",
+      "provider": "threedtexel",
+      "title": "Light Grey Gravel Concrete – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/gravel-concrete-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/11/Untitled_Sphere-Camera-61-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Gravel023",
+      "provider": "ambientcg",
+      "title": "Gravel 023",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Gravel023",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Gravel023.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "texturecan:194",
+      "provider": "texturecan",
+      "title": "Ground Covered with Gravel",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/194/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/ground_0020/ground_0020_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:gravel_concrete",
+      "provider": "polyhaven",
+      "title": "Gravel Concrete",
+      "type": "material",
+      "url": "https://polyhaven.com/a/gravel_concrete",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/gravel_concrete.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dario Barresi, Charlotte Baglioni",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:9b7f0eb5-8768-47ab-bb08-1f6666c9d778",
+      "provider": "blenderkit",
+      "title": "Wet gravel",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/9b7f0eb5-8768-47ab-bb08-1f6666c9d778/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/77ed631465594859a51d5386da1fd1aa/files/thumbnail_7cfef763-30f8-4b24-a025-67b0ad83958d.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Mat Karmon",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Gravel041",
+      "provider": "ambientcg",
+      "title": "Gravel 041",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Gravel041",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Gravel041.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "cgbookcase:gravel-driveway-01",
+      "provider": "cgbookcase",
+      "title": "Gravel Driveway 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/gravel-driveway-01",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Gravel_driveway_01_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "2k"
+    },
+    {
+      "id": "threedtexel:gravel-concrete-brickwall-pbr-material",
+      "provider": "threedtexel",
+      "title": "Gravel Concrete Brickwall – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/gravel-concrete-brickwall-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/11/Untitled_Sphere-Camera-59-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "polyhaven:sandy_gravel_02",
+      "provider": "polyhaven",
+      "title": "Sandy Gravel 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/sandy_gravel_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/sandy_gravel_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dario Barresi",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:04823d74-9ec9-4e8c-986c-d3e60fb070d7",
+      "provider": "blenderkit",
+      "title": "Gravel Ground",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/04823d74-9ec9-4e8c-986c-d3e60fb070d7/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/59b3febe6bc548b09fd4bbc561ae0343/files/thumbnail_494d6676-c2a3-4f26-b0ad-afb06d254715.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "PBRPX",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "cgbookcase:white-gravel-02",
+      "provider": "cgbookcase",
+      "title": "White Gravel 02",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/white-gravel-02",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/White_gravel_02_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "2k"
+    },
+    {
+      "id": "threedtexel:gravel-ground-pebble-pbr-material-3",
+      "provider": "threedtexel",
+      "title": "Gravel Ground Pebble – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/gravel-ground-pebble-pbr-material-3/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-136-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Gravel040",
+      "provider": "ambientcg",
+      "title": "Gravel 040",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Gravel040",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Gravel040.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:sandy_gravel",
+      "provider": "polyhaven",
+      "title": "Sandy Gravel",
+      "type": "material",
+      "url": "https://polyhaven.com/a/sandy_gravel",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/sandy_gravel.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Charlotte Baglioni",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:9de74aab-67fd-48d5-8250-a9c78ceb1d2b",
+      "provider": "blenderkit",
+      "title": "Gravel Rocks Rough PBR Scan",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/9de74aab-67fd-48d5-8250-a9c78ceb1d2b/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/2bfdb4a3b0a6403ca22390e15d3ea194/files/thumbnail_a54744b5-c5e6-47ec-afd1-487eb45f5a73.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Per's Scan Collection",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "cgbookcase:white-gravel-01",
+      "provider": "cgbookcase",
+      "title": "White Gravel 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/white-gravel-01",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/White_gravel_01_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "2k"
+    },
+    {
+      "id": "threedtexel:gravel-ground-pebble-moss-pbr-material-3",
+      "provider": "threedtexel",
+      "title": "Gravel Ground With Moss – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/gravel-ground-pebble-moss-pbr-material-3/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-135-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Gravel022",
+      "provider": "ambientcg",
+      "title": "Gravel 022",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Gravel022",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Gravel022.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:gravel_stones",
+      "provider": "polyhaven",
+      "title": "Gravel Stones",
+      "type": "material",
+      "url": "https://polyhaven.com/a/gravel_stones",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/gravel_stones.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Amal Kumar",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:4c7b98fb-e8e8-43fc-bb2c-8e8cdc5bb1a1",
+      "provider": "blenderkit",
+      "title": "Stone gravel",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/4c7b98fb-e8e8-43fc-bb2c-8e8cdc5bb1a1/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/d412e183cfe44259b60d3aee97e27b89/files/thumbnail_2b0e7196-024c-4e5e-ab0d-fc13791dd257.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "ydd 3D",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:pebbles-022",
+      "provider": "threedtextures",
+      "title": "Pebbles 022",
+      "type": "material",
+      "url": "https://3dtextures.me/2020/08/17/pebbles-022/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2020/08/Material_1614.jpg?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "ambientcg:Gravel042",
+      "provider": "ambientcg",
+      "title": "Gravel 042",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Gravel042",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Gravel042.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "cgbookcase:sandy-gravel-02",
+      "provider": "cgbookcase",
+      "title": "Sandy Gravel 02",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/sandy-gravel-02",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Sandy_gravel_02_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "2k"
+    },
+    {
+      "id": "polyhaven:gravel_floor_02",
+      "provider": "polyhaven",
+      "title": "Gravel Floor 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/gravel_floor_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/gravel_floor_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Jenelle van Heerden, Dimitrios Savva",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:cb8af5b7-5635-409b-81ce-e7bc7a51fca1",
+      "provider": "blenderkit",
+      "title": "Terrain Mud Gravel Water Grit",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/cb8af5b7-5635-409b-81ce-e7bc7a51fca1/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0252b06ad3904c5ba7e2b313f9d311dd/files/thumbnail_d0adfd9e-57c6-44e2-8095-3334d24da4a7.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "James Middleton",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "ambientcg:Gravel026",
+      "provider": "ambientcg",
+      "title": "Gravel 026",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Gravel026",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Gravel026.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    }
+  ]
+}
