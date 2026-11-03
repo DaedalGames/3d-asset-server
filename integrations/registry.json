@@ -211,6 +211,26 @@
   ],
   "rejected": [
     {
+      "name": "Renderstuff free 3D models",
+      "homepage": "https://renderstuff.com/3d-models/free/",
+      "checkedAt": "2026-11-03",
+      "reason": "only about 170 free models, no search box or API, and no licence terms stated on the listing pages",
+      "recheckAfter": "2027-02-01"
+    },
+    {
+      "name": "Zerowave Labs",
+      "homepage": "https://zerowavelabs.com/models",
+      "checkedAt": "2026-11-03",
+      "reason": "model page lists no individual assets, catalogue size or licence, and offers no search, API or listing structure to read",
+      "recheckAfter": "2027-02-01"
+    },
+    {
+      "name": "free3d.io",
+      "homepage": "https://free3d.io",
+      "checkedAt": "2026-11-03",
+      "reason": "robots.txt states AI agents must pay per model access (x402 or paid API key), and formats are mostly legacy .gsm/.3ds/.obj with no clear open licence"
+    },
+    {
       "name": "StylizedWorld",
       "homepage": "https://stylizedworld.com",
       "checkedAt": "2026-11-01",
