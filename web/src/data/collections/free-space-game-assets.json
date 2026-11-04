@@ -13,7 +13,7 @@
       "space black"
     ]
   },
-  "updatedAt": "2026-10-29T11:11:19.165Z",
+  "updatedAt": "2026-11-04T12:30:42.328Z",
   "assets": [
     {
       "id": "polyfork:space-mine-3a1654",
@@ -486,7 +486,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "maxResolution": "8k",
       "polyCount": 17649

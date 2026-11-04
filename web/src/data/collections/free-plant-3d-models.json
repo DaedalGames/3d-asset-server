@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-31T10:36:06.126Z",
+  "updatedAt": "2026-11-04T12:30:27.603Z",
   "assets": [
     {
       "id": "polyhaven:potted_plant_02",
@@ -74,7 +74,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "maxResolution": "4k",
       "polyCount": 84154

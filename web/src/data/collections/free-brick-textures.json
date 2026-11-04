@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-16T09:16:49.622Z",
+  "updatedAt": "2026-11-04T12:29:52.190Z",
   "assets": [
     {
       "id": "polyhaven:red_brick",
@@ -461,27 +461,6 @@
       "maxResolution": "8k"
     },
     {
-      "id": "blenderkit:b6e8ab34-8257-4363-a887-450a4838d287",
-      "provider": "blenderkit",
-      "title": "Wall bricks",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/b6e8ab34-8257-4363-a887-450a4838d287/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/82566f3ceded404f8bf274846ce5e58e/files/thumbnail_7f8f72e0-34e8-4844-8e76-f0ee0a8a8a4d.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "ydd 3D",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
-    },
-    {
       "id": "texturecan:491",
       "provider": "texturecan",
       "title": "Zigzag Unipaver Bricks with Diagonal Pattern",
@@ -675,6 +654,22 @@
       "url": "https://opengameart.org/content/free-urban-textures-walls-brick-stone-part-1",
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/walls-brick-stone-tiles-1.png",
       "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "freestylized:material:bricks_wall_17",
+      "provider": "freestylized",
+      "title": "Bricks Wall 17",
+      "type": "material",
+      "url": "https://freestylized.com/material/bricks_wall_17/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/10/bricks_wall_17_preview_hex151515.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
       "free": true
     }
   ]
