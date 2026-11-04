@@ -211,6 +211,19 @@
   ],
   "rejected": [
     {
+      "name": "3DArt free HDRI",
+      "homepage": "https://www.3dart.it/en/free-hdri",
+      "checkedAt": "2026-11-04",
+      "reason": "Italian 3D magazine whose free HDRI page only curates and links to Poly Haven (HDRI Haven) downloads, which we already search; hosts no assets and the site search is disallowed in robots.txt"
+    },
+    {
+      "name": "Lost and Taken",
+      "homepage": "https://lostandtaken.com",
+      "checkedAt": "2026-11-04",
+      "reason": "photographic 2D stock textures (paper, grunge, bokeh) with no PBR maps or 3D assets, no licence text on the front page, only about 225 posts and a 10 second crawl-delay",
+      "recheckAfter": "2027-02-02"
+    },
+    {
       "name": "Renderstuff free 3D models",
       "homepage": "https://renderstuff.com/3d-models/free/",
       "checkedAt": "2026-11-03",
