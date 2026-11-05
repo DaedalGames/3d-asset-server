@@ -762,6 +762,32 @@
       "homepage": "https://devanshutak25.github.io/3d-resources/",
       "checkedAt": "2026-11-02",
       "reason": "curated list of links to other sites, hosts no assets of its own"
+    },
+    {
+      "name": "Zero Energy Games",
+      "homepage": "https://zeroenergygames.com",
+      "checkedAt": "2026-11-05",
+      "reason": "CC0 pack shop where 78 of 79 packs are still marked 'Soon' with no download links, and no API; nothing to fetch yet",
+      "recheckAfter": "2027-02-03"
+    },
+    {
+      "name": "Free Game Assets",
+      "homepage": "https://www.freegameassets.com",
+      "checkedAt": "2026-11-05",
+      "reason": "category pages return HTTP 403 to automated requests (bot wall), so search cannot be reached without a browser",
+      "recheckAfter": "2027-02-03"
+    },
+    {
+      "name": "CC0Tree",
+      "homepage": "https://skywolfgamestudios.github.io/CC0Tree/",
+      "checkedAt": "2026-11-05",
+      "reason": "fewer than 70 tree-only FBX files in a GitHub repo, library loads by JavaScript and has no catalogue index"
+    },
+    {
+      "name": "bunpav free game assets",
+      "homepage": "https://bunpav.com/free-game-assets",
+      "checkedAt": "2026-11-05",
+      "reason": "only a handful of animal and tree GLB models, mixed CC0 and CC BY, far below 50 assets and no API"
     }
   ]
 }
