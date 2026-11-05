@@ -12,7 +12,7 @@
       "Clear Night"
     ]
   },
-  "updatedAt": "2026-10-26T13:23:35.438Z",
+  "updatedAt": "2026-11-05T12:44:07.708Z",
   "assets": [
     {
       "id": "blenderkit:ad0f2d01-2ac1-4da7-890f-f2098b1079dc",
@@ -74,28 +74,6 @@
       },
       "free": true,
       "formats": [
-        "exr"
-      ],
-      "maxResolution": "8k"
-    },
-    {
-      "id": "blenderkit:69f5a34e-ffb2-4921-9b08-963f33ab5339",
-      "provider": "blenderkit",
-      "title": "Desert Ridge Sunset",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/69f5a34e-ffb2-4921-9b08-963f33ab5339/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/bb9db74966a9403ca347a5c9e00fb49d/files/thumbnail_63046170-75ac-4c4b-93fb-a5b36152c823.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "5555dnl_3d",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "hdr",
         "exr"
       ],
       "maxResolution": "8k"
@@ -164,28 +142,6 @@
         "exr"
       ],
       "maxResolution": "16k"
-    },
-    {
-      "id": "blenderkit:b9fdfeb9-96b2-4fb0-809e-347d622abe8c",
-      "provider": "blenderkit",
-      "title": "Desert Rock Sun",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/b9fdfeb9-96b2-4fb0-809e-347d622abe8c/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0968cf5a337547cb95c3009c9b078fc2/files/thumbnail_f8f1dda7-5314-43f0-91e1-52631a2dfa43.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "5555dnl_3d",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "hdr",
-        "exr"
-      ],
-      "maxResolution": "8k"
     },
     {
       "id": "polyhaven:klippad_sunrise_2",
@@ -276,28 +232,6 @@
       "maxResolution": "16k"
     },
     {
-      "id": "blenderkit:b482ef48-6afb-467c-a5eb-9b3f0ddd2194",
-      "provider": "blenderkit",
-      "title": "Desert Sunset Horizon",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/b482ef48-6afb-467c-a5eb-9b3f0ddd2194/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/86342f0897ed4d5ab99e7c71caa05b2f/files/thumbnail_b66870af-bf2e-4298-a381-c4c25174c7fb.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "5555dnl_3d",
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "hdr",
-        "exr"
-      ],
-      "maxResolution": "8k"
-    },
-    {
       "id": "polyhaven:rogland_sunset",
       "provider": "polyhaven",
       "title": "Rogland Sunset",
@@ -318,28 +252,6 @@
         "exr"
       ],
       "maxResolution": "16k"
-    },
-    {
-      "id": "blenderkit:bc94d012-64be-4731-93f6-c61c3a7b29e8",
-      "provider": "blenderkit",
-      "title": "Desert Sunset Plain",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/bc94d012-64be-4731-93f6-c61c3a7b29e8/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/8bab920dccfa421abc5100eb87529074/files/thumbnail_58640adb-5cc8-4ba2-9d25-7ca01e917588.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "5555dnl_3d",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "hdr",
-        "exr"
-      ],
-      "maxResolution": "8k"
     },
     {
       "id": "polyhaven:klippad_dawn_1",
@@ -529,6 +441,92 @@
       "license": {
         "name": "Royalty Free",
         "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:3796f863-59e4-4311-a189-0899f328c5a6",
+      "provider": "blenderkit",
+      "title": "Desert",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/3796f863-59e4-4311-a189-0899f328c5a6/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/8bdf20bf29084937ae6cc28419ea4a9e/files/thumbnail_cfd95b14-3c36-4729-be80-b68dd849b66c.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Mat Karmon",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "blenderkit:b0e26659-4a7b-4509-bced-a7178cd4f660",
+      "provider": "blenderkit",
+      "title": "Big Desert Environment",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/b0e26659-4a7b-4509-bced-a7178cd4f660/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/40ea2f78750346dcbaf71e9777926313/files/thumbnail_1c953e0e-bb44-4f6a-b97b-f42be602bd11.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Joshua Whitney",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "blenderkit:dc097ca3-7c69-4eea-95fb-b597ed06581f",
+      "provider": "blenderkit",
+      "title": "Klippad Sunrise 2",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/dc097ca3-7c69-4eea-95fb-b597ed06581f/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/d210c2494b114de6b9551ef6b934818f/files/thumbnail_5330031e-9a14-4b7d-a87c-c8b53c95b0b7.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Poly Haven",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:eddf3073-cf72-4966-8762-c0df67a1f7ae",
+      "provider": "blenderkit",
+      "title": "Nowhere Road",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/eddf3073-cf72-4966-8762-c0df67a1f7ae/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/53f1c6c69b3e4dcd9f89b172a5cf832d/files/thumbnail_c2973e15-e484-4345-a64e-5eb5c8012e24.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Poly Haven",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
         "commercialUse": true,
         "attributionRequired": false
       },
