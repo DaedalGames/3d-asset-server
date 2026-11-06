@@ -788,6 +788,13 @@
       "homepage": "https://bunpav.com/free-game-assets",
       "checkedAt": "2026-11-05",
       "reason": "only a handful of animal and tree GLB models, mixed CC0 and CC BY, far below 50 assets and no API"
+    },
+    {
+      "name": "Creazilla",
+      "homepage": "https://creazilla.com",
+      "checkedAt": "2026-11-06",
+      "reason": "3D listing page is a client-rendered Next.js app (WebFetch gets 403) and no plain-GET 3D file links or server-side search could be confirmed",
+      "recheckAfter": "2027-02-04"
     }
   ]
 }
