@@ -11,7 +11,7 @@
       "delivery bag"
     ]
   },
-  "updatedAt": "2026-11-01T11:29:12.187Z",
+  "updatedAt": "2026-11-06T12:26:52.726Z",
   "assets": [
     {
       "id": "polyhaven:food_apple_01",
@@ -413,28 +413,6 @@
       "polyCount": 6783
     },
     {
-      "id": "blenderkit:a2e7a90f-c7c9-4b07-be9a-d674bb4da25d",
-      "provider": "blenderkit",
-      "title": "Food Container",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/a2e7a90f-c7c9-4b07-be9a-d674bb4da25d/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/b73d26dec90d41faad49578892466497/files/thumbnail_cf4792e4-b884-4242-a08f-0f57025bdd92.png.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Rex Hans",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "polyCount": 4488
-    },
-    {
       "id": "itchio:stxrberries/japanese-food",
       "provider": "itchio",
       "title": "Japanese Food",
@@ -693,6 +671,26 @@
       "formats": [
         "glb",
         "blend"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Long_life_food_tomatoes_(Mia_Pecina_Zorko_via_Poly_Haven).stl",
+      "provider": "wikimediacommons",
+      "title": "Long life food tomatoes (Mia Pecina Zorko via Poly Haven)",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:Long_life_food_tomatoes_(Mia_Pecina_Zorko_via_Poly_Haven).stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Long_life_food_tomatoes_%28Mia_Pecina_Zorko_via_Poly_Haven%29.stl/960px-Long_life_food_tomatoes_%28Mia_Pecina_Zorko_via_Poly_Haven%29.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Mia Pecina Zorko",
+      "license": {
+        "name": "CC0",
+        "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "stl"
       ]
     }
   ]

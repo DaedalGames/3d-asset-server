@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-01T11:29:15.081Z",
+  "updatedAt": "2026-11-06T12:26:55.593Z",
   "assets": [
     {
       "id": "blenderkit:0f1918d7-7350-43a8-a012-469ddc446b35",
@@ -264,29 +264,6 @@
       "downloadable": false,
       "author": "TMTenma",
       "free": true
-    },
-    {
-      "id": "blenderkit:a9a7de3d-971c-4450-8aa2-0b2a273b617a",
-      "provider": "blenderkit",
-      "title": "BOASTAD furniture",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/a9a7de3d-971c-4450-8aa2-0b2a273b617a/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/df2c035ac54a4feb86ecb1234d0d2b6c/files/thumbnail_13ba676d-3b85-4099-bd90-b8fce1e3652b.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Lowpolylines Parussa",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "4k",
-      "polyCount": 886
     },
     {
       "id": "polyhaven:wooden_table_02",
@@ -663,6 +640,29 @@
         "glb"
       ],
       "polyCount": 1984
+    },
+    {
+      "id": "blenderkit:c698e635-51b6-46e6-99bc-9105286ed060",
+      "provider": "blenderkit",
+      "title": "Office Desk | Table Furniture",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/c698e635-51b6-46e6-99bc-9105286ed060/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/3787f1446e5c442191a98781380d022c/files/thumbnail_02eca1ac-8749-4623-8a15-9c420757b5f0.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Wondie A.",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "maxResolution": "2k",
+      "polyCount": 3742
     }
   ]
 }

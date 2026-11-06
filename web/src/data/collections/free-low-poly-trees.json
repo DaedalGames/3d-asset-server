@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-03T12:20:27.244Z",
+  "updatedAt": "2026-11-06T12:27:06.763Z",
   "assets": [
     {
       "id": "itchio:brokenvector/low-poly-tree-pack",
@@ -519,24 +519,6 @@
       ]
     },
     {
-      "id": "cgtrader:low-poly-stylized-broadleaf-tree-series-7-with-2k-pbr-textures",
-      "provider": "cgtrader",
-      "title": "Low Poly Stylized Broadleaf Tree Series 7 with 2K PBR Textures",
-      "type": "model",
-      "url": "https://www.cgtrader.com/free-3d-models/plant/other/low-poly-stylized-broadleaf-tree-series-7-with-2k-pbr-textures",
-      "thumbnailUrl": "https://media.cgtrader.com/variants/sx16mnqijd5ff8i0t8e77bc0qeod/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/TL7_Front0001.jpg",
-      "downloadable": false,
-      "free": true,
-      "formats": [
-        "abc",
-        "fbx",
-        "obj",
-        "stl",
-        "ply",
-        "usd"
-      ]
-    },
-    {
       "id": "scenario:scenario_asset_ekQ2PvPCexGHYGEP6pQU4N47",
       "provider": "scenario",
       "title": "Low poly tree",
@@ -635,6 +617,20 @@
         "c4d",
         "obj",
         "stl"
+      ]
+    },
+    {
+      "id": "cgtrader:oak-tree-5df6659e-5798-47f4-942e-958db139c794",
+      "provider": "cgtrader",
+      "title": "OAK Tree",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/plant/leaf/oak-tree-5df6659e-5798-47f4-942e-958db139c794",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/q5jso5lwu2tdp7m2622onyzsgrkj/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/Sample.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "blend",
+        "fbx"
       ]
     }
   ]

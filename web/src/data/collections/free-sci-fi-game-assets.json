@@ -14,7 +14,7 @@
       "visualization"
     ]
   },
-  "updatedAt": "2026-10-30T11:01:38.846Z",
+  "updatedAt": "2026-11-06T12:27:27.983Z",
   "assets": [
     {
       "id": "blenderkit:f856dc91-1475-40de-8aa0-d29cfa48a583",
@@ -161,7 +161,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "maxResolution": "4k",
       "polyCount": 20798
@@ -295,7 +296,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "maxResolution": "4k",
       "polyCount": 7062
@@ -369,28 +371,6 @@
       "rigged": true
     },
     {
-      "id": "blenderkit:fec515f4-1f72-4869-b355-70abb48c6fb3",
-      "provider": "blenderkit",
-      "title": "Sci-Fi Doors for Research Lab",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/fec515f4-1f72-4869-b355-70abb48c6fb3/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/2055df98d2e249ca9a6bef18eb704faa/files/thumbnail_316a75ed-8f77-456e-8b98-8675d8ce9594.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Nobody",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "8k",
-      "polyCount": 32278
-    },
-    {
       "id": "quaternius:spaceships",
       "provider": "quaternius",
       "title": "Spaceships Pack",
@@ -400,28 +380,6 @@
       "downloadable": false,
       "author": "Quaternius",
       "free": true
-    },
-    {
-      "id": "blenderkit:2b7ab5b9-771c-47e4-b5e5-61859ac5303f",
-      "provider": "blenderkit",
-      "title": "Street Lamp Sci-Fi",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/2b7ab5b9-771c-47e4-b5e5-61859ac5303f/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/9d6478054c664cba810eee7b832144f9/files/thumbnail_8f262fc3-e732-40b5-b1c1-0702d291a916.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Klo Works",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "2k",
-      "polyCount": 2362
     },
     {
       "id": "blenderkit:684513ba-95f5-4f76-bda7-b0ff3c149e19",
@@ -645,6 +603,48 @@
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/20130607083744-newsc_0.png",
       "downloadable": true,
       "free": true
+    },
+    {
+      "id": "scenario:scenario_asset_3eRq7Nh2RpoeUEUr4q2smBxA",
+      "provider": "scenario",
+      "title": "A spine-truss sci-fi carrier model with exposed hangar cradle and…",
+      "type": "model",
+      "url": "https://huggingface.co/datasets/scenario-labs/3d-collection/tree/main/assets/scenario_asset_3eRq7Nh2RpoeUEUr4q2smBxA",
+      "thumbnailUrl": "https://huggingface.co/datasets/scenario-labs/3d-collection/resolve/main/assets/scenario_asset_3eRq7Nh2RpoeUEUr4q2smBxA/preview.jpg",
+      "downloadable": true,
+      "author": "Scenario",
+      "license": {
+        "name": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "blend"
+      ]
+    },
+    {
+      "id": "scenario:scenario_asset_5LU7oZ7W2VHAvPMF1oTEBcZg",
+      "provider": "scenario",
+      "title": "A modular sci-fi city block terrain kit tile",
+      "type": "model",
+      "url": "https://huggingface.co/datasets/scenario-labs/3d-collection/tree/main/assets/scenario_asset_5LU7oZ7W2VHAvPMF1oTEBcZg",
+      "thumbnailUrl": "https://huggingface.co/datasets/scenario-labs/3d-collection/resolve/main/assets/scenario_asset_5LU7oZ7W2VHAvPMF1oTEBcZg/preview.jpg",
+      "downloadable": true,
+      "author": "Scenario",
+      "license": {
+        "name": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "blend"
+      ]
     }
   ]
 }
