@@ -11,7 +11,7 @@
       "scabbard"
     ]
   },
-  "updatedAt": "2026-10-30T11:01:51.110Z",
+  "updatedAt": "2026-11-07T11:19:43.357Z",
   "assets": [
     {
       "id": "blenderkit:0560133f-1e76-49d9-be20-1f98016baed4",
@@ -125,29 +125,6 @@
       ],
       "maxResolution": "2k",
       "polyCount": 986
-    },
-    {
-      "id": "polyfork:sword-11907e",
-      "provider": "polyfork",
-      "title": "Sword",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/sword-11907e",
-      "thumbnailUrl": "https://polyfork.dev/files/sword-11907e/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 82
     },
     {
       "id": "opengameart:great-sword",
@@ -629,6 +606,29 @@
       "formats": [
         "glb"
       ]
+    },
+    {
+      "id": "polyfork:sword-0e681b",
+      "provider": "polyfork",
+      "title": "Sword",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/sword-0e681b",
+      "thumbnailUrl": "https://polyfork.dev/files/sword-0e681b/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 458
     }
   ]
 }

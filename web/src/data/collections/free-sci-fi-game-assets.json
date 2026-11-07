@@ -14,7 +14,7 @@
       "visualization"
     ]
   },
-  "updatedAt": "2026-11-06T12:27:27.983Z",
+  "updatedAt": "2026-11-07T11:19:34.210Z",
   "assets": [
     {
       "id": "blenderkit:f856dc91-1475-40de-8aa0-d29cfa48a583",
@@ -274,7 +274,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "maxResolution": "4k",
       "polyCount": 33267
