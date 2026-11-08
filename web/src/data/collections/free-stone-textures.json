@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-01T11:29:48.180Z",
+  "updatedAt": "2026-11-08T11:31:09.072Z",
   "assets": [
     {
       "id": "polyhaven:stone_tiles_02",
@@ -612,14 +612,14 @@
       "free": true
     },
     {
-      "id": "blenderkit:2bf4075b-15ee-49d5-b9b9-d43aa3fb1c9a",
+      "id": "blenderkit:978429ad-aec9-4dfb-8261-1a8a3eee000e",
       "provider": "blenderkit",
       "title": "Stone",
       "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/2bf4075b-15ee-49d5-b9b9-d43aa3fb1c9a/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/53b79abfe6314e288ab426d3bd1574de/files/thumbnail_ee91e410-938a-4728-b591-5ba329dcdf5a.png.512x512_q85_crop-%2C.png",
+      "url": "https://www.blendkit.com/asset-gallery-detail/978429ad-aec9-4dfb-8261-1a8a3eee000e/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/d34047a5a52c4cc28dbcea06f630e939/files/thumbnail_0222266f-8cdb-46b0-bb2b-a702b365b7cb.png.512x512_q85_crop-%2C.png",
       "downloadable": true,
-      "author": "James Middleton",
+      "author": "ydd 3D",
       "license": {
         "name": "Royalty Free",
         "url": "https://www.blendkit.com/docs/licenses/",
@@ -630,7 +630,7 @@
       "formats": [
         "blend"
       ],
-      "maxResolution": "2k"
+      "maxResolution": "4k"
     }
   ]
 }
