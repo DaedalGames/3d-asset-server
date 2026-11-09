@@ -652,13 +652,6 @@
       "recheckAfter": "2027-01-12"
     },
     {
-      "name": "BlendSwap",
-      "homepage": "https://www.blendswap.com",
-      "checkedAt": "2026-10-14",
-      "reason": "automated requests get HTTP 403, so no search access could be verified",
-      "recheckAfter": "2027-01-12"
-    },
-    {
       "name": "FreePBR",
       "homepage": "https://freepbr.com",
       "checkedAt": "2026-10-14",
@@ -795,6 +788,13 @@
       "checkedAt": "2026-11-06",
       "reason": "3D listing page is a client-rendered Next.js app (WebFetch gets 403) and no plain-GET 3D file links or server-side search could be confirmed",
       "recheckAfter": "2027-02-04"
+    },
+    {
+      "name": "BlendSwap",
+      "homepage": "https://blendswap.com",
+      "checkedAt": "2026-11-09",
+      "reason": "live test blocked from GitHub Actions (HTTP 403/429), not an integration bug: https://github.com/arielshad/3d-asset-server/actions/runs/42630232632",
+      "recheckAfter": "2026-11-16"
     }
   ]
 }
