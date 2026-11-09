@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-26T13:24:01.003Z",
+  "updatedAt": "2026-11-09T13:22:14.697Z",
   "assets": [
     {
       "id": "polyhaven:leather_red_02",
@@ -34,27 +34,6 @@
         "gltf"
       ],
       "maxResolution": "8k"
-    },
-    {
-      "id": "blenderkit:697cb296-b7c5-4357-b8e9-7e927aad96d3",
-      "provider": "blenderkit",
-      "title": "Black leather",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/697cb296-b7c5-4357-b8e9-7e927aad96d3/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/7c16bef46b2f401f99ae85769f094602/files/thumbnail_8802c8d2-4351-44ff-988c-e84c119d8538.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "ydd 3D",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
     },
     {
       "id": "ambientcg:Leather037",
@@ -631,6 +610,22 @@
         "gltf"
       ],
       "maxResolution": "8k"
+    },
+    {
+      "id": "sharetextures:white_leather",
+      "provider": "sharetextures",
+      "title": "White Leather",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/fabric/white_leather",
+      "thumbnailUrl": "https://images.sharetextures.com/u/white_leather-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
     }
   ]
 }

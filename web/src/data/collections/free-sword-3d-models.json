@@ -11,7 +11,7 @@
       "scabbard"
     ]
   },
-  "updatedAt": "2026-11-07T11:19:43.357Z",
+  "updatedAt": "2026-11-09T13:23:07.270Z",
   "assets": [
     {
       "id": "blenderkit:0560133f-1e76-49d9-be20-1f98016baed4",
@@ -35,29 +35,6 @@
       ],
       "maxResolution": "2k",
       "polyCount": 3120
-    },
-    {
-      "id": "polyfork:arming-sword-401972",
-      "provider": "polyfork",
-      "title": "Arming Sword",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/arming-sword-401972",
-      "thumbnailUrl": "https://polyfork.dev/files/arming-sword-401972/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 574
     },
     {
       "id": "opengameart:shield-sword",
@@ -629,6 +606,29 @@
         "obj"
       ],
       "polyCount": 458
+    },
+    {
+      "id": "grab3d:enchanted-sword",
+      "provider": "grab3d",
+      "title": "Enchanted Sword",
+      "type": "model",
+      "url": "https://grab3d.com/models/weapons/enchanted-sword/",
+      "thumbnailUrl": "https://grab3d.com/m/enchanted-sword/enchanted-sword-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
     }
   ]
 }

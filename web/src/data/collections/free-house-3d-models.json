@@ -27,7 +27,7 @@
       "Wood Plant"
     ]
   },
-  "updatedAt": "2026-11-06T12:27:03.612Z",
+  "updatedAt": "2026-11-09T13:22:11.584Z",
   "assets": [
     {
       "id": "blenderkit:264b47f4-a1ee-4c31-9ee9-4c0e8dc1a98b",
@@ -132,7 +132,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "maxResolution": "2k",
       "polyCount": 41991

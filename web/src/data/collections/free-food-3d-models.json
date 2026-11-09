@@ -11,7 +11,7 @@
       "delivery bag"
     ]
   },
-  "updatedAt": "2026-11-06T12:26:52.726Z",
+  "updatedAt": "2026-11-09T13:21:31.981Z",
   "assets": [
     {
       "id": "polyhaven:food_apple_01",
@@ -55,7 +55,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "maxResolution": "2k"
     },

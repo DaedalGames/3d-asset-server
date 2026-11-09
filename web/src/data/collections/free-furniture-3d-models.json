@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-06T12:26:55.593Z",
+  "updatedAt": "2026-11-09T13:21:49.098Z",
   "assets": [
     {
       "id": "blenderkit:0f1918d7-7350-43a8-a012-469ddc446b35",
@@ -158,7 +158,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "maxResolution": "4k",
       "polyCount": 5372
@@ -296,7 +297,7 @@
       "title": "KayKit : Furniture Bits",
       "type": "model",
       "url": "https://kaylousberg.itch.io/furniture-bits",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzMxMzUyMjE2LnBuZw==/315x250%23c/ntDZ5E.png",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzMxOTg2MDg0LmpwZw==/315x250%23c/L4VzoO.jpg",
       "downloadable": false,
       "author": "Kay Lousberg",
       "free": true
