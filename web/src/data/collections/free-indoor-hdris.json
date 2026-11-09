@@ -1,0 +1,753 @@
+{
+  "slug": "free-indoor-hdris",
+  "search": {
+    "q": "interior",
+    "types": [
+      "hdri"
+    ],
+    "free": true,
+    "exclude": [
+      "Yaris",
+      "Car Dealer",
+      "Photo Studio"
+    ]
+  },
+  "updatedAt": "2026-11-09T16:43:10.124Z",
+  "assets": [
+    {
+      "id": "polyhaven:cayley_interior",
+      "provider": "polyhaven",
+      "title": "Cayley Interior",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/cayley_interior",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/cayley_interior.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "hdrmaps:bathroom-interior-with-shower-and-boiler",
+      "provider": "hdrmaps",
+      "title": "Bathroom Interior with Shower and Boiler",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/bathroom-interior-with-shower-and-boiler/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2024/12/free_hdr_179_bathroom_interior-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "threedtexel:interior-stairs-hdri",
+      "provider": "threedtexel",
+      "title": "Interior Stairwell – HDRI",
+      "type": "hdri",
+      "url": "https://3dtexel.com/product/interior-stairs-hdri/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/05/Untitled-1-768x432.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "12k"
+    },
+    {
+      "id": "polyhaven:kiara_interior",
+      "provider": "polyhaven",
+      "title": "Kiara Interior",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/kiara_interior",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/kiara_interior.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:6ff66eef-e665-49e7-8b97-010e32f2bf45",
+      "provider": "blenderkit",
+      "title": "Underground Concrete Interior Hall",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/6ff66eef-e665-49e7-8b97-010e32f2bf45/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/2eb8eb5b3a68476f925ca9c333e85737/files/thumbnail_99099bf3-a439-4ccb-b432-93587a80bac8.png.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Paco Salas",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "hdrmaps:warmly-lit-bathroom-interior",
+      "provider": "hdrmaps",
+      "title": "Warmly Lit Bathroom Interior",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/warmly-lit-bathroom-interior/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2024/12/free_hdr_177_bahtroom_interior-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:st_fagans_interior",
+      "provider": "polyhaven",
+      "title": "St. Fagans Interior",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/st_fagans_interior",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/st_fagans_interior.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Morgan Evans",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:65fe1eca-3719-4724-b90e-2f5ed71a10f7",
+      "provider": "blenderkit",
+      "title": "Studio Light Interior",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/65fe1eca-3719-4724-b90e-2f5ed71a10f7/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/cd401501e0f34649a235f4a1a8d4fa3e/files/thumbnail_88a1237b-0a77-4245-b77b-def4fee55b04.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Nandu M",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:lighthouse-interior",
+      "provider": "hdrmaps",
+      "title": "Lighthouse interior",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/lighthouse-interior/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2020/06/hdrmaps_com_free_024_tonemapped-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "ambientcg:IndoorEnvironmentHDRI013",
+      "provider": "ambientcg",
+      "title": "Indoor Environment HDRI 013",
+      "type": "hdri",
+      "url": "https://ambientcg.com/a/IndoorEnvironmentHDRI013",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/IndoorEnvironmentHDRI013.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:hangar_interior",
+      "provider": "polyhaven",
+      "title": "Hangar Interior",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/hangar_interior",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/hangar_interior.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:bed1fafc-6f6f-4b01-9a45-054261e1ef08",
+      "provider": "blenderkit",
+      "title": "Interior Glow studio",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/bed1fafc-6f6f-4b01-9a45-054261e1ef08/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/52a62e4921e644749bb918e496d791db/files/thumbnail_57cb8dd6-c503-4060-969c-a1a3fa418bd4.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Nandu M",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:st-nicolaus-church-interior",
+      "provider": "hdrmaps",
+      "title": "St Nicolaus church interior",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/st-nicolaus-church-interior/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2020/06/hdrmaps_com_free_016_tonemapped-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "ambientcg:IndoorEnvironmentHDRI014",
+      "provider": "ambientcg",
+      "title": "Indoor Environment HDRI 014",
+      "type": "hdri",
+      "url": "https://ambientcg.com/a/IndoorEnvironmentHDRI014",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/IndoorEnvironmentHDRI014.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:solitude_interior",
+      "provider": "polyhaven",
+      "title": "Solitude Interior",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/solitude_interior",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/solitude_interior.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Andreas Mischok",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:b49a9b36-254e-4ce0-8872-dc7c2a39a867",
+      "provider": "blenderkit",
+      "title": "Waiting Area Interior HDRI",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/b49a9b36-254e-4ce0-8872-dc7c2a39a867/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/aca42670aebd4104ac64fdae409d7643/files/thumbnail_930b704b-b916-4006-9380-e7e0eae7be68.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Nandu M",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:urban-exploring-interior",
+      "provider": "hdrmaps",
+      "title": "Urban exploring interior",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/urban-exploring-interior/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2020/06/hdrmaps_com_free_015_tonemapped-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "ambientcg:IndoorEnvironmentHDRI016",
+      "provider": "ambientcg",
+      "title": "Indoor Environment HDRI 016",
+      "type": "hdri",
+      "url": "https://ambientcg.com/a/IndoorEnvironmentHDRI016",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/IndoorEnvironmentHDRI016.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "polyhaven:glasshouse_interior",
+      "provider": "polyhaven",
+      "title": "Glasshouse Interior",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/glasshouse_interior",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/glasshouse_interior.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dario Barresi",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:31203bfb-9e6a-41b8-98a9-a053e46ca08e",
+      "provider": "blenderkit",
+      "title": "Public Zone Interior HDRi",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/31203bfb-9e6a-41b8-98a9-a053e46ca08e/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/3e60c684014a4e57b976fbe6267c1811/files/thumbnail_76bcb4fb-58fa-4c23-ac1e-119a4e927e10.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Ibrohim Toxirov",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:the-interior-of-the-romanesque-rotunda",
+      "provider": "hdrmaps",
+      "title": "The interior of the Romanesque rotunda",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/the-interior-of-the-romanesque-rotunda/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2020/06/hdrmaps_com_free_013_tonemapped-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:voortrekker_interior",
+      "provider": "polyhaven",
+      "title": "Voortrekker Interior",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/voortrekker_interior",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/voortrekker_interior.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:16c3b7a0-9329-46e7-956b-af9efeb676b0",
+      "provider": "blenderkit",
+      "title": "Cozy Kids Bedroom Interior HDRI",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/16c3b7a0-9329-46e7-956b-af9efeb676b0/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/7e1503244142458eac57769c078ae038/files/thumbnail_3a8dda38-b315-4c44-b757-d15164107ec8.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Nandu M",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:events_hall_interior",
+      "provider": "polyhaven",
+      "title": "Events Hall Interior",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/events_hall_interior",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/events_hall_interior.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:d071232e-7c93-42a8-8860-3da0d50824cd",
+      "provider": "blenderkit",
+      "title": "Modern Gallery Interior Hall",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/d071232e-7c93-42a8-8860-3da0d50824cd/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0cf9e84ec62742db9ec53792f25c51bd/files/thumbnail_a7deeffd-0918-4154-a06b-4cbbe15946eb.png.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Paco Salas",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "polyhaven:interior_construction",
+      "provider": "polyhaven",
+      "title": "Interior Construction",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/interior_construction",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/interior_construction.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Sergej Majboroda",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:e77897ab-d876-451a-8c75-a85e052f873d",
+      "provider": "blenderkit",
+      "title": "Interior HDRi",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/e77897ab-d876-451a-8c75-a85e052f873d/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/c0b29e76220f4949aec9396a9e8717a3/files/thumbnail_fdd1054c-093e-4ba1-8df9-a798dbc3511b.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Ibrohim Toxirov",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:afrikaans_church_interior",
+      "provider": "polyhaven",
+      "title": "Afrikaans Church Interior",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/afrikaans_church_interior",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/afrikaans_church_interior.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:1b8104a6-361b-44b7-a4ed-0756851548e5",
+      "provider": "blenderkit",
+      "title": "Cyber Station Interior",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/1b8104a6-361b-44b7-a4ed-0756851548e5/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/149d19ac97874c94a45ed16351a37706/files/thumbnail_ba02e34b-57cc-4db0-bc1f-2478dedc7c2c.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Jon 13",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "polyhaven:smelting_tower_interior",
+      "provider": "polyhaven",
+      "title": "Smelting Tower Interior",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/smelting_tower_interior",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/smelting_tower_interior.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Savva Zakharov",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:af853441-a062-4b8c-9b64-292ee9049154",
+      "provider": "blenderkit",
+      "title": "Interior Bedroom HDRI",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/af853441-a062-4b8c-9b64-292ee9049154/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/def454c5519741ad96a5387545cb2edc/files/thumbnail_bc2d7688-f7b5-43fe-8972-66b3fa507c89.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Nandu M",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:52f7e2f4-ca07-45a6-bbce-2592afb81770",
+      "provider": "blenderkit",
+      "title": "Modern Interior Staircase",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/52f7e2f4-ca07-45a6-bbce-2592afb81770/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/5b16701f03324abf8f2d4f7e6aac0437/files/thumbnail_79c360e8-9413-435b-bf37-e640f6bb304d.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Ibrohim Toxirov",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:43752dbe-45a0-4a36-94d1-e85ad94f18f2",
+      "provider": "blenderkit",
+      "title": "Modern Kitchen and Living interior",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/43752dbe-45a0-4a36-94d1-e85ad94f18f2/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6978c93896154d268de198beeb6dd682/files/thumbnail_69cc3e55-0ae0-48f3-8fcf-7c53d73f81ee.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Ibrohim Toxirov",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:c564ee1d-1dff-488e-a70c-2c195401a9d0",
+      "provider": "blenderkit",
+      "title": "Interior Free HDRi",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/c564ee1d-1dff-488e-a70c-2c195401a9d0/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6a5045a2f28c41f583b34b4da8ce3933/files/thumbnail_fabe6339-a749-4596-946f-36c0ee52ff40.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Polara 3D",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:d6a6ce48-ca03-436c-9fd0-1e4b76612708",
+      "provider": "blenderkit",
+      "title": "Office interior HDRi",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/d6a6ce48-ca03-436c-9fd0-1e4b76612708/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/bd2e3f6bcc78465386e855e9c478794b/files/thumbnail_1e9bed79-40fb-437b-92f6-580089e1f72d.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Ibrohim Toxirov",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    }
+  ]
+}

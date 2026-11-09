@@ -1,0 +1,678 @@
+{
+  "slug": "free-plaster-textures",
+  "search": {
+    "q": "plaster",
+    "types": [
+      "material",
+      "texture"
+    ],
+    "free": true
+  },
+  "updatedAt": "2026-11-09T16:43:12.899Z",
+  "assets": [
+    {
+      "id": "polyhaven:painted_plaster_wall",
+      "provider": "polyhaven",
+      "title": "Painted Plaster Wall",
+      "type": "material",
+      "url": "https://polyhaven.com/a/painted_plaster_wall",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/painted_plaster_wall.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Amal Kumar",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:34b64880-c077-4c11-833a-45649e99490e",
+      "provider": "blenderkit",
+      "title": "Painted Plaster Wall",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/34b64880-c077-4c11-833a-45649e99490e/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/5d73c80d1eda4f68b9d34e0c7e5f694d/files/thumbnail_60d2fa6c-b936-4a1e-b9ee-6beeed8b3f3e.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "chroma 3D",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "opengameart:low-poly-stylized-brick-and-plaster-walls",
+      "provider": "opengameart",
+      "title": "Low Poly Stylized Brick and Plaster Walls",
+      "type": "texture",
+      "url": "https://opengameart.org/content/low-poly-stylized-brick-and-plaster-walls",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/brickplasterwalls_preview.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "ambientcg:Plaster001",
+      "provider": "ambientcg",
+      "title": "Plaster 001",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Plaster001",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Plaster001.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "texturecan:355",
+      "provider": "texturecan",
+      "title": "Dirty Plaster Wall Texture",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/355/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/paint_0002/paint_0002_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtextures:wall-plaster-002",
+      "provider": "threedtextures",
+      "title": "Wall Plaster 002",
+      "type": "material",
+      "url": "https://3dtextures.me/2022/03/13/wall-plaster-002/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2022/03/Material_2051.jpg?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "sharetextures:plaster_36",
+      "provider": "sharetextures",
+      "title": "Plaster 36",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/plaster/plaster_36",
+      "thumbnailUrl": "https://images.sharetextures.com/u/plaster_36-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "itchio:tempisq/plaster-vol1",
+      "provider": "itchio",
+      "title": "Plaster Walls Vol.1",
+      "type": "texture",
+      "url": "https://tempisq.itch.io/plaster-vol1",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4OTI4MjAwLnBuZw==/315x250%23c/gXEpQJ.png",
+      "downloadable": false,
+      "author": "tempisq",
+      "free": true
+    },
+    {
+      "id": "polyhaven:white_plaster_02",
+      "provider": "polyhaven",
+      "title": "White Plaster 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/white_plaster_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/white_plaster_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:9cc6a5a8-7308-4caf-a89e-b362d7a1213d",
+      "provider": "blenderkit",
+      "title": "Stylized Stone And Plaster",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/9cc6a5a8-7308-4caf-a89e-b362d7a1213d/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/c51cc67ae356439aad61043bc357de15/files/thumbnail_7775b2dd-9bac-44b7-89aa-caab478e0c13.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Julio Sillet",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "freestylized:material:plaster_wall_03",
+      "provider": "freestylized",
+      "title": "Plaster Wall 03",
+      "type": "material",
+      "url": "https://freestylized.com/material/plaster_wall_03/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/02/plaster_wall_03_preview_hex151515_thumbnail.webp",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "ambientcg:PaintedPlaster017",
+      "provider": "ambientcg",
+      "title": "Painted Plaster 017",
+      "type": "material",
+      "url": "https://ambientcg.com/a/PaintedPlaster017",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/PaintedPlaster017.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "threedtextures:wall-plaster-001",
+      "provider": "threedtextures",
+      "title": "Wall Plaster 001",
+      "type": "material",
+      "url": "https://3dtextures.me/2021/10/30/wall-plaster-001/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2021/10/Material_1952.jpg?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "sharetextures:plaster_30",
+      "provider": "sharetextures",
+      "title": "Plaster 30",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/plaster/plaster_30",
+      "thumbnailUrl": "https://images.sharetextures.com/u/plaster_30-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "itchio:juliovii/ftp-stylized-bricks-plaster",
+      "provider": "itchio",
+      "title": "Materials Stylized Bricks & Plaster",
+      "type": "material",
+      "url": "https://juliovii.itch.io/ftp-stylized-bricks-plaster",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI3MzY5MjU2LmpwZw==/315x250%23c/ekhWZt.jpg",
+      "downloadable": false,
+      "author": "JulioVII",
+      "free": true
+    },
+    {
+      "id": "texturecan:236",
+      "provider": "texturecan",
+      "title": "Concrete Plaster Wall Texture",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/236/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/concrete_0017/concrete_0017_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:grey_plaster",
+      "provider": "polyhaven",
+      "title": "Grey Plaster",
+      "type": "material",
+      "url": "https://polyhaven.com/a/grey_plaster",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/grey_plaster.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:a3243226-e10b-49bc-b581-0dc0a1178c1c",
+      "provider": "blenderkit",
+      "title": "White Venetian Plaster Wall",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/a3243226-e10b-49bc-b581-0dc0a1178c1c/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/2f422a50cea6461889125bec654068fd/files/thumbnail_72a3a452-033b-4f3d-a687-73db617570e8.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Daniela Padrón",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Plaster007",
+      "provider": "ambientcg",
+      "title": "Plaster 007",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Plaster007",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Plaster007.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "freestylized:material:plaster_wall_04",
+      "provider": "freestylized",
+      "title": "Plaster Wall 04",
+      "type": "material",
+      "url": "https://freestylized.com/material/plaster_wall_04/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/02/plaster_wall_04_preview_hex151515_thumbnail.webp",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtextures:plaster-rough-001",
+      "provider": "threedtextures",
+      "title": "Plaster Rough 001",
+      "type": "material",
+      "url": "https://3dtextures.me/2019/02/15/plaster-rough-001/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2019/02/material_738.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "sharetextures:plaster_31",
+      "provider": "sharetextures",
+      "title": "Plaster 31",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/plaster/plaster_31",
+      "thumbnailUrl": "https://images.sharetextures.com/u/plaster_31-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "texturecan:216",
+      "provider": "texturecan",
+      "title": "Concrete Plaster Wall with Paint Strokes",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/216/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/concrete_0016/concrete_0016_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:plaster_grey_04",
+      "provider": "polyhaven",
+      "title": "Plaster Grey 04",
+      "type": "material",
+      "url": "https://polyhaven.com/a/plaster_grey_04",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/plaster_grey_04.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:27242ad2-c7d0-4a98-853d-d24c65af8dc2",
+      "provider": "blenderkit",
+      "title": "White plaster",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/27242ad2-c7d0-4a98-853d-d24c65af8dc2/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f7bfbec600e24b34998764a5aa3b1c62/files/thumbnail_3fa3eede-162b-40ff-ad45-86a1a6db3a5d.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "antoine f",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "ambientcg:Plaster002",
+      "provider": "ambientcg",
+      "title": "Plaster 002",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Plaster002",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Plaster002.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "freestylized:material:plaster_wall_02",
+      "provider": "freestylized",
+      "title": "Plaster Wall 02",
+      "type": "material",
+      "url": "https://freestylized.com/material/plaster_wall_02/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/02/plaster_wall_02_preview_hex151515_thumbnail.webp",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtextures:plaster-002",
+      "provider": "threedtextures",
+      "title": "Plaster 002",
+      "type": "material",
+      "url": "https://3dtextures.me/2018/03/13/plaster-002/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2018/03/material_375.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "sharetextures:plaster-3",
+      "provider": "sharetextures",
+      "title": "Plaster 3",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/plaster/plaster-3",
+      "thumbnailUrl": "https://images.sharetextures.com/u/plaster_3_mat-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "texturecan:199",
+      "provider": "texturecan",
+      "title": "Stucco Plaster with Trowel Marks",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/199/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/concrete_0012/concrete_0012_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:white_rough_plaster",
+      "provider": "polyhaven",
+      "title": "White Rough Plaster",
+      "type": "material",
+      "url": "https://polyhaven.com/a/white_rough_plaster",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/white_rough_plaster.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "freestylized:material:plaster_wall_01",
+      "provider": "freestylized",
+      "title": "Plaster Wall 01",
+      "type": "material",
+      "url": "https://freestylized.com/material/plaster_wall_01/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/01/plaster_wall_01_preview_hex151515_thumbnail.webp",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "ambientcg:Plaster003",
+      "provider": "ambientcg",
+      "title": "Plaster 003",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Plaster003",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Plaster003.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "threedtextures:plaster-001",
+      "provider": "threedtextures",
+      "title": "Plaster 001",
+      "type": "material",
+      "url": "https://3dtextures.me/2018/03/11/plaster-001/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2018/03/material_401.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "sharetextures:plaster-8",
+      "provider": "sharetextures",
+      "title": "Plaster 8",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/plaster/plaster-8",
+      "thumbnailUrl": "https://images.sharetextures.com/u/plaster_8_mat-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:grey_plaster_02",
+      "provider": "polyhaven",
+      "title": "Grey Plaster 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/grey_plaster_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/grey_plaster_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    }
+  ]
+}

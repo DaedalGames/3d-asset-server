@@ -1,0 +1,659 @@
+{
+  "slug": "free-animal-3d-models",
+  "search": {
+    "q": "animal",
+    "types": [
+      "model"
+    ],
+    "free": true,
+    "exclude": [
+      "Road Sign",
+      "Animal Byre",
+      "Jawbone",
+      "transport crate",
+      "hutch",
+      "Bronze",
+      "Animal Picture",
+      "Animal Wall",
+      "brass player",
+      "Animal Helmet",
+      "Finial",
+      "Figure of an animal",
+      "Figurines",
+      "Sculpture",
+      "Statue",
+      "habitat display",
+      "Animal Pen",
+      "Opera baritone",
+      "Hydria",
+      "Elf toymaker"
+    ]
+  },
+  "updatedAt": "2026-11-09T16:43:06.986Z",
+  "assets": [
+    {
+      "id": "opengameart:lowpoly-animated-farm-animal-pack",
+      "provider": "opengameart",
+      "title": "LowPoly Animated Farm Animal Pack",
+      "type": "model",
+      "url": "https://opengameart.org/content/lowpoly-animated-farm-animal-pack",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Farmpack.gif",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:0_A.D._animal_lion.stl",
+      "provider": "wikimediacommons",
+      "title": "0 A.D. animal lion",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:0_A.D._animal_lion.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/0_A.D._animal_lion.stl/960px-0_A.D._animal_lion.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Wildfire Games ( https://wildfiregames.com/ )",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    },
+    {
+      "id": "quaternius:ultimateanimatedanimals",
+      "provider": "quaternius",
+      "title": "Ultimate Animated Animal Pack",
+      "type": "model",
+      "url": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+      "thumbnailUrl": "https://quaternius.com/assets/images/thumbnails/ultimateanimatedanimal.jpg",
+      "downloadable": false,
+      "author": "Quaternius",
+      "free": true,
+      "animated": true,
+      "rigged": true
+    },
+    {
+      "id": "itchio:nourishberries/animalsvox",
+      "provider": "itchio",
+      "title": "animal 3d models - magicVoxel",
+      "type": "model",
+      "url": "https://nourishberries.itch.io/animalsvox",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzczNDM3MTAuanBn/315x250%23c/B%2FB32T.jpg",
+      "downloadable": false,
+      "author": "nouber",
+      "free": true
+    },
+    {
+      "id": "opengameart:animal-bestiary",
+      "provider": "opengameart",
+      "title": "Animal bestiary",
+      "type": "model",
+      "url": "https://opengameart.org/content/animal-bestiary",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/bestiary.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:0_A.D._animal_boar.stl",
+      "provider": "wikimediacommons",
+      "title": "0 A.D. animal boar",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:0_A.D._animal_boar.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/0_A.D._animal_boar.stl/960px-0_A.D._animal_boar.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Wildfire Games ( https://wildfiregames.com/ )",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    },
+    {
+      "id": "quaternius:farmanimal",
+      "provider": "quaternius",
+      "title": "Farm Animal Pack",
+      "type": "model",
+      "url": "https://quaternius.com/packs/farmanimal.html",
+      "thumbnailUrl": "https://quaternius.com/assets/images/thumbnails/farmanimal.jpg",
+      "downloadable": false,
+      "author": "Quaternius",
+      "free": true,
+      "animated": true,
+      "rigged": true
+    },
+    {
+      "id": "itchio:free-game-assets/free-wild-animal-3d-low-poly-models",
+      "provider": "itchio",
+      "title": "Free Wild Animal 3D Models",
+      "type": "model",
+      "url": "https://free-game-assets.itch.io/free-wild-animal-3d-low-poly-models",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzc4NjM1OTguanBn/315x250%23c/%2BO950E.jpg",
+      "downloadable": false,
+      "author": "Free Game Assets (GUI, Sprite, Tilesets)",
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:0_A.D._animal_piglet.stl",
+      "provider": "wikimediacommons",
+      "title": "0 A.D. animal piglet",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:0_A.D._animal_piglet.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/0_A.D._animal_piglet.stl/960px-0_A.D._animal_piglet.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Wildfire Games ( https://wildfiregames.com/ )",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    },
+    {
+      "id": "blenderkit:40846456-03dc-4b00-8306-edd747d03b12",
+      "provider": "blenderkit",
+      "title": "Wooden toy animal",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/40846456-03dc-4b00-8306-edd747d03b12/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/eef080798026487fbfc9bb1c48817648/files/thumbnail_68e3fc77-ab01-4057-83dc-817d6318cda8.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Blendkit Community",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "polyCount": 418
+    },
+    {
+      "id": "grab3d:cheetah",
+      "provider": "grab3d",
+      "title": "King Cheetah",
+      "type": "model",
+      "url": "https://grab3d.com/models/animals/cheetah/",
+      "thumbnailUrl": "https://grab3d.com/m/cheetah/cheetah-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "cgtrader:animal-collection-9a09d046-f9ee-420b-b9ab-f4f16c1962e2",
+      "provider": "cgtrader",
+      "title": "AnimalS Collection",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/animal/mammal/animal-collection-9a09d046-f9ee-420b-b9ab-f4f16c1962e2",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/Tm96usPczZR3f8rktZaMogeU/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/PETS%20%281%29.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "obj",
+        "stl",
+        "fbx"
+      ]
+    },
+    {
+      "id": "sharetextures:duck_1",
+      "provider": "sharetextures",
+      "title": "Duck 1",
+      "type": "model",
+      "url": "https://www.sharetextures.com/models/decorative/duck_1",
+      "thumbnailUrl": "https://images.sharetextures.com/u/6f4307e9-aaeb-4189-9fee-4b0a268f5d7a.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "itchio:pltcerdos/african-elephant-animal",
+      "provider": "itchio",
+      "title": "African elephant animal 3D model",
+      "type": "model",
+      "url": "https://pltcerdos.itch.io/african-elephant-animal",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI5MTc3NTgwLmpwZw==/315x250%23c/g6PZuA.jpg",
+      "downloadable": false,
+      "author": "pltcerdos",
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:0_A.D._animal_lioness.stl",
+      "provider": "wikimediacommons",
+      "title": "0 A.D. animal lioness",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:0_A.D._animal_lioness.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/0_A.D._animal_lioness.stl/960px-0_A.D._animal_lioness.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Wildfire Games ( https://wildfiregames.com/ )",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    },
+    {
+      "id": "polyhaven:rubber_duck_toy",
+      "provider": "polyhaven",
+      "title": "Rubber Duck Toy",
+      "type": "model",
+      "url": "https://polyhaven.com/a/rubber_duck_toy",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/rubber_duck_toy.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Plat251",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "4k",
+      "polyCount": 4288
+    },
+    {
+      "id": "polyfork:honey-moth-base",
+      "provider": "polyfork",
+      "title": "Honey moth",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/honey-moth-base",
+      "thumbnailUrl": "https://polyfork.dev/files/honey-moth-base/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 3773,
+      "rigged": true
+    },
+    {
+      "id": "cgtrader:animals-free",
+      "provider": "cgtrader",
+      "title": "Animals FREE",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/animal/mammal/animals-free",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/a6jkzrl1mo7kl42a23w65d2xwabt/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/Animals%20Free%20Preview.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "unitypackage",
+        "c4d",
+        "ma",
+        "blend",
+        "fbx",
+        "png"
+      ],
+      "rigged": true
+    },
+    {
+      "id": "grab3d:clownfish",
+      "provider": "grab3d",
+      "title": "Clownfish",
+      "type": "model",
+      "url": "https://grab3d.com/models/animals/clownfish/",
+      "thumbnailUrl": "https://grab3d.com/m/clownfish/clownfish-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "itchio:hopeful-eye-studio/voxel-animal-art-bundle-glb-fbx",
+      "provider": "itchio",
+      "title": "Voxel Animal Art Bundle (GLB + FBX)",
+      "type": "model",
+      "url": "https://hopeful-eye-studio.itch.io/voxel-animal-art-bundle-glb-fbx",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI1MTA3OTE3LnBuZw==/315x250%23c/oQ3LcS.png",
+      "downloadable": false,
+      "author": "Hopeful_Eye_Studio",
+      "free": true
+    },
+    {
+      "id": "sharetextures:cat-1",
+      "provider": "sharetextures",
+      "title": "Cat 1",
+      "type": "model",
+      "url": "https://www.sharetextures.com/models/decorative/cat-1",
+      "thumbnailUrl": "https://images.sharetextures.com/u/645cf35c-8945-4c1d-9948-20e1a60272ad.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:0_A.D._animal_tuna.stl",
+      "provider": "wikimediacommons",
+      "title": "0 A.D. animal tuna",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:0_A.D._animal_tuna.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/0_A.D._animal_tuna.stl/960px-0_A.D._animal_tuna.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Wildfire Games ( https://wildfiregames.com/ )",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    },
+    {
+      "id": "opengameart:animal-pack-0",
+      "provider": "opengameart",
+      "title": "Animal Pack",
+      "type": "model",
+      "url": "https://opengameart.org/content/animal-pack-0",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/onlyanimals_cover.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "polyhaven:street_rat",
+      "provider": "polyhaven",
+      "title": "Street Rat",
+      "type": "model",
+      "url": "https://polyhaven.com/a/street_rat",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/street_rat.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Sean Buckley",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "8k",
+      "polyCount": 14286
+    },
+    {
+      "id": "grab3d:crab",
+      "provider": "grab3d",
+      "title": "Red Rock Crab",
+      "type": "model",
+      "url": "https://grab3d.com/models/animals/crab/",
+      "thumbnailUrl": "https://grab3d.com/m/crab/crab-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "cgtrader:deer-animation",
+      "provider": "cgtrader",
+      "title": "deer Animation",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/animal/mammal/deer-animation",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/0rkfhqg10354lueytculz8jcm8cw/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/ScreenShot_2026-03-22_170316_662.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "max",
+        "gltf",
+        "3ds",
+        "obj"
+      ],
+      "animated": true,
+      "rigged": true
+    },
+    {
+      "id": "itchio:retrovandal/cutesy-toy-3d-models",
+      "provider": "itchio",
+      "title": "Cute Toy 3D Animal Models x 6",
+      "type": "model",
+      "url": "https://retrovandal.itch.io/cutesy-toy-3d-models",
+      "thumbnailUrl": "https://img.itch.zone/aW1hZ2UvNzIyMDgvMzMxNzk0LmpwZw==/315x250%23c/rSTDmc.jpg",
+      "downloadable": false,
+      "author": "RetroVandal - formerly Psionic Games",
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:0_A.D._animal_lioness_smooth.stl",
+      "provider": "wikimediacommons",
+      "title": "0 A.D. animal lioness smooth",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:0_A.D._animal_lioness_smooth.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/0_A.D._animal_lioness_smooth.stl/960px-0_A.D._animal_lioness_smooth.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Wildfire Games ( https://wildfiregames.com/ )",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    },
+    {
+      "id": "opengameart:low-poly-animal-pack-wip",
+      "provider": "opengameart",
+      "title": "Low Poly Animal Pack (WIP)",
+      "type": "model",
+      "url": "https://opengameart.org/content/low-poly-animal-pack-wip",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/cow_up.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "blenderkit:72f27245-d3fc-447b-b556-76b762a7e858",
+      "provider": "blenderkit",
+      "title": "Spider (Rigged, Animated & Fur)",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/72f27245-d3fc-447b-b556-76b762a7e858/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0d9422aac41d4e15a1dc3ac2922d6cd0/files/thumbnail_96f033a0-92b1-40df-ba83-66d8579bf85b.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Nik Kottmann",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "maxResolution": "4k",
+      "polyCount": 872,
+      "animated": true,
+      "rigged": true
+    },
+    {
+      "id": "polyhaven:carved_wooden_elephant",
+      "provider": "polyhaven",
+      "title": "Carved Wooden Elephant",
+      "type": "model",
+      "url": "https://polyhaven.com/a/carved_wooden_elephant",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/carved_wooden_elephant.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "4k",
+      "polyCount": 2752
+    },
+    {
+      "id": "quaternius:cutefish",
+      "provider": "quaternius",
+      "title": "Animated Cute Fish Pack",
+      "type": "model",
+      "url": "https://quaternius.com/packs/cutefish.html",
+      "thumbnailUrl": "https://quaternius.com/assets/images/thumbnails/cutefish.jpg",
+      "downloadable": false,
+      "author": "Quaternius",
+      "free": true,
+      "animated": true,
+      "rigged": true
+    },
+    {
+      "id": "grab3d:hedgehog",
+      "provider": "grab3d",
+      "title": "Hedgehog",
+      "type": "model",
+      "url": "https://grab3d.com/models/animals/hedgehog/",
+      "thumbnailUrl": "https://grab3d.com/m/hedgehog/hedgehog-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "cgtrader:cute-bunny-772af610-f9f8-47c2-a8b8-7adcca89dc48",
+      "provider": "cgtrader",
+      "title": "Cute Bunny",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/animal/mammal/cute-bunny-772af610-f9f8-47c2-a8b8-7adcca89dc48",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/w5kFfH3E7WS6xwhJqjSH9Csp/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/01.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "blend",
+        "gltf",
+        "fbx",
+        "obj",
+        "dae"
+      ]
+    },
+    {
+      "id": "itchio:metroindio7/3dshapestuber-animal-pack",
+      "provider": "itchio",
+      "title": "3dShapesTuber animal pack",
+      "type": "model",
+      "url": "https://metroindio7.itch.io/3dshapestuber-animal-pack",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzIwMTUwNjIxLnBuZw==/315x250%23c/xe9iKh.png",
+      "downloadable": false,
+      "author": "MEIN7_dev",
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:0_A.D._animal_boar_smooth.stl",
+      "provider": "wikimediacommons",
+      "title": "0 A.D. animal boar smooth",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:0_A.D._animal_boar_smooth.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/0_A.D._animal_boar_smooth.stl/960px-0_A.D._animal_boar_smooth.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Wildfire Games ( https://wildfiregames.com/ )",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    }
+  ]
+}
