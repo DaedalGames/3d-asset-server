@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-09T16:43:12.899Z",
+  "updatedAt": "2026-11-10T13:00:10.826Z",
   "assets": [
     {
       "id": "polyhaven:painted_plaster_wall",
@@ -448,27 +448,6 @@
       "maxResolution": "8k"
     },
     {
-      "id": "blenderkit:27242ad2-c7d0-4a98-853d-d24c65af8dc2",
-      "provider": "blenderkit",
-      "title": "White plaster",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/27242ad2-c7d0-4a98-853d-d24c65af8dc2/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f7bfbec600e24b34998764a5aa3b1c62/files/thumbnail_3fa3eede-162b-40ff-ad45-86a1a6db3a5d.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "antoine f",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "2k"
-    },
-    {
       "id": "ambientcg:Plaster002",
       "provider": "ambientcg",
       "title": "Plaster 002",
@@ -673,6 +652,27 @@
         "gltf"
       ],
       "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:ee214967-dc2a-4ae3-b28d-1304dcc17517",
+      "provider": "blenderkit",
+      "title": "White Plaster",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/ee214967-dc2a-4ae3-b28d-1304dcc17517/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/e65201398c1b4cee8aa3820526be4968/files/thumbnail_88f1039b-3fbc-4a5f-88ab-d534be7594cf.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Share Textures",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
     }
   ]
 }

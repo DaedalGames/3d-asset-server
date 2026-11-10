@@ -29,7 +29,7 @@
       "Elf toymaker"
     ]
   },
-  "updatedAt": "2026-11-09T16:43:06.986Z",
+  "updatedAt": "2026-11-10T12:57:45.952Z",
   "assets": [
     {
       "id": "opengameart:lowpoly-animated-farm-animal-pack",
@@ -290,30 +290,6 @@
       ],
       "maxResolution": "4k",
       "polyCount": 4288
-    },
-    {
-      "id": "polyfork:honey-moth-base",
-      "provider": "polyfork",
-      "title": "Honey moth",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/honey-moth-base",
-      "thumbnailUrl": "https://polyfork.dev/files/honey-moth-base/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 3773,
-      "rigged": true
     },
     {
       "id": "cgtrader:animals-free",
@@ -654,6 +630,30 @@
       "formats": [
         "stl"
       ]
+    },
+    {
+      "id": "polyfork:bell-warden-base",
+      "provider": "polyfork",
+      "title": "Bell warden",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/bell-warden-base",
+      "thumbnailUrl": "https://polyfork.dev/files/bell-warden-base/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 4924,
+      "rigged": true
     }
   ]
 }

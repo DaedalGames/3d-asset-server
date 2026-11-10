@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-09T13:22:47.684Z",
+  "updatedAt": "2026-11-10T13:00:04.213Z",
   "assets": [
     {
       "id": "polyhaven:potted_plant_02",
@@ -322,29 +322,6 @@
       ],
       "maxResolution": "8k",
       "polyCount": 17062
-    },
-    {
-      "id": "blenderkit:6ff6abf8-d2c4-40fc-ba6d-18f7638bc05a",
-      "provider": "blenderkit",
-      "title": "Indoor Table  Plant",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/6ff6abf8-d2c4-40fc-ba6d-18f7638bc05a/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/5e685ea90dca4c6f85725289cdbcb4b8/files/thumbnail_6f9d9aa9-5077-484a-b28d-176160ac4c10.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Anh Le",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "4k",
-      "polyCount": 9748
     },
     {
       "id": "polyhaven:periwinkle_plant",
@@ -749,6 +726,17 @@
         "fbx",
         "max"
       ]
+    },
+    {
+      "id": "itchio:liefz-lily/3d-plant-low-poly-asset",
+      "provider": "itchio",
+      "title": "3D Plant low-poly Asset",
+      "type": "model",
+      "url": "https://liefz-lily.itch.io/3d-plant-low-poly-asset",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzE0NDA5MzAyLnBuZw==/315x250%23c/xR5gnz.png",
+      "downloadable": false,
+      "author": "Liefz Lily",
+      "free": true
     }
   ]
 }
