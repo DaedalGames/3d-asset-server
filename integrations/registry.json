@@ -795,6 +795,12 @@
       "checkedAt": "2026-11-09",
       "reason": "live test blocked from GitHub Actions (HTTP 403/429), not an integration bug: https://github.com/arielshad/3d-asset-server/actions/runs/42630232632",
       "recheckAfter": "2026-11-16"
+    },
+    {
+      "name": "Polygonal Mind",
+      "homepage": "https://www.polygonalmind.com",
+      "checkedAt": "2026-11-10",
+      "reason": "GitHub organisation of scattered repos, not a searchable catalogue with a listing API or search pages"
     }
   ]
 }
