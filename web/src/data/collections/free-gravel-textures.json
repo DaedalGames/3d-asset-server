@@ -14,7 +14,7 @@
       "Gravel Paths Vol.1"
     ]
   },
-  "updatedAt": "2026-11-02T16:23:09.078Z",
+  "updatedAt": "2026-11-11T12:08:58.743Z",
   "assets": [
     {
       "id": "polyhaven:gravel_embedded_concrete",
@@ -691,27 +691,6 @@
       "maxResolution": "8k"
     },
     {
-      "id": "blenderkit:cb8af5b7-5635-409b-81ce-e7bc7a51fca1",
-      "provider": "blenderkit",
-      "title": "Terrain Mud Gravel Water Grit",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/cb8af5b7-5635-409b-81ce-e7bc7a51fca1/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0252b06ad3904c5ba7e2b313f9d311dd/files/thumbnail_d0adfd9e-57c6-44e2-8095-3334d24da4a7.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "James Middleton",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "2k"
-    },
-    {
       "id": "ambientcg:Gravel026",
       "provider": "ambientcg",
       "title": "Gravel 026",
@@ -731,6 +710,27 @@
         "png"
       ],
       "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:b9514d67-c206-4162-99b9-04c45eb1aa19",
+      "provider": "blenderkit",
+      "title": "Gravel",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/b9514d67-c206-4162-99b9-04c45eb1aa19/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/9ccecd179bf74c418415fb5a2640e980/files/thumbnail_42def9dd-0f56-4ff9-8a39-09fb2d590051.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "James Middleton",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
     }
   ]
 }

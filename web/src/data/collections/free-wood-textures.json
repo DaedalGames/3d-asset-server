@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-19T10:17:59.943Z",
+  "updatedAt": "2026-11-11T12:09:28.889Z",
   "assets": [
     {
       "id": "polyhaven:wood_table_001",
@@ -361,27 +361,6 @@
       "maxResolution": "8k"
     },
     {
-      "id": "blenderkit:35421bc9-a49d-4979-8d93-0c13e9eba371",
-      "provider": "blenderkit",
-      "title": "Wood",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/35421bc9-a49d-4979-8d93-0c13e9eba371/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/fc4a30fa9fe14a5ba78b40920c4486f0/files/thumbnail_724e3831-c4b1-48d8-91a0-8c9e9d281683.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Share Textures",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
-    },
-    {
       "id": "cgbookcase:wood-08",
       "provider": "cgbookcase",
       "title": "Wood 08",
@@ -666,6 +645,22 @@
       "url": "https://opengameart.org/content/wall-grass-rock-stone-wood-and-dirt-480",
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/all_3.jpg",
       "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "threedtextures:wood-base-walnut-001",
+      "provider": "threedtextures",
+      "title": "Wood Base Walnut 001",
+      "type": "material",
+      "url": "https://3dtextures.me/2026/11/02/wood-base-walnut-001/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2026/11/Material_2005.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
       "free": true
     }
   ]

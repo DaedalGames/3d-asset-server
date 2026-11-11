@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-07T09:05:32.949Z",
+  "updatedAt": "2026-11-11T12:08:54.319Z",
   "assets": [
     {
       "id": "polyhaven:autumn_forest_04",
@@ -375,27 +375,6 @@
       "maxResolution": "16k"
     },
     {
-      "id": "blenderkit:fe3d1ed1-a66e-4ea5-a0d3-e113185bb989",
-      "provider": "blenderkit",
-      "title": "Highsky green forest clouds",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/fe3d1ed1-a66e-4ea5-a0d3-e113185bb989/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/377462ce592f43219f490a299bd1586b/files/thumbnail_4dfe1ddf-230a-4713-8977-900a78b5ae3c.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Free poly",
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "exr"
-      ],
-      "maxResolution": "8k"
-    },
-    {
       "id": "ambientcg:DayEnvironmentHDRI067",
       "provider": "ambientcg",
       "title": "Day Environment HDRI 067",
@@ -751,6 +730,26 @@
         "exr"
       ],
       "maxResolution": "4k"
+    },
+    {
+      "id": "hdrmaps:forest-park-meadow",
+      "provider": "hdrmaps",
+      "title": "Forest Park Meadow",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/forest-park-meadow/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2025/06/free_hdr_192_park_jedlina_zdroj-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
     }
   ]
 }

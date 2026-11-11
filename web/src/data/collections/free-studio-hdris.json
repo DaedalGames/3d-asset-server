@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-04T12:30:44.174Z",
+  "updatedAt": "2026-11-11T12:09:24.493Z",
   "assets": [
     {
       "id": "polyhaven:studio_small_09",
@@ -292,7 +292,7 @@
     {
       "id": "blenderkit:cb395fa7-9bff-4545-aa43-88574ef07bc2",
       "provider": "blenderkit",
-      "title": "White Studio Product Light HDRI",
+      "title": "Product Studio White Softbox",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/cb395fa7-9bff-4545-aa43-88574ef07bc2/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/766e8899bff64ff49bc5b0697bd450a5/files/thumbnail_69da1958-84ef-479b-b3ed-680ede27d399.jpg.512x512_q85_crop-%2C.jpg",
@@ -654,7 +654,7 @@
     {
       "id": "blenderkit:53998425-a658-4054-abaa-7d83d184c263",
       "provider": "blenderkit",
-      "title": "Studio - White Photo Studio HDRI",
+      "title": "White Studio Photo Softbox",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/53998425-a658-4054-abaa-7d83d184c263/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0bb435b3e8474f51a75e3477b0b306d5/files/thumbnail_1ffd380a-bcc4-4af4-86dd-bbf5ea055a86.jpg.512x512_q85_crop-%2C.jpg",
