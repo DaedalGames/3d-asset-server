@@ -114,12 +114,17 @@ spec:
             - name: tmp
               mountPath: /tmp
           resources:
+            # Steady state is ~200-250Mi, but download bursts hit the old 512Mi
+            # limit and the pod was OOMKilled (exit 137) 6x in a week
+            # (2026-11-11), each a short 3d.shep.bot outage on this single
+            # replica. The limit is burst headroom only — it is not reserved on
+            # the node — so raising it costs nothing; the request stays small.
             requests:
               cpu: 25m
               memory: 128Mi
             limits:
               cpu: "1"
-              memory: 512Mi
+              memory: 1Gi
       volumes:
         - name: tmp
           emptyDir:
