@@ -801,6 +801,26 @@
       "homepage": "https://www.polygonalmind.com",
       "checkedAt": "2026-11-10",
       "reason": "GitHub organisation of scattered repos, not a searchable catalogue with a listing API or search pages"
+    },
+    {
+      "name": "3D Valley",
+      "homepage": "https://3dvalley.com",
+      "checkedAt": "2026-11-11",
+      "reason": "API needs an account key, robots.txt disallows /api/ (only openapi.json allowed), and its CC0 library largely re-hosts Poly Haven, Kenney and ambientCG"
+    },
+    {
+      "name": "Freepoly",
+      "homepage": "https://freepoly.org",
+      "checkedAt": "2026-11-11",
+      "reason": "client-rendered React app: no robots.txt or sitemap (served the HTML shell) and no server-side listings or documented API",
+      "recheckAfter": "2027-02-09"
+    },
+    {
+      "name": "pmndrs Market",
+      "homepage": "https://market.pmnd.rs",
+      "checkedAt": "2026-11-11",
+      "reason": "site is down: Vercel returns DEPLOYMENT_NOT_FOUND (404) for the deployment",
+      "recheckAfter": "2027-02-09"
     }
   ]
 }
