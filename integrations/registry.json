@@ -821,6 +821,12 @@
       "checkedAt": "2026-11-11",
       "reason": "site is down: Vercel returns DEPLOYMENT_NOT_FOUND (404) for the deployment",
       "recheckAfter": "2027-02-09"
+    },
+    {
+      "name": "CGAxis free assets",
+      "homepage": "https://cgaxis.com/free",
+      "reason": "free downloads require an account; robots.txt disallows search/filter URLs and site returns 403 to automated requests",
+      "checkedAt": "2026-11-12"
     }
   ]
 }
