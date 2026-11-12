@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-11T12:08:54.319Z",
+  "updatedAt": "2026-11-12T13:14:28.121Z",
   "assets": [
     {
       "id": "polyhaven:autumn_forest_04",
@@ -169,27 +169,6 @@
       "maxResolution": "16k"
     },
     {
-      "id": "blenderkit:dab6540c-c7bf-4870-8437-c745f0fd35af",
-      "provider": "blenderkit",
-      "title": "Sunny Meadow Forest",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/dab6540c-c7bf-4870-8437-c745f0fd35af/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/e28c6cdd171f4156a5b7b01d54b889d2/files/thumbnail_ecc0db38-3d5c-4c91-9482-6f0ff3a6290f.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Elin FL",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "exr"
-      ],
-      "maxResolution": "8k"
-    },
-    {
       "id": "ambientcg:DayEnvironmentHDRI107",
       "provider": "ambientcg",
       "title": "Day Environment HDRI 107",
@@ -310,27 +289,6 @@
         "exr"
       ],
       "maxResolution": "16k"
-    },
-    {
-      "id": "blenderkit:2b56bb8e-8368-4323-a37c-9eafa67ee69d",
-      "provider": "blenderkit",
-      "title": "Fall Forest Dirt Road",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/2b56bb8e-8368-4323-a37c-9eafa67ee69d/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/ea08185163034a889aa0e4afe56c10a2/files/thumbnail_46822185-f5b9-47a6-be93-7eec1c812611.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Elin FL",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "exr"
-      ],
-      "maxResolution": "8k"
     },
     {
       "id": "ambientcg:DayEnvironmentHDRI078",
@@ -738,6 +696,46 @@
       "type": "hdri",
       "url": "https://hdrmaps.com/freebies/forest-park-meadow/",
       "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2025/06/free_hdr_192_park_jedlina_zdroj-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "hdrmaps:anaga-forest",
+      "provider": "hdrmaps",
+      "title": "Anaga forest",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/anaga-forest/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2020/06/free-hdri-076-tonemapped-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "hdrmaps:june-in-forest-at-polish-coast",
+      "provider": "hdrmaps",
+      "title": "June in forest at Polish coast",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/june-in-forest-at-polish-coast/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2020/06/hdrmaps_com_free_045_bg-560x280.jpg",
       "downloadable": true,
       "license": {
         "name": "Royalty Free",

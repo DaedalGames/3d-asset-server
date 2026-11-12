@@ -29,7 +29,7 @@
       "Elf toymaker"
     ]
   },
-  "updatedAt": "2026-11-11T12:08:20.546Z",
+  "updatedAt": "2026-11-12T13:14:01.789Z",
   "assets": [
     {
       "id": "opengameart:lowpoly-animated-farm-animal-pack",
@@ -632,12 +632,12 @@
       ]
     },
     {
-      "id": "polyfork:spear-soldier-base",
+      "id": "polyfork:strategist-base",
       "provider": "polyfork",
-      "title": "Spear soldier",
+      "title": "Strategist",
       "type": "model",
-      "url": "https://polyfork.dev/asset/spear-soldier-base",
-      "thumbnailUrl": "https://polyfork.dev/files/spear-soldier-base/renders/hero.png",
+      "url": "https://polyfork.dev/asset/strategist-base",
+      "thumbnailUrl": "https://polyfork.dev/files/strategist-base/renders/hero.png",
       "downloadable": true,
       "license": {
         "name": "Royalty Free",
@@ -652,7 +652,7 @@
         "usdz",
         "obj"
       ],
-      "polyCount": 4962,
+      "polyCount": 4896,
       "rigged": true
     }
   ]

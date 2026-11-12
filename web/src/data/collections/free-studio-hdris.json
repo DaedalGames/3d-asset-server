@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-11T12:09:24.493Z",
+  "updatedAt": "2026-11-12T13:15:07.681Z",
   "assets": [
     {
       "id": "polyhaven:studio_small_09",
@@ -206,7 +206,7 @@
     {
       "id": "blenderkit:bed1fafc-6f6f-4b01-9a45-054261e1ef08",
       "provider": "blenderkit",
-      "title": "Interior Glow studio",
+      "title": "Interior Glow Studio",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/bed1fafc-6f6f-4b01-9a45-054261e1ef08/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/52a62e4921e644749bb918e496d791db/files/thumbnail_57cb8dd6-c503-4060-969c-a1a3fa418bd4.jpg.512x512_q85_crop-%2C.jpg",
@@ -335,7 +335,7 @@
     {
       "id": "blenderkit:3f9334b3-3030-471c-9ed1-2319ff11cd22",
       "provider": "blenderkit",
-      "title": "Studio light HDRI",
+      "title": "Studio Light HDRI",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/3f9334b3-3030-471c-9ed1-2319ff11cd22/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/9bbc93c0f9994b94b9568d98b051de2a/files/thumbnail_6473ffa4-05cd-4e5c-9170-2166bee7ac06.jpg.512x512_q85_crop-%2C.jpg",
