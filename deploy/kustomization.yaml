@@ -15,4 +15,4 @@ resources:
   - servicemonitor.yaml
 images:
   - name: ghcr.io/arielshad/3d-asset-server
-    newTag: sha-36c81e39a36cb170d70bb46d4f3aa55e90b4eae2
+    newTag: sha-fff8647aa96237a37add609afbe47346b325bc49
