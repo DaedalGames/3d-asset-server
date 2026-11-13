@@ -267,6 +267,23 @@
     "supportsDownload": false
   },
   {
+    "id": "lazytextures",
+    "name": "LazyTextures",
+    "homepage": "https://www.lazytextures.com",
+    "description": "Free CC0 PBR materials, 3D models, HDRIs and textures with a public JSON API and direct downloads.",
+    "assetTypes": [
+      "material",
+      "texture",
+      "model",
+      "hdri",
+      "other"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": "CC0",
+    "supportsDownload": true
+  },
+  {
     "id": "texturecan",
     "name": "TextureCan",
     "homepage": "https://www.texturecan.com",

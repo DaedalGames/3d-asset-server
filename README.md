@@ -2,7 +2,7 @@
   <img src="docs/images/banner.svg" width="100%" alt="3D Asset Server: one search box for 3D models, materials, textures, HDRIs and game assets. HTTP API, MCP server, web UI and CLI.">
 </p>
 
-**3d-asset-server** searches 26 asset sites at once and downloads what you pick, ready to drop
+**3d-asset-server** searches 27 asset sites at once and downloads what you pick, ready to drop
 into a game or a website. Use it from a browser, from `curl`, from the command line, or let your AI
 assistant drive it over MCP.
 
@@ -73,6 +73,7 @@ and a link to the same search on that site.
 | [3DTextures.me](https://3dtextures.me) | Realistic and stylized PBR | WordPress API | no: Google Drive folders | CC0 |
 | [FreeStylized](https://freestylized.com) | Stylized models, materials, skyboxes and asset packs | WordPress API | no: Google Drive links | royalty free (custom CC0) |
 | [3DTexel](https://3dtexel.com) | PBR materials, HDRIs, decals, 3D assets | API | no: downloads need a free account | CC0 |
+| [LazyTextures](https://www.lazytextures.com) | PBR materials, models, HDRIs and textures | API | yes: per-resolution zips, maps, FBX, EXR | CC0 |
 | [TextureCan](https://www.texturecan.com) | PBR materials and a few models | scrape | yes: 1K-4K zips | CC0 |
 | [OpenGameArt](https://opengameart.org) | Community 3D models, textures and 2D sprites | scrape | yes: plain zip / file links | per asset (mostly CC0, CC-BY) |
 | [Textures.com](https://www.textures.com) | Photo textures, 3D foliage, decals, skies | JSON API | no: credit system | Textures.com licence |
@@ -82,7 +83,7 @@ and a link to the same search on that site.
 | [TurboSquid](https://www.turbosquid.com) | Free and paid models | link only (bot wall) | no | per listing |
 | [itch.io](https://itch.io/game-assets) | Indie art, 3D packs, UI, audio | scrape | no: itch's download flow | per listing |
 
-![Sources by what they give you: 12 with search and direct download, 11 with search and a link to the asset page, 3 linked to their own search.](docs/images/source-access.svg)
+![Sources by what they give you: 13 with search and direct download, 11 with search and a link to the asset page, 3 linked to their own search.](docs/images/source-access.svg)
 
 Notes:
 

@@ -207,6 +207,14 @@
       "access": "api",
       "addedAt": "2026-10-26",
       "addedBy": "agent"
+    },
+    {
+      "id": "lazytextures",
+      "name": "LazyTextures",
+      "homepage": "https://www.lazytextures.com",
+      "access": "api",
+      "addedAt": "2026-11-13",
+      "addedBy": "agent"
     }
   ],
   "rejected": [
@@ -827,6 +835,12 @@
       "homepage": "https://cgaxis.com/free",
       "reason": "free downloads require an account; robots.txt disallows search/filter URLs and site returns 403 to automated requests",
       "checkedAt": "2026-11-12"
+    },
+    {
+      "name": "FreePBRTextures",
+      "homepage": "https://freepbrtextures.com",
+      "checkedAt": "2026-11-13",
+      "reason": "only about 30 procedurally generated textures, fewer than 50 assets"
     }
   ]
 }

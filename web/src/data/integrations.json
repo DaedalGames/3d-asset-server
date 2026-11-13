@@ -1,6 +1,13 @@
 {
   "integrations": [
     {
+      "id": "lazytextures",
+      "name": "LazyTextures",
+      "homepage": "https://www.lazytextures.com",
+      "addedAt": "2026-11-13",
+      "addedBy": "agent"
+    },
+    {
       "id": "scenario",
       "name": "Scenario 3D Collection",
       "homepage": "https://huggingface.co/datasets/scenario-labs/3d-collection",
@@ -183,5 +190,5 @@
       "addedBy": "launch"
     }
   ],
-  "rejected": 93
+  "rejected": 94
 }

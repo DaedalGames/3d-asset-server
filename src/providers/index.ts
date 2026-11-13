@@ -9,6 +9,7 @@ import { hdrihub } from "./hdrihub.js";
 import { hdrmaps } from "./hdrmaps.js";
 import { itchio } from "./itchio.js";
 import { kenney } from "./kenney.js";
+import { lazytextures } from "./lazytextures.js";
 import { fab, poliigon, turbosquid } from "./linked.js";
 import { opengameart } from "./opengameart.js";
 import { polyfork } from "./polyfork.js";
@@ -44,6 +45,7 @@ export const allProviders: Provider[] = [
   freestylized,
   wikimediacommons,
   threedtexel,
+  lazytextures,
   texturecan,
   opengameart,
   texturescom,
