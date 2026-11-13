@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-12T13:15:07.681Z",
+  "updatedAt": "2026-11-13T12:39:24.822Z",
   "assets": [
     {
       "id": "polyhaven:studio_small_09",
@@ -77,7 +77,7 @@
     {
       "id": "blenderkit:11189708-37ed-4a82-acc9-7ec6bc2e6868",
       "provider": "blenderkit",
-      "title": "Studio with Soft Panel Lights HDRI",
+      "title": "Studio with Soft Panel Lights Interior",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/11189708-37ed-4a82-acc9-7ec6bc2e6868/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/17bd0562308d48f79ffb7a616980b6a3/files/thumbnail_7fcf61da-8f0d-4ea6-981f-c9726b3d024e.jpg.512x512_q85_crop-%2C.jpg",
@@ -120,7 +120,7 @@
     {
       "id": "blenderkit:0a96a62e-1f45-4619-a11b-bbef49069c01",
       "provider": "blenderkit",
-      "title": "Car Showroom Studio HDRI",
+      "title": "Car Showroom Studio Interior",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/0a96a62e-1f45-4619-a11b-bbef49069c01/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/d2522d96f51a411c9a6c6a4e98b83ab4/files/thumbnail_5f834e16-e47b-4434-a977-296ae7266e9b.jpg.512x512_q85_crop-%2C.jpg",
@@ -206,7 +206,7 @@
     {
       "id": "blenderkit:bed1fafc-6f6f-4b01-9a45-054261e1ef08",
       "provider": "blenderkit",
-      "title": "Interior Glow Studio",
+      "title": "Interior Glow Studio Room",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/bed1fafc-6f6f-4b01-9a45-054261e1ef08/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/52a62e4921e644749bb918e496d791db/files/thumbnail_57cb8dd6-c503-4060-969c-a1a3fa418bd4.jpg.512x512_q85_crop-%2C.jpg",
@@ -292,7 +292,7 @@
     {
       "id": "blenderkit:cb395fa7-9bff-4545-aa43-88574ef07bc2",
       "provider": "blenderkit",
-      "title": "Product Studio White Softbox",
+      "title": "Product Studio White Softbox Interior",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/cb395fa7-9bff-4545-aa43-88574ef07bc2/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/766e8899bff64ff49bc5b0697bd450a5/files/thumbnail_69da1958-84ef-479b-b3ed-680ede27d399.jpg.512x512_q85_crop-%2C.jpg",
@@ -335,7 +335,7 @@
     {
       "id": "blenderkit:3f9334b3-3030-471c-9ed1-2319ff11cd22",
       "provider": "blenderkit",
-      "title": "Studio Light HDRI",
+      "title": "Studio Light Photography",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/3f9334b3-3030-471c-9ed1-2319ff11cd22/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/9bbc93c0f9994b94b9568d98b051de2a/files/thumbnail_6473ffa4-05cd-4e5c-9170-2166bee7ac06.jpg.512x512_q85_crop-%2C.jpg",
@@ -654,7 +654,7 @@
     {
       "id": "blenderkit:53998425-a658-4054-abaa-7d83d184c263",
       "provider": "blenderkit",
-      "title": "White Studio Photo Softbox",
+      "title": "White Studio Photo Softbox Photography",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/53998425-a658-4054-abaa-7d83d184c263/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/0bb435b3e8474f51a75e3477b0b306d5/files/thumbnail_1ffd380a-bcc4-4af4-86dd-bbf5ea055a86.jpg.512x512_q85_crop-%2C.jpg",

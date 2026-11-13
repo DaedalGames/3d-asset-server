@@ -12,7 +12,7 @@
       "Photo Studio"
     ]
   },
-  "updatedAt": "2026-11-12T13:14:36.682Z",
+  "updatedAt": "2026-11-13T12:37:31.843Z",
   "assets": [
     {
       "id": "polyhaven:cayley_interior",
@@ -161,7 +161,7 @@
     {
       "id": "blenderkit:65fe1eca-3719-4724-b90e-2f5ed71a10f7",
       "provider": "blenderkit",
-      "title": "Studio Light Interior",
+      "title": "Studio Light Interior Room",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/65fe1eca-3719-4724-b90e-2f5ed71a10f7/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/cd401501e0f34649a235f4a1a8d4fa3e/files/thumbnail_88a1237b-0a77-4245-b77b-def4fee55b04.jpg.512x512_q85_crop-%2C.jpg",
@@ -244,7 +244,7 @@
     {
       "id": "blenderkit:bed1fafc-6f6f-4b01-9a45-054261e1ef08",
       "provider": "blenderkit",
-      "title": "Interior Glow Studio",
+      "title": "Interior Glow Studio Room",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/bed1fafc-6f6f-4b01-9a45-054261e1ef08/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/52a62e4921e644749bb918e496d791db/files/thumbnail_57cb8dd6-c503-4060-969c-a1a3fa418bd4.jpg.512x512_q85_crop-%2C.jpg",

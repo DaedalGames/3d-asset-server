@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-12T13:14:45.230Z",
+  "updatedAt": "2026-11-13T12:38:07.517Z",
   "assets": [
     {
       "id": "polyhaven:dikhololo_night",
@@ -113,7 +113,7 @@
     {
       "id": "blenderkit:00e280f1-4ea3-4fa4-842f-62cd561c34a4",
       "provider": "blenderkit",
-      "title": "Deep Space Stars Night Sky",
+      "title": "Deep Space Stars Night Sky Field",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/00e280f1-4ea3-4fa4-842f-62cd561c34a4/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1e2f62ab8ed9435a8a82aa444e99e9d0/files/thumbnail_374a6a18-e3db-4313-a8ad-378ec3e364f1.jpg.512x512_q85_crop-%2C.jpg",
