@@ -847,6 +847,27 @@
       "homepage": "https://models.codelove.in",
       "checkedAt": "2026-11-14",
       "reason": "Mostly a re-host of Kenney, KayKit and Quaternius packs we already search or reject; aggregator, not an original catalogue"
+    },
+    {
+      "name": "ScansLibrary",
+      "homepage": "https://www.scanslibrary.com",
+      "checkedAt": "2026-11-15",
+      "reason": "credit-based mostly paid library; assets open only in a JS modal with no per-asset URLs, downloads need an account and card, no API",
+      "recheckAfter": "2027-02-13"
+    },
+    {
+      "name": "LotPixel",
+      "homepage": "https://www.lotpixel.com",
+      "checkedAt": "2026-11-15",
+      "reason": "site returns 403 to automated requests and licence is unclear",
+      "recheckAfter": "2027-02-13"
+    },
+    {
+      "name": "VasTexture",
+      "homepage": "https://vastexture.com",
+      "checkedAt": "2026-11-15",
+      "reason": "domain does not resolve; site appears down",
+      "recheckAfter": "2027-02-13"
     }
   ]
 }
