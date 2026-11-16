@@ -14,7 +14,7 @@
       "Gravel Paths Vol.1"
     ]
   },
-  "updatedAt": "2026-11-11T12:08:58.743Z",
+  "updatedAt": "2026-11-16T13:08:34.035Z",
   "assets": [
     {
       "id": "polyhaven:gravel_embedded_concrete",
@@ -489,27 +489,6 @@
       "maxResolution": "8k"
     },
     {
-      "id": "blenderkit:9de74aab-67fd-48d5-8250-a9c78ceb1d2b",
-      "provider": "blenderkit",
-      "title": "Gravel Rocks Rough PBR Scan",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/9de74aab-67fd-48d5-8250-a9c78ceb1d2b/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/2bfdb4a3b0a6403ca22390e15d3ea194/files/thumbnail_a54744b5-c5e6-47ec-afd1-487eb45f5a73.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Per's Scan Collection",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "2k"
-    },
-    {
       "id": "cgbookcase:white-gravel-01",
       "provider": "cgbookcase",
       "title": "White Gravel 01",
@@ -731,6 +710,26 @@
         "blend"
       ],
       "maxResolution": "2k"
+    },
+    {
+      "id": "lazytextures:materials:Gravel02",
+      "provider": "lazytextures",
+      "title": "Gravel02",
+      "type": "material",
+      "url": "https://www.lazytextures.com/Asset?path=%2FAssets%2FMaterials%2FStone%2FGravel02&name=Gravel02",
+      "thumbnailUrl": "https://lazytextures.net:3000/Assets/Materials/Stone/Gravel02/Preview.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "png",
+        "zip"
+      ]
     }
   ]
 }

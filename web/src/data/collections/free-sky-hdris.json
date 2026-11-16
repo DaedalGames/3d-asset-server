@@ -17,7 +17,7 @@
       "moon"
     ]
   },
-  "updatedAt": "2026-11-14T11:46:37.180Z",
+  "updatedAt": "2026-11-16T13:09:56.080Z",
   "assets": [
     {
       "id": "polyhaven:kloofendal_48d_partly_cloudy_puresky",
@@ -685,27 +685,6 @@
       "maxResolution": "10k"
     },
     {
-      "id": "blenderkit:310cba8c-7d5c-4f44-b6fc-51fc624e37a9",
-      "provider": "blenderkit",
-      "title": "Warm yellow sky",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/310cba8c-7d5c-4f44-b6fc-51fc624e37a9/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/002449895d084a69938339003f6c6fe9/files/thumbnail_5f32f694-1dfa-447b-a4cc-585073534231.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Free poly",
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "exr"
-      ],
-      "maxResolution": "8k"
-    },
-    {
       "id": "blenderkit:1a5217ba-b6bf-43a5-811d-731541ecd84d",
       "provider": "blenderkit",
       "title": "Bright Cloudy Sky Clouds Sunny Water",
@@ -745,6 +724,25 @@
         "exr"
       ],
       "maxResolution": "16k"
+    },
+    {
+      "id": "lazytextures:hdris:CloudySky02",
+      "provider": "lazytextures",
+      "title": "CloudySky02",
+      "type": "hdri",
+      "url": "https://www.lazytextures.com/Asset?path=%2FAssets%2FHDRIs%2FOutdoor%2FCloudySky02&name=CloudySky02",
+      "thumbnailUrl": "https://lazytextures.net:3000/Assets/HDRIs/Outdoor/CloudySky02/Preview.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ]
     }
   ]
 }
