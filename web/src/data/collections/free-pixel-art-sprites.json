@@ -1,0 +1,193 @@
+{
+  "slug": "free-pixel-art-sprites",
+  "search": {
+    "q": "pixel art",
+    "types": [
+      "sprite",
+      "pack"
+    ],
+    "free": true
+  },
+  "updatedAt": "2026-11-16T16:11:31.764Z",
+  "assets": [
+    {
+      "id": "kenney:platformer-art-pixel",
+      "provider": "kenney",
+      "title": "Platformer Art Pixel",
+      "type": "sprite",
+      "url": "https://kenney.nl/assets/platformer-art-pixel",
+      "thumbnailUrl": "https://kenney.nl/media/pages/assets/platformer-art-pixel/e0ce345e1d-1677696731/sample-400x.png",
+      "downloadable": true,
+      "author": "Kenney",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "opengameart:rpg-town-pixel-art-assets",
+      "provider": "opengameart",
+      "title": "RPG Town Pixel Art Assets",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/rpg-town-pixel-art-assets",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/preview_x2.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "itchio:gandalfhardcore/pixel-art-archer-character",
+      "provider": "itchio",
+      "title": "FREE - 2D Pixel Art Archer Character - Sidescroller",
+      "type": "sprite",
+      "url": "https://gandalfhardcore.itch.io/pixel-art-archer-character",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzE3OTU2OTUyLnBuZw==/315x250%23c/SIFRs9.png",
+      "downloadable": false,
+      "author": "GandalfHardcore",
+      "free": true
+    },
+    {
+      "id": "opengameart:platform-pixel-art-assets",
+      "provider": "opengameart",
+      "title": "Platform Pixel Art Assets",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/platform-pixel-art-assets",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/preview_246.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "itchio:pixelsnorf/pix-quest",
+      "provider": "itchio",
+      "title": "Pix-Quest | Top-Down Pixel Art Tileset",
+      "type": "sprite",
+      "url": "https://pixelsnorf.itch.io/pix-quest",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzEwNzc2MDg2LmdpZg==/315x250%23c/gT5XFB.gif",
+      "downloadable": false,
+      "author": "Pixelsnorf",
+      "free": true
+    },
+    {
+      "id": "opengameart:platformer-art-pixel-edition",
+      "provider": "opengameart",
+      "title": "Platformer Art: Pixel edition",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/platformer-art-pixel-edition",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/sample_4.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:platformer-art-pixel-redux",
+      "provider": "opengameart",
+      "title": "Platformer Art: Pixel Redux",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/platformer-art-pixel-redux",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/fbSample.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:496-pixel-art-icons-for-medievalfantasy-rpg",
+      "provider": "opengameart",
+      "title": "496 pixel art icons for medieval/fantasy RPG",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/spritesheet_7.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:pixel-art-castle-tileset",
+      "provider": "opengameart",
+      "title": "pixel art castle tileset",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/pixel-art-castle-tileset",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/castle_tileset_example1.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:space-ship-shooter-pixel-art-assets",
+      "provider": "opengameart",
+      "title": "Space Ship Shooter Pixel Art Assets",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/space-ship-shooter-pixel-art-assets",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/previex2_0.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:190-pixel-art-assets-sci-fi-forest",
+      "provider": "opengameart",
+      "title": "190+ Pixel Art Assets (Sci-fi & Forest)",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/190-pixel-art-assets-sci-fi-forest",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Pixel_1.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:16x16-pixel-art-dungeon-wall-and-cobblestone-floor-tiles",
+      "provider": "opengameart",
+      "title": "16x16 pixel art dungeon wall and cobblestone floor tiles",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/16x16-pixel-art-dungeon-wall-and-cobblestone-floor-tiles",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/wall2_0.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:98-pixel-art-rpg-icons",
+      "provider": "opengameart",
+      "title": "98 Pixel Art RPG Icons",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/98-pixel-art-rpg-icons",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/RPGIconsExtra_0.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:16x16-fantasy-pixel-art-vehicles",
+      "provider": "opengameart",
+      "title": "16x16 fantasy pixel art vehicles",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/16x16-fantasy-pixel-art-vehicles",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/fullsheet.png.preview.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:sunny-land-2d-pixel-art-pack",
+      "provider": "opengameart",
+      "title": "Sunny Land 2D Pixel Art Pack",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/sunny-land-2d-pixel-art-pack",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/patreon-cover_7.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:pixel-art-tiles-from-last-escape",
+      "provider": "opengameart",
+      "title": "Pixel Art Tiles from Last Escape",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/pixel-art-tiles-from-last-escape",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/rockwalledges.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "opengameart:heart-pixel-art",
+      "provider": "opengameart",
+      "title": "heart pixel art",
+      "type": "sprite",
+      "url": "https://opengameart.org/content/heart-pixel-art",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/heart_9.png",
+      "downloadable": true,
+      "free": true
+    }
+  ]
+}

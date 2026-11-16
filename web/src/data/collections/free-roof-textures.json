@@ -1,0 +1,655 @@
+{
+  "slug": "free-roof-textures",
+  "search": {
+    "q": "roof",
+    "types": [
+      "material",
+      "texture"
+    ],
+    "free": true
+  },
+  "updatedAt": "2026-11-16T16:11:35.524Z",
+  "assets": [
+    {
+      "id": "polyhaven:roof_09",
+      "provider": "polyhaven",
+      "title": "Roof 09",
+      "type": "material",
+      "url": "https://polyhaven.com/a/roof_09",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/roof_09.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:e1e7dab7-d7fe-455c-a593-cf9325471d4f",
+      "provider": "blenderkit",
+      "title": "Metal roof sheets",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/e1e7dab7-d7fe-455c-a593-cf9325471d4f/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/3ca51addfca245f3a2f3f0ed719f8d2e/files/thumbnail_499d29ea-5fb5-481e-9ad3-f2a66fe5f645.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "ydd 3D",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "opengameart:free-urban-textures-roof-tiles",
+      "provider": "opengameart",
+      "title": "Free Urban Textures: Roof, Tiles",
+      "type": "texture",
+      "url": "https://opengameart.org/content/free-urban-textures-roof-tiles",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/roof-tiles.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "sharetextures:roof_tile_6",
+      "provider": "sharetextures",
+      "title": "Roof Tile 6",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/roof/roof_tile_6",
+      "thumbnailUrl": "https://images.sharetextures.com/u/roof_tile_6-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtextures:roof-tiles-terracotta-009",
+      "provider": "threedtextures",
+      "title": "Roof Tiles Terracotta 009",
+      "type": "material",
+      "url": "https://3dtextures.me/2026/07/17/roof-tiles-terracotta-009/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2026/07/Material_2002.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:tile-roff-broken-pbr-material",
+      "provider": "threedtexel",
+      "title": "Broken Terracotta Roof Tiles – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/tile-roff-broken-pbr-material/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-124-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "freestylized:material:roof_tiles_12",
+      "provider": "freestylized",
+      "title": "Roof Tiles 12",
+      "type": "material",
+      "url": "https://freestylized.com/material/roof_tiles_12/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/10/roof_tiles_12_preview_hex151515.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:roof_slates_03",
+      "provider": "polyhaven",
+      "title": "Roof Slates 03",
+      "type": "material",
+      "url": "https://polyhaven.com/a/roof_slates_03",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/roof_slates_03.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:6296c720-e87d-4482-97eb-15c5b910d71c",
+      "provider": "blenderkit",
+      "title": "Roof Tile",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/6296c720-e87d-4482-97eb-15c5b910d71c/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/3e62aec0080b44519bdc6d2e56626788/files/thumbnail_8db85f7f-16bf-4eeb-923d-0eea2e93f0d3.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Ekaterina Kuznetsova",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "texturecan:555",
+      "provider": "texturecan",
+      "title": "Colourful Clay Roof Tiles in Dull Tone",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/555/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/rooftop_0007/rooftop_0007_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "ambientcg:ThatchedRoof001A",
+      "provider": "ambientcg",
+      "title": "Thatched Roof 001 A",
+      "type": "material",
+      "url": "https://ambientcg.com/a/ThatchedRoof001A",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/ThatchedRoof001A.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:thatched-roof",
+      "provider": "opengameart",
+      "title": "Thatched Roof",
+      "type": "texture",
+      "url": "https://opengameart.org/content/thatched-roof",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/ThatchedP1.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "sharetextures:roof_tile_5",
+      "provider": "sharetextures",
+      "title": "Roof Tile 5",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/roof/roof_tile_5",
+      "thumbnailUrl": "https://images.sharetextures.com/u/roof_tile_5-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:tile-roof-pbr-material-17",
+      "provider": "threedtexel",
+      "title": "Terracotta Roof Tiles With Moss – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/tile-roof-pbr-material-17/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-123-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "freestylized:material:roof_tiles_11",
+      "provider": "freestylized",
+      "title": "Roof Tiles 11",
+      "type": "material",
+      "url": "https://freestylized.com/material/roof_tiles_11/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/10/roof_tiles_11_preview_hex151515.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtextures:wood-roof-shingles-002",
+      "provider": "threedtextures",
+      "title": "Wood Roof Shingles 002",
+      "type": "material",
+      "url": "https://3dtextures.me/2025/12/16/wood-roof-shingles-002/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2025/12/Material_2001.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "texturecan:552",
+      "provider": "texturecan",
+      "title": "Composite Clay Roof Tile Texture",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/552/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/rooftop_0006/rooftop_0006_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:grey_roof_01",
+      "provider": "polyhaven",
+      "title": "Grey Roof 01",
+      "type": "material",
+      "url": "https://polyhaven.com/a/grey_roof_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/grey_roof_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:4bffaf68-7b1e-41a7-85df-1233225e2c03",
+      "provider": "blenderkit",
+      "title": "Medieval Stone Roof",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/4bffaf68-7b1e-41a7-85df-1233225e2c03/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/867e8e3509c54e98a23c0950ea3cd1fc/files/thumbnail_3243ddb7-ef65-498a-9b82-591491aff7b2.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "KhabibIC",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "ambientcg:ThatchedRoof002A",
+      "provider": "ambientcg",
+      "title": "Thatched Roof 002 A",
+      "type": "material",
+      "url": "https://ambientcg.com/a/ThatchedRoof002A",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/ThatchedRoof002A.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:blue-roof",
+      "provider": "opengameart",
+      "title": "Blue Roof",
+      "type": "texture",
+      "url": "https://opengameart.org/content/blue-roof",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Blue%20Roof.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "sharetextures:metal-roof",
+      "provider": "sharetextures",
+      "title": "Metal Roof",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/metal/metal-roof",
+      "thumbnailUrl": "https://images.sharetextures.com/u/metal_roof_1-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:tile-roof-pbr-material-16",
+      "provider": "threedtexel",
+      "title": "Red Clay Tile Roof With Moss – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/tile-roof-pbr-material-16/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-122-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "freestylized:material:hay_roof_02",
+      "provider": "freestylized",
+      "title": "Hay Roof 02",
+      "type": "material",
+      "url": "https://freestylized.com/material/hay_roof_02/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/02/hay_roof_02_preview_hex151515_thumbnail.webp",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "texturecan:264",
+      "provider": "texturecan",
+      "title": "Dirty and Worn Terracotta Roof Tile Texture with Lichen and Bird Poop",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/264/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/rooftop_0004/rooftop_0004_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:ceramic_roof_01",
+      "provider": "polyhaven",
+      "title": "Ceramic Roof 01",
+      "type": "material",
+      "url": "https://polyhaven.com/a/ceramic_roof_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/ceramic_roof_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "threedtextures:stylized-wooden-roof-001",
+      "provider": "threedtextures",
+      "title": "Stylized Wooden Roof 001",
+      "type": "material",
+      "url": "https://3dtextures.me/2025/03/31/stylized-wooden-roof-001/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2025/03/Material_1932.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "opengameart:medieval-wooden-roof",
+      "provider": "opengameart",
+      "title": "Medieval Wooden Roof",
+      "type": "texture",
+      "url": "https://opengameart.org/content/medieval-wooden-roof",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/screenshot013.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "ambientcg:ThatchedRoof001B",
+      "provider": "ambientcg",
+      "title": "Thatched Roof 001 B",
+      "type": "material",
+      "url": "https://ambientcg.com/a/ThatchedRoof001B",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/ThatchedRoof001B.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "sharetextures:roof-6",
+      "provider": "sharetextures",
+      "title": "Roof 6",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/roof/roof-6",
+      "thumbnailUrl": "https://images.sharetextures.com/u/roof_6-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtexel:tile-roof-pbr-material-15",
+      "provider": "threedtexel",
+      "title": "Terracotta Tile Roof – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/tile-roof-pbr-material-15/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-121-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "freestylized:material:wooden_roof_tiles_09",
+      "provider": "freestylized",
+      "title": "Wooden Roof Tiles 09",
+      "type": "material",
+      "url": "https://freestylized.com/material/wooden_roof_tiles_09/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2026/02/wooden_roof_tiles_09_preview_hex151515_thumbnail.webp",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:grey_roof_tiles_02",
+      "provider": "polyhaven",
+      "title": "Grey Roof Tiles 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/grey_roof_tiles_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/grey_roof_tiles_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:22e28363-f7f4-43d0-95a6-e21854a8c2ce",
+      "provider": "blenderkit",
+      "title": "Slate Roof Tiles",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/22e28363-f7f4-43d0-95a6-e21854a8c2ce/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/3290defd59454605b691a98663abbb82/files/thumbnail_5481c189-5b51-4fb8-adde-1119815d2c3b.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Abdelrahman Mohamed",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:stylized-roof-001",
+      "provider": "threedtextures",
+      "title": "Stylized Roof 001",
+      "type": "material",
+      "url": "https://3dtextures.me/2024/11/28/stylized-roof-001/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2024/11/Material_1904.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "ambientcg:ThatchedRoof002B",
+      "provider": "ambientcg",
+      "title": "Thatched Roof 002 B",
+      "type": "material",
+      "url": "https://ambientcg.com/a/ThatchedRoof002B",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/ThatchedRoof002B.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    }
+  ]
+}

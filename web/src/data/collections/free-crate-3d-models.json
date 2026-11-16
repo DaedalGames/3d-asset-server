@@ -1,0 +1,714 @@
+{
+  "slug": "free-crate-3d-models",
+  "search": {
+    "q": "crate",
+    "types": [
+      "model"
+    ],
+    "free": true,
+    "exclude": [
+      "Aquarium",
+      "Vineyard",
+      "Nightclub",
+      "Garage",
+      "Hydroponics",
+      "Trolley",
+      "oil bottles",
+      "Water Bottle"
+    ]
+  },
+  "updatedAt": "2026-11-16T16:11:28.339Z",
+  "assets": [
+    {
+      "id": "polyhaven:wooden_crate_01",
+      "provider": "polyhaven",
+      "title": "Wooden Crate 01",
+      "type": "model",
+      "url": "https://polyhaven.com/a/wooden_crate_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/wooden_crate_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "James Ray Cock",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "8k",
+      "polyCount": 6576
+    },
+    {
+      "id": "blenderkit:46258139-9f60-495b-9682-e08ea4e65712",
+      "provider": "blenderkit",
+      "title": "Plastic Crate",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/46258139-9f60-495b-9682-e08ea4e65712/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/099bf9f05ba44a83a698cde87cff5ef4/files/thumbnail_7df02d70-b243-4f0c-a10d-2761019e824c.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Poly Haven",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "polyfork:ammo-crate-ee3ec0",
+      "provider": "polyfork",
+      "title": "Ammo Crate",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/ammo-crate-ee3ec0",
+      "thumbnailUrl": "https://polyfork.dev/files/ammo-crate-ee3ec0/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 845,
+      "rigged": true
+    },
+    {
+      "id": "opengameart:crate",
+      "provider": "opengameart",
+      "title": "Crate",
+      "type": "model",
+      "url": "https://opengameart.org/content/crate",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/crate_preview.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "grab3d:apple-crate",
+      "provider": "grab3d",
+      "title": "Apple Crate",
+      "type": "model",
+      "url": "https://grab3d.com/models/food/apple-crate/",
+      "thumbnailUrl": "https://grab3d.com/m/apple-crate/apple-crate-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "sketchfab:d54d8752e2724d16b4b45f2afa929e28",
+      "provider": "sketchfab",
+      "title": "Crate - Low Poly Medieval, CC0",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-d54d8752e2724d16b4b45f2afa929e28",
+      "thumbnailUrl": "https://media.sketchfab.com/models/d54d8752e2724d16b4b45f2afa929e28/thumbnails/18eddc5776ad4bf08505b25531f47167/41545bb3b0fb473ba15b39e9e831e652.jpeg",
+      "downloadable": false,
+      "author": "Avramania",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 1529
+    },
+    {
+      "id": "freestylized:3d_models:military_crate_m37",
+      "provider": "freestylized",
+      "title": "Military Crate M37",
+      "type": "model",
+      "url": "https://freestylized.com/3d_models/military_crate_m37/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2025/03/military_crate_M37_thumbnail.webp",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "sharetextures:woodencrate_1",
+      "provider": "sharetextures",
+      "title": "Wooden Crate 1",
+      "type": "model",
+      "url": "https://www.sharetextures.com/models/culturalheritage/woodencrate_1",
+      "thumbnailUrl": "https://images.sharetextures.com/u/66ad0df5-4404-4388-a465-20a8ef195fc4.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgtrader:free-low-poly-wood-crates-3d-model",
+      "provider": "cgtrader",
+      "title": "FREE Low-Poly Wood Crates",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/exterior/other/free-low-poly-wood-crates-3d-model",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/rgPQSitd7Dt3SwfE1HMzyY6H/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/1.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "blend",
+        "fbx",
+        "gltf",
+        "obj",
+        "ply",
+        "stl"
+      ]
+    },
+    {
+      "id": "itchio:lokicreator/barrel-and-crate-3d-assests",
+      "provider": "itchio",
+      "title": "Barrel & Crate Pack — High Res 3D Assets",
+      "type": "model",
+      "url": "https://lokicreator.itch.io/barrel-and-crate-3d-assests",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI3MDI1MjMzLnBuZw==/315x250%23c/IMpIFE.png",
+      "downloadable": false,
+      "author": "lokicreator",
+      "free": true
+    },
+    {
+      "id": "polyhaven:wooden_crate_02",
+      "provider": "polyhaven",
+      "title": "Wooden Crate 02",
+      "type": "model",
+      "url": "https://polyhaven.com/a/wooden_crate_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/wooden_crate_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "James Ray Cock, Jurita Burger",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "8k",
+      "polyCount": 5176
+    },
+    {
+      "id": "polyfork:loot-crate-23dd3b",
+      "provider": "polyfork",
+      "title": "Loot Crate",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/loot-crate-23dd3b",
+      "thumbnailUrl": "https://polyfork.dev/files/loot-crate-23dd3b/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 796,
+      "rigged": true
+    },
+    {
+      "id": "grab3d:tnt-crate",
+      "provider": "grab3d",
+      "title": "TNT Crate",
+      "type": "model",
+      "url": "https://grab3d.com/models/props/tnt-crate/",
+      "thumbnailUrl": "https://grab3d.com/m/tnt-crate/tnt-crate-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "sketchfab:bcf35bfc9d584d65a0bc886f52a656c2",
+      "provider": "sketchfab",
+      "title": "Produce Crate - Low Poly Medieval, CC0",
+      "type": "model",
+      "url": "https://sketchfab.com/3d-models/none-bcf35bfc9d584d65a0bc886f52a656c2",
+      "thumbnailUrl": "https://media.sketchfab.com/models/bcf35bfc9d584d65a0bc886f52a656c2/thumbnails/3bd3fc30d12743cea71bd5044e695948/d89fc674126c47638bfa73554ddf4799.jpeg",
+      "downloadable": false,
+      "author": "Avramania",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "gltf",
+        "usdz"
+      ],
+      "polyCount": 240
+    },
+    {
+      "id": "sharetextures:wooden-crates-1",
+      "provider": "sharetextures",
+      "title": "Wooden Crates 1",
+      "type": "model",
+      "url": "https://www.sharetextures.com/models/equipments/wooden-crates-1",
+      "thumbnailUrl": "https://images.sharetextures.com/u/d9b7962f-303d-4cac-b01f-6bf61a0f1231.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgtrader:wooden-box-crate-1607437b-3865-4fcb-abec-016415ce5fc0",
+      "provider": "cgtrader",
+      "title": "Wooden Box Crate",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/industrial/other/wooden-box-crate-1607437b-3865-4fcb-abec-016415ce5fc0",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/fmbr4mdfjnhp39mvplj845qedyls/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/untitled_a_06.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "blend",
+        "dae",
+        "fbx",
+        "obj",
+        "png",
+        "gltf"
+      ]
+    },
+    {
+      "id": "itchio:nexoradev/sci-fi-loot-crate-free-futuristic-3d-model-fbx-glb",
+      "provider": "itchio",
+      "title": "Sci-Fi Loot Crate – FREE Futuristic 3D Model (FBX + GLB)",
+      "type": "model",
+      "url": "https://nexoradev.itch.io/sci-fi-loot-crate-free-futuristic-3d-model-fbx-glb",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzMxOTk0NDg0LnBuZw==/315x250%23c/0b4pWr.png",
+      "downloadable": false,
+      "author": "NexoraDev",
+      "free": true
+    },
+    {
+      "id": "polyhaven:plastic_crate_02",
+      "provider": "polyhaven",
+      "title": "Plastic Crate 02",
+      "type": "model",
+      "url": "https://polyhaven.com/a/plastic_crate_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/plastic_crate_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Fabi_G",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "4k",
+      "polyCount": 5840
+    },
+    {
+      "id": "opengameart:crate-barrel-bundle",
+      "provider": "opengameart",
+      "title": "Crate & Barrel bundle",
+      "type": "model",
+      "url": "https://opengameart.org/content/crate-barrel-bundle",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/preview_206.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "grab3d:vegetable-crate",
+      "provider": "grab3d",
+      "title": "Vegetable Crate",
+      "type": "model",
+      "url": "https://grab3d.com/models/food/vegetable-crate/",
+      "thumbnailUrl": "https://grab3d.com/m/vegetable-crate/vegetable-crate-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "sharetextures:wooden-crate-6",
+      "provider": "sharetextures",
+      "title": "Wooden Crate 6",
+      "type": "model",
+      "url": "https://www.sharetextures.com/models/equipments/wooden-crate-6",
+      "thumbnailUrl": "https://images.sharetextures.com/u/9fabda5c-151e-45aa-8ed4-3eb677a96824-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgtrader:plastic-crates-9c0f04d6-8f83-4f5b-a9dd-cfd5fba6bfea",
+      "provider": "cgtrader",
+      "title": "Plastic Crates",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/industrial/other/plastic-crates-9c0f04d6-8f83-4f5b-a9dd-cfd5fba6bfea",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/l42z37fx2yvbp4evf9aop65sh6zv/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/Crate2.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "blend",
+        "ma",
+        "usd",
+        "stl",
+        "fbx",
+        "obj"
+      ]
+    },
+    {
+      "id": "itchio:scarymonkeygames/low-poly-wooden-crate-asset",
+      "provider": "itchio",
+      "title": "Low Poly Wooden Crate Asset",
+      "type": "model",
+      "url": "https://scarymonkeygames.itch.io/low-poly-wooden-crate-asset",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzIyNjc0ODk5LmdpZg==/315x250%23c/HQQnpM.gif",
+      "downloadable": false,
+      "author": "Scary Monkey Incorporated",
+      "free": true
+    },
+    {
+      "id": "polyhaven:old_military_crate",
+      "provider": "polyhaven",
+      "title": "Old Military Crate",
+      "type": "model",
+      "url": "https://polyhaven.com/a/old_military_crate",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/old_military_crate.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Jack Mava",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "8k",
+      "polyCount": 10476
+    },
+    {
+      "id": "blenderkit:e68b326b-af1c-4b9e-b5a3-ba549c3cd04f",
+      "provider": "blenderkit",
+      "title": "Old Crate",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/e68b326b-af1c-4b9e-b5a3-ba549c3cd04f/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/ceff141368c34c8cb26f6bad4e121b13/files/thumbnail_a70fcc87-5872-4099-9bd9-1ac906fb8e09.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Klo Works",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "maxResolution": "1k",
+      "polyCount": 116
+    },
+    {
+      "id": "polyfork:freight-crate-and-sack-f49cbb",
+      "provider": "polyfork",
+      "title": "Freight Crate and Sack Stack",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/freight-crate-and-sack-f49cbb",
+      "thumbnailUrl": "https://polyfork.dev/files/freight-crate-and-sack-f49cbb/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 522
+    },
+    {
+      "id": "grab3d:metal-crate",
+      "provider": "grab3d",
+      "title": "Metal Crate",
+      "type": "model",
+      "url": "https://grab3d.com/models/props/metal-crate/",
+      "thumbnailUrl": "https://grab3d.com/m/metal-crate/metal-crate-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "itchio:janbremec/scifi-storage-crate-free",
+      "provider": "itchio",
+      "title": "Sci-Fi Storage Crate — Free 3D Game Asset",
+      "type": "model",
+      "url": "https://janbremec.itch.io/scifi-storage-crate-free",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4Mjg2ODE3LnBuZw==/315x250%23c/%2BjDKdv.png",
+      "downloadable": false,
+      "author": "JanBremec",
+      "free": true
+    },
+    {
+      "id": "polyhaven:plastic_crate_01",
+      "provider": "polyhaven",
+      "title": "Plastic Crate 01",
+      "type": "model",
+      "url": "https://polyhaven.com/a/plastic_crate_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/plastic_crate_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "PierreB3D",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "4k",
+      "polyCount": 18320
+    },
+    {
+      "id": "blenderkit:135252a5-c00c-4bb1-ac1c-9c43d26f0b66",
+      "provider": "blenderkit",
+      "title": "Wooden Crate",
+      "type": "model",
+      "url": "https://www.blendkit.com/asset-gallery-detail/135252a5-c00c-4bb1-ac1c-9c43d26f0b66/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f923dc786842401a89f30f07e462e82c/files/thumbnail_2e1a5e98-cba6-4a1e-9b02-4fbbb8cdc7db.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Quinn VB",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend",
+        "glb"
+      ],
+      "maxResolution": "4k",
+      "polyCount": 430
+    },
+    {
+      "id": "polyfork:timber-crate-ba0739",
+      "provider": "polyfork",
+      "title": "Timber Crate",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/timber-crate-ba0739",
+      "thumbnailUrl": "https://polyfork.dev/files/timber-crate-ba0739/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 588,
+      "rigged": true
+    },
+    {
+      "id": "cgtrader:wooden-crates-ffa57bf1-bf2a-47b4-bdc0-47cd312cc1fb",
+      "provider": "cgtrader",
+      "title": "Wooden Crates",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/exterior/street-exterior/wooden-crates-ffa57bf1-bf2a-47b4-bdc0-47cd312cc1fb",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/p3TepaP2JJAh2ZqCF3k3LTof/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/scene.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "fbx",
+        "obj"
+      ]
+    },
+    {
+      "id": "opengameart:crate-3",
+      "provider": "opengameart",
+      "title": "Crate 3",
+      "type": "model",
+      "url": "https://opengameart.org/content/crate-3",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Crate3Pic.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "grab3d:wooden-crate",
+      "provider": "grab3d",
+      "title": "Wooden Crate",
+      "type": "model",
+      "url": "https://grab3d.com/models/props/wooden-crate/",
+      "thumbnailUrl": "https://grab3d.com/m/wooden-crate/wooden-crate-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "itchio:bakafoxart/crates",
+      "provider": "itchio",
+      "title": "Mossy Crate",
+      "type": "model",
+      "url": "https://bakafoxart.itch.io/crates",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI3MjY2MDMzLnBuZw==/315x250%23c/JfIWdQ.png",
+      "downloadable": false,
+      "author": "BakaFoxAssets",
+      "free": true
+    },
+    {
+      "id": "polyhaven:plastic_crate_03",
+      "provider": "polyhaven",
+      "title": "Plastic Crate 03",
+      "type": "model",
+      "url": "https://polyhaven.com/a/plastic_crate_03",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/plastic_crate_03.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Pacific Penguin",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gltf",
+        "blend",
+        "fbx",
+        "usd"
+      ],
+      "maxResolution": "8k",
+      "polyCount": 21740
+    }
+  ]
+}
