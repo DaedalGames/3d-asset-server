@@ -800,9 +800,9 @@
     {
       "name": "BlendSwap",
       "homepage": "https://blendswap.com",
-      "checkedAt": "2026-11-09",
-      "reason": "live test blocked from GitHub Actions (HTTP 403/429), not an integration bug: https://github.com/arielshad/3d-asset-server/actions/runs/42630232632",
-      "recheckAfter": "2026-11-16"
+      "checkedAt": "2026-11-17",
+      "reason": "still returns HTTP 403 to automated requests from GitHub Actions (rechecked 2026-11-17)",
+      "recheckAfter": "2027-02-15"
     },
     {
       "name": "Polygonal Mind",
@@ -868,6 +868,13 @@
       "checkedAt": "2026-11-15",
       "reason": "domain does not resolve; site appears down",
       "recheckAfter": "2027-02-13"
+    },
+    {
+      "name": "Colormass Material Library",
+      "homepage": "https://library.colormass.com",
+      "checkedAt": "2026-11-17",
+      "reason": "Angular app over an undocumented GraphQL API with introspection disabled; licence forbids redistribution and no plain-GET download URLs; free set is only about 177 materials",
+      "recheckAfter": "2027-02-15"
     }
   ]
 }
