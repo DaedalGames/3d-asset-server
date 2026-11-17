@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-16T13:07:45.805Z",
+  "updatedAt": "2026-11-17T13:50:01.454Z",
   "assets": [
     {
       "id": "polyhaven:red_brick",
@@ -568,27 +568,6 @@
       "maxResolution": "8k"
     },
     {
-      "id": "blenderkit:49aa8b4e-b75e-4e5c-813d-4b51496c7415",
-      "provider": "blenderkit",
-      "title": "Glass bricks",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/49aa8b4e-b75e-4e5c-813d-4b51496c7415/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1b29372d9c5a4b72add09fbe69e69401/files/thumbnail_8536684b-862d-45d5-a697-415917bbd2f7.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "OyezCubed TITRE",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
-    },
-    {
       "id": "texturecan:483",
       "provider": "texturecan",
       "title": "Zig Zag Unipaver Concrete Bricks in Herringbone",
@@ -661,6 +640,27 @@
       "downloadable": false,
       "author": "tempisq",
       "free": true
+    },
+    {
+      "id": "blenderkit:905625c2-7de5-43ad-8549-d60b3a367295",
+      "provider": "blenderkit",
+      "title": "Stylized Brick Wall",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/905625c2-7de5-43ad-8549-d60b3a367295/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/fd6377a0c43f4bbfb7e6e6ed075d4024/files/thumbnail_5a3cf60d-4efd-4273-8703-a89ed3634931.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Matheus Godoi",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
     }
   ]
 }

@@ -13,7 +13,7 @@
       "Decal"
     ]
   },
-  "updatedAt": "2026-10-26T13:23:34.155Z",
+  "updatedAt": "2026-11-17T13:49:59.643Z",
   "assets": [
     {
       "id": "polyhaven:asphalt_02",
@@ -523,26 +523,6 @@
       "maxResolution": "16k"
     },
     {
-      "id": "blenderkit:0f2ec127-987c-49ab-9478-7f777bdde2d3",
-      "provider": "blenderkit",
-      "title": "Asphalt Road Procedural",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/0f2ec127-987c-49ab-9478-7f777bdde2d3/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/3fc22a6219274e86b6d19ddf0e476f5f/files/thumbnail_fd6c341b-d4b8-41ff-9295-829b4967c3a3.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "NK Productions",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ]
-    },
-    {
       "id": "texturecan:289",
       "provider": "texturecan",
       "title": "Asphalt Road Texture with Yellow Line Road Markings",
@@ -668,6 +648,22 @@
         "blend"
       ],
       "maxResolution": "2k"
+    },
+    {
+      "id": "sharetextures:asphalt-11",
+      "provider": "sharetextures",
+      "title": "PBR Asphalt Texture 11",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/road/asphalt-11",
+      "thumbnailUrl": "https://images.sharetextures.com/u/asphalt_11-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
     }
   ]
 }

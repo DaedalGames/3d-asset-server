@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-09T13:21:49.098Z",
+  "updatedAt": "2026-11-17T13:51:21.167Z",
   "assets": [
     {
       "id": "blenderkit:0f1918d7-7350-43a8-a012-469ddc446b35",
@@ -441,28 +441,6 @@
       "free": true
     },
     {
-      "id": "blenderkit:375867d4-b002-44ac-ba59-e2764f68b15d",
-      "provider": "blenderkit",
-      "title": "Sofa Set Furniture",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/375867d4-b002-44ac-ba59-e2764f68b15d/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/cf6f3bf349734652923a33e48f617b44/files/thumbnail_c3ded1ce-7c81-4f1f-8fa5-d004dd90e512.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Wondie A.",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "polyCount": 10192
-    },
-    {
       "id": "sharetextures:armchair_1",
       "provider": "sharetextures",
       "title": "Armchair 1",
@@ -664,6 +642,21 @@
       ],
       "maxResolution": "2k",
       "polyCount": 3742
+    },
+    {
+      "id": "cgtrader:furniture-pack-cba87a3a-5ebb-4e38-9bab-0336368ab284",
+      "provider": "cgtrader",
+      "title": "Furniture Pack",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/interior/other/furniture-pack-cba87a3a-5ebb-4e38-9bab-0336368ab284",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/C93FVwP3FpZZ7UZqeXZz75hd/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/untitle312312312231d.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "obj",
+        "fbx",
+        "stl"
+      ]
     }
   ]
 }
