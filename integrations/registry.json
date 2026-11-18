@@ -875,6 +875,19 @@
       "checkedAt": "2026-11-17",
       "reason": "Angular app over an undocumented GraphQL API with introspection disabled; licence forbids redistribution and no plain-GET download URLs; free set is only about 177 materials",
       "recheckAfter": "2027-02-15"
+    },
+    {
+      "name": "Free Asset Index",
+      "homepage": "https://canop3n3r.github.io/free-asset-index/",
+      "checkedAt": "2026-11-18",
+      "reason": "Link-only aggregator of Poly Haven, Quaternius, OpenGameArt and ambientCG, which we already search; hosts no assets"
+    },
+    {
+      "name": "Artaley3D",
+      "homepage": "https://artaley3d-web.pages.dev",
+      "checkedAt": "2026-11-18",
+      "reason": "Host does not resolve in DNS from the runner, so the catalogue could not be verified; claims CC0 hand-scanned assets",
+      "recheckAfter": "2027-02-16"
     }
   ]
 }
