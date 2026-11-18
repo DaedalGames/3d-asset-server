@@ -11,7 +11,7 @@
       "delivery bag"
     ]
   },
-  "updatedAt": "2026-11-17T13:51:03.371Z",
+  "updatedAt": "2026-11-18T13:25:44.577Z",
   "assets": [
     {
       "id": "polyhaven:food_apple_01",
@@ -519,29 +519,6 @@
       "polyCount": 7205
     },
     {
-      "id": "blenderkit:f38107e2-a4ef-4ea3-bc0b-30bb764497a8",
-      "provider": "blenderkit",
-      "title": "Space food packaging bag 02",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/f38107e2-a4ef-4ea3-bc0b-30bb764497a8/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/d6e95e248db34623ba2cf5019d12956c/files/thumbnail_b5751f12-fd3d-433c-934f-5f50c358818b.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Aleksandra Beglik",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "1k",
-      "polyCount": 715
-    },
-    {
       "id": "itchio:amipolygon/3d-low-poly-food-pack",
       "provider": "itchio",
       "title": "3D Low Poly Food Pack",
@@ -682,6 +659,26 @@
       "type": "model",
       "url": "https://commons.wikimedia.org/wiki/File:Long_life_food_tomatoes_(Mia_Pecina_Zorko_via_Poly_Haven).stl",
       "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Long_life_food_tomatoes_%28Mia_Pecina_Zorko_via_Poly_Haven%29.stl/960px-Long_life_food_tomatoes_%28Mia_Pecina_Zorko_via_Poly_Haven%29.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Mia Pecina Zorko",
+      "license": {
+        "name": "CC0",
+        "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "stl"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Long_life_food_sardines_(Mia_Pecina_Zorko_via_Poly_Haven).stl",
+      "provider": "wikimediacommons",
+      "title": "Long life food sardines (Mia Pecina Zorko via Poly Haven)",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:Long_life_food_sardines_(Mia_Pecina_Zorko_via_Poly_Haven).stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Long_life_food_sardines_%28Mia_Pecina_Zorko_via_Poly_Haven%29.stl/960px-Long_life_food_sardines_%28Mia_Pecina_Zorko_via_Poly_Haven%29.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "downloadable": true,
       "author": "Mia Pecina Zorko",
       "license": {

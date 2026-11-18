@@ -11,7 +11,7 @@
       "scabbard"
     ]
   },
-  "updatedAt": "2026-11-09T13:23:07.270Z",
+  "updatedAt": "2026-11-18T13:27:39.817Z",
   "assets": [
     {
       "id": "blenderkit:0560133f-1e76-49d9-be20-1f98016baed4",
@@ -476,29 +476,6 @@
       "polyCount": 271692
     },
     {
-      "id": "blenderkit:51183a27-277a-44be-b6bc-677be6c4751a",
-      "provider": "blenderkit",
-      "title": "Berserker Sword",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/51183a27-277a-44be-b6bc-677be6c4751a/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/52e7481e31064081b804bb725bb32cf3/files/thumbnail_8a506b01-9902-4c64-ad14-d08abab861de.png.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Crazy0_0Cat",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "2k",
-      "polyCount": 1038
-    },
-    {
       "id": "itchio:danfoxsa/low-poly-fantasy-sword",
       "provider": "itchio",
       "title": "Low Poly Fantasy Sword - 3d Model (FBX, OBJ)",
@@ -629,6 +606,27 @@
         "usdz",
         "obj"
       ]
+    },
+    {
+      "id": "threedassets:swords-shields-and-melee-arms-bastard-sword-10675c11",
+      "provider": "threedassets",
+      "title": "Bastard Sword (Swords, Shields and Melee Arms)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/swords-shields-and-melee-arms-bastard-sword-10675c11",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/38884/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 4388
     }
   ]
 }

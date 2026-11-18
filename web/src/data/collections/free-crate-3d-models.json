@@ -17,7 +17,7 @@
       "Water Bottle"
     ]
   },
-  "updatedAt": "2026-11-17T13:50:34.378Z",
+  "updatedAt": "2026-11-18T13:25:18.553Z",
   "assets": [
     {
       "id": "polyhaven:wooden_crate_01",
@@ -701,14 +701,27 @@
       "polyCount": 21740
     },
     {
-      "id": "opengameart:crate-1",
-      "provider": "opengameart",
-      "title": "Crate",
+      "id": "polyfork:fish-crate-3c3f7b",
+      "provider": "polyfork",
+      "title": "Fish Crate",
       "type": "model",
-      "url": "https://opengameart.org/content/crate-1",
-      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/cratesamp.png",
+      "url": "https://polyfork.dev/asset/fish-crate-3c3f7b",
+      "thumbnailUrl": "https://polyfork.dev/files/fish-crate-3c3f7b/renders/hero.png",
       "downloadable": true,
-      "free": true
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 717
     }
   ]
 }

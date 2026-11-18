@@ -29,7 +29,7 @@
       "Elf toymaker"
     ]
   },
-  "updatedAt": "2026-11-17T13:49:52.224Z",
+  "updatedAt": "2026-11-18T13:24:47.257Z",
   "assets": [
     {
       "id": "opengameart:lowpoly-animated-farm-animal-pack",
@@ -311,29 +311,6 @@
       "rigged": true
     },
     {
-      "id": "grab3d:clownfish",
-      "provider": "grab3d",
-      "title": "Clownfish",
-      "type": "model",
-      "url": "https://grab3d.com/models/animals/clownfish/",
-      "thumbnailUrl": "https://grab3d.com/m/clownfish/clownfish-3d-model.webp",
-      "downloadable": true,
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "blend",
-        "usdz",
-        "obj"
-      ]
-    },
-    {
       "id": "itchio:hopeful-eye-studio/voxel-animal-art-bundle-glb-fbx",
       "provider": "itchio",
       "title": "Voxel Animal Art Bundle (GLB + FBX)",
@@ -414,29 +391,6 @@
       ],
       "maxResolution": "8k",
       "polyCount": 14286
-    },
-    {
-      "id": "grab3d:crab",
-      "provider": "grab3d",
-      "title": "Red Rock Crab",
-      "type": "model",
-      "url": "https://grab3d.com/models/animals/crab/",
-      "thumbnailUrl": "https://grab3d.com/m/crab/crab-3d-model.webp",
-      "downloadable": true,
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "blend",
-        "usdz",
-        "obj"
-      ]
     },
     {
       "id": "cgtrader:deer-animation",
@@ -561,29 +515,6 @@
       "rigged": true
     },
     {
-      "id": "grab3d:hedgehog",
-      "provider": "grab3d",
-      "title": "Hedgehog",
-      "type": "model",
-      "url": "https://grab3d.com/models/animals/hedgehog/",
-      "thumbnailUrl": "https://grab3d.com/m/hedgehog/hedgehog-3d-model.webp",
-      "downloadable": true,
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "blend",
-        "usdz",
-        "obj"
-      ]
-    },
-    {
       "id": "cgtrader:cute-bunny-772af610-f9f8-47c2-a8b8-7adcca89dc48",
       "provider": "cgtrader",
       "title": "Cute Bunny",
@@ -654,6 +585,76 @@
       ],
       "polyCount": 6455,
       "rigged": true
+    },
+    {
+      "id": "grab3d:axolotl",
+      "provider": "grab3d",
+      "title": "Axolotl",
+      "type": "model",
+      "url": "https://grab3d.com/models/animals/axolotl/",
+      "thumbnailUrl": "https://grab3d.com/m/axolotl/axolotl-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "polyfork:elf-hunter-base",
+      "provider": "polyfork",
+      "title": "Elf hunter",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/elf-hunter-base",
+      "thumbnailUrl": "https://polyfork.dev/files/elf-hunter-base/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 5544,
+      "rigged": true
+    },
+    {
+      "id": "grab3d:bee",
+      "provider": "grab3d",
+      "title": "Honey Bee",
+      "type": "model",
+      "url": "https://grab3d.com/models/animals/bee/",
+      "thumbnailUrl": "https://grab3d.com/m/bee/bee-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
     }
   ]
 }
