@@ -1816,5 +1816,48 @@
       "kenney": 218,
       "quaternius": 84
     }
+  },
+  {
+    "date": "2026-11-19",
+    "listings": 3137871,
+    "free": 333162,
+    "byType": {
+      "model": 2865455,
+      "pack": 154466,
+      "texture": 59737,
+      "hdri": 13085,
+      "material": 19402,
+      "other": 9018,
+      "sprite": 16473,
+      "ui": 18,
+      "audio": 10,
+      "font": 1
+    },
+    "sources": {
+      "cgtrader": 2791582,
+      "itchio": 154392,
+      "texturescom": 59171,
+      "blenderkit": 43918,
+      "opengameart": 23571,
+      "threedassets": 22849,
+      "wikimediacommons": 11897,
+      "sketchfab": 8024,
+      "polyfork": 3446,
+      "ambientcg": 2938,
+      "grab3d": 2565,
+      "polyhaven": 2390,
+      "sharetextures": 2262,
+      "threedtexel": 1888,
+      "threedtextures": 1504,
+      "scenario": 1342,
+      "hdrmaps": 880,
+      "lazytextures": 700,
+      "texturecan": 658,
+      "freestylized": 609,
+      "cgbookcase": 582,
+      "hdrihub": 401,
+      "kenney": 218,
+      "quaternius": 84
+    }
   }
 ]

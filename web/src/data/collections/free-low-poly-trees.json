@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-06T12:27:06.763Z",
+  "updatedAt": "2026-11-19T13:53:54.253Z",
   "assets": [
     {
       "id": "itchio:brokenvector/low-poly-tree-pack",
@@ -88,29 +88,6 @@
       "free": true
     },
     {
-      "id": "blenderkit:85557228-237c-4dff-9aeb-091bd96ba60d",
-      "provider": "blenderkit",
-      "title": "Low Poly Tree Trunk 01",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/85557228-237c-4dff-9aeb-091bd96ba60d/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/a2e6d77f89a74fa2aa2237c87b55b6f3/files/thumbnail_a669986a-182e-416f-a53a-3fb27536e1c2.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Rex Hans",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "2k",
-      "polyCount": 480
-    },
-    {
       "id": "itchio:gros-coquin/low-poly-trees-and-rocks",
       "provider": "itchio",
       "title": "Low poly trees and rocks",
@@ -131,28 +108,6 @@
       "downloadable": false,
       "author": "godgoldfear",
       "free": true
-    },
-    {
-      "id": "blenderkit:cd695f32-2299-4733-9d97-b0fd7636d5ee",
-      "provider": "blenderkit",
-      "title": "Low Poly Tree Trunk 02",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/cd695f32-2299-4733-9d97-b0fd7636d5ee/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/bcbdf3e303e947cc858ef853a00df148/files/thumbnail_b5a1f485-deda-424d-bb47-f7ca2c4bcf99.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Rex Hans",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "2k",
-      "polyCount": 3847
     },
     {
       "id": "itchio:divby00/low-poly-tree",
@@ -632,6 +587,45 @@
         "blend",
         "fbx"
       ]
+    },
+    {
+      "id": "cgtrader:low-poly-tree-series-12-blender-3d-model",
+      "provider": "cgtrader",
+      "title": "Low Poly Tree Series 12 Blender 3D Model",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/plant/other/low-poly-tree-series-12-blender-3d-model",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/xqpdi7mlkkvuy71we7i7hgc8zp7z/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/TL12Front0001.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "abc",
+        "fbx",
+        "gltf",
+        "obj",
+        "usd",
+        "ply"
+      ]
+    },
+    {
+      "id": "threedassets:dense-temperate-forest-flora-standing-dead-tree-0bc1e61d",
+      "provider": "threedassets",
+      "title": "Standing Dead Tree (Dense Temperate Forest Flora)",
+      "type": "model",
+      "url": "https://3dassets.dev/assets/dense-temperate-forest-flora-standing-dead-tree-0bc1e61d",
+      "thumbnailUrl": "https://cdn.3dassets.dev/assets/28424/v1/thumb.webp",
+      "downloadable": true,
+      "author": "3D Assets",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb"
+      ],
+      "polyCount": 565
     }
   ]
 }

@@ -12,7 +12,7 @@
       "Photo Studio"
     ]
   },
-  "updatedAt": "2026-11-15T12:15:42.272Z",
+  "updatedAt": "2026-11-19T13:53:49.577Z",
   "assets": [
     {
       "id": "polyhaven:cayley_interior",
@@ -325,27 +325,6 @@
       "maxResolution": "16k"
     },
     {
-      "id": "blenderkit:b49a9b36-254e-4ce0-8872-dc7c2a39a867",
-      "provider": "blenderkit",
-      "title": "Waiting Area Interior HDRI",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/b49a9b36-254e-4ce0-8872-dc7c2a39a867/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/aca42670aebd4104ac64fdae409d7643/files/thumbnail_930b704b-b916-4006-9380-e7e0eae7be68.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Nandu M",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "exr"
-      ],
-      "maxResolution": "8k"
-    },
-    {
       "id": "hdrmaps:urban-exploring-interior",
       "provider": "hdrmaps",
       "title": "Urban exploring interior",
@@ -473,7 +452,7 @@
     {
       "id": "blenderkit:16c3b7a0-9329-46e7-956b-af9efeb676b0",
       "provider": "blenderkit",
-      "title": "Kids Room Bedroom Interior",
+      "title": "Kids Room Bedroom Interior Window",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/16c3b7a0-9329-46e7-956b-af9efeb676b0/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/7e1503244142458eac57769c078ae038/files/thumbnail_3a8dda38-b315-4c44-b757-d15164107ec8.jpg.512x512_q85_crop-%2C.jpg",
@@ -737,6 +716,27 @@
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/bd2e3f6bcc78465386e855e9c478794b/files/thumbnail_1e9bed79-40fb-437b-92f6-580089e1f72d.png.512x512_q85_crop-%2C.png",
       "downloadable": true,
       "author": "Ibrohim Toxirov",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:11189708-37ed-4a82-acc9-7ec6bc2e6868",
+      "provider": "blenderkit",
+      "title": "Studio Room Soft Panel Lights Interior",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/11189708-37ed-4a82-acc9-7ec6bc2e6868/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/17bd0562308d48f79ffb7a616980b6a3/files/thumbnail_7fcf61da-8f0d-4ea6-981f-c9726b3d024e.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Nandu M",
       "license": {
         "name": "Royalty Free",
         "url": "https://www.blendkit.com/docs/licenses/",

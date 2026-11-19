@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-15T12:16:48.454Z",
+  "updatedAt": "2026-11-19T13:55:07.455Z",
   "assets": [
     {
       "id": "polyhaven:studio_small_09",
@@ -77,7 +77,7 @@
     {
       "id": "blenderkit:11189708-37ed-4a82-acc9-7ec6bc2e6868",
       "provider": "blenderkit",
-      "title": "Studio with Soft Panel Lights Interior",
+      "title": "Studio Room Soft Panel Lights Interior",
       "type": "hdri",
       "url": "https://www.blendkit.com/asset-gallery-detail/11189708-37ed-4a82-acc9-7ec6bc2e6868/",
       "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/17bd0562308d48f79ffb7a616980b6a3/files/thumbnail_7fcf61da-8f0d-4ea6-981f-c9726b3d024e.jpg.512x512_q85_crop-%2C.jpg",
