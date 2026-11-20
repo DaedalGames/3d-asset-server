@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-26T10:30:23.453Z",
+  "updatedAt": "2026-11-20T13:37:14.584Z",
   "assets": [
     {
       "id": "polyhaven:ornate_medieval_dagger",
@@ -163,7 +163,8 @@
       },
       "free": true,
       "formats": [
-        "blend"
+        "blend",
+        "glb"
       ],
       "maxResolution": "4k",
       "polyCount": 19362
