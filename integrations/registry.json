@@ -888,6 +888,19 @@
       "checkedAt": "2026-11-18",
       "reason": "Host does not resolve in DNS from the runner, so the catalogue could not be verified; claims CC0 hand-scanned assets",
       "recheckAfter": "2027-02-16"
+    },
+    {
+      "name": "paprika3d",
+      "homepage": "https://paprika3d.com",
+      "checkedAt": "2026-11-21",
+      "reason": "Docs site for a three.js MCP plugin; model pages are category lists only, the asset library (assets.keeno.dev) has no public web API and returned Cloudflare error 1033 (tunnel down); mostly CC BY",
+      "recheckAfter": "2027-02-19"
+    },
+    {
+      "name": "Render a House",
+      "homepage": "https://www.renderahouse.com",
+      "checkedAt": "2026-11-21",
+      "reason": "Only a handful of blog-post model packs, no searchable catalogue or API; licence forbids redistribution inside other libraries"
     }
   ]
 }
