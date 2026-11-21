@@ -11,7 +11,7 @@
       "scabbard"
     ]
   },
-  "updatedAt": "2026-11-18T13:27:39.817Z",
+  "updatedAt": "2026-11-21T13:02:13.524Z",
   "assets": [
     {
       "id": "blenderkit:0560133f-1e76-49d9-be20-1f98016baed4",
@@ -309,29 +309,6 @@
       "free": true
     },
     {
-      "id": "blenderkit:a94f0da9-e546-4c7e-b77f-d4f463615bc9",
-      "provider": "blenderkit",
-      "title": "Stylized Sword",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/a94f0da9-e546-4c7e-b77f-d4f463615bc9/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/64862bb800034800b309301e6c1528f6/files/thumbnail_1825084e-9408-4487-8301-2e18b5c3f5bd.png.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Zuhaib Khoso",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "2k",
-      "polyCount": 561
-    },
-    {
       "id": "opengameart:sword",
       "provider": "opengameart",
       "title": "sword",
@@ -627,6 +604,22 @@
         "glb"
       ],
       "polyCount": 4388
+    },
+    {
+      "id": "cgtrader:sword-1eb42b3f-91a6-483b-953f-b79a2a021c0a",
+      "provider": "cgtrader",
+      "title": "Sword",
+      "type": "model",
+      "url": "https://www.cgtrader.com/free-3d-models/military/melee/sword-1eb42b3f-91a6-483b-953f-b79a2a021c0a",
+      "thumbnailUrl": "https://media.cgtrader.com/variants/uEDZUMXnXKTZsYpCnGe7hKrJ/a26e47dab5f2d22c43d6c5ce4b4b46ecc30c70918878397cba1a10c1e35d7bfc/untitled.jpg",
+      "downloadable": false,
+      "free": true,
+      "formats": [
+        "obj",
+        "blend",
+        "stl",
+        "fbx"
+      ]
     }
   ]
 }
