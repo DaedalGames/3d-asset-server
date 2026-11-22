@@ -17,7 +17,7 @@
       "moon"
     ]
   },
-  "updatedAt": "2026-11-19T13:54:45.604Z",
+  "updatedAt": "2026-11-22T12:53:58.154Z",
   "assets": [
     {
       "id": "polyhaven:kloofendal_48d_partly_cloudy_puresky",
@@ -459,27 +459,6 @@
       "maxResolution": "16k"
     },
     {
-      "id": "blenderkit:e8864745-b807-4e2a-8c49-436a3b9b3ee4",
-      "provider": "blenderkit",
-      "title": "Bright cloudy sky",
-      "type": "hdri",
-      "url": "https://www.blendkit.com/asset-gallery-detail/e8864745-b807-4e2a-8c49-436a3b9b3ee4/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/54bea3988ed643c3b819fa0c9b99e63b/files/thumbnail_c9dcb9ed-7f5b-409f-80f2-063ee136f0ec.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "antoine f",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "exr"
-      ],
-      "maxResolution": "8k"
-    },
-    {
       "id": "hdrmaps:turnberg-sky-7",
       "provider": "hdrmaps",
       "title": "Turnberg Sky 7",
@@ -743,6 +722,26 @@
       "formats": [
         "exr"
       ]
+    },
+    {
+      "id": "ambientcg:DaySkyHDRI072A",
+      "provider": "ambientcg",
+      "title": "Day Sky HDRI 072 A",
+      "type": "hdri",
+      "url": "https://ambientcg.com/a/DaySkyHDRI072A",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/DaySkyHDRI072A.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "16k"
     }
   ]
 }

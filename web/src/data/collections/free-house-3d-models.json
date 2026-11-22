@@ -27,7 +27,7 @@
       "Wood Plant"
     ]
   },
-  "updatedAt": "2026-11-18T13:26:23.390Z",
+  "updatedAt": "2026-11-22T12:52:36.178Z",
   "assets": [
     {
       "id": "blenderkit:264b47f4-a1ee-4c31-9ee9-4c0e8dc1a98b",
@@ -334,38 +334,6 @@
       "free": true
     },
     {
-      "id": "threedassets:voxel-city-districts-garage-house-6fa7e8ae",
-      "provider": "threedassets",
-      "title": "Garage House (Voxel City Districts)",
-      "type": "model",
-      "url": "https://3dassets.dev/assets/voxel-city-districts-garage-house-6fa7e8ae",
-      "thumbnailUrl": "https://cdn.3dassets.dev/assets/24770/v1/thumb.webp",
-      "downloadable": true,
-      "author": "3D Assets",
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb"
-      ],
-      "polyCount": 924
-    },
-    {
-      "id": "itchio:majadroid/3d-house-construction-site",
-      "provider": "itchio",
-      "title": "3D House Construction Site (LowPoly, CC0)",
-      "type": "model",
-      "url": "https://majadroid.itch.io/3d-house-construction-site",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzUxNzEzNDUucG5n/315x250%23c/Hh15SI.png",
-      "downloadable": false,
-      "author": "Majadroid",
-      "free": true
-    },
-    {
       "id": "opengameart:simple-house",
       "provider": "opengameart",
       "title": "Simple house",
@@ -639,6 +607,50 @@
         "blend",
         "usdz",
         "obj"
+      ]
+    },
+    {
+      "id": "polyfork:timber-tower-house-494243",
+      "provider": "polyfork",
+      "title": "Timber Tower House",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/timber-tower-house-494243",
+      "thumbnailUrl": "https://polyfork.dev/files/timber-tower-house-494243/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 4278,
+      "rigged": true
+    },
+    {
+      "id": "wikimediacommons:0_A.D._pers_ice_house_02.stl",
+      "provider": "wikimediacommons",
+      "title": "0 A.D. pers ice house 02",
+      "type": "model",
+      "url": "https://commons.wikimedia.org/wiki/File:0_A.D._pers_ice_house_02.stl",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/0_A.D._pers_ice_house_02.stl/960px-0_A.D._pers_ice_house_02.stl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadable": true,
+      "author": "Wildfire Games ( https://wildfiregames.com/ )",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "stl"
       ]
     }
   ]

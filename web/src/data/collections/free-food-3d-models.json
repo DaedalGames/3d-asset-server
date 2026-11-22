@@ -11,7 +11,7 @@
       "delivery bag"
     ]
   },
-  "updatedAt": "2026-11-18T13:25:44.577Z",
+  "updatedAt": "2026-11-22T12:52:00.702Z",
   "assets": [
     {
       "id": "polyhaven:food_apple_01",
@@ -467,17 +467,6 @@
       "polyCount": 7748
     },
     {
-      "id": "itchio:gualtierisgg/low-poly-food",
-      "provider": "itchio",
-      "title": "3D Low Poly Food Assets",
-      "type": "model",
-      "url": "https://gualtierisgg.itch.io/low-poly-food",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzQ5MjYwNTEucG5n/315x250%23c/fEAkYP.png",
-      "downloadable": false,
-      "author": "GualtierisGG",
-      "free": true
-    },
-    {
       "id": "sharetextures:mandarin_1",
       "provider": "sharetextures",
       "title": "Mandarin 1",
@@ -517,17 +506,6 @@
       ],
       "maxResolution": "8k",
       "polyCount": 7205
-    },
-    {
-      "id": "itchio:amipolygon/3d-low-poly-food-pack",
-      "provider": "itchio",
-      "title": "3D Low Poly Food Pack",
-      "type": "model",
-      "url": "https://amipolygon.itch.io/3d-low-poly-food-pack",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4MTYyNDQ0LnBuZw==/315x250%23c/JGv9Pp.png",
-      "downloadable": false,
-      "author": "AmiPolygon",
-      "free": true
     },
     {
       "id": "sharetextures:carrot-2",
@@ -691,6 +669,39 @@
       "formats": [
         "stl"
       ]
+    },
+    {
+      "id": "grab3d:food-processor",
+      "provider": "grab3d",
+      "title": "Food Processor",
+      "type": "model",
+      "url": "https://grab3d.com/models/food/food-processor/",
+      "thumbnailUrl": "https://grab3d.com/m/food-processor/food-processor-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
+    },
+    {
+      "id": "opengameart:food-pack-0",
+      "provider": "opengameart",
+      "title": "Food Pack",
+      "type": "model",
+      "url": "https://opengameart.org/content/food-pack-0",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/foodPackPreview.png",
+      "downloadable": true,
+      "free": true
     }
   ]
 }
