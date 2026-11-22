@@ -901,6 +901,13 @@
       "homepage": "https://www.renderahouse.com",
       "checkedAt": "2026-11-21",
       "reason": "Only a handful of blog-post model packs, no searchable catalogue or API; licence forbids redistribution inside other libraries"
+    },
+    {
+      "name": "Viz People",
+      "homepage": "https://www.vizpeople.com",
+      "checkedAt": "2026-11-22",
+      "reason": "Site unreachable (connection failed on port 443 from CI)",
+      "recheckAfter": "2027-02-20"
     }
   ]
 }
