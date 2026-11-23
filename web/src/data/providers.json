@@ -208,6 +208,19 @@
     "supportsDownload": false
   },
   {
+    "id": "gazebofuel",
+    "name": "Gazebo Fuel",
+    "homepage": "https://app.gazebosim.org",
+    "description": "Open Robotics' library of simulation-ready 3D models (furniture, props, buildings, vehicles, robots, scanned objects) as zips or Collada/OBJ/STL meshes, each with its own Creative Commons licence.",
+    "assetTypes": [
+      "model"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": null,
+    "supportsDownload": true
+  },
+  {
     "id": "threedtextures",
     "name": "3DTextures.me",
     "homepage": "https://3dtextures.me",

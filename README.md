@@ -2,7 +2,7 @@
   <img src="docs/images/banner.svg" width="100%" alt="3D Asset Server: one search box for 3D models, materials, textures, HDRIs and game assets. HTTP API, MCP server, web UI and CLI.">
 </p>
 
-**3d-asset-server** searches 27 asset sites at once and downloads what you pick, ready to drop
+**3d-asset-server** searches 28 asset sites at once and downloads what you pick, ready to drop
 into a game or a website. Use it from a browser, from `curl`, from the command line, or let your AI
 assistant drive it over MCP.
 
@@ -69,6 +69,7 @@ and a link to the same search on that site.
 | [Grab3D](https://grab3d.com) | Free models with PBR textures: props, characters, vehicles, nature, buildings | scrape (sitemap) | yes: GLB, FBX, Blend, USDZ, OBJ | CC0 |
 | [Sketchfab](https://sketchfab.com) | Community 3D models: scans, props, characters (CC0 subset) | API | no: downloads need a Sketchfab login | CC0 |
 | [Scenario 3D Collection](https://huggingface.co/datasets/scenario-labs/3d-collection) | AI-generated models, voxels and Gaussian splats (Hugging Face dataset) | API (catalogue) | yes: GLB, Blend, FBX, VOX, SPZ / PLY from Hugging Face | CC-BY-4.0 (credit "Scenario") |
+| [Gazebo Fuel](https://app.gazebosim.org) | Simulation-ready models: furniture, props, buildings, vehicles, robots, scans | API | yes: model zips and Collada / OBJ / STL meshes | per model (CC0, CC-BY, CC-BY-SA, NC variants) |
 | [Wikimedia Commons](https://commons.wikimedia.org) | STL scans, anatomy, reconstructions and printable parts | API | yes: STL from Wikimedia's CDN | per file (CC0, public domain, CC-BY, CC-BY-SA) |
 | [3DTextures.me](https://3dtextures.me) | Realistic and stylized PBR | WordPress API | no: Google Drive folders | CC0 |
 | [FreeStylized](https://freestylized.com) | Stylized models, materials, skyboxes and asset packs | WordPress API | no: Google Drive links | royalty free (custom CC0) |
@@ -83,7 +84,7 @@ and a link to the same search on that site.
 | [TurboSquid](https://www.turbosquid.com) | Free and paid models | link only (bot wall) | no | per listing |
 | [itch.io](https://itch.io/game-assets) | Indie art, 3D packs, UI, audio | scrape | no: itch's download flow | per listing |
 
-![Sources by what they give you: 13 with search and direct download, 11 with search and a link to the asset page, 3 linked to their own search.](docs/images/source-access.svg)
+![Sources by what they give you: 14 with search and direct download, 11 with search and a link to the asset page, 3 linked to their own search.](docs/images/source-access.svg)
 
 Notes:
 

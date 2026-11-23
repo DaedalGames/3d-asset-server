@@ -1,6 +1,13 @@
 {
   "integrations": [
     {
+      "id": "gazebofuel",
+      "name": "Gazebo Fuel",
+      "homepage": "https://app.gazebosim.org",
+      "addedAt": "2026-11-23",
+      "addedBy": "agent"
+    },
+    {
       "id": "lazytextures",
       "name": "LazyTextures",
       "homepage": "https://www.lazytextures.com",
@@ -190,5 +197,5 @@
       "addedBy": "launch"
     }
   ],
-  "rejected": 104
+  "rejected": 105
 }

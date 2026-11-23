@@ -4,6 +4,7 @@ import { blenderkit } from "./blenderkit.js";
 import { cgbookcase } from "./cgbookcase.js";
 import { cgtrader } from "./cgtrader.js";
 import { freestylized } from "./freestylized.js";
+import { gazebofuel } from "./gazebofuel.js";
 import { grab3d } from "./grab3d.js";
 import { hdrihub } from "./hdrihub.js";
 import { hdrmaps } from "./hdrmaps.js";
@@ -41,6 +42,7 @@ export const allProviders: Provider[] = [
   grab3d,
   scenario,
   sketchfab,
+  gazebofuel,
   threedtextures,
   freestylized,
   wikimediacommons,

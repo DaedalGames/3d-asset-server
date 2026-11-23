@@ -215,9 +215,24 @@
       "access": "api",
       "addedAt": "2026-11-13",
       "addedBy": "agent"
+    },
+    {
+      "id": "gazebofuel",
+      "name": "Gazebo Fuel",
+      "homepage": "https://app.gazebosim.org",
+      "access": "api",
+      "addedAt": "2026-11-23",
+      "addedBy": "agent"
     }
   ],
   "rejected": [
+    {
+      "name": "Wirtualne Muzea Małopolski",
+      "homepage": "https://3d.wirtualnemuzea.pl",
+      "checkedAt": "2026-11-23",
+      "reason": "models are hosted on Sketchfab, which we already search; the museum's own site has an invalid TLS certificate and 403s automated requests",
+      "recheckAfter": "2027-02-21"
+    },
     {
       "name": "3DArt free HDRI",
       "homepage": "https://www.3dart.it/en/free-hdri",
