@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-07T09:05:44.796Z",
+  "updatedAt": "2026-11-23T15:23:46.296Z",
   "assets": [
     {
       "id": "polyhaven:floor_tiles_06",
@@ -336,27 +336,6 @@
         "png"
       ],
       "maxResolution": "8k"
-    },
-    {
-      "id": "blenderkit:2e0a00f1-75a6-4c22-89a9-338453f4b638",
-      "provider": "blenderkit",
-      "title": "Concrete tiles",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/2e0a00f1-75a6-4c22-89a9-338453f4b638/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1be6b977a7fb40f594a1fd5a050acf00/files/thumbnail_0adb2505-d06f-4ebe-81c4-86527be50ddc.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "ydd 3D",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
     },
     {
       "id": "sharetextures:tiles-9",
@@ -687,6 +666,26 @@
         "attributionRequired": false
       },
       "free": true
+    },
+    {
+      "id": "lazytextures:materials:Tiles_Green02",
+      "provider": "lazytextures",
+      "title": "Tiles Green02",
+      "type": "material",
+      "url": "https://www.lazytextures.com/Asset?path=%2FAssets%2FMaterials%2FTiles%2FTiles_Green02&name=Tiles_Green02",
+      "thumbnailUrl": "https://lazytextures.net:3000/Assets/Materials/Tiles/Tiles_Green02/Preview.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "png",
+        "zip"
+      ]
     }
   ]
 }

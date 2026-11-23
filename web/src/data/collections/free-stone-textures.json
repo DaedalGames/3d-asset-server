@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-11T12:09:23.823Z",
+  "updatedAt": "2026-11-23T15:23:26.257Z",
   "assets": [
     {
       "id": "polyhaven:stone_tiles_02",
@@ -34,27 +34,6 @@
         "gltf"
       ],
       "maxResolution": "8k"
-    },
-    {
-      "id": "blenderkit:a3e783da-ec24-4465-8a04-90396699d5eb",
-      "provider": "blenderkit",
-      "title": "Stone wall",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/a3e783da-ec24-4465-8a04-90396699d5eb/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6c1e1ff57ecd426bbf95b928967c211a/files/thumbnail_b7aaab3e-4ed9-489f-a486-d56987a8ab56.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "ydd 3D",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
     },
     {
       "id": "opengameart:wall-grass-rock-stone-wood-and-dirt-480",
@@ -631,6 +610,17 @@
         "blend"
       ],
       "maxResolution": "2k"
+    },
+    {
+      "id": "itchio:izanai/medieval-stone-tower-gatehouse",
+      "provider": "itchio",
+      "title": "Medieval Stone Tower Gatehouse",
+      "type": "material",
+      "url": "https://izanai.itch.io/medieval-stone-tower-gatehouse",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzMyMDQ0NzkzLnBuZw==/315x250%23c/IgwPcS.png",
+      "downloadable": false,
+      "author": "izanai",
+      "free": true
     }
   ]
 }

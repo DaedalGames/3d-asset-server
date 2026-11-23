@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-10-26T10:29:59.663Z",
+  "updatedAt": "2026-11-23T15:20:29.754Z",
   "assets": [
     {
       "id": "polyhaven:concrete_floor_worn_001",
@@ -596,27 +596,6 @@
       "maxResolution": "8k"
     },
     {
-      "id": "blenderkit:2e0a00f1-75a6-4c22-89a9-338453f4b638",
-      "provider": "blenderkit",
-      "title": "Concrete tiles",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/2e0a00f1-75a6-4c22-89a9-338453f4b638/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1be6b977a7fb40f594a1fd5a050acf00/files/thumbnail_0adb2505-d06f-4ebe-81c4-86527be50ddc.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "ydd 3D",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
-    },
-    {
       "id": "ambientcg:Concrete042A",
       "provider": "ambientcg",
       "title": "Concrete 042 A",
@@ -646,6 +625,26 @@
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/concrete_tiles.zip.preview.jpg",
       "downloadable": true,
       "free": true
+    },
+    {
+      "id": "lazytextures:materials:Concrete_Tiles01",
+      "provider": "lazytextures",
+      "title": "Concrete Tiles01",
+      "type": "material",
+      "url": "https://www.lazytextures.com/Asset?path=%2FAssets%2FMaterials%2FStone%2FConcrete_Tiles01&name=Concrete_Tiles01",
+      "thumbnailUrl": "https://lazytextures.net:3000/Assets/Materials/Stone/Concrete_Tiles01/Preview.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "png",
+        "zip"
+      ]
     }
   ]
 }

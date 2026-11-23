@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-16T16:11:35.524Z",
+  "updatedAt": "2026-11-23T15:22:50.937Z",
   "assets": [
     {
       "id": "polyhaven:roof_09",
@@ -34,27 +34,6 @@
         "gltf"
       ],
       "maxResolution": "8k"
-    },
-    {
-      "id": "blenderkit:e1e7dab7-d7fe-455c-a593-cf9325471d4f",
-      "provider": "blenderkit",
-      "title": "Metal roof sheets",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/e1e7dab7-d7fe-455c-a593-cf9325471d4f/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/3ca51addfca245f3a2f3f0ed719f8d2e/files/thumbnail_499d29ea-5fb5-481e-9ad3-f2a66fe5f645.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "ydd 3D",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
     },
     {
       "id": "opengameart:free-urban-textures-roof-tiles",
@@ -650,6 +629,27 @@
         "png"
       ],
       "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:8731d4a4-11bb-45b2-a054-96ef06ae6e2a",
+      "provider": "blenderkit",
+      "title": "Shingle Roof Tiles Dark",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/8731d4a4-11bb-45b2-a054-96ef06ae6e2a/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/bf861a6f6fe2437d9da3fb778c70ae82/files/thumbnail_6427eb10-333f-407a-9ddc-2d0e9ee2bf75.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "James Middleton",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
     }
   ]
 }

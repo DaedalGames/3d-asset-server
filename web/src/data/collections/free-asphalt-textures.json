@@ -13,7 +13,7 @@
       "Decal"
     ]
   },
-  "updatedAt": "2026-11-17T13:49:59.643Z",
+  "updatedAt": "2026-11-23T15:20:14.553Z",
   "assets": [
     {
       "id": "polyhaven:asphalt_02",
@@ -316,27 +316,6 @@
         "gltf"
       ],
       "maxResolution": "8k"
-    },
-    {
-      "id": "blenderkit:d96835f2-faeb-4feb-b227-a9101dfddf28",
-      "provider": "blenderkit",
-      "title": "New asphalt",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/d96835f2-faeb-4feb-b227-a9101dfddf28/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/1cf1d98a884a4efcbb605dcb2927b8f9/files/thumbnail_72e9b582-06b7-43d8-a5e0-4c9baf747aca.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "ydd 3D",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
     },
     {
       "id": "opengameart:faux-asphalt-texture-pack",
@@ -664,6 +643,26 @@
         "attributionRequired": false
       },
       "free": true
+    },
+    {
+      "id": "blenderkit:53830ec4-8f02-46f0-89e9-0a1eb6d52c64",
+      "provider": "blenderkit",
+      "title": "Procedural Asphalt (Cycles)",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/53830ec4-8f02-46f0-89e9-0a1eb6d52c64/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/b48c1f7d99c24707b26bed086d695f6d/files/thumbnail_580ea627-994f-461c-98f8-790d24343dd1.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Texture Wizard",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ]
     }
   ]
 }

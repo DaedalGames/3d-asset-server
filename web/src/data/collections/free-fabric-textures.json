@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-11T12:08:52.158Z",
+  "updatedAt": "2026-11-23T15:20:58.676Z",
   "assets": [
     {
       "id": "polyhaven:fabric_pattern_07",
@@ -162,27 +162,6 @@
         "gltf"
       ],
       "maxResolution": "8k"
-    },
-    {
-      "id": "blenderkit:7e4f9354-073c-4d06-b2bc-0d0e287a6a4b",
-      "provider": "blenderkit",
-      "title": "Black fabric",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/7e4f9354-073c-4d06-b2bc-0d0e287a6a4b/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/80c29f61d9dc4515881417db07df2c33/files/thumbnail_5db9ddcc-8d32-47c1-b8ac-a359331970e7.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "ydd 3D",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
-      ],
-      "maxResolution": "4k"
     },
     {
       "id": "sharetextures:fabric-51",
@@ -641,6 +620,22 @@
       "url": "https://opengameart.org/content/fabric-leather-seamless-texture-with-normalmap",
       "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/Leather_T.jpg",
       "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "texturecan:596",
+      "provider": "texturecan",
+      "title": "Brown and Camel Tartan Pattern Fabric",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/596/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/fabrics_0084/fabrics_0084_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
       "free": true
     }
   ]
