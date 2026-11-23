@@ -1,0 +1,772 @@
+{
+  "slug": "free-mountain-hdris",
+  "search": {
+    "q": "mountain",
+    "types": [
+      "hdri"
+    ],
+    "free": true,
+    "exclude": [
+      "Day Environment HDRI",
+      "Day Sky HDRI"
+    ]
+  },
+  "updatedAt": "2026-11-23T18:34:13.873Z",
+  "assets": [
+    {
+      "id": "polyhaven:table_mountain_1",
+      "provider": "polyhaven",
+      "title": "Table Mountain 1",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/table_mountain_1",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/table_mountain_1.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal, Rico Cilliers",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:11120cce-bfba-46ee-a4df-e6983e27f307",
+      "provider": "blenderkit",
+      "title": "Snow Mountain Landscape Clouds",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/11120cce-bfba-46ee-a4df-e6983e27f307/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f3329bd2aa4e47e78695867c8172c210/files/thumbnail_cd57a501-f041-4b68-a02b-6b86ab5ec94e.png.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Ibrohim Toxirov",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "hdrmaps:solar-eclipse-owl-mountains",
+      "provider": "hdrmaps",
+      "title": "Solar Eclipse – Owl Mountains",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/solar-eclipse-owl-mountains/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2026/08/free_hdr_202_solar_eclipse_owl_mountains-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:table_mountain_2_puresky",
+      "provider": "polyhaven",
+      "title": "Table Mountain 2 (Pure Sky)",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/table_mountain_2_puresky",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/table_mountain_2_puresky.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:613bef6b-6aa7-49dd-95d1-12b7810a7f9a",
+      "provider": "blenderkit",
+      "title": "Aerial Dramatic Mountain Sunset",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/613bef6b-6aa7-49dd-95d1-12b7810a7f9a/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/9f32933a58a94a00ae34b183be2c2720/files/thumbnail_1d11cbba-a14b-413e-b9fc-499576335827.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "EB Adventure Photoscans",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:sunrise-in-owl-mountains",
+      "provider": "hdrmaps",
+      "title": "Sunrise in Owl Mountains",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/sunrise-in-owl-mountains/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2023/10/free_hdr_151_meadow_sunrise-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:fouriesburg_mountain_midday",
+      "provider": "polyhaven",
+      "title": "Fouriesburg Mountain Midday",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/fouriesburg_mountain_midday",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/fouriesburg_mountain_midday.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:7f51bfb8-ea5a-48a6-a6a1-72c9a0869495",
+      "provider": "blenderkit",
+      "title": "Sunny Mountain Lake Nature Sky Trees",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/7f51bfb8-ea5a-48a6-a6a1-72c9a0869495/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/4f6ab75087e14656a68a8543ab4f0900/files/thumbnail_8c40e521-ee70-4f62-85f2-89fdd0a5030b.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Nandu M",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:mountain-view-6",
+      "provider": "hdrmaps",
+      "title": "Mountain View 6",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/mountain-view-6/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2022/04/free_hdri_sky_map_free_download-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:fouriesburg_mountain_cloudy",
+      "provider": "polyhaven",
+      "title": "Fouriesburg Mountain Cloudy",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/fouriesburg_mountain_cloudy",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/fouriesburg_mountain_cloudy.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:6613623c-19c0-4293-8888-2c0b45d75be8",
+      "provider": "blenderkit",
+      "title": "Aerial Road in Mountains Sunny",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/6613623c-19c0-4293-8888-2c0b45d75be8/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/d401444fb87b4c62a4ade539b0e89921/files/thumbnail_aa1a171a-8f6a-4f48-a5f5-0e2c53e4eb1b.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "EB Adventure Photoscans",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:mountain-view-5",
+      "provider": "hdrmaps",
+      "title": "Mountain View 5",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/mountain-view-5/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2022/04/free_hdr_119_hdri_sky-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:table_mountain_2",
+      "provider": "polyhaven",
+      "title": "Table Mountain 2",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/table_mountain_2",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/table_mountain_2.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal, Rico Cilliers",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:92153c6c-8b60-4a0e-9cee-fe55fe35f59f",
+      "provider": "blenderkit",
+      "title": "Lake and Mountain Landscape Cloudy",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/92153c6c-8b60-4a0e-9cee-fe55fe35f59f/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6bde7e55dd094579a20fe022d905dae7/files/thumbnail_81fbdac8-15c2-4626-a1bf-805ebe3ffe75.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "EB Adventure Photoscans",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:autumn-mountain-road",
+      "provider": "hdrmaps",
+      "title": "Autumn mountain road",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/autumn-mountain-road/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2021/11/free_hdr_113_autumn_road-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:table_mountain_1_puresky",
+      "provider": "polyhaven",
+      "title": "Table Mountain 1 (Pure Sky)",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/table_mountain_1_puresky",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/table_mountain_1_puresky.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Greg Zaal, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:6480e0c1-5302-4014-bae5-49b28872a5ee",
+      "provider": "blenderkit",
+      "title": "Mountain Landscape Twilight Sunset",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/6480e0c1-5302-4014-bae5-49b28872a5ee/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/6ab4421aadd54163858b6ffd7eb51d11/files/thumbnail_514e3d77-f99d-490b-8f62-0e88a9a9791c.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "EB Adventure Photoscans",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:mountain-view-sky-dome",
+      "provider": "hdrmaps",
+      "title": "Mountain View sky dome",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/mountain-view-sky-dome/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2021/08/free_hdr_111_full_sun-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:drakensberg_solitary_mountain",
+      "provider": "polyhaven",
+      "title": "Drakensberg Solitary Mountain",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/drakensberg_solitary_mountain",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/drakensberg_solitary_mountain.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:498713fb-b07b-43e7-9a7b-2d97ff9937a2",
+      "provider": "blenderkit",
+      "title": "Aerial Mountain Landscape Sunny",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/498713fb-b07b-43e7-9a7b-2d97ff9937a2/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/d9510218975f49998a0912d7b8ccf8fb/files/thumbnail_f2d26d9a-8a00-409f-ad24-543c42287f72.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "EB Adventure Photoscans",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:mountain-view-4",
+      "provider": "hdrmaps",
+      "title": "Mountain View 4",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/mountain-view-4/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2021/08/free_hdr_110_overcast-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:drakensberg_solitary_mountain_puresky",
+      "provider": "polyhaven",
+      "title": "Drakensberg Solitary Mountain (Pure Sky)",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/drakensberg_solitary_mountain_puresky",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/drakensberg_solitary_mountain_puresky.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:e09e43a6-084f-4c4a-8129-1d02efe2e819",
+      "provider": "blenderkit",
+      "title": "Over the Clouds Sunset w/ Mountain 14k",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/e09e43a6-084f-4c4a-8129-1d02efe2e819/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/2c07f0786bc047d0b0ef53c321d3a044/files/thumbnail_1b290c85-ccd2-4fa6-9798-56bb8e76e7f1.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "EB Adventure Photoscans",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:mountain-view-3",
+      "provider": "hdrmaps",
+      "title": "Mountain view 3",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/mountain-view-3/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2020/09/free_hdr_104_thumb-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:fouriesburg_mountain_lookout",
+      "provider": "polyhaven",
+      "title": "Fouriesburg Mountain Lookout",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/fouriesburg_mountain_lookout",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/fouriesburg_mountain_lookout.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:3e7e65e4-9e22-42d9-9bb3-8df1ef47f27c",
+      "provider": "blenderkit",
+      "title": "Aerial Cloudy Nature Mountain Trees Road",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/3e7e65e4-9e22-42d9-9bb3-8df1ef47f27c/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/ddc8ebf2dc844a299cf37a5e0b227c31/files/thumbnail_6a23d591-4159-4999-ab9a-4d600bc5dd8c.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Nandu M",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:mountain-view-2",
+      "provider": "hdrmaps",
+      "title": "Mountain view 2",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/mountain-view-2/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2020/09/free_hdr_103_sky-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:rosendal_mountain_midmorning",
+      "provider": "polyhaven",
+      "title": "Rosendal Mountain Midmorning",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/rosendal_mountain_midmorning",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/rosendal_mountain_midmorning.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:01031955-b12e-436e-985c-52e044c941f9",
+      "provider": "blenderkit",
+      "title": "Mountain Valley Road Green Hills",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/01031955-b12e-436e-985c-52e044c941f9/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/094ee73887f14b3b99d29d3aebadc430/files/thumbnail_8d4ae97c-fc42-481a-b4ae-f7de60afbe43.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Soran Mohammadi",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:mountain-view",
+      "provider": "hdrmaps",
+      "title": "Mountain view",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/mountain-view/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2020/06/free_hdr_102_meadow_mountains-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "polyhaven:fouriesburg_mountain_lookout_2",
+      "provider": "polyhaven",
+      "title": "Fouriesburg Mountain Lookout 2",
+      "type": "hdri",
+      "url": "https://polyhaven.com/a/fouriesburg_mountain_lookout_2",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/fouriesburg_mountain_lookout_2.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dimitrios Savva, Jarod Guest",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "hdr",
+        "exr"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "blenderkit:558734cc-6790-4ece-a71f-7f83b2baa43f",
+      "provider": "blenderkit",
+      "title": "Bluesky Grass  Mountain",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/558734cc-6790-4ece-a71f-7f83b2baa43f/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/b39d0ce5b930454f84d972c46a0a04ff/files/thumbnail_a10ad8f6-21d3-4f37-aa49-7cedec9595cd.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Esparza Rudy",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:egg-mountain-at-afternoon",
+      "provider": "hdrmaps",
+      "title": "Egg mountain at afternoon",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/egg-mountain-at-afternoon/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2020/06/free_hdr_095_thumb-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "blenderkit:313aba38-6b4e-4be4-bdeb-6b7860671a9c",
+      "provider": "blenderkit",
+      "title": "Rural Mountain Road Sunny Highland",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/313aba38-6b4e-4be4-bdeb-6b7860671a9c/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/760413dab75246f18fd8d1a7d2413ba7/files/thumbnail_587bb209-0b17-4c7b-a0a7-521d786ff509.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Soran Mohammadi",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "hdrmaps:sunny-road-in-carpathian-mountains",
+      "provider": "hdrmaps",
+      "title": "Sunny road in Carpathian Mountains",
+      "type": "hdri",
+      "url": "https://hdrmaps.com/freebies/sunny-road-in-carpathian-mountains/",
+      "thumbnailUrl": "https://hdrmaps.com/wp-content/uploads/2020/06/hdrmaps_com_free_083_bg-560x280.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://hdrmaps.com/terms-of-use/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "10k"
+    },
+    {
+      "id": "blenderkit:8106bb9f-8617-4447-8dc0-930e6d630705",
+      "provider": "blenderkit",
+      "title": "Rocky Mountain Ravine Rugged Wilderness",
+      "type": "hdri",
+      "url": "https://www.blendkit.com/asset-gallery-detail/8106bb9f-8617-4447-8dc0-930e6d630705/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/c7047c3fe2634ff5912917f4efbdba16/files/thumbnail_90db61be-0b89-4bb7-afe4-0ee934d8fb05.jpg.512x512_q85_crop-%2C.jpg",
+      "downloadable": true,
+      "author": "Soran Mohammadi",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "exr"
+      ],
+      "maxResolution": "8k"
+    }
+  ]
+}

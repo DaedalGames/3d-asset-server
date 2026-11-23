@@ -1,0 +1,678 @@
+{
+  "slug": "free-cobblestone-textures",
+  "search": {
+    "q": "cobblestone",
+    "types": [
+      "material",
+      "texture"
+    ],
+    "free": true
+  },
+  "updatedAt": "2026-11-23T18:34:11.706Z",
+  "assets": [
+    {
+      "id": "polyhaven:cobblestone_floor_04",
+      "provider": "polyhaven",
+      "title": "Cobblestone Floor 04",
+      "type": "material",
+      "url": "https://polyhaven.com/a/cobblestone_floor_04",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_04.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:a8ca62c0-030d-4b6a-a7d3-2d0c2a5518b6",
+      "provider": "blenderkit",
+      "title": "Ancient Ruins Cobblestone Floor",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/a8ca62c0-030d-4b6a-a7d3-2d0c2a5518b6/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/2c8ccd36623046ddb8b6f95144f6fa62/files/thumbnail_a70fb1e3-1129-4396-a22a-1c75cc983eeb.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Vaishakh Vinod",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "opengameart:seamless-cobblestone-texture",
+      "provider": "opengameart",
+      "title": "Seamless Cobblestone Texture",
+      "type": "texture",
+      "url": "https://opengameart.org/content/seamless-cobblestone-texture",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/preview_243.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "texturecan:558",
+      "provider": "texturecan",
+      "title": "Circular Cobblestone Paving Texture",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/558/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/tiles_0106/tiles_0106_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:cobblestone-wall-01",
+      "provider": "cgbookcase",
+      "title": "Cobblestone Wall 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/cobblestone-wall-01",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Cobblestone_wall_01_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "2k"
+    },
+    {
+      "id": "threedtexel:tile-paving-stone-pbr-material-9",
+      "provider": "threedtexel",
+      "title": "Cobblestone Paving Stone – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/tile-paving-stone-pbr-material-9/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-145-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:cobblestone-irregular-floor-001",
+      "provider": "threedtextures",
+      "title": "Cobblestone Irregular Floor 001",
+      "type": "material",
+      "url": "https://3dtextures.me/2025/12/23/cobblestone-irregular-floor-001/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2025/12/Material_2003-1.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:grassy_cobblestone",
+      "provider": "polyhaven",
+      "title": "Grassy Cobblestone",
+      "type": "material",
+      "url": "https://polyhaven.com/a/grassy_cobblestone",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/grassy_cobblestone.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dario Barresi, Charlotte Baglioni",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:b2f5e062-340a-4aba-85da-9de658a79236",
+      "provider": "blenderkit",
+      "title": "Grey Cobblestone Pavings",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/b2f5e062-340a-4aba-85da-9de658a79236/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/27114b5f77cb46ccbe88cfe53f5681dc/files/thumbnail_d6012282-f886-4198-987e-10e617f07dca.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "KID",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "freestylized:material:cobblestone_02",
+      "provider": "freestylized",
+      "title": "Cobblestone 02",
+      "type": "material",
+      "url": "https://freestylized.com/material/cobblestone_02/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2024/06/cobblestone_02_preview_hex151515_thumbnail.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "opengameart:seamless-cobblestone-retro-low-resolution",
+      "provider": "opengameart",
+      "title": "Seamless Cobblestone - Retro low resolution",
+      "type": "texture",
+      "url": "https://opengameart.org/content/seamless-cobblestone-retro-low-resolution",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/t_ground_cobblestone_3_2.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "texturecan:304",
+      "provider": "texturecan",
+      "title": "Classic Cobblestones with Puddles",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/304/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/tiles_0023/tiles_0023_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:cobblestone-04",
+      "provider": "cgbookcase",
+      "title": "Cobblestone 04",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/cobblestone-04",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Cobblestone_04_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:cobblestone-002",
+      "provider": "threedtextures",
+      "title": "Cobblestone 002",
+      "type": "material",
+      "url": "https://3dtextures.me/2021/05/10/cobblestone-002/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2021/05/Material_1827.jpg?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "polyhaven:cobblestone_floor_08",
+      "provider": "polyhaven",
+      "title": "Cobblestone Floor 08",
+      "type": "material",
+      "url": "https://polyhaven.com/a/cobblestone_floor_08",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_08.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:35486fa2-7bfc-4133-a774-4b6d065431ed",
+      "provider": "blenderkit",
+      "title": "Procedural Cobblestone",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/35486fa2-7bfc-4133-a774-4b6d065431ed/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/ad8135dfed5d499ea3934d3d2fee36a5/files/thumbnail_30cf8622-9773-4c4a-a196-996c165b1f68.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "calisto3d Costa",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ]
+    },
+    {
+      "id": "ambientcg:PavingStones151",
+      "provider": "ambientcg",
+      "title": "Paving Stones 151",
+      "type": "material",
+      "url": "https://ambientcg.com/a/PavingStones151",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/PavingStones151.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "12k"
+    },
+    {
+      "id": "opengameart:cobblestone-wall-texture",
+      "provider": "opengameart",
+      "title": "Cobblestone Wall Texture",
+      "type": "texture",
+      "url": "https://opengameart.org/content/cobblestone-wall-texture",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/wall_cobblestone_1024px_1.png",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "texturecan:290",
+      "provider": "texturecan",
+      "title": "Fan Shape Cobblestone Pavement Texture",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/290/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/ground_0038/ground_0038_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "freestylized:material:cobblestone_01",
+      "provider": "freestylized",
+      "title": "Cobblestone 01",
+      "type": "material",
+      "url": "https://freestylized.com/material/cobblestone_01/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2023/09/cobblestone_01_preview_hex151515.png",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:cobblestone-03",
+      "provider": "cgbookcase",
+      "title": "Cobblestone 03",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/cobblestone-03",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Cobblestone_03_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "2k"
+    },
+    {
+      "id": "sharetextures:pavement_30",
+      "provider": "sharetextures",
+      "title": "Pavement 30",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/road/pavement_30",
+      "thumbnailUrl": "https://images.sharetextures.com/u/pavement_30-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "threedtextures:cobblestone-001",
+      "provider": "threedtextures",
+      "title": "Cobblestone 001",
+      "type": "material",
+      "url": "https://3dtextures.me/2018/04/13/cobblestone-001/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2018/04/material_418.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "polyhaven:cobblestone_color",
+      "provider": "polyhaven",
+      "title": "Cobblestone Color",
+      "type": "material",
+      "url": "https://polyhaven.com/a/cobblestone_color",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_color.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:c5cf28f4-aacf-4aa2-9f21-56ccc727c3b7",
+      "provider": "blenderkit",
+      "title": "Greece Cobblestone Pavement",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/c5cf28f4-aacf-4aa2-9f21-56ccc727c3b7/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/31b6c6a1cd2f42a7afb02ae5a3394322/files/thumbnail_8a12a10c-baea-41d5-85eb-58978be37a0f.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Jetxon H",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "texturecan:273",
+      "provider": "texturecan",
+      "title": "Cobblestone Texture with Fallen Leaves",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/273/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/ground_0036/ground_0036_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "ambientcg:PavingStones150",
+      "provider": "ambientcg",
+      "title": "Paving Stones 150",
+      "type": "material",
+      "url": "https://ambientcg.com/a/PavingStones150",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/PavingStones150.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "16k"
+    },
+    {
+      "id": "cgbookcase:cobblestone-01",
+      "provider": "cgbookcase",
+      "title": "Cobblestone 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/cobblestone-01",
+      "thumbnailUrl": "https://cdn.cgbookcase.cloud/file/cgbookcase/textures/renders/bg_white/480w/Cobblestone_01_default.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "2k"
+    },
+    {
+      "id": "threedtexel:tile-paving-stone-pbr-material-6",
+      "provider": "threedtexel",
+      "title": "Pink Cobblestone Paving – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/tile-paving-stone-pbr-material-6/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/10/Untitled_Sphere-Camera-142-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "polyhaven:mossy_cobblestone",
+      "provider": "polyhaven",
+      "title": "Mossy Cobblestone",
+      "type": "material",
+      "url": "https://polyhaven.com/a/mossy_cobblestone",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/mossy_cobblestone.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Sơn Nguyễn",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:cd25fc2e-58c5-4af3-bbea-aa6b3ccd3fc0",
+      "provider": "blenderkit",
+      "title": "Cobblestones",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/cd25fc2e-58c5-4af3-bbea-aa6b3ccd3fc0/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/a8957f450e5349fbb7312e50341b90f3/files/thumbnail_1a42c538-3651-44d1-880f-f66083bb1e89.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Ruby Solon",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "sharetextures:pavement-35",
+      "provider": "sharetextures",
+      "title": "Pavement 35",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/road/pavement-35",
+      "thumbnailUrl": "https://images.sharetextures.com/u/fd105bc5-ef05-4137-9e1e-424d1f755c03.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "ambientcg:PavingStones141",
+      "provider": "ambientcg",
+      "title": "Paving Stones 141",
+      "type": "material",
+      "url": "https://ambientcg.com/a/PavingStones141",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/PavingStones141.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "freestylized:material:mystic_ground_tiles_01",
+      "provider": "freestylized",
+      "title": "Mystic Ground Tiles 01",
+      "type": "material",
+      "url": "https://freestylized.com/material/mystic_ground_tiles_01/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2024/08/mystic_ground_tiles_01_preview_hex151515_thumbnail.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "polyhaven:patterned_cobblestone",
+      "provider": "polyhaven",
+      "title": "Patterned Cobblestone",
+      "type": "material",
+      "url": "https://polyhaven.com/a/patterned_cobblestone",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/patterned_cobblestone.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:ea5426d8-9072-4e00-9b2d-2b461173e3c7",
+      "provider": "blenderkit",
+      "title": "Mossy Cobblestone Pavement",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/ea5426d8-9072-4e00-9b2d-2b461173e3c7/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/d9c3d8bb95b94ddfb1dc5e1c70b14629/files/thumbnail_d9a55e0a-0fc6-4fcf-b0d9-a15be540f96f.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "RADHUNANDAN",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "1k"
+    }
+  ]
+}

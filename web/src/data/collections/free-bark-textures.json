@@ -1,0 +1,634 @@
+{
+  "slug": "free-bark-textures",
+  "search": {
+    "q": "bark",
+    "types": [
+      "material",
+      "texture"
+    ],
+    "free": true
+  },
+  "updatedAt": "2026-11-23T18:34:09.044Z",
+  "assets": [
+    {
+      "id": "polyhaven:bark_brown_02",
+      "provider": "polyhaven",
+      "title": "Bark Brown 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/bark_brown_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/bark_brown_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:f5cde475-2e6c-45cd-9845-0002da07a8f2",
+      "provider": "blenderkit",
+      "title": "Stylized Weathered Wood Bark",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/f5cde475-2e6c-45cd-9845-0002da07a8f2/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/dd6a8960b0494f82a014aa50851e6f75/files/thumbnail_fabe7206-c2bb-44d5-b049-b1612cccc96b.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "CAN OF TEXTURES",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "1k"
+    },
+    {
+      "id": "ambientcg:Bark016",
+      "provider": "ambientcg",
+      "title": "Bark 016",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Bark016",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Bark016.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:avoid-the-germs-hunt-the-gems-2-tree-bark-texture-sources",
+      "provider": "opengameart",
+      "title": "avoid the germs, hunt the gems #2 TREE BARK (texture sources)",
+      "type": "texture",
+      "url": "https://opengameart.org/content/avoid-the-germs-hunt-the-gems-2-tree-bark-texture-sources",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/OGA%20texture%20bark.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "texturecan:589",
+      "provider": "texturecan",
+      "title": "Waxy Tree Trunk Bark Texture",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/589/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/wood_0064/wood_0064_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:birch-bark-01",
+      "provider": "cgbookcase",
+      "title": "Birch Bark 01",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/birch-bark-01",
+      "thumbnailUrl": "https://cgbookcase.b-cdn.net/textures/renders/2024_b/BirchBark01_render_default.jpg?width=480",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "6k"
+    },
+    {
+      "id": "threedtexel:stylized-wood-bark-pbr-material-20",
+      "provider": "threedtexel",
+      "title": "Stylized Wood Bark – PBR Material",
+      "type": "material",
+      "url": "https://3dtexel.com/product/stylized-wood-bark-pbr-material-20/",
+      "thumbnailUrl": "https://3dtexel.com/wp-content/uploads/2025/09/Untitled_Sphere-Camera-23-768x768.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:stylized-bark-003",
+      "provider": "threedtextures",
+      "title": "Stylized Bark 003",
+      "type": "material",
+      "url": "https://3dtextures.me/2024/06/08/stylized-bark-003/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2024/06/untitled.png?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "sharetextures:bark-14",
+      "provider": "sharetextures",
+      "title": "PBR Bark Texture 14",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/wood/bark-14",
+      "thumbnailUrl": "https://images.sharetextures.com/u/bark_14-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "itchio:tempisq/bark-vol1",
+      "provider": "itchio",
+      "title": "Tree Bark Vol.1",
+      "type": "texture",
+      "url": "https://tempisq.itch.io/bark-vol1",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4OTI3Njc3LnBuZw==/315x250%23c/WUbF48.png",
+      "downloadable": false,
+      "author": "tempisq",
+      "free": true
+    },
+    {
+      "id": "polyhaven:bark_brown_01",
+      "provider": "polyhaven",
+      "title": "Bark Brown 01",
+      "type": "material",
+      "url": "https://polyhaven.com/a/bark_brown_01",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/bark_brown_01.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Rob Tuytel",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:76730d1f-ee3e-4de2-8ca6-a7acea396427",
+      "provider": "blenderkit",
+      "title": "Stylized Wood Bark",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/76730d1f-ee3e-4de2-8ca6-a7acea396427/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/537655c2d3ee4c87973969ceb3e460c6/files/thumbnail_1f7236d4-32df-4474-86e6-7183aa42d1d1.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Julio Sillet",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "4k"
+    },
+    {
+      "id": "ambientcg:Bark014",
+      "provider": "ambientcg",
+      "title": "Bark 014",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Bark014",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Bark014.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:bark-texture",
+      "provider": "opengameart",
+      "title": "Bark texture",
+      "type": "texture",
+      "url": "https://opengameart.org/content/bark-texture",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/bark-1024.jpg.preview.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "texturecan:588",
+      "provider": "texturecan",
+      "title": "Realistic Tree Trunks or Bark Texture",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/588/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/wood_0063/wood_0063_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "freestylized:material:bark_11",
+      "provider": "freestylized",
+      "title": "Bark 11",
+      "type": "material",
+      "url": "https://freestylized.com/material/bark_11/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2024/12/bark_11_preview_hex151515_thumbnail.webp",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:bark-19",
+      "provider": "cgbookcase",
+      "title": "Bark 19",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/bark-19",
+      "thumbnailUrl": "https://cgbookcase.b-cdn.net/textures/renders/2024_b/Bark19_render_default.jpg?width=480",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "4k"
+    },
+    {
+      "id": "threedtextures:bark-007",
+      "provider": "threedtextures",
+      "title": "Bark 007",
+      "type": "material",
+      "url": "https://3dtextures.me/2022/04/18/bark-007/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2022/04/Material_2074.jpg?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "sharetextures:tree-bark-11",
+      "provider": "sharetextures",
+      "title": "Tree Bark Texture 11",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/wood/tree-bark-11",
+      "thumbnailUrl": "https://images.sharetextures.com/u/bark_11-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "itchio:juliovii/ftp-tree-bark-01",
+      "provider": "itchio",
+      "title": "Texture Pack: Tree Bark 01",
+      "type": "texture",
+      "url": "https://juliovii.itch.io/ftp-tree-bark-01",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzI1NDgzMzIwLmpwZw==/315x250%23c/MSdC%2B4.jpg",
+      "downloadable": false,
+      "author": "JulioVII",
+      "free": true
+    },
+    {
+      "id": "polyhaven:bark_willow",
+      "provider": "polyhaven",
+      "title": "Bark Willow",
+      "type": "material",
+      "url": "https://polyhaven.com/a/bark_willow",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/bark_willow.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Dario Barresi, Dimitrios Savva",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:7cf97627-ae50-474e-9e87-13ee95f83c54",
+      "provider": "blenderkit",
+      "title": "Tree Bark",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/7cf97627-ae50-474e-9e87-13ee95f83c54/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/f587af9b51b74d3da9d9e8b09cd4927b/files/thumbnail_a1448605-f130-47bf-b2bf-bc57e309c3bd.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "chroma 3D",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "ambientcg:Bark015",
+      "provider": "ambientcg",
+      "title": "Bark 015",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Bark015",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Bark015.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:39-high-res-bark-texture-photos",
+      "provider": "opengameart",
+      "title": "39 High-res bark texture photos",
+      "type": "texture",
+      "url": "https://opengameart.org/content/39-high-res-bark-texture-photos",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/bark.zip.preview.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "freestylized:material:bark_10",
+      "provider": "freestylized",
+      "title": "Bark 10",
+      "type": "material",
+      "url": "https://freestylized.com/material/bark_10/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2024/06/bark_10_preview_hex151515_thumbnail.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "texturecan:587",
+      "provider": "texturecan",
+      "title": "Stylized Tree Trunk or Bark Texture",
+      "type": "material",
+      "url": "https://www.texturecan.com/details/587/",
+      "thumbnailUrl": "https://www.texturecan.com/img/textures/wood_0062/wood_0062_sphere_300.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:bark-18",
+      "provider": "cgbookcase",
+      "title": "Bark 18",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/bark-18",
+      "thumbnailUrl": "https://cgbookcase.b-cdn.net/textures/renders/2024_b/Bark18_render_default.jpg?width=480",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "8k"
+    },
+    {
+      "id": "threedtextures:bark-pine-003",
+      "provider": "threedtextures",
+      "title": "Bark Pine 003",
+      "type": "material",
+      "url": "https://3dtextures.me/2022/02/25/bark-pine-003/",
+      "thumbnailUrl": "https://i0.wp.com/3dtextures.me/wp-content/uploads/2022/02/Material_2043.jpg?fit=600%2C800&ssl=1",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "1k"
+    },
+    {
+      "id": "sharetextures:bark_19",
+      "provider": "sharetextures",
+      "title": "Bark 19",
+      "type": "material",
+      "url": "https://www.sharetextures.com/textures/wood/bark_19",
+      "thumbnailUrl": "https://images.sharetextures.com/u/bark_19-min.webp",
+      "downloadable": false,
+      "license": {
+        "name": "CC0 (ShareTextures custom terms)",
+        "url": "https://www.sharetextures.com/p/license",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "itchio:captaincatsparrow/free-4k-pbr-materials-10-bark-materials",
+      "provider": "itchio",
+      "title": "FREE 4K PBR Materials: 10 bark materials",
+      "type": "material",
+      "url": "https://captaincatsparrow.itch.io/free-4k-pbr-materials-10-bark-materials",
+      "thumbnailUrl": "https://img.itch.zone/aW1nLzEyMDYwODIyLnBuZw==/315x250%23c/tNj635.png",
+      "downloadable": false,
+      "author": "CaptainCatSparrow",
+      "free": true
+    },
+    {
+      "id": "polyhaven:bark_willow_02",
+      "provider": "polyhaven",
+      "title": "Bark Willow 02",
+      "type": "material",
+      "url": "https://polyhaven.com/a/bark_willow_02",
+      "thumbnailUrl": "https://cdn.polyhaven.com/asset_img/thumbs/bark_willow_02.png?width=512&height=512",
+      "downloadable": true,
+      "author": "Charlotte Baglioni",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png",
+        "exr",
+        "blend",
+        "gltf"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "blenderkit:f642ebff-1eda-4c28-8a69-6b811e39fc5c",
+      "provider": "blenderkit",
+      "title": "Realistic tree bark",
+      "type": "material",
+      "url": "https://www.blendkit.com/asset-gallery-detail/f642ebff-1eda-4c28-8a69-6b811e39fc5c/",
+      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/3cdc60789a714a92871582b869966ef1/files/thumbnail_dc3de72b-f14a-407d-b5e2-50385bc3cfff.png.512x512_q85_crop-%2C.png",
+      "downloadable": true,
+      "author": "Steffen",
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://www.blendkit.com/docs/licenses/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "blend"
+      ],
+      "maxResolution": "2k"
+    },
+    {
+      "id": "ambientcg:Bark012",
+      "provider": "ambientcg",
+      "title": "Bark 012",
+      "type": "material",
+      "url": "https://ambientcg.com/a/Bark012",
+      "thumbnailUrl": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/256-JPG-242424/Bark012.jpg",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "maxResolution": "8k"
+    },
+    {
+      "id": "opengameart:tree-bark-dark-to-light-4096x2048",
+      "provider": "opengameart",
+      "title": "Tree bark (dark to light) 4096x2048",
+      "type": "texture",
+      "url": "https://opengameart.org/content/tree-bark-dark-to-light-4096x2048",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/all_1.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "freestylized:material:bark_09",
+      "provider": "freestylized",
+      "title": "Bark 09",
+      "type": "material",
+      "url": "https://freestylized.com/material/bark_09/",
+      "thumbnailUrl": "https://freestylized.com/wp-content/uploads/2024/05/bark_09_preview_hex151515.jpg",
+      "downloadable": false,
+      "license": {
+        "name": "FreeStylized Royalty Free (custom CC0)",
+        "url": "https://freestylized.com/disclaimer/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "cgbookcase:bark-17",
+      "provider": "cgbookcase",
+      "title": "Bark 17",
+      "type": "material",
+      "url": "https://www.cgbookcase.com/textures/bark-17",
+      "thumbnailUrl": "https://cgbookcase.b-cdn.net/textures/renders/2024_b/Bark17_render_default.jpg?width=480",
+      "downloadable": false,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "maxResolution": "6k"
+    }
+  ]
+}
