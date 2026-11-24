@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-17T13:51:21.167Z",
+  "updatedAt": "2026-11-24T15:15:41.350Z",
   "assets": [
     {
       "id": "blenderkit:0f1918d7-7350-43a8-a012-469ddc446b35",
@@ -292,17 +292,6 @@
       "polyCount": 196
     },
     {
-      "id": "itchio:kaylousberg/furniture-bits",
-      "provider": "itchio",
-      "title": "KayKit : Furniture Bits",
-      "type": "model",
-      "url": "https://kaylousberg.itch.io/furniture-bits",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzMxOTg2MDg0LmpwZw==/315x250%23c/L4VzoO.jpg",
-      "downloadable": false,
-      "author": "Kay Lousberg",
-      "free": true
-    },
-    {
       "id": "sharetextures:chair_21",
       "provider": "sharetextures",
       "title": "Chair 21",
@@ -352,17 +341,6 @@
       "thumbnailUrl": "https://quaternius.com/assets/images/thumbnails/fantasypropsmegakit.jpg",
       "downloadable": false,
       "author": "Quaternius",
-      "free": true
-    },
-    {
-      "id": "itchio:mst-creator/furniture-pack-1",
-      "provider": "itchio",
-      "title": "Furniture Pack 1",
-      "type": "model",
-      "url": "https://mst-creator.itch.io/furniture-pack-1",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzUxODM5NzUucG5n/315x250%23c/Zxn9bj.png",
-      "downloadable": false,
-      "author": "MST_Creator",
       "free": true
     },
     {
@@ -657,6 +635,33 @@
         "fbx",
         "stl"
       ]
+    },
+    {
+      "id": "opengameart:3td-furniture-pack",
+      "provider": "opengameart",
+      "title": "3TD Furniture Pack",
+      "type": "model",
+      "url": "https://opengameart.org/content/3td-furniture-pack",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/FURNITURESTARTERPACK.jpg",
+      "downloadable": true,
+      "free": true
+    },
+    {
+      "id": "gazebofuel:GoogleResearch:KID_ROOM_FURNITURE_SET_1",
+      "provider": "gazebofuel",
+      "title": "KID ROOM FURNITURE SET 1",
+      "type": "model",
+      "url": "https://app.gazebosim.org/GoogleResearch/fuel/models/KID_ROOM_FURNITURE_SET_1",
+      "thumbnailUrl": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/KID_ROOM_FURNITURE_SET_1/tip/files/thumbnails/0.jpg",
+      "downloadable": true,
+      "author": "GoogleResearch",
+      "license": {
+        "name": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true
     }
   ]
 }

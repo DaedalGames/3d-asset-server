@@ -29,7 +29,7 @@
       "Elf toymaker"
     ]
   },
-  "updatedAt": "2026-11-18T13:24:47.257Z",
+  "updatedAt": "2026-11-24T15:14:54.498Z",
   "assets": [
     {
       "id": "opengameart:lowpoly-animated-farm-animal-pack",
@@ -563,30 +563,6 @@
       ]
     },
     {
-      "id": "polyfork:human-priest-base",
-      "provider": "polyfork",
-      "title": "Human priest",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/human-priest-base",
-      "thumbnailUrl": "https://polyfork.dev/files/human-priest-base/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 6455,
-      "rigged": true
-    },
-    {
       "id": "grab3d:axolotl",
       "provider": "grab3d",
       "title": "Axolotl",
@@ -610,30 +586,6 @@
       ]
     },
     {
-      "id": "polyfork:elf-hunter-base",
-      "provider": "polyfork",
-      "title": "Elf hunter",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/elf-hunter-base",
-      "thumbnailUrl": "https://polyfork.dev/files/elf-hunter-base/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 5544,
-      "rigged": true
-    },
-    {
       "id": "grab3d:bee",
       "provider": "grab3d",
       "title": "Honey Bee",
@@ -655,6 +607,40 @@
         "usdz",
         "obj"
       ]
+    },
+    {
+      "id": "gazebofuel:GoogleResearch:Animal_Crossing_New_Leaf_Nintendo_3DS_Game",
+      "provider": "gazebofuel",
+      "title": "Animal Crossing New Leaf Nintendo 3DS Game",
+      "type": "model",
+      "url": "https://app.gazebosim.org/GoogleResearch/fuel/models/Animal_Crossing_New_Leaf_Nintendo_3DS_Game",
+      "thumbnailUrl": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/Animal_Crossing_New_Leaf_Nintendo_3DS_Game/tip/files/thumbnails/0.jpg",
+      "downloadable": true,
+      "author": "GoogleResearch",
+      "license": {
+        "name": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true
+    },
+    {
+      "id": "gazebofuel:GoogleResearch:My_First_Animal_Tower",
+      "provider": "gazebofuel",
+      "title": "My First Animal Tower",
+      "type": "model",
+      "url": "https://app.gazebosim.org/GoogleResearch/fuel/models/My_First_Animal_Tower",
+      "thumbnailUrl": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/My_First_Animal_Tower/tip/files/thumbnails/0.jpg",
+      "downloadable": true,
+      "author": "GoogleResearch",
+      "license": {
+        "name": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercialUse": true,
+        "attributionRequired": true
+      },
+      "free": true
     }
   ]
 }

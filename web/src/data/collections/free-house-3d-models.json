@@ -27,7 +27,7 @@
       "Wood Plant"
     ]
   },
-  "updatedAt": "2026-11-22T12:52:36.178Z",
+  "updatedAt": "2026-11-24T15:15:48.350Z",
   "assets": [
     {
       "id": "blenderkit:264b47f4-a1ee-4c31-9ee9-4c0e8dc1a98b",
@@ -376,16 +376,6 @@
       "free": true
     },
     {
-      "id": "opengameart:modular-medieval-house-pack-06",
-      "provider": "opengameart",
-      "title": "Modular Medieval House Pack 06",
-      "type": "model",
-      "url": "https://opengameart.org/content/modular-medieval-house-pack-06",
-      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/thhouses00.png",
-      "downloadable": true,
-      "free": true
-    },
-    {
       "id": "grab3d:gingerbread-house",
       "provider": "grab3d",
       "title": "Gingerbread House",
@@ -652,6 +642,23 @@
       "formats": [
         "stl"
       ]
+    },
+    {
+      "id": "gazebofuel:OpenRobotics:Collapsed House",
+      "provider": "gazebofuel",
+      "title": "Collapsed House",
+      "type": "model",
+      "url": "https://app.gazebosim.org/OpenRobotics/fuel/models/Collapsed%20House",
+      "thumbnailUrl": "https://fuel.gazebosim.org/1.0/OpenRobotics/models/Collapsed%20House/tip/files/thumbnails/1.png",
+      "downloadable": true,
+      "author": "OpenRobotics",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true
     }
   ]
 }
