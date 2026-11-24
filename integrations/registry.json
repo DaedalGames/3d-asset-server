@@ -227,6 +227,12 @@
   ],
   "rejected": [
     {
+      "name": "Just Create 3D",
+      "homepage": "https://justcreate3d.studio",
+      "checkedAt": "2026-11-24",
+      "reason": "WooCommerce store has only 87 products in total, with fewer than 50 free assets"
+    },
+    {
       "name": "Wirtualne Muzea Małopolski",
       "homepage": "https://3d.wirtualnemuzea.pl",
       "checkedAt": "2026-11-23",
