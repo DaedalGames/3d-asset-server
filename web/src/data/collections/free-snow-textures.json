@@ -17,7 +17,7 @@
       "Ground Tiles With Snow"
     ]
   },
-  "updatedAt": "2026-11-02T16:23:11.320Z",
+  "updatedAt": "2026-11-25T14:57:49.224Z",
   "assets": [
     {
       "id": "polyhaven:snow_02",
@@ -41,27 +41,6 @@
         "exr",
         "blend",
         "gltf"
-      ],
-      "maxResolution": "8k"
-    },
-    {
-      "id": "blenderkit:64a5b354-af04-45a1-9aeb-ce2c9bf92b97",
-      "provider": "blenderkit",
-      "title": "Snow 01",
-      "type": "material",
-      "url": "https://www.blendkit.com/asset-gallery-detail/64a5b354-af04-45a1-9aeb-ce2c9bf92b97/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/fcf53527ee6a47a7ae82f96b23d130f7/files/thumbnail_b2d63a9f-52d7-4aef-b5e3-37c502fb04f1.png.512x512_q85_crop-%2C.png",
-      "downloadable": true,
-      "author": "Poly Haven",
-      "license": {
-        "name": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend"
       ],
       "maxResolution": "8k"
     },
@@ -680,6 +659,26 @@
         "attributionRequired": false
       },
       "free": true
+    },
+    {
+      "id": "lazytextures:materials:Snow01",
+      "provider": "lazytextures",
+      "title": "Snow01",
+      "type": "material",
+      "url": "https://www.lazytextures.com/Asset?path=%2FAssets%2FMaterials%2FSnow%2FSnow01&name=Snow01",
+      "thumbnailUrl": "https://lazytextures.net:3000/Assets/Materials/Snow/Snow01/Preview.png",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "png",
+        "zip"
+      ]
     }
   ]
 }
