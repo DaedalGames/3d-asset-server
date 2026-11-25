@@ -929,6 +929,25 @@
       "checkedAt": "2026-11-22",
       "reason": "Site unreachable (connection failed on port 443 from CI)",
       "recheckAfter": "2027-02-20"
+    },
+    {
+      "name": "Cults3D",
+      "homepage": "https://cults3d.com",
+      "checkedAt": "2026-11-25",
+      "reason": "Cloudflare managed challenge blocks automated requests, even robots.txt returns 403; mostly paid 3D-printing models",
+      "recheckAfter": "2027-02-23"
+    },
+    {
+      "name": "Thangs",
+      "homepage": "https://thangs.com",
+      "checkedAt": "2026-11-25",
+      "reason": "Mostly paid 3D-printing marketplace; search is a JS-rendered Next.js app with no public API and downloads need a login"
+    },
+    {
+      "name": "Eclair Assets",
+      "homepage": "https://eclair-assets.itch.io",
+      "checkedAt": "2026-11-25",
+      "reason": "Unofficial repackaged Kenney CC0 kits hosted on itch.io; duplicates Kenney and itch.io sources already integrated"
     }
   ]
 }
