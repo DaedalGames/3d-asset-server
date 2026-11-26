@@ -7,7 +7,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-24T15:16:15.615Z",
+  "updatedAt": "2026-11-26T14:26:27.460Z",
   "assets": [
     {
       "id": "polyhaven:potted_plant_02",
@@ -286,17 +286,6 @@
       ],
       "maxResolution": "8k",
       "polyCount": 46195
-    },
-    {
-      "id": "itchio:free-game-assets/free-desert-plants-3d-low-poly-pack",
-      "provider": "itchio",
-      "title": "Free Desert Plants 3D Low Poly Pack",
-      "type": "model",
-      "url": "https://free-game-assets.itch.io/free-desert-plants-3d-low-poly-pack",
-      "thumbnailUrl": "https://img.itch.zone/aW1nLzI4OTg3MjkuanBn/315x250%23c/feMEi4.jpg",
-      "downloadable": false,
-      "author": "Free Game Assets (GUI, Sprite, Tilesets)",
-      "free": true
     },
     {
       "id": "polyhaven:weed_plant_02",
@@ -741,6 +730,23 @@
         "url": "https://creativecommons.org/publicdomain/zero/1.0/",
         "commercialUse": true,
         "attributionRequired": false
+      },
+      "free": true
+    },
+    {
+      "id": "gazebofuel:GoogleResearch:Cole_Hardware_Plant_Saucer_Brown_125",
+      "provider": "gazebofuel",
+      "title": "Cole Hardware Plant Saucer Brown 125",
+      "type": "model",
+      "url": "https://app.gazebosim.org/GoogleResearch/fuel/models/Cole_Hardware_Plant_Saucer_Brown_125",
+      "thumbnailUrl": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/Cole_Hardware_Plant_Saucer_Brown_125/tip/files/thumbnails/0.jpg",
+      "downloadable": true,
+      "author": "GoogleResearch",
+      "license": {
+        "name": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercialUse": true,
+        "attributionRequired": true
       },
       "free": true
     }

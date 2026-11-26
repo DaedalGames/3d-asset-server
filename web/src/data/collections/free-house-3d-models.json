@@ -27,7 +27,7 @@
       "Wood Plant"
     ]
   },
-  "updatedAt": "2026-11-24T15:15:48.350Z",
+  "updatedAt": "2026-11-26T14:25:46.678Z",
   "assets": [
     {
       "id": "blenderkit:264b47f4-a1ee-4c31-9ee9-4c0e8dc1a98b",
@@ -417,29 +417,6 @@
       ]
     },
     {
-      "id": "polyfork:hare-paenga-boat-house-8cd4c9",
-      "provider": "polyfork",
-      "title": "Hare Paenga Boat House",
-      "type": "model",
-      "url": "https://polyfork.dev/asset/hare-paenga-boat-house-8cd4c9",
-      "thumbnailUrl": "https://polyfork.dev/files/hare-paenga-boat-house-8cd4c9/renders/hero.png",
-      "downloadable": true,
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://polyfork.dev/licensing",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "glb",
-        "fbx",
-        "usdz",
-        "obj"
-      ],
-      "polyCount": 1713
-    },
-    {
       "id": "grab3d:christmas-village-house",
       "provider": "grab3d",
       "title": "Christmas Village House",
@@ -659,6 +636,29 @@
         "attributionRequired": false
       },
       "free": true
+    },
+    {
+      "id": "polyfork:fountain-house-cbda2f",
+      "provider": "polyfork",
+      "title": "Fountain House",
+      "type": "model",
+      "url": "https://polyfork.dev/asset/fountain-house-cbda2f",
+      "thumbnailUrl": "https://polyfork.dev/files/fountain-house-cbda2f/renders/hero.png",
+      "downloadable": true,
+      "license": {
+        "name": "Royalty Free",
+        "url": "https://polyfork.dev/licensing",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "usdz",
+        "obj"
+      ],
+      "polyCount": 2796
     }
   ]
 }

@@ -29,7 +29,7 @@
       "Elf toymaker"
     ]
   },
-  "updatedAt": "2026-11-25T14:55:14.407Z",
+  "updatedAt": "2026-11-26T14:24:59.412Z",
   "assets": [
     {
       "id": "opengameart:lowpoly-animated-farm-animal-pack",
@@ -620,12 +620,12 @@
       "free": true
     },
     {
-      "id": "polyfork:riverside-jogger-base",
+      "id": "polyfork:older-woman-with-a-basket-base",
       "provider": "polyfork",
-      "title": "Riverside jogger",
+      "title": "Older woman with a basket",
       "type": "model",
-      "url": "https://polyfork.dev/asset/riverside-jogger-base",
-      "thumbnailUrl": "https://polyfork.dev/files/riverside-jogger-base/renders/hero.png",
+      "url": "https://polyfork.dev/asset/older-woman-with-a-basket-base",
+      "thumbnailUrl": "https://polyfork.dev/files/older-woman-with-a-basket-base/renders/hero.png",
       "downloadable": true,
       "license": {
         "name": "Royalty Free",
@@ -640,7 +640,7 @@
         "usdz",
         "obj"
       ],
-      "polyCount": 4776,
+      "polyCount": 4975,
       "rigged": true
     }
   ]
