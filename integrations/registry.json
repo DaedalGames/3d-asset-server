@@ -948,6 +948,20 @@
       "homepage": "https://eclair-assets.itch.io",
       "checkedAt": "2026-11-25",
       "reason": "Unofficial repackaged Kenney CC0 kits hosted on itch.io; duplicates Kenney and itch.io sources already integrated"
+    },
+    {
+      "name": "Pixabay 3D models",
+      "homepage": "https://pixabay.com/3d-models/",
+      "checkedAt": "2026-11-26",
+      "reason": "Search pages return 403 to automated requests and the public API needs a key and has no 3D models endpoint; only about 200 models",
+      "recheckAfter": "2027-02-24"
+    },
+    {
+      "name": "free3d.online",
+      "homepage": "https://free3d.online",
+      "checkedAt": "2026-11-26",
+      "reason": "Domain does not resolve (DNS failure) so the site is down or gone; licence and catalogue unverifiable",
+      "recheckAfter": "2027-02-24"
     }
   ]
 }
