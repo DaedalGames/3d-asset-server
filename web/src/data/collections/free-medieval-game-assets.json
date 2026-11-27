@@ -8,7 +8,7 @@
     ],
     "free": true
   },
-  "updatedAt": "2026-11-20T13:37:14.584Z",
+  "updatedAt": "2026-11-27T14:19:43.720Z",
   "assets": [
     {
       "id": "polyhaven:ornate_medieval_dagger",
@@ -436,29 +436,6 @@
       "free": true
     },
     {
-      "id": "blenderkit:3b0fd85f-58f4-49bb-8d5a-cb39b2e0c207",
-      "provider": "blenderkit",
-      "title": "Medieval Door Gate",
-      "type": "model",
-      "url": "https://www.blendkit.com/asset-gallery-detail/3b0fd85f-58f4-49bb-8d5a-cb39b2e0c207/",
-      "thumbnailUrl": "https://public.blenderkit.com/thumbnails/assets/a197b9acdbfd424d86489f55dc78c485/files/thumbnail_f9f920a3-3c70-4aad-8c9a-7ab0968bf330.jpg.512x512_q85_crop-%2C.jpg",
-      "downloadable": true,
-      "author": "Dal Roron",
-      "license": {
-        "name": "Royalty Free",
-        "url": "https://www.blendkit.com/docs/licenses/",
-        "commercialUse": true,
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "blend",
-        "glb"
-      ],
-      "maxResolution": "4k",
-      "polyCount": 3324
-    },
-    {
       "id": "itchio:studiosetoril/medieval-weapons",
       "provider": "itchio",
       "title": "Medieval Weapons",
@@ -620,6 +597,29 @@
         "usdz"
       ],
       "polyCount": 1139574
+    },
+    {
+      "id": "grab3d:medieval-villager",
+      "provider": "grab3d",
+      "title": "Medieval Villager",
+      "type": "model",
+      "url": "https://grab3d.com/models/characters/medieval-villager/",
+      "thumbnailUrl": "https://grab3d.com/m/medieval-villager/medieval-villager-3d-model.webp",
+      "downloadable": true,
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercialUse": true,
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "glb",
+        "fbx",
+        "blend",
+        "usdz",
+        "obj"
+      ]
     }
   ]
 }
